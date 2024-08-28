@@ -26,10 +26,18 @@ gText_Birch_MainSpeech::
 	.string "To unravel POKéMON mysteries,\n"
 	.string "I've been undertaking research.\l"
 	.string "That's what I do.\p"
+	.string "But before we get to knowing\n"
+	.string "who you are...\p"
+	.string "...\p"
+	.string "Why do they call it oven when you of in\n"
+	.string "the cold food of out hot eat the food?\p"
+	.string "...\p"
+	.string "Ah, sorry about that. Had a lapse in\n"
+	.string "judgement there. Anyway...\p"
 	.string "$"
 
 gText_Birch_AndYouAre::
-	.string "And you are?$"
+	.string "Who are you?$"
 
 gText_Birch_BoyOrGirl::
 	.string "Are you a boy?\n"
