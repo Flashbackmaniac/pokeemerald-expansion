@@ -571,6 +571,139 @@ SlateportCity_Pokemart_PowerTMs:
 	.2byte ITEM_NONE
 	release
 	end
+	
+SlateportCity_EventScript_PowerItemClerk::
+	lock
+	faceplayer
+	message SlateportCity_Text_PowerItemClerk
+	waitmessage
+	pokemart SlateportCity_Pokemart_PowerItems
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+SlateportCity_Pokemart_PowerItems:
+	.2byte ITEM_POWER_WEIGHT
+	.2byte ITEM_POWER_BRACER
+	.2byte ITEM_POWER_BELT
+	.2byte ITEM_POWER_LENS
+	.2byte ITEM_POWER_BAND
+	.2byte ITEM_POWER_ANKLET
+	.2byte ITEM_NONE
+	release
+	end
+	
+SlateportCity_EventScript_FriendshipBerryClerk::
+	lock
+	faceplayer
+	message SlateportCity_Text_FriendshipBerryClerk
+	waitmessage
+	pokemart SlateportCity_Pokemart_FriendshipBerry
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+SlateportCity_Pokemart_FriendshipBerry:
+	.2byte ITEM_POMEG_BERRY
+	.2byte ITEM_KELPSY_BERRY
+	.2byte ITEM_QUALOT_BERRY
+	.2byte ITEM_HONDEW_BERRY
+	.2byte ITEM_GREPA_BERRY
+	.2byte ITEM_TAMATO_BERRY
+	.2byte ITEM_NONE
+	release
+	end
+
+SlateportCity_EventScript_MochiClerk::
+	lock
+	faceplayer
+	message SlateportCity_Text_MochiClerk
+	waitmessage
+	pokemart SlateportCity_Pokemart_Mochi
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+SlateportCity_Pokemart_Mochi:
+	.2byte ITEM_HEALTH_MOCHI
+	.2byte ITEM_MUSCLE_MOCHI
+	.2byte ITEM_RESIST_MOCHI
+	.2byte ITEM_GENIUS_MOCHI
+	.2byte ITEM_CLEVER_MOCHI
+	.2byte ITEM_SWIFT_MOCHI
+	.2byte ITEM_FRESH_START_MOCHI
+	.2byte ITEM_NONE
+	release
+	end
+	
+SlateportCity_EventScript_EvolutionItemClerk::
+	lock
+	faceplayer
+	message SlateportCity_Text_EvolutionItemClerk
+	waitmessage
+	pokemart SlateportCity_Pokemart_EvolutionItem
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+SlateportCity_Pokemart_EvolutionItem:
+	.2byte ITEM_FIRE_STONE
+	.2byte ITEM_WATER_STONE
+	.2byte ITEM_THUNDER_STONE
+	.2byte ITEM_LEAF_STONE
+	.2byte ITEM_MOON_STONE
+	.2byte ITEM_SUN_STONE
+	.2byte ITEM_SHINY_STONE
+	.2byte ITEM_DUSK_STONE
+	.2byte ITEM_DAWN_STONE
+	.2byte ITEM_ICE_STONE
+	.2byte ITEM_EVERSTONE
+	.2byte ITEM_LINKING_CORD
+	.2byte ITEM_UPGRADE
+	.2byte ITEM_GALARICA_CUFF
+	.2byte ITEM_METAL_COAT
+	.2byte ITEM_KINGS_ROCK
+	.2byte ITEM_GALARICA_WREATH
+	.2byte ITEM_RAZOR_FANG
+	.2byte ITEM_RAZOR_CLAW
+	.2byte ITEM_PEAT_BLOCK
+	.2byte ITEM_DRAGON_SCALE
+	.2byte ITEM_PRISM_SCALE
+	.2byte ITEM_DEEP_SEA_TOOTH
+	.2byte ITEM_DEEP_SEA_SCALE
+	.2byte ITEM_OVAL_STONE
+	.2byte ITEM_PROTECTOR
+	.2byte ITEM_ELECTIRIZER
+	.2byte ITEM_MAGMARIZER
+	.2byte ITEM_DUBIOUS_DISC
+	.2byte ITEM_REAPER_CLOTH
+	.2byte ITEM_SACHET
+	.2byte ITEM_WHIPPED_DREAM
+	.2byte ITEM_TART_APPLE
+	.2byte ITEM_SWEET_APPLE
+	.2byte ITEM_CRACKED_POT
+	.2byte ITEM_CHIPPED_POT
+	.2byte ITEM_STRAWBERRY_SWEET
+	.2byte ITEM_LOVE_SWEET
+	.2byte ITEM_BERRY_SWEET
+	.2byte ITEM_CLOVER_SWEET
+	.2byte ITEM_FLOWER_SWEET
+	.2byte ITEM_STAR_SWEET
+	.2byte ITEM_RIBBON_SWEET
+	.2byte ITEM_AUSPICIOUS_ARMOR
+	.2byte ITEM_MALICIOUS_ARMOR
+	.2byte ITEM_GIMMIGHOUL_COIN
+	.2byte ITEM_UNREMARKABLE_TEACUP
+	.2byte ITEM_MASTERPIECE_TEACUP
+	.2byte ITEM_METAL_ALLOY
+	.2byte ITEM_SYRUPY_APPLE
+	.2byte ITEM_NONE
+	release
+	end
 
 @ Scene with Capt Sterns interview and Team Aqua announcing plans to steal Submarine
 SlateportCity_EventScript_CaptStern::
@@ -1383,3 +1516,19 @@ SlateportCity_Text_TakingBattleTentChallenge:
 	.string "After all, a tough TRAINER is\n"
 	.string "the perfect fit for the BATTLE TENT!\p"
 	.string "Give it your best effort!$"
+	
+SlateportCity_Text_PowerItemClerk:
+	.string "Welcome! I sell items that help\n"
+	.string "with Pokémon training!$"
+	
+SlateportCity_Text_FriendshipBerryClerk:
+	.string "Are you in need of friendship-raising\n"
+	.string "berries? I've got them here!$"
+
+SlateportCity_Text_MochiClerk:
+	.string "Welcome! I've got some rice cakes\n"
+	.string "from a faraway land!$"
+	
+SlateportCity_Text_EvolutionItemClerk:
+	.string "Greetings! I'm selling a whole bunch\n"
+	.string "of evolution items!$"
