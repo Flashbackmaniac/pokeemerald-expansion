@@ -1,4 +1,5 @@
 .set LOCALID_NURSE, 1
+.set LOCALID_MAUVILLE_MOVE_RELEARNER, 6
 
 MauvilleCity_PokemonCenter_1F_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, MauvilleCity_PokemonCenter_1F_OnTransition
@@ -33,6 +34,16 @@ MauvilleCity_PokemonCenter_1F_EventScript_Woman2::
 
 MauvilleCity_PokemonCenter_1F_EventScript_Youngster::
 	msgbox MauvilleCity_PokemonCenter_1F_Text_RecordCornerSoundsFun, MSGBOX_NPC
+	end
+
+PokemonCenter_EventScript_MoveRelearner::
+	lockall
+	applymovement LOCALID_MAUVILLE_MOVE_RELEARNER, Common_Movement_FacePlayer
+	waitmovement 0
+	goto_if_set FLAG_TEMP_1, FallarborTown_MoveRelearnersHouse_EventScript_AskTeachMove
+	msgbox FallarborTown_MoveRelearnersHouse_Text_ImTheMoveTutor, MSGBOX_DEFAULT
+	setflag FLAG_TEMP_1
+	goto FallarborTown_MoveRelearnersHouse_EventScript_AskTeachMove
 	end
 
 MauvilleCity_PokemonCenter_1F_Text_ManOverThereSaysWeirdThings:

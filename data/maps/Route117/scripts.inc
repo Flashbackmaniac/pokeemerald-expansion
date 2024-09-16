@@ -1,6 +1,8 @@
 .set LOCALID_DAYCARE_MAN, 3
 .set LOCALID_DAYCARE_MON_0, 25
 .set LOCALID_DAYCARE_MON_1, 26
+.set LOCALID_XAVIER, 27
+.set LOCALID_PIERCE, 28
 
 Route117_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, Route117_OnTransition
@@ -216,8 +218,86 @@ Route117_EventScript_Aisha::
 	msgbox Route117_Text_AishaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
+Route117_EventScript_XavierEncounter::
+	goto_if_set FLAG_UNUSED_0x265, Route117_EventScript_XavierBattleAgain
+	goto_if_set FLAG_UNUSED_0x266, Route117_EventScript_XavierChangedMind
+	setflag FLAG_UNUSED_0x266
+	applymovement LOCALID_XAVIER, Common_Movement_FacePlayer
+	msgbox Route117_Text_XavierAskToBattle, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, Route117_EventScript_BattleXavier
+	msgbox Route117_Text_XavierComeBackAnyTime, MSGBOX_DEFAULT
+	releaseall
+	end
+	
+Route117_EventScript_BattleXavier::
+	msgbox Route117_Text_XavierAlrightLetsDoThis, MSGBOX_DEFAULT
+	trainerbattle_no_intro TRAINER_XAVIER, Route117_Text_XavierDefeat
+	setflag FLAG_UNUSED_0x265
+	clearflag FLAG_UNUSED_0x266
+	msgbox Route117_Text_XavierWantToContinue, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, Route117_EventScript_BattleXavier
+	msgbox Route117_Text_XavierComeBackAnyTime, MSGBOX_DEFAULT
+	releaseall
+	end
+	
+Route117_EventScript_XavierChangedMind::
+	applymovement LOCALID_XAVIER, Common_Movement_FacePlayer
+	msgbox Route117_Text_XavierChangedMind, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, Route117_EventScript_BattleXavier
+	msgbox Route117_Text_XavierComeBackAnyTime
+	releaseall
+	end
+	
+	
+Route117_EventScript_XavierBattleAgain::
+	applymovement LOCALID_XAVIER, Common_Movement_FacePlayer
+	msgbox Route117_Text_XavierBattleAgain, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, Route117_EventScript_BattleXavier
+	msgbox Route117_Text_XavierComeBackAnyTime, MSGBOX_DEFAULT
+	releaseall
+	end
+
+Route117_EventScript_PierceEncounter::
+	goto_if_set FLAG_UNUSED_0x267, Route117_EventScript_PierceWantToLevelUpSomeMore
+	goto_if_set FLAG_UNUSED_0x268, Route117_EventScript_PierceBackWantToBattle
+	setflag FLAG_UNUSED_0x268
+	applymovement LOCALID_PIERCE, Common_Movement_FacePlayer
+	msgbox Route117_Text_PierceAskToBattle, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, Route117_EventScript_BattlePierce
+	msgbox Route117_Text_PierceAlwaysBeHere, MSGBOX_DEFAULT
+	releaseall
+	end
+	
+Route117_EventScript_BattlePierce::
+	msgbox Route117_Text_PierceOkayCommence, MSGBOX_DEFAULT
+	trainerbattle_no_intro TRAINER_PIERCE, Route117_Text_PierceDefeat
+	setflag FLAG_UNUSED_0x267
+	clearflag FLAG_UNUSED_0x268
+	msgbox Route117_Text_PierceKeepGoing, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, Route117_EventScript_BattlePierce
+	msgbox Route117_Text_PierceAlwaysBeHere, MSGBOX_DEFAULT
+	releaseall
+	end
+	
+Route117_EventScript_PierceBackWantToBattle::
+	applymovement LOCALID_PIERCE, Common_Movement_FacePlayer
+	msgbox Route117_Text_PierceBackWantToBattle, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, Route117_EventScript_BattlePierce
+	msgbox Route117_Text_PierceAlwaysBeHere
+	releaseall
+	end
+	
+	
+Route117_EventScript_PierceWantToLevelUpSomeMore::
+	applymovement LOCALID_PIERCE, Common_Movement_FacePlayer
+	msgbox Route117_Text_PierceWantToLevelUpSomeMore, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, Route117_EventScript_BattlePierce
+	msgbox Route117_Text_PierceAlwaysBeHere, MSGBOX_DEFAULT
+	releaseall
+	end
+
 Route117_Text_DayCarePokemonHadNewMove:
-	.string "I left my POKéMON at the DAY CARE.\p"
+	.string "I left my Pokémon at the Day Care.\p"
 	.string "When I got it back, it had a new move\n"
 	.string "that I didn't teach it.\l"
 	.string "I was really, really surprised.$"
@@ -231,13 +311,62 @@ Route117_Text_AirIsTastyHere:
 	.string "The air is tasty here!$"
 
 Route117_Text_RouteSignVerdanturf:
-	.string "ROUTE 117\n"
-	.string "{LEFT_ARROW} VERDANTURF TOWN$"
+	.string "Route 117\n"
+	.string "{LEFT_ARROW} Verdanturf Town$"
 
 Route117_Text_RouteSignMauville:
-	.string "ROUTE 117\n"
-	.string "{RIGHT_ARROW} MAUVILLE CITY$"
+	.string "Route 117\n"
+	.string "{RIGHT_ARROW} Mauville City$"
 
 Route117_Text_DayCareSign:
-	.string "POKéMON DAY CARE\n"
-	.string "“Let us raise your POKéMON.”$"
+	.string "Pokémon Day Care\n"
+	.string "“Let us raise your Pokémon.”$"
+		
+Route117_Text_XavierAskToBattle:
+	.string "Hey, there! Do you want to\n"
+	.string "battle me for some experience?$"
+	
+Route117_Text_XavierAlrightLetsDoThis:
+	.string "Alright, let's do this!$"
+	
+Route117_Text_XavierDefeat:
+	.string "...And that should do it!$"
+	
+Route117_Text_XavierWantToContinue:
+	.string "Want to battle again?$"
+	
+Route117_Text_XavierComeBackAnyTime:
+	.string "Come back if you need some\n"
+	.string "experience!$"
+	
+Route117_Text_XavierChangedMind:
+	.string "Oh? Did you change your mind?$"
+	
+Route117_Text_XavierBattleAgain:
+	.string "Hey, you're back! I presume\n"
+	.string "you want to battle me again?$"
+	
+	Route117_Text_PierceAskToBattle:
+	.string "I've got Pokémon that can help\n"
+	.string "with leveling up. Wanna battle?$"
+	
+Route117_Text_PierceOkayCommence:
+	.string "Okay, let the leveling commence!$"
+	
+Route117_Text_PierceDefeat:
+	.string "Nicely done!$"
+	
+Route117_Text_PierceKeepGoing:
+	.string "My Pokémon can still battle. Keep going?$"
+	
+Route117_Text_PierceAlwaysBeHere:
+	.string "Alright, I'll always be here if\n"
+	.string "you need me.$"
+	
+Route117_Text_PierceBackWantToBattle:
+	.string "Ah, you're back. Do you want to battle?$"
+	
+Route117_Text_PierceWantToLevelUpSomeMore:
+	.string "You've returned. Do you want to\n"
+	.string "level up some more?$"
+

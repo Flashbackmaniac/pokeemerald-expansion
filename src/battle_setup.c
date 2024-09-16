@@ -1023,13 +1023,13 @@ static void CB2_EndFirstBattle(void)
 
 static void TryUpdateGymLeaderRematchFromWild(void)
 {
-    if (GetGameStat(GAME_STAT_WILD_BATTLES) % 60 == 0)
+    if (GetGameStat(GAME_STAT_WILD_BATTLES) % 10 == 0)
         UpdateGymLeaderRematch();
 }
 
 static void TryUpdateGymLeaderRematchFromTrainer(void)
 {
-    if (GetGameStat(GAME_STAT_TRAINER_BATTLES) % 20 == 0)
+    if (GetGameStat(GAME_STAT_TRAINER_BATTLES) % 5 == 0)
         UpdateGymLeaderRematch();
 }
 
@@ -1750,7 +1750,7 @@ static bool32 UpdateRandomTrainerRematches(const struct RematchTrainer *table, u
             // Trainer already wants a rematch. Don't bother updating it.
             return TRUE;
         }
-        else if (TrainerIsMatchCallRegistered(i) && ((Random() % 100) <= 30))
+        else if (TrainerIsMatchCallRegistered(i) && ((Random() % 100) <= 100))
             // 31% chance of getting a rematch.
         {
             SetRematchIdForTrainer(table, i);
