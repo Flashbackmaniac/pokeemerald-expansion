@@ -346,7 +346,7 @@ Route117_Text_XavierBattleAgain:
 	.string "Hey, you're back! I presume\n"
 	.string "you want to battle me again?$"
 	
-	Route117_Text_PierceAskToBattle:
+Route117_Text_PierceAskToBattle:
 	.string "I've got Pokémon that can help\n"
 	.string "with leveling up. Wanna battle?$"
 	

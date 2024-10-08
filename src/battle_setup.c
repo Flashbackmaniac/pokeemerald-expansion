@@ -1750,7 +1750,7 @@ static bool32 UpdateRandomTrainerRematches(const struct RematchTrainer *table, u
             // Trainer already wants a rematch. Don't bother updating it.
             return TRUE;
         }
-        else if (TrainerIsMatchCallRegistered(i) && ((Random() % 100) <= 100))
+        else if (TrainerIsMatchCallRegistered(i) && ((Random() % 100) <= 50))
             // 31% chance of getting a rematch.
         {
             SetRematchIdForTrainer(table, i);
@@ -1963,7 +1963,7 @@ static bool32 IsRematchStepCounterMaxed(void)
 void TryUpdateRandomTrainerRematches(u16 mapGroup, u16 mapNum)
 {
     if (IsRematchStepCounterMaxed() && UpdateRandomTrainerRematches(gRematchTable, mapGroup, mapNum) == TRUE)
-        gSaveBlock1Ptr->trainerRematchStepCounter = 0;
+        gSaveBlock1Ptr->trainerRematchStepCounter = 255;
 }
 #endif //FREE_MATCH_CALL
 
