@@ -95,7 +95,7 @@ RustboroCity_Flat1_2F_Text_HelloDoYouKnowFunnyPhrase:
 	.string "You see, I'm a new father, so raising\n"
 	.string "a child is all new to me.\p"
 	.string "And I have a problem. My daughter\n"
-	.string "WALDA doesn't laugh enough.\p"
+	.string "Walda doesn't laugh enough.\p"
 	.string "I think she'd laugh for me if I told\n"
 	.string "her something funny.\p"
 	.string "Do you know of a funny word or\n"

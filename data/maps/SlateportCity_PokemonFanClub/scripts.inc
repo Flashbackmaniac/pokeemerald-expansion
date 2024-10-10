@@ -304,7 +304,7 @@ SlateportCity_PokemonFanClub_Text_GiveMonMorePokeblocks:
 	.string "Hmmm… It's not bad, but it's not\n"
 	.string "good, either…\p"
 	.string "You, the Trainer, must put more\n"
-	.string "effort into raising this POKéMON!\p"
+	.string "effort into raising this Pokémon!\p"
 	.string "For instance, may I suggest that\n"
 	.string "you give it more {POKEBLOCK}s?$"
 
