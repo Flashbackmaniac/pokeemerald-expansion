@@ -2030,7 +2030,7 @@ Route115_Text_TimothyPostRematch:
 
 Route115_Text_KoichiIntro:
 	.string "You!\p"
-	.string "My Machoke!\p"
+	.string "My Pokémon!\p"
 	.string "Demand a battle!$"
 
 Route115_Text_KoichiDefeat:
@@ -3432,7 +3432,7 @@ Route123_Text_JackiPostRematch:
 
 Route123_Text_MiuIntro:
 	.string "Miu: Hello, Trainer. I hope your\n"
-	.string "POKéMON won't cry when they lose.$"
+	.string "Pokémon won't cry when they lose.$"
 
 Route123_Text_MiuDefeat:
 	.string "Miu: Uh-oh, we lost.$"
@@ -4682,8 +4682,8 @@ Route134_Text_JackPostBattle:
 	.string "currents around these parts.$"
 
 Route134_Text_LaurelIntro:
-	.string "My Luvdisc are looking for a fun\n"
-	.string "match. Will you join us?$"
+	.string "My Luvdisc and company are looking for\n"
+	.string "a fun match. Will you join us?$"
 
 Route134_Text_LaurelDefeat:
 	.string "Oopsie!$"

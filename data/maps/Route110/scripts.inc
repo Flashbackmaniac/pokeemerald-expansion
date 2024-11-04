@@ -427,8 +427,8 @@ Route110_EventScript_MayBattleMudkip::
 
 Route110_EventScript_MayDefeated::
 	msgbox Route110_Text_MayTakeThis, MSGBOX_DEFAULT
-	call Route110_EventScript_GiveItemfinder
-	msgbox Route110_Text_MayExplainItemfinder, MSGBOX_DEFAULT
+	call Route110_EventScript_GiveDowsingMachine
+	msgbox Route110_Text_MayExplainDowsingMachine, MSGBOX_DEFAULT
 	goto Route110_EventScript_RivalExit
 	end
 
@@ -457,12 +457,12 @@ Route110_EventScript_BrendanBattleMudkip::
 
 Route110_EventScript_BrendanDefeated::
 	msgbox Route110_Text_BrendanTakeThis, MSGBOX_DEFAULT
-	call Route110_EventScript_GiveItemfinder
-	msgbox Route110_Text_BrendanExplainItemfinder, MSGBOX_DEFAULT
+	call Route110_EventScript_GiveDowsingMachine
+	msgbox Route110_Text_BrendanExplainDowsingMachine, MSGBOX_DEFAULT
 	goto Route110_EventScript_RivalExit
 	end
 
-Route110_EventScript_GiveItemfinder::
+Route110_EventScript_GiveDowsingMachine::
 	giveitem ITEM_DOWSING_MACHINE
 	return
 
@@ -776,7 +776,7 @@ Route110_Text_MayTakeThis:
 	.string "I think you deserve a reward!\n"
 	.string "This is from me!$"
 
-Route110_Text_MayExplainItemfinder:
+Route110_Text_MayExplainDowsingMachine:
 	.string "May: That's a Dowsing Machine.\p"
 	.string "Try it out. If there is an item that's\n"
 	.string "not visible, it emits a sound.\p"
@@ -802,7 +802,7 @@ Route110_Text_BrendanTakeThis:
 	.string "Good enough!\n"
 	.string "Here, take this.$"
 
-Route110_Text_BrendanExplainItemfinder:
+Route110_Text_BrendanExplainDowsingMachine:
 	.string "Brendan: That's a Dowsing Machine.\p"
 	.string "Use it to root around for items that\n"
 	.string "aren't visible.\p"
@@ -983,7 +983,7 @@ Route110_Text_HeardYouInstallMatchCall:
 
 Route110_Text_RegisteredBirchInPokenav:
 	.string "Registered Prof. Birch\n"
-	.string "in the POKéNAV.$"
+	.string "in the PokéNav.$"
 
 Route110_Text_KeepAnEyeOutForRival:
 	.string "Prof. Birch: {PLAYER}{KUN}…\p"

@@ -1607,7 +1607,7 @@ SootopolisCity_Text_AfterAllOurScheming:
 	.string "Maxie: So the super-ancient Pokémon\n"
 	.string "weren't only Groudon and Kyogre…\p"
 	.string "After all our fruitless scheming and\n"
-	.string "frantic efforts, that one POKéMON's\l"
+	.string "frantic efforts, that one Pokémon's\l"
 	.string "simple action puts everything right\l"
 	.string "again as if nothing had happened…\p"
 	.string "Fu…\n"
@@ -1651,7 +1651,7 @@ SootopolisCity_Text_InvolvedWithCrisisComeWithMe:
 SootopolisCity_Text_DoesThisMakeYourFearPokemon:
 	.string "Steven: Listen, {PLAYER}{KUN}.\p"
 	.string "Does seeing Groudon and Kyogre make\n"
-	.string "you think POKéMON are to be feared?\p"
+	.string "you think Pokémon are to be feared?\p"
 	.string "But that's not true.\n"
 	.string "Pokémon are really more…\p"
 	.string "…Why am I asking you this?\n"

@@ -435,7 +435,7 @@ BattleFrontier_ReceptionGate_Text_Level50Info:
 	.string "up to and including Level 50.\p"
 	.string "Please keep in mind, however, that\n"
 	.string "no Trainer you face will have any\l"
-	.string "POKéMON below Level 50.\p"
+	.string "Pokémon below Level 50.\p"
 	.string "This course is the entry level for\n"
 	.string "battles at the Battle Frontier.\p"
 	.string "To begin, we hope you will challenge\n"

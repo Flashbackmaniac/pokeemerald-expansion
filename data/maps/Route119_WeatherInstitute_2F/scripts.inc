@@ -118,7 +118,7 @@ Route119_WeatherInstitute_2F_EventScript_SendCastformToPC::
 	end
 
 Route119_WeatherInstitute_2F_EventScript_ReceivedCastformFanfare::
-	playfanfare MUS_OBTAIN_ITEM
+	playfanfare MUS_EVOLVED
 	message Route119_WeatherInstitute_2F_Text_PlayerReceivedCastform
 	waitmessage
 	waitfanfare
@@ -212,7 +212,7 @@ Route119_WeatherInstitute_2F_EventScript_WeatherScientist::
 
 Route119_WeatherInstitute_2F_Text_Grunt2Intro:
 	.string "The Institute created a type of\n"
-	.string "POKéMON that has something to do with\l"
+	.string "Pokémon that has something to do with\l"
 	.string "the weather. We're here to take them!$"
 
 Route119_WeatherInstitute_2F_Text_Grunt2Defeat:

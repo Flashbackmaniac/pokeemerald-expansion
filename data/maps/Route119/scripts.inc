@@ -513,7 +513,7 @@ Route119_Text_MayExplainFly:
 
 Route119_Text_BrendanIntro:
 	.string "Brendan: {PLAYER}! So this is where\n"
-	.string "you've been looking for POKéMON?\p"
+	.string "you've been looking for Pokémon?\p"
 	.string "Let me see how good you got.\n"
 	.string "I'll test you!\p"
 	.string "Now!\n"

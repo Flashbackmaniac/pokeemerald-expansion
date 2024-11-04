@@ -461,7 +461,7 @@ MtPyre_Summit_Text_Grunt2PostBattle:
 MtPyre_Summit_Text_Grunt3Intro:
 	.string "You…\n"
 	.string "We saw you at Mt. Chimney.\p"
-	.string "You don't belong to either TEAM,\n"
+	.string "You don't belong to either Team,\n"
 	.string "so why would you be here?$"
 
 MtPyre_Summit_Text_Grunt3Defeat:
@@ -531,7 +531,7 @@ MtPyre_Summit_Text_GroudonKyogreAwakened:
 	.string "have been awakened?\p"
 	.string "It is said that the Blue Orb and\n"
 	.string "the Red Orb quelled the rage of\l"
-	.string "the two POKéMON…\p"
+	.string "the two Pokémon…\p"
 	.string "It is also said that the true owner\n"
 	.string "of the Orbs still exists.\p"
 	.string "However, no one knows who, or what\n"
@@ -581,7 +581,7 @@ MtPyre_Summit_Text_GroudonKyogreTale:
 	.string "infernos and vicious storms.\p"
 	.string "The Blue Orb and the Red Orb brought\n"
 	.string "an end to the calamity.\p"
-	.string "Light poured from the two ORBS and\n"
+	.string "Light poured from the two Orbs and\n"
 	.string "becalmed the enraged adversaries.\p"
 	.string "The pair, made docile, dove deep into\n"
 	.string "the sea where eventually they\l"

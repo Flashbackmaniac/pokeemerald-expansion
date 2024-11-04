@@ -368,7 +368,7 @@ gText_ApprenticePleaseTeach8::
 	.string "Me! My name is {STR_VAR_1}!\n"
 	.string "I just became a Trainer!\p"
 	.string "I'm delighted I met you, {PLAYER},\n"
-	.string "the big name in POKéMON circles!\p"
+	.string "the big name in Pokémon circles!\p"
 	.string "Oh-oh-oh, I know!\n"
 	.string "May I ask a huge favor, {PLAYER}?\p"
 	.string "Please take me in as your apprentice!\n"
@@ -792,7 +792,7 @@ gText_ApprenticeWhatHeldItem4::
 	.string "Oh, {PLAYER}{KUN}.\n"
 	.string "There's something I wanted to ask you.\p"
 	.string "You know how you decided which\n"
-	.string "POKéMON I should have for me?\p"
+	.string "Pokémon I should have for me?\p"
 	.string "But I never asked you what item\n"
 	.string "it should be holding.\p"
 	.string "Since you already gave me advice,\n"
@@ -916,7 +916,7 @@ gText_ApprenticeWhatHeldItem7::
 	.string "what would be right for my Pokémon…$"
 
 gText_ApprenticeHoldNothing7::
-	.string "In other words… My POKéMON has\n"
+	.string "In other words… My Pokémon has\n"
 	.string "no need to hold an item?$"
 
 gText_ApprenticeThanksNoHeldItem7::
@@ -936,7 +936,7 @@ gText_ApprenticeThanksHeldItem7::
 gText_ApprenticeItemAlreadyRecommended7::
 	.string "You've already told me about that,\n"
 	.string "and I already have it.\p"
-	.string "Or are you saying… My POKéMON has\n"
+	.string "Or are you saying… My Pokémon has\n"
 	.string "no need to hold an item?$"
 
 gText_ApprenticeWhatHeldItem8::
@@ -1406,7 +1406,7 @@ gText_ApprenticeWhichMonFirst9::
 	.string "But the team's battling order's not\n"
 	.string "settled yet.\p"
 	.string "This is where you come in, {PLAYER}{KUN}!\n"
-	.string "You decide which POKéMON leads off!\p"
+	.string "You decide which Pokémon leads off!\p"
 	.string "Don't be shy now.\n"
 	.string "Let's blurt it out!$"
 
@@ -1575,7 +1575,7 @@ gText_ApprenticeWhichMon2::
 	.string "I have a question I wanted to ask.\p"
 	.string "I'm in a dilemma over whether I should\n"
 	.string "raise one {STR_VAR_1} or {STR_VAR_2}.\p"
-	.string "Which POKéMON do you think will\n"
+	.string "Which Pokémon do you think will\n"
 	.string "be stronger?$"
 
 gText_ApprenticeMonThanks2::
@@ -1592,7 +1592,7 @@ gText_ApprenticeWhichMon3::
 	.string "…But that doesn't matter if you\n"
 	.string "could give me advice…\p"
 	.string "I can't decide on the one kind of\n"
-	.string "POKéMON I should raise…\p"
+	.string "Pokémon I should raise…\p"
 	.string "I've narrowed the field to the Pokémon\n"
 	.string "{STR_VAR_1} and {STR_VAR_2}, but that's\l"
 	.string "where I became stuck…\p"
@@ -1674,10 +1674,10 @@ gText_ApprenticeWhichMon7::
 	.string "I think I'm ready to raise a Pokémon\n"
 	.string "of my own!\p"
 	.string "{PLAYER}, may I impose on you to choose\n"
-	.string "which POKéMON I should raise?\p"
+	.string "which Pokémon I should raise?\p"
 	.string "The choices are the Pokémon\n"
 	.string "{STR_VAR_1} or {STR_VAR_2}…\l"
-	.string "Which POKéMON is right for me?$"
+	.string "Which Pokémon is right for me?$"
 
 gText_ApprenticeMonThanks7::
 	.string "One {STR_VAR_1} it is!\n"
@@ -2022,7 +2022,7 @@ gText_ApprenticeMoveThanks9::
 
 gText_ApprenticeWhichMove10::
 	.string "{PLAYER}{KUN}, it's completely wild!\p"
-	.string "My POKéMON!\n"
+	.string "My Pokémon!\n"
 	.string "It learned six moves!\p"
 	.string "Of course I'm lying!\n"
 	.string "Wahahaha!\p"
@@ -2103,7 +2103,7 @@ gText_ApprenticeWhichMove14::
 	.string "I… I need your advice.\p"
 	.string "I… I'm really embarrassed, but I can't\n"
 	.string "decide what move I should teach\l"
-	.string "my POKéMON.\p"
+	.string "my Pokémon.\p"
 	.string "It's for my {STR_VAR_1}.\n"
 	.string "If the choices were {STR_VAR_2} or\l"
 	.string "{STR_VAR_3}, which would be better?$"
@@ -2136,7 +2136,7 @@ gText_ApprenticeMoveThanks15::
 	.string "I see. If that's the case, that's fine.\n"
 	.string "I thank you for your time.\p"
 	.string "I do hope it is something even\n"
-	.string "my POKéMON can learn.\p"
+	.string "my Pokémon can learn.\p"
 	.string "Let us meet again!$"
 
 gText_ApprenticePickWinSpeech0::

@@ -725,7 +725,7 @@ MatchCall_PersonalizedText9::
 	.string "It's {STR_VAR_1}…\n"
 	.string "Right now, behind you…\l"
 	.string "Wasn't there something…?\p"
-	.string "The power of the POKéMON that\n"
+	.string "The power of the Pokémon that\n"
 	.string "sleep here at Mt. Pyre…\p"
 	.string "It's telling me about you…\p"
 	.string "You should walk away quickly and\n"
@@ -1323,7 +1323,7 @@ MatchCall_PersonalizedText60::
 	.string "It's a pleasure to chat with\n"
 	.string "a young Trainer like you.\p"
 	.string "I imagine that you will continue to\n"
-	.string "enjoy POKéMON whatever your age.\p"
+	.string "enjoy Pokémon whatever your age.\p"
 	.string "Wouldn't it be good if you had\n"
 	.string "a partnership like ours?\p"
 	.string "Of course, {PLAYER}{KUN}, you already\n"
@@ -2019,7 +2019,7 @@ MatchCall_Text_Mom1::
 	.string "Everyone is captivated by Pokémon.\p"
 	.string "What is the charm of Pokémon?\p"
 	.string "Me?\n"
-	.string "I adore POKéMON that help me with\l"
+	.string "I adore Pokémon that help me with\l"
 	.string "my everyday chores.$"
 
 MatchCall_Text_Mom2::
@@ -2550,7 +2550,7 @@ MatchCall_Text_Brendan11::
 	.string "a Pokémon's move.\p"
 	.string "And, there's a move that lets you\n"
 	.string "travel to the bottom of the sea.\p"
-	.string "Man, POKéMON can do anything!$"
+	.string "Man, Pokémon can do anything!$"
 
 MatchCall_Text_Brendan12::
 	.string "Brendan: Howdy, {PLAYER}!\n"
@@ -2843,7 +2843,7 @@ MatchCall_Text_BirchRegisterCall:
 	.string "… … … … … …$"
 
 MatchCall_Text_RegisteredBirch:
-	.string "Registered Prof. Birch\n"
+	.string "You registered Prof. Birch\n"
 	.string "in the PokéNav.$"
 
 MatchCall_Text_UnusedProfBirch:

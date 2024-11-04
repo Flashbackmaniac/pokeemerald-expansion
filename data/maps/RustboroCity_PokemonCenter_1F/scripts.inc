@@ -33,7 +33,7 @@ RustboroCity_PokemonCenter_1F_EventScript_Girl::
 RustboroCity_PokemonCenter_1F_Text_PokemonHavePersonalities:
 	.string "My Pokémon has a Naive Nature, and my\n"
 	.string "friend's has a Jolly Nature.\p"
-	.string "It's fascinating how POKéMON have\n"
+	.string "It's fascinating how Pokémon have\n"
 	.string "personalities!$"
 
 RustboroCity_PokemonCenter_1F_Text_MaleAndFemalePokemon:

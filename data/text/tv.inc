@@ -1754,7 +1754,7 @@ TVSpotTheCuties_Text_RibbonsLow::
 	.string "The number of Ribbons that\n"
 	.string "{STR_VAR_2} wears is {STR_VAR_3}.\p"
 	.string "It says a lot about how much\n"
-	.string "{STR_VAR_1} adores the POKéMON.$"
+	.string "{STR_VAR_1} adores the Pokémon.$"
 
 TVSpotTheCuties_Text_RibbonsMid::
 	.string "{STR_VAR_2} wears an amazing\n"
@@ -2787,7 +2787,7 @@ GabbyAndTy_Text_KeepingAnEyeOutForYou:
 
 GabbyAndTy_Text_GabbyNotEnoughMons:
 	.string "Gabby: Is there a strong Trainer\n"
-	.string "anywhere with a lot of POKéMON?$"
+	.string "anywhere with a lot of Pokémon?$"
 
 GabbyAndTy_Text_GiveUsAnInterviewThisTime:
 	.string "Gabby: Wow, you are something!\p"

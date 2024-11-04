@@ -9,6 +9,27 @@ Route121_EventScript_Woman::
 	msgbox Route121_Text_AheadLoomsMtPyre, MSGBOX_NPC
 	end
 
+Route121_EventScript_RestWoman::
+	lock
+	faceplayer
+	msgbox Route121_Text_DoYouWantToRest, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, Route121_EventScript_Rest
+	goto_if_eq VAR_RESULT, NO, Route121_EventScript_DeclineRest
+	end
+
+Route121_EventScript_Rest::
+	msgbox Route121_Text_TakeAMoment
+	closemessage
+	call Common_EventScript_OutOfCenterPartyHeal
+	msgbox Route121_Text_KeepAtIt
+	release
+	end
+
+Route121_EventScript_DeclineRest::
+	msgbox Route121_Text_StillHaveEnergy
+	release
+	end
+
 Route121_EventScript_MtPyrePierSign::
 	msgbox Route121_Text_MtPyrePierSign, MSGBOX_SIGN
 	end
@@ -189,4 +210,21 @@ Route121_Text_MtPyrePierSign:
 Route121_Text_SafariZoneSign:
 	.string "“Filled with rare Pokémon!”\n"
 	.string "Safari Zone$"
+
+Route121_Text_DoYouWantToRest:
+	.string "Breaks are important, especially when\n"
+	.string "the going gets tougher.\l"
+	.string "Do you want to rest up your Pokémon?$"
+
+Route121_Text_TakeAMoment:
+	.string "Okay, take a moment while I fix up\n"
+	.string "your Pokémon.$"
+
+Route121_Text_KeepAtIt:
+	.string "Your Pokémon has been fully restored.\n"
+	.string "Keep at it!$"
+
+Route121_Text_StillHaveEnergy:
+	.string "Ah, your party still have energy?\n"
+	.string "You must have some good Pokémon.$"
 

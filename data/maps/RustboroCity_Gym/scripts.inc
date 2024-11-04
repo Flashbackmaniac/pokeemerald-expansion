@@ -249,7 +249,7 @@ RustboroCity_Gym_Text_RoxanneRegisterCall:
 	.string "… … … … … Click!$"
 
 RustboroCity_Gym_Text_RegisteredRoxanne:
-	.string "Registered Gym Leader Roxanne\n"
+	.string "You registered Gym Leader Roxanne\n"
 	.string "in the PokéNav.$"
 
 RustboroCity_Gym_Text_RoxannePreRematch:

@@ -994,7 +994,7 @@ LilycoveCity_ContestLobby_Text_MakePokeblocksDifferentBerries:
 
 LilycoveCity_ContestLobby_Text_YourPokemonSpurredMeToPaint:
 	.string "Congratulations!\p"
-	.string "I did a painting of your POKéMON to\n"
+	.string "I did a painting of your Pokémon to\n"
 	.string "commemorate its victory…\p"
 	.string "Well, your Pokémon's appeals were\n"
 	.string "so fantastic, it spurred me into\l"

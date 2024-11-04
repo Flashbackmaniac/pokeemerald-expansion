@@ -759,7 +759,7 @@ BattleFrontier_BattlePyramidLobby_Text_HintTrapAbility:
 
 BattleFrontier_BattlePyramidLobby_Text_HintIce:
 	.string "I see Ice-type Pokémon…\p"
-	.string "…And, I see your POKéMON fighting\n"
+	.string "…And, I see your Pokémon fighting\n"
 	.string "the freezing effects of ice…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintExplosion:

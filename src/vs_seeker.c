@@ -542,10 +542,10 @@ void ClearRematchMovementByTrainerId(void)
 static u32 GetGameProgressFlags()
 {
     const u32 gameProgressFlags[] = {
-        FLAG_VISITED_LAVARIDGE_TOWN,
-        FLAG_VISITED_FORTREE_CITY,
-        FLAG_SYS_GAME_CLEAR,
-        FLAG_DEFEATED_METEOR_FALLS_STEVEN
+        FLAG_BADGE05_GET,
+        FLAG_BADGE06_GET,
+        FLAG_BADGE07_GET,
+        FLAG_BADGE08_GET
     };
     u32 i = 0, numGameProgressFlags = 0;
     u32 maxGameProgressFlags = ARRAY_COUNT(gameProgressFlags);

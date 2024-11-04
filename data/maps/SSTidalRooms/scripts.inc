@@ -147,7 +147,7 @@ SSTidalRooms_Text_GarretPostBattle:
 	.string "A yacht for me and Pokémon!$"
 
 SSTidalRooms_Text_NaomiIntro:
-	.string "Oh, you're such an adorable TRAINER.\n"
+	.string "Oh, you're such an adorable Trainer.\n"
 	.string "Would you like to have tea?\l"
 	.string "Or would you rather battle?$"
 

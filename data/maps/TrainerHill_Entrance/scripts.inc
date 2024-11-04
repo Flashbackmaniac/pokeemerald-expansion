@@ -374,7 +374,7 @@ TrainerHill_Entrance_Text_ExplainTrainerHill:
 TrainerHill_Entrance_Text_NeedAtLeastTwoPokemon:
 	.string "Oh, I'm sorry, but you appear to have\n"
 	.string "only one Pokémon with you.\p"
-	.string "You will need at least two POKéMON\n"
+	.string "You will need at least two Pokémon\n"
 	.string "to enter this event.$"
 
 TrainerHill_Roof_Text_YouFinallyCameBravo:

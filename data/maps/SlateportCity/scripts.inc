@@ -18,6 +18,10 @@
 .set LOCALID_GRUNT_9, 31
 .set LOCALID_GRUNT_11, 33
 .set LOCALID_SCOTT, 35
+.set LOCALID_POWER_ITEM_CLERK, 36
+.set LOCALID_MOCHI_CLERK, 37
+.set LOCALID_FRIENDSHIP_BERRY_CLERK, 38
+.set LOCALID_EVOLUTION_ITEM_CLERK, 39
 
 @ Note: LOCALID_SLATEPORT_ENERGY_GURU is a local id for this map used elsewhere. It's defined in event_objects.h
 
@@ -1495,8 +1499,8 @@ SlateportCity_Text_LetsRegisterEachOther:
 	.string "… … … … … …$"
 
 SlateportCity_Text_RegisteredScott:
-	.string "Registered this Scott person\n"
-	.string "in the POKéNAV.$"
+	.string "You registered this Scott person\n"
+	.string "in the PokéNav.$"
 
 SlateportCity_Text_KeepEyeOnTrainersBeSeeingYou:
 	.string "Scott: What I'd like to do is tag along\n"

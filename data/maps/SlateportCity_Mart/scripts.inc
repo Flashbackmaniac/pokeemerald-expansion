@@ -26,6 +26,34 @@ SlateportCity_Mart_Pokemart:
 	release
 	end
 
+SlateportCity_Mart_EventScript_MailClerk::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart SlateportCity_Mart_Pokemart_Mail
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+SlateportCity_Mart_Pokemart_Mail:
+	.2byte ITEM_ORANGE_MAIL
+	.2byte ITEM_HARBOR_MAIL
+	.2byte ITEM_GLITTER_MAIL
+	.2byte ITEM_MECH_MAIL
+	.2byte ITEM_WOOD_MAIL
+	.2byte ITEM_WAVE_MAIL
+	.2byte ITEM_BEAD_MAIL
+	.2byte ITEM_SHADOW_MAIL
+	.2byte ITEM_TROPIC_MAIL
+	.2byte ITEM_DREAM_MAIL
+	.2byte ITEM_FAB_MAIL
+	.2byte ITEM_RETRO_MAIL
+	.2byte ITEM_NONE
+	release
+	end
+
 SlateportCity_Mart_EventScript_BlackBelt::
 	msgbox SlateportCity_Mart_Text_SomeItemsOnlyAtMart, MSGBOX_NPC
 	end

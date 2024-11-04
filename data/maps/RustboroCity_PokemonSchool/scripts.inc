@@ -237,9 +237,9 @@ RustboroCity_PokemonSchool_Text_ExplainSleep:
 	.string "Wake it up using an Awakening.$"
 
 RustboroCity_PokemonSchool_Text_ExplainBurn:
-	.string "A burn reduces a Pokémon's Attack while\n"
-	.string "also reducing the victim's HP\l"
-	.string "by 1/16 per turn.\p"
+	.string "A burn cuts a Pokémon's physical move\n"
+	.string "damage by 50% while also reducing\l"
+	.string "its HP by 1/16 per turn.\p"
 	.string "A burn lingers after battle.\p"
 	.string "Cure a burn using a Burn Heal.$"
 

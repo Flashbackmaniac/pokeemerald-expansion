@@ -956,7 +956,7 @@ BattleFrontier_BattleTowerLobby_Text_ReceivedPrize:
 
 @ Unused
 BattleFrontier_BattleTowerLobby_Text_BagFullMakeRoom:
-	.string "Oh, your BAG appears to be full.\p"
+	.string "Oh, your Bag appears to be full.\p"
 	.string "Please make room in your Bag, then come\n"
 	.string "see me.$"
 
@@ -1086,7 +1086,7 @@ BattleFrontier_BattleTowerLobby_Text_RecordLastMatch:
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50:
 	.string "Excuse me!\p"
 	.string "You don't have {STR_VAR_2} eligible Pokémon.\p"
-	.string "You must have {STR_VAR_2} different POKéMON\n"
+	.string "You must have {STR_VAR_2} different Pokémon\n"
 	.string "of Level 50 or less to enter.\p"
 	.string "They also must be holding different\n"
 	.string "kinds of items.\p"
@@ -1228,7 +1228,7 @@ BattleFrontier_BattleTowerLobby_Text_WelcomeMultiBattle:
 	.string "Where the talents of Trainers\n"
 	.string "are put to the test!\p"
 	.string "Welcome to the Battle Tower!\p"
-	.string "I am your guide to the MULTI\n"
+	.string "I am your guide to the Multi\n"
 	.string "Battle Rooms.$"
 
 BattleFrontier_BattleTowerLobby_Text_TakeMultisChallenge:
@@ -1376,7 +1376,7 @@ BattleFrontier_BattleTowerLobby_Text_ExplainTowerRules:
 BattleFrontier_BattleTowerLobby_Text_ExplainMonRules:
 	.string "Depending on the Battle Room you are\n"
 	.string "entering, you will be required to take\l"
-	.string "a certain number of POKéMON.\p"
+	.string "a certain number of Pokémon.\p"
 	.string "The Single Battle mode requires\n"
 	.string "three Pokémon.\p"
 	.string "The Double Battle mode requires four,\n"

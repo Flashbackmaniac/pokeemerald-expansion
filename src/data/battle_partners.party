@@ -6,38 +6,40 @@ Gender: Male
 Music: Male
 
 === PARTNER_STEVEN ===
-Name: STEVEN
+Name: Steven
 Class: Rival
 Pic: Steven
 Gender: Male
 Music: Male
 
-Metang
-Brave Nature
-Level: 42
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 Atk / 252 Def / 6 SpA
-- Light Screen
-- Psychic
-- Reflect
-- Metal Claw
-
-Skarmory
+Skarmory @ Chesto Berry
 Impish Nature
-Level: 43
+Level: 66
+Ability: Sturdy
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 HP / 6 SpA / 252 SpD
-- Toxic
-- Aerial Ace
-- Protect
+EVs: 252 Def / 6 SpD / 252 SpD
 - Steel Wing
+- Drill Peck
+- Spikes
+- Rest
 
-Aggron
+Aggron @ Quick Claw
 Adamant Nature
-Level: 44
+Level: 66
+Ability: Rock Head
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 Atk / 252 SpA / 6 SpD
-- Thunder
-- Protect
-- Solar Beam
+EVs: 252 HP / 252 Atk / 6 Spe
+- Rock Slide
+- Iron Head
 - Dragon Claw
+- Protect
+
+Metagross @ Metagrossite
+Adamant Nature
+Level: 66
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk / 6 Spe
+- Hammer Arm
+- Zen Headbutt
+- Meteor Mash
+- Protect
