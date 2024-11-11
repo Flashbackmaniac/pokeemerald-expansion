@@ -597,7 +597,7 @@ MtChimney_Text_TabithaDefeat:
 	.string "awakens that thing…$"
 
 MtChimney_Text_TabithaPostBattle:
-	.string "BOSS, hurry!\n"
+	.string "Boss, hurry!\n"
 	.string "Give it the Meteorite's energy!\p"
 	.string "Hehehe…$"
 

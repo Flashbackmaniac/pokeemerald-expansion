@@ -212,6 +212,9 @@ MauvilleCity_BikeShop_Text_ExplainBikesChooseWhichOne:
 	.string "to feel the wind with their bodies!\p"
 	.string "And an Acro Bike is for those who\n"
 	.string "prefer technical rides!\p"
+	.string "Plus, a new feature with these Bikes is\n"
+	.string "that you can change the way you ride\l"
+	.string "with the press of the R Button!\p"
 	.string "I'm a real sweetheart, so you can\n"
 	.string "have whichever one you like!\p"
 	.string "Which one will you choose?$"
@@ -260,7 +263,10 @@ MauvilleCity_BikeShop_Text_HandbooksAreInBack:
 	.string "I work here.\p"
 	.string "If you need advice on how to ride your\n"
 	.string "Bike, there're a couple handbooks in\l"
-	.string "the back.$"
+	.string "the back.\p"
+	.string "Oh, yeah. I've heard that the new Bikes\n"
+	.string "Rydel have been giving out could switch\l"
+	.string "modes with the press of the R Button.$"
 
 MauvilleCity_BikeShop_Text_MachHandbookWhichPage:
 	.string "It's a handbook on the Mach Bike.\p"
@@ -271,7 +277,7 @@ MauvilleCity_BikeShop_Text_HowToRideMachBike:
 	.string "the + Control Pad is pressed.\p"
 	.string "It will speed up once it gets rolling.\p"
 	.string "To stop, release the + Control Pad.\n"
-	.string "The BIKE will slow to a stop.\p"
+	.string "The Bike will slow to a stop.\p"
 	.string "Want to read a different page?$"
 
 MauvilleCity_BikeShop_Text_HowToTurnMachBike:
