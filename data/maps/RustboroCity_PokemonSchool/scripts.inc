@@ -200,7 +200,7 @@ RustboroCity_PokemonSchool_EventScript_ScottWatchStudents::
 	end
 
 RustboroCity_PokemonSchool_Text_BlackboardListsStatusChanges:
-	.string "The blackboard lists status changes\n"
+	.string "The blackboard lists status conditions\n"
 	.string "that may affect Pokémon in battle.$"
 
 RustboroCity_PokemonSchool_Text_ReadWhichTopic:

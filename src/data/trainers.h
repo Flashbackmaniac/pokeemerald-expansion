@@ -983,7 +983,7 @@ F_TRAINER_FEMALE |
             },
             {
 #line 459
-            .species = SPECIES_QWILFISH,
+            .species = SPECIES_DROWZEE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 461
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),

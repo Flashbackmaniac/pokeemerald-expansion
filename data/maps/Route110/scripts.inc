@@ -982,7 +982,7 @@ Route110_Text_HeardYouInstallMatchCall:
 	.string "… … … … … …$"
 
 Route110_Text_RegisteredBirchInPokenav:
-	.string "Registered Prof. Birch\n"
+	.string "You registered Prof. Birch\n"
 	.string "in the PokéNav.$"
 
 Route110_Text_KeepAnEyeOutForRival:

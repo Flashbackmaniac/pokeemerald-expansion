@@ -292,7 +292,7 @@ DewfordTown_Gym_Text_GymGuideAdvice:
 	.string "Fighting Pokémon will lay a serious\n"
 	.string "smack down on Normal Pokémon,\l"
 	.string "so be careful!\p"
-	.string "What's worse, the GYM is as dark as\n"
+	.string "What's worse, the Gym is as dark as\n"
 	.string "the ocean floor.\p"
 	.string "But it will get brighter after defeating\n"
 	.string "the Trainers in your way.\p"
