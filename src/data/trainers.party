@@ -359,15 +359,30 @@ AI: Check Bad Move
 
 Pelipper
 Level: 58
+Ability: Keen Eye
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Air Slash
+- Tailwind
+- Water Pulse
+- Hurricane
 
 Xatu
 Level: 58
+Ability: Synchronize
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Air Slash
+- Confuse Ray
+- Psychic
+- Wish
 
 Pidgeot
 Level: 58
+Ability: Tangled Feet
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hurricane
+- Feather Dance
+- Roost
+- Aerial Ace
 
 === TRAINER_ED ===
 Name: Ed
@@ -431,17 +446,32 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Gyarados
+Gyarados @ Life Orb
 Level: 60
+Ability: Intimidate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Fang
+- Waterfall
+- Crunch
+- Dragon Dance
 
-Golduck
+Golduck @ Kings Rock
 Level: 60
+Ability: Damp
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Aqua Jet
+- Zen Headbutt
+- Screech
+- Hydro Pump
 
-Mantine
+Mantine @ Wacan Berry
 Level: 60
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psybeam
+- Supersonic
+- Air Slash
+- Hydro Pump
 
 === TRAINER_GRUNT_RUSTURF_TUNNEL ===
 Name: Grunt
@@ -471,19 +501,39 @@ AI: Check Bad Move
 
 Golbat
 Level: 48
+Ability: Inner Focus
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Screech
+- Supersonic
+- Poison Fang
+- Air Cutter
 
 Mightyena
 Level: 48
+Ability: Intimidate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fire Fang
+- Crunch
+- Howl
+- Taunt
 
 Whiscash
 Level: 48
+Ability: Anticipation
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Zen Headbutt
+- Thrash
+- Aqua Tail
+- Earthquake
 
 Starmie
 Level: 48
+Ability: Illuminate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rapid Spin
+- Power Gem
+- Psychic
+- Surf
 
 === TRAINER_GRUNT_WEATHER_INST_2 ===
 Name: Grunt
@@ -496,15 +546,30 @@ AI: Check Bad Move
 
 Seadra
 Level: 48
+Ability: Poison Point
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Focus Energy
+- Water Pulse
+- Dragon Pulse
 
 Raticate
 Level: 48
+Ability: Guts
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Swords Dance
+- Laser Focus
+- Crunch
+- Double-Edge
 
 Huntail
 Level: 48
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Screech
+- Ice Fang
+- Aqua Tail
+- Coil
 
 === TRAINER_GRUNT_WEATHER_INST_3 ===
 Name: Grunt
@@ -517,19 +582,39 @@ AI: Check Bad Move
 
 Machoke
 Level: 48
+Ability: Guts
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Low Sweep
+- Knock Off
+- Dual Chop
+- Bulk Up
 
 Mantine
 Level: 48
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psybeam
+- Wide Guard
+- Air Slash
+- Hydro Pump
 
 Muk
 Level: 48
+Ability: Stench
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Mud Shot
+- Toxic
+- Sludge Wave
+- Gunk Shot
 
 Lanturn
 Level: 48
+Ability: Volt Absorb
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Eerie Impulse
+- Thunder Wave
+- Bubble Beam
+- Discharge
 
 === TRAINER_GRUNT_MUSEUM_1 ===
 Name: Grunt
@@ -601,19 +686,39 @@ AI: Check Bad Move
 
 Golbat
 Level: 56
+Ability: Inner Focus
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Screech
+- Poison Fang
+- Air Cutter
+- Confuse Ray
 
 Honchkrow
 Level: 56
+Ability: Insomnia
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Night Slash
+- Wing Attack
+- Swagger
+- Foul Play
 
 Cloyster
 Level: 56
+Ability: Shell Armor
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Icicle Crash
+- Iron Defense
+- Shell Smash
+- Razor Shell
 
 Mantine
 Level: 56
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psybeam
+- Wide Guard
+- Air Slash
+- Hydro Pump
 
 === TRAINER_GRUNT_MT_PYRE_2 ===
 Name: Grunt
@@ -626,19 +731,39 @@ AI: Check Bad Move
 
 Sharpedo
 Level: 56
+Ability: Rough Skin
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Fang
+- Focus Energy
+- Crunch
+- Liquidation
 
 Poliwrath
 Level: 56
+Ability: Water Absorb
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hypnosis
+- Hydro Pump
+- Belly Drum
+- Dynamic Punch
 
 Weezing
 Level: 56
+Ability: Levitate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Clear Smog
+- Assurance
+- Sludge Bomb
 
 Swalot
 Level: 56
+Ability: Liquid Ooze
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Body Slam
+- Encore
+- Toxic
+- Sludge Bomb
 
 === TRAINER_GRUNT_MT_PYRE_3 ===
 Name: Grunt
@@ -651,15 +776,30 @@ AI: Check Bad Move
 
 Golduck
 Level: 58
+Ability: Damp
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Aqua Jet
+- Zen Headbutt
+- Screech
+- Hydro Pump
 
 Tentacruel
 Level: 58
+Ability: Clear Body
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Reflect Type
+- Hex
+- Poison Jab
+- Hydro Pump
 
 Gyarados
 Level: 58
+Ability: Intimidate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Fang
+- Crunch
+- Aqua Tail
+- Hurricane
 
 === TRAINER_GRUNT_WEATHER_INST_4 ===
 Name: Grunt
@@ -672,19 +812,39 @@ AI: Check Bad Move
 
 Tentacruel
 Level: 48
+Ability: Clear Body
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Supersonic
+- Hex
+- Poison Jab
+- Surf
 
 Poliwrath
 Level: 48
+Ability: Water Absorb
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hypnosis
+- Hydro Pump
+- Belly Drum
+- Dynamic Punch
 
 Golbat
 Level: 48
+Ability: Inner Focus
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Supersonic
+- Poison Fang
+- Air Cutter
+- Venoshock
 
 Grumpig
 Level: 48
+Ability: Thick Fat
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Confuse Ray
+- Power Gem
+- Psyshock
+- Payback
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_5 ===
 Name: Grunt
@@ -735,15 +895,30 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Hariyama
 Level: 58
+Ability: Thick Fat
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Fake Out
+- Knock Off
+- Belly Drum
+- Close Combat
 
 Machamp
 Level: 58
+Ability: No Guard
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Wide Guard
+- Knock Off
+- Dual Chop
+- Dynamic Punch
 
 Sirfetch'd
 Level: 58
+Ability: Steadfast
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- First Impression
+- Brick Break
+- Swords Dance
+- Leaf Blade
 
 === TRAINER_MATT ===
 Name: Matt
@@ -819,15 +994,30 @@ AI: Check Bad Move
 
 Hariyama
 Level: 56
+Ability: Thick Fat
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fake Out
+- Knock Off
+- Belly Drum
+- Close Combat
 
 Machamp
 Level: 56
+Ability: No Guard
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Knock Off
+- Dual Chop
+- Bulk Up
+- Dynamic Punch
 
 Hitmontop
 Level: 56
+Ability: Technician
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fake Out
+- Triple Kick
+- Rapid Spin
+- Close Combat
 
 === TRAINER_SHELLY_WEATHER_INSTITUTE ===
 Name: Shelly
@@ -1003,15 +1193,30 @@ AI: Check Bad Move
 
 Dusclops
 Level: 56
+Ability: Pressure
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunder Punch
+- Shadow Punch
+- Payback
+- Will-O-Wisp
 
 Froslass
 Level: 56
+Ability: Snow Cloak
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hex
+- Draining Kiss
+- Frost Breath
+- Will-O-Wisp
 
 Gengar
 Level: 56
+Ability: Cursed Body
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Confuse Ray
+- Hypnosis
+- Hex
+- Shadow Ball
 
 === TRAINER_DAISY ===
 Name: Daisy
@@ -1103,11 +1308,21 @@ AI: Check Bad Move
 
 Roserade @ Miracle Seed
 Level: 50
+Ability: Natural Cure
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Grassy Terrain
+- Toxic Spikes
+- Petal Dance
+- Growth
 
 Bellossom @ Grass Gem
 Level: 50
+Ability: Chlorophyll
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Quiver Dance
+- Giga Drain
+- Moonblast
+- Growth
 
 === TRAINER_ROSE_2 ===
 Name: Rose
@@ -1239,16 +1454,31 @@ Double Battle: No
 AI: Check Bad Move
 
 Sandslash
-Level: 36
+Level: 40
+Ability: Sand Veil
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Dig
-- Slash
-- Sand Attack
-- Poison Sting
+- Crush Claw
+- Defense Curl
+- Rollout
+- Bulldoze
 
 Vibrava
-Level: 36
+Level: 40
+Ability: Levitate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Supersonic
+- Crunch
+- Bulldoze
+- Dragon Tail
+
+Marowak
+Level: 40
+Ability: Rock Head
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Growl
+- Headbutt
+- Stomping Tantrum
+- Focus Energy
 
 === TRAINER_CHIP ===
 Name: Chip
@@ -1318,20 +1548,31 @@ Double Battle: No
 AI: Check Bad Move
 
 Sandslash
-Level: 46
+Level: 50
+Ability: Sand Veil
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Crush Claw
+- Defense Curl
+- Rollout
 - Dig
-- Slash
-- Sand Attack
-- Poison Sting
 
 Flygon
-Level: 46
+Level: 50
+Ability: Levitate
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Dig
+- Crunch
 - Dragon Dance
 - Dragon Claw
-- Screech
-- Dig
+
+Marowak
+Level: 50
+Ability: Rock Head
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Headbutt
+- Stomping Tantrum
+- Focus Energy
+- Bonemerang
 
 === TRAINER_DUSTY_3 ===
 Name: Dusty
@@ -1342,30 +1583,41 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Sandslash
-Level: 52
+Sandslash @ Bright Powder
+Level: 60
+Ability: Sand Veil
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Rapid Spin
+- Fury Cutter
+- Dig
+- Swords Dance
+
+Flygon @ Dragon Fang
+Level: 60
+Ability: Levitate
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Dig
-- Rapid Spin
-- Swords Dance
-- Fury Cutter
-
-Flygon
-Level: 52
-IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Crunch
 - Dragon Dance
 - Dragon Claw
-- Screech
-- Dig
 
-Marowak
-Level: 52
+Marowak @ Thick Club
+Level: 60
 Ability: Rock Head
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
-- Stomping Tantrum
-- Bonemerang
-- Headbutt
 - Retaliate
+- Focus Energy
+- Bonemerang
+- Double-Edge
+
+Relicanth @ Hard Stone
+Level: 60
+Ability: Rock Head
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Yawn
+- Aqua Tail
+- Double-Edge
+- Head Smash
 
 === TRAINER_DUSTY_4 ===
 Name: Dusty
@@ -1376,39 +1628,50 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Sandslash
-Level: 56
+Sandslash @ Bright Powder
+Level: 70
+Ability: Sand Veil
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-- Earthquake
 - Rapid Spin
-- Swords Dance
 - Fury Cutter
+- Swords Dance
+- Earthquake
 
-Flygon
-Level: 56
+Flygon @ Dragon Fang
+Level: 70
+Ability: Levitate
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Crunch
 - Dragon Dance
-- Dragon Claw
-- Screech
 - Earthquake
+- Dragon Rush
 
-Marowak
-Level: 56
+Marowak @ Thick Club
+Level: 70
 Ability: Rock Head
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-- Earthquake
+- Retaliate
+- Focus Energy
 - Bonemerang
-- Headbutt
 - Double-Edge
 
-Relicanth
-Level: 56
+Relicanth @ Hard Stone
+Level: 70
 Ability: Rock Head
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-- Double-Edge
+- Yawn
 - Aqua Tail
-- Rock Slide
+- Double-Edge
 - Head Smash
+
+Camerupt @ Charcoal
+Level: 70
+Ability: Solid Rock
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Eruption
+- Rock Slide
+- Earth Power
+- Curse
 
 === TRAINER_DUSTY_5 ===
 Name: Dusty
@@ -1419,45 +1682,56 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Sandslash
-Level: 60
+Sandslash @ Bright Powder
+Level: 80
+Ability: Sand Veil
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Earthquake
 - Rapid Spin
-- Swords Dance
 - Fury Cutter
+- Swords Dance
+- Earthquake
 
-Flygon
-Level: 60
+Flygon @ Dragon Fang
+Level: 80
+Ability: Levitate
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Crunch
 - Dragon Dance
+- Earthquake
 - Dragon Rush
-- Screech
-- Earthquake
 
-Marowak
-Level: 60
+Marowak @ Thick Club
+Level: 80
 Ability: Rock Head
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Earthquake
+- Retaliate
+- Focus Energy
 - Bonemerang
-- Headbutt
 - Double-Edge
 
-Relicanth
-Level: 60
+Relicanth @ Hard Stone
+Level: 80
 Ability: Rock Head
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Double-Edge
+- Yawn
 - Aqua Tail
-- Rock Slide
+- Double-Edge
 - Head Smash
 
-Tyranitar
-Level: 60
+Camerupt @ Charcoal
+Level: 80
+Ability: Solid Rock
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Eruption
+- Rock Slide
+- Earth Power
+- Curse
+
+Tyranitar @ Tyranitarite
+Level: 80
 Ability: Unnerve
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Fire Fang
+- Thunder Fang
 - Crunch
 - Stone Edge
 - Giga Impact
@@ -1473,11 +1747,21 @@ AI: Check Bad Move
 
 Magneton
 Level: 30
+Ability: Sturdy
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Thunder Shock
+- Tri Attack
+- Gyro Ball
+- Screech
 
 Loudred
 Level: 30
+Ability: Soundproof
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Bite
+- Echoed Voice
+- Howl
+- Stomp
 
 === TRAINER_GABBY_AND_TY_2 ===
 Name: Gabby & Ty
@@ -1490,11 +1774,21 @@ AI: Check Bad Move
 
 Magneton
 Level: 46
+Ability: Sturdy
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Tri Attack
+- Screech
+- Flash Cannon
+- Discharge
 
 Exploud
 Level: 46
+Ability: Soundproof
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Crunch
+- Fire Fang
+- Howl
+- Uproar
 
 === TRAINER_GABBY_AND_TY_3 ===
 Name: Gabby & Ty
@@ -1507,11 +1801,21 @@ AI: Check Bad Move
 
 Magneton
 Level: 54
+Ability: Sturdy
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Tri Attack
+- Screech
+- Flash Cannon
+- Discharge
 
 Exploud
 Level: 54
+Ability: Soundproof
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Crunch
+- Fire Fang
+- Howl
+- Uproar
 
 === TRAINER_GABBY_AND_TY_4 ===
 Name: Gabby & Ty
@@ -1522,21 +1826,41 @@ Music: Interviewer
 Double Battle: Yes
 AI: Check Bad Move
 
-Magnezone
+Magnezone @ Magnet
 Level: 60
+Ability: Analytic
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Screech
+- Flash Cannon
+- Metal Sound
+- Thunderbolt
 
-Exploud
+Exploud @ Silk Scarf
 Level: 60
+Ability: Scrappy
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Crunch
+- Fire Fang
+- Supersonic
+- Uproar
 
-Ampharos
+Ampharos @ Wise Glasses
 Level: 60
+Ability: Static
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Dragon Pulse
+- Power Gem
+- Dazzling Gleam
+- Thunderbolt
 
-Lapras
+Lapras @ Leftovers
 Level: 60
+Ability: Shell Armor
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Ice Shard
+- Body Slam
+- Ice Beam
+- Hydro Pump
 
 === TRAINER_GABBY_AND_TY_5 ===
 Name: Gabby & Ty
@@ -1547,29 +1871,59 @@ Music: Interviewer
 Double Battle: Yes
 AI: Check Bad Move
 
-Magnezone
+Magnezone @ Magnet
 Level: 68
+Ability: Analytic
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Screech
+- Flash Cannon
+- Metal Sound
+- Thunderbolt
 
-Exploud
+Exploud @ Silk Scarf
 Level: 68
+Ability: Scrappy
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Crunch
+- Fire Fang
+- Supersonic
+- Hyper Voice
 
-Ampharos
+Ampharos @ Wise Glasses
 Level: 68
+Ability: Static
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Dragon Pulse
+- Power Gem
+- Dazzling Gleam
+- Thunderbolt
 
-Lapras
+Lapras @ Leftovers
 Level: 68
+Ability: Shell Armor
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Ice Shard
+- Body Slam
+- Ice Beam
+- Hydro Pump
 
-Nidoqueen
+Nidoqueen @ Poison Barb
 Level: 68
+Ability: Sheer Force
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Sludge Wave
+- Crunch
+- Protect
+- Earthquake
 
-Nidoking
+Nidoking @ Soft Sand
 Level: 68
+Ability: Sheer Force
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Megahorn
+- Poison Jab
+- Protect
+- Earthquake
 
 === TRAINER_GABBY_AND_TY_6 ===
 Name: Gabby & Ty
@@ -1584,8 +1938,8 @@ Magnezone @ Magnet
 Level: 75
 Ability: Analytic
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Flash Cannon
 - Screech
+- Flash Cannon
 - Metal Sound
 - Thunderbolt
 
@@ -1611,28 +1965,28 @@ Lapras @ Leftovers
 Level: 75
 Ability: Shell Armor
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Ice Shard
 - Body Slam
 - Ice Beam
 - Hydro Pump
-- Ice Shard
 
 Nidoqueen @ Poison Barb
 Level: 75
 Ability: Sheer Force
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Protect
-- Earthquake
 - Sludge Wave
 - Crunch
+- Protect
+- Earthquake
 
 Nidoking @ Soft Sand
 Level: 75
 Ability: Sheer Force
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Megahorn
+- Poison Jab
 - Protect
 - Earthquake
-- Poison Jab
-- Megahorn
 
 === TRAINER_LOLA_1 ===
 Name: Lola
@@ -1645,15 +1999,28 @@ AI: Check Bad Move
 
 Azurill
 Level: 16
+Ability: Huge Power
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tail Whip
+- Bubble Beam
+- Charm
+- Slam
 
 Snubbull
 Level: 16
+Ability: Intimidate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Scary Face
+- Charm
+- Bite
 
 Feebas
 Level: 16
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Splash
+- Tackle
 
 === TRAINER_AUSTINA ===
 Name: Austina
@@ -1666,11 +2033,21 @@ AI: Check Bad Move
 
 Seadra
 Level: 50
+Ability: Poison Point
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Focus Energy
+- Water Pulse
+- Dragon Pulse
 
 Dewgong
 Level: 50
+Ability: Thick Fat
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Headbutt
+- Encore
+- Aurora Beam
+- Aqua Tail
 
 === TRAINER_GWEN ===
 Name: Gwen
@@ -1683,11 +2060,21 @@ AI: Check Bad Move
 
 Golduck
 Level: 50
+Ability: Damp
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Disable
+- Zen Headbutt
+- Screech
+- Hydro Pump
 
 Quagsire
 Level: 50
+Ability: Water Absorb
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Haze
+- Yawn
+- Aqua Tail
+- Earthquake
 
 === TRAINER_LOLA_2 ===
 Name: Lola
@@ -1699,16 +2086,31 @@ Double Battle: No
 AI: Check Bad Move
 
 Azumarill
-Level: 30
+Level: 40
+Ability: Huge Power
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Charm
+- Bounce
+- Aqua Tail
+- Play Rough
 
 Granbull
-Level: 30
+Level: 40
+Ability: Intimidate
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Ice Fang
+- Charm
+- Bite
+- Headbutt
 
-Feebas
-Level: 30
+Milotic
+Level: 40
+Ability: Marvel Scale
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Water Pulse
+- Disarming Voice
+- Attract
+- Recover
 
 === TRAINER_LOLA_3 ===
 Name: Lola
@@ -1719,21 +2121,41 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Azumarill
-Level: 38
+Azumarill @ Wacan Berry
+Level: 52
+Ability: Huge Power
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Charm
+- Aqua Tail
+- Play Rough
+- Superpower
 
-Granbull
-Level: 38
+Granbull @ Fairy Feather
+Level: 52
+Ability: Intimidate
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Ice Fang
+- Charm
+- Headbutt
+- Play Rough
 
-Milotic
-Level: 38
+Milotic @ Flame Orb
+Level: 52
+Ability: Marvel Scale
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Disarming Voice
+- Attract
+- Recover
+- Hydro Pump
 
-Furret
-Level: 38
+Furret @ Chople Berry
+Level: 52
+Ability: Keen Eye
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Coil
+- Agility
+- Sucker Punch
+- Double-Edge
 
 === TRAINER_LOLA_4 ===
 Name: Lola
@@ -1744,25 +2166,50 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Azumarill
-Level: 46
+Azumarill @ Wacan Berry
+Level: 64
+Ability: Huge Power
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Charm
+- Aqua Tail
+- Play Rough
+- Superpower
 
-Granbull
-Level: 46
+Granbull @ Fairy Feather
+Level: 64
+Ability: Intimidate
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Ice Fang
+- Charm
+- Play Rough
+- Crunch
 
-Milotic
-Level: 46
+Milotic @ Flame Orb
+Level: 64
+Ability: Marvel Scale
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Disarming Voice
+- Attract
+- Recover
+- Hydro Pump
 
-Furret
-Level: 46
+Furret @ Chople Berry
+Level: 64
+Ability: Keen Eye
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Coil
+- Agility
+- Sucker Punch
+- Double-Edge
 
-Ursaring
-Level: 46
+Ursaring @ Eviolite
+Level: 64
+Ability: Guts
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Play Rough
+- High Horsepower
+- Thrash
+- Hammer Arm
 
 === TRAINER_LOLA_5 ===
 Name: Lola
@@ -1773,29 +2220,59 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Azumarill
-Level: 54
+Azumarill @ Wacan Berry
+Level: 80
+Ability: Huge Power
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Charm
+- Aqua Tail
+- Play Rough
+- Superpower
 
-Granbull
-Level: 54
+Granbull @ Fairy Feather
+Level: 80
+Ability: Intimidate
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Ice Fang
+- Charm
+- Play Rough
+- Crunch
 
-Milotic
-Level: 54
+Milotic @ Flame Orb
+Level: 80
+Ability: Marvel Scale
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Disarming Voice
+- Attract
+- Recover
+- Hydro Pump
 
-Furret
-Level: 54
+Furret @ Chople Berry
+Level: 80
+Ability: Keen Eye
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Coil
+- Agility
+- Sucker Punch
+- Double-Edge
 
-Ursaring
-Level: 54
+Ursaring @ Eviolite
+Level: 80
+Ability: Guts
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Play Rough
+- High Horsepower
+- Thrash
+- Hammer Arm
 
-Starmie
-Level: 54
+Starmie @ Twisted Spoon
+Level: 80
+Ability: Illuminate
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Rapid Spin
+- Power Gem
+- Psychic
+- Hydro Pump
 
 === TRAINER_RICKY_1 ===
 Name: Ricky
@@ -1808,6 +2285,7 @@ AI: Check Bad Move
 
 Zigzagoon
 Level: 16
+Ability: Gluttony
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sand Attack
 - Headbutt
@@ -1816,11 +2294,21 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Aipom
 Level: 16
+Ability: Run Away
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Scratch
+- Tail Whip
+- Astonish
+- Tickle
 
 Poliwag
 Level: 16
+Ability: Water Absorb
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Water Gun
+- Hypnosis
+- Pound
+- Mud Shot
 
 === TRAINER_SIMON ===
 Name: Simon
@@ -1852,13 +2340,41 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Vaporeon
+Vaporeon @ Wacan Berry
 Level: 48
+Ability: Water Absorb
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Charm
+- Aurora Beam
+- Aqua Ring
+- Muddy Water
 
-Milotic
+Milotic @ Sitrus Berry
 Level: 48
+Ability: Competitive
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Disarming Voice
+- Attract
+- Recover
+- Surf
+
+Ursaring @ Flame Orb
+Level: 48
+Ability: Guts
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fake Tears
+- Slash
+- Play Rough
+- High Horsepower
+
+Snorlax @ Leftovers
+Level: 48
+Ability: Thick Fat
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Body Slam
+- Heavy Slam
+- Hammer Arm
+- Belly Drum
 
 === TRAINER_RICKY_2 ===
 Name: Ricky
@@ -1870,20 +2386,31 @@ Double Battle: No
 AI: Check Bad Move
 
 Linoone
-Level: 30
+Level: 40
+Ability: Gluttony
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 - Sand Attack
 - Pin Missile
 - Tail Whip
 - Surf
 
-Aipom
-Level: 30
+Ambipom
+Level: 40
+Ability: Technician
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Astonish
+- Tickle
+- Screech
+- Double Hit
 
 Poliwhirl
-Level: 30
+Level: 40
+Ability: Water Absorb
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Hypnosis
+- Bubble Beam
+- Body Slam
+- Earth Power
 
 
 === TRAINER_RICKY_3 ===
@@ -1895,25 +2422,41 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Linoone
-Level: 38
+Linoone @ Sitrus Berry
+Level: 52
+Ability: Gluttony
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Sand Attack
 - Pin Missile
 - Tail Whip
 - Surf
 
-Ambipom
-Level: 38
+Ambipom @ Silk Scarf
+Level: 52
+Ability: Technician
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Astonish
+- Tickle
+- Screech
+- Double Hit
 
-Politoed
-Level: 38
+Politoed @ Rindo Berry
+Level: 52
+Ability: Water Absorb
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Hydro Pump
+- Hypnosis
+- Hyper Voice
+- Earth Power
 
-Vaporeon
-Level: 38
+Vaporeon @ Mystic Water
+Level: 52
+Ability: Water Absorb
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Charm
+- Aurora Beam
+- Aqua Ring
+- Hydro Pump
 
 === TRAINER_RICKY_4 ===
 Name: Ricky
@@ -1924,29 +2467,50 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Linoone
-Level: 46
+Linoone @ Sitrus Berry
+Level: 64
+Ability: Gluttony
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Sand Attack
 - Pin Missile
 - Tail Whip
 - Surf
 
-Ambipom
-Level: 46
+Ambipom @ Silk Scarf
+Level: 64
+Ability: Technician
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Astonish
+- Tickle
+- Screech
+- Double Hit
 
-Politoed
-Level: 46
+Politoed @ Rindo Berry
+Level: 64
+Ability: Water Absorb
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Hydro Pump
+- Hypnosis
+- Hyper Voice
+- Earth Power
 
-Vaporeon
-Level: 46
+Vaporeon @ Mystic Water
+Level: 64
+Ability: Water Absorb
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Charm
+- Aurora Beam
+- Aqua Ring
+- Hydro Pump
 
-Dewgong
-Level: 46
+Dewgong @ Never-Melt Ice
+Level: 64
+Ability: Thick Fat
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Headbutt
+- Aqua Tail
+- Ice Beam
+- Safeguard
 
 
 === TRAINER_RICKY_5 ===
@@ -1958,33 +2522,59 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Linoone
-Level: 54
+Linoone @ Sitrus Berry
+Level: 80
+Ability: Gluttony
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Sand Attack
 - Pin Missile
 - Tail Whip
 - Surf
 
-Ambipom
-Level: 54
+Ambipom @ Silk Scarf
+Level: 80
+Ability: Technician
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Astonish
+- Tickle
+- Screech
+- Double Hit
 
-Politoed
-Level: 54
+Politoed @ Rindo Berry
+Level: 80
+Ability: Water Absorb
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Hydro Pump
+- Hypnosis
+- Hyper Voice
+- Earth Power
 
-Vaporeon
-Level: 54
+Vaporeon @ Mystic Water
+Level: 80
+Ability: Water Absorb
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Charm
+- Aurora Beam
+- Aqua Ring
+- Hydro Pump
 
-Dewgong
-Level: 54
+Dewgong @ Never-Melt Ice
+Level: 80
+Ability: Thick Fat
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Headbutt
+- Aqua Tail
+- Ice Beam
+- Safeguard
 
-Dudunsparce
-Level: 54
+Dudunsparce @ Chople Berry
+Level: 80
+Ability: Serene Grace
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Screech
+- Drill Run
+- Hyper Drill
+- Coil
 
 === TRAINER_RANDALL ===
 Name: Randall
@@ -3583,13 +4173,32 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Cursola @ Kasib Berry
+Cursola @ Colbur Berry
 Level: 74
+Ability: Perish Body
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Spite
+- Curse
+- Strength Sap
+- Power Gem
 
-Gengar @ Spell Tag
+Gengar @ Wide Lens
 Level: 74
+Ability: Cursed Body
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hypnosis
+- Hex
+- Dark Pulse
+- Dream Eater
+
+Marowak-Alola @ Thick Club
+Level: 74
+Ability: Lightning Rod
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Shadow Bone
+- Stomping Tantrum
+- Thrash
+- Flare Blitz
 
 === TRAINER_KINDRA ===
 Name: Kindra
@@ -3617,17 +4226,32 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Banette
+Banette @ Spell Tag
 Level: 54
+Ability: Insomnia
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Knock Off
+- Will-O-Wisp
+- Sucker Punch
+- Phantom Force
 
-Dusclops
+Dusclops @ Quick Claw
 Level: 54
+Ability: Pressure
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Punch
+- Shadow Punch
+- Confuse Ray
+- Payback
 
-Mismagius
+Mismagius @ Colbur Berry
 Level: 54
+Ability: Levitate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Mystical Fire
+- Power Gem
+- Phantom Force
+- Magical Leaf
 
 === TRAINER_VALERIE_1 ===
 Name: Valerie
@@ -3661,11 +4285,21 @@ AI: Check Bad Move
 
 Typhlosion-Hisui
 Level: 58
+Ability: Blaze
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Smokescreen
+- Infernal Parade
+- Swift
+- Flamethrower
 
 Banette @ Banettite
 Level: 58
+Ability: Insomnia
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Knock Off
+- Shadow Sneak
+- Sucker Punch
+- Phantom Force
 
 === TRAINER_VALERIE_2 ===
 Name: Valerie
@@ -3797,13 +4431,21 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon @ Nugget
+Zigzagoon @ Oran Berry
 Level: 8
+Ability: Gluttony
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Growl
+- Sand Attack
 
-Skitty
+Skitty @ Silk Scarf
 Level: 8
+Ability: Cute Charm
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Growl
+- Tail Whip
+- Tackle
 
 === TRAINER_DAPHNE ===
 Name: Daphne
@@ -3914,13 +4556,23 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move
 
-Linoone @ Nugget
-Level: 34
+Linoone @ Sitrus Berry
+Level: 42
+Ability: Gluttony
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Slash
+- Baby-Doll Eyes
+- Headbutt
+- Hone Claws
 
-Delcatty
-Level: 36
+Delcatty @ Silk Scarf
+Level: 42
+Ability: Cute Charm
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Fake Out
+- Charm
+- Double-Edge
+- Play Rough
 
 === TRAINER_BRIANNA ===
 Name: Brianna
@@ -4024,17 +4676,32 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move
 
-Linoone @ Nugget
-Level: 42
+Linoone @ Sitrus Berry
+Level: 54
+Ability: Gluttony
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Baby-Doll Eyes
+- Headbutt
+- Belly Drum
+- Double-Edge
 
-Delcatty
-Level: 44
+Delcatty @ Silk Scarf
+Level: 54
+Ability: Cute Charm
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Fake Out
+- Charm
+- Double-Edge
+- Play Rough
 
-Clefable
-Level: 44
+Clefable @ Fairy Feather
+Level: 54
+Ability: Magic Guard
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Meteor Mash
+- Moonblast
+- Charm
+- Copycat
 
 === TRAINER_CINDY_4 ===
 Name: Cindy
@@ -4046,21 +4713,41 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move
 
-Linoone @ Nugget
-Level: 50
+Linoone @ Sitrus Berry
+Level: 66
+Ability: Gluttony
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Baby-Doll Eyes
+- Headbutt
+- Belly Drum
+- Double-Edge
 
-Delcatty
-Level: 52
+Delcatty @ Silk Scarf
+Level: 66
+Ability: Cute Charm
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Fake Out
+- Charm
+- Double-Edge
+- Play Rough
 
-Clefable
-Level: 52
+Clefable @ Fairy Feather
+Level: 66
+Ability: Magic Guard
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Meteor Mash
+- Moonblast
+- Charm
+- Copycat
 
-Wigglytuff
-Level: 52
+Wigglytuff @ Babiri Berry
+Level: 66
+Ability: Competitive
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Hyper Voice
+- Sing
+- Copycat
+- Play Rough
 
 === TRAINER_CINDY_5 ===
 Name: Cindy
@@ -4072,25 +4759,49 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move
 
-Linoone @ Nugget
-Level: 55
+Linoone @ Sitrus Berry
+Level: 74
+Ability: Gluttony
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Baby-Doll Eyes
+- Headbutt
+- Belly Drum
+- Double-Edge
 
-Delcatty
-Level: 57
+Delcatty @ Silk Scarf
+Level: 74
+Ability: Cute Charm
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Fake Out
+- Charm
+- Double-Edge
+- Play Rough
 
-Clefable
-Level: 57
+Clefable @ Fairy Feather
+Level: 74
+Ability: Magic Guard
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Meteor Mash
+- Moonblast
+- Charm
+- Copycat
 
-Wigglytuff
-Level: 57
+Wigglytuff @ Babiri Berry
+Level: 74
+Ability: Competitive
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Hyper Voice
+- Sing
+- Copycat
+- Play Rough
 
-Ninetales
-Level: 57
+Ninetales @ Expert Belt
+Level: 74
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Flamethrower
+- Fire Blast
+- Extrasensory
+- Nasty Plot
 
 === TRAINER_CINDY_6 ===
 Name: Cindy
@@ -4102,29 +4813,59 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move
 
-Linoone @ Nugget
-Level: 60
+Linoone @ Sitrus Berry
+Level: 80
+Ability: Gluttony
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Baby-Doll Eyes
+- Headbutt
+- Belly Drum
+- Double-Edge
 
-Delcatty
-Level: 60
+Delcatty @ Silk Scarf
+Level: 80
+Ability: Cute Charm
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Fake Out
+- Charm
+- Double-Edge
+- Play Rough
 
-Clefable
-Level: 60
+Clefable @ Fairy Feather
+Level: 80
+Ability: Magic Guard
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Meteor Mash
+- Moonblast
+- Charm
+- Copycat
 
-Wigglytuff
-Level: 60
+Wigglytuff @ Babiri Berry
+Level: 80
+Ability: Competitive
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Hyper Voice
+- Sing
+- Copycat
+- Play Rough
 
-Ninetales
-Level: 60
+Ninetales @ Expert Belt
+Level: 80
+Ability: Flash Fire
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Flamethrower
+- Fire Blast
+- Extrasensory
+- Nasty Plot
 
-Nidoqueen
-Level: 60
+Nidoqueen @ White Herb
+Level: 80
+Ability: Sheer Force
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Superpower
+- Sludge Wave
+- Double Kick
+- Earth Power
 
 === TRAINER_MELISSA ===
 Name: Melissa
@@ -4522,13 +5263,21 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon @ Nugget
+Zigzagoon @ Oran Berry
 Level: 10
+Ability: Gluttony
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Growl
+- Sand Attack
 
-Meowth
+Meowth @ Silk Scarf
 Level: 10
+Ability: Pickup
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Growl
+- Feint
+- Scratch
 
 === TRAINER_MOLLIE ===
 Name: Mollie
@@ -4640,13 +5389,23 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move
 
-Linoone @ Nugget
-Level: 34
+Linoone @ Sitrus Berry
+Level: 42
+Ability: Gluttony
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Slash
+- Baby-Doll Eyes
+- Headbutt
+- Hone Claws
 
-Persian
-Level: 36
+Persian @ Silk Scarf
+Level: 42
+Ability: Limber
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Fake Out
+- Power Gem
+- Bite
+- Slash
 
 === TRAINER_WINSTON_3 ===
 Name: Winston
@@ -4658,17 +5417,32 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move
 
-Linoone @ Nugget
-Level: 42
+Linoone @ Sitrus Berry
+Level: 54
+Ability: Gluttony
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Baby-Doll Eyes
+- Headbutt
+- Belly Drum
+- Double-Edge
 
-Persian
-Level: 44
+Persian @ Silk Scarf
+Level: 54
+Ability: Limber
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Fake Out
+- Power Gem
+- Slash
+- Play Rough
 
-Ursaring
-Level: 44
+Ursaring @ Eviolite
+Level: 54
+Ability: Guts
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Payback
+- Slash
+- Play Rough
+- High Horsepower
 
 === TRAINER_WINSTON_4 ===
 Name: Winston
@@ -4680,21 +5454,41 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move
 
-Linoone @ Nugget
-Level: 50
+Linoone @ Sitrus Berry
+Level: 66
+Ability: Gluttony
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Baby-Doll Eyes
+- Headbutt
+- Belly Drum
+- Double-Edge
 
-Persian
-Level: 52
+Persian @ Silk Scarf
+Level: 66
+Ability: Limber
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Power Gem
+- Bite
+- Slash
+- Play Rough
 
-Ursaring
-Level: 52
+Ursaring @ Eviolite
+Level: 66
+Ability: Guts
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Payback
+- Slash
+- Play Rough
+- High Horsepower
 
-Granbull
-Level: 52
+Granbull @ Fairy Feather
+Level: 66
+Ability: Intimidate
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Thunder Fang
+- Charm
+- Play Rough
+- Crunch
 
 === TRAINER_WINSTON_5 ===
 Name: Winston
@@ -4706,29 +5500,58 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move
 
-Linoone @ Nugget
-Level: 55
+Linoone @ Sitrus Berry
+Level: 80
+Ability: Gluttony
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Baby-Doll Eyes
+- Headbutt
+- Belly Drum
+- Double-Edge
 
-Persian
-Level: 57
+Persian @ Silk Scarf
+Level: 80
+Ability: Limber
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Power Gem
+- Bite
+- Slash
+- Play Rough
 
-Ursaring
-Level: 57
+Ursaring @ Eviolite
+Level: 80
+Ability: Guts
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Play Rough
+- High Horsepower
+- Thrash
+- Hammer Arm
 
-Granbull
-Level: 57
+Granbull @ Fairy Feather
+Level: 80
+Ability: Intimidate
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Thunder Fang
+- Charm
+- Play Rough
+- Crunch
 
-Ninetales-Alola
-Level: 57
+Ninetales-Alola @ Babiri Berry
+Level: 80
+Ability: Snow Cloak
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Blizzard
+- Ice Beam
+- Extrasensory
+- Nasty Plot
 
-Nidoking
-Level: 57
+Nidoking @ Mirror Herb
+Level: 80
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Megahorn
+- Double Kick
+- Poison Jab
+- Earth Power
 
 === TRAINER_STEVE_1 ===
 Name: Steve
@@ -4775,15 +5598,30 @@ AI: Check Bad Move
 
 Rhyperior
 Level: 56
+Ability: Solid Rock
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hammer Arm
+- Drill Run
+- Stone Edge
+- Megahorn
 
 Aerodactyl
 Level: 56
+Ability: Rock Head
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Wing Attack
+- Crunch
+- Iron Head
+- Stone Edge
 
 Arcanine
 Level: 56
+Ability: Intimidate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Crunch
+- Play Rough
+- Flare Blitz
+- Extreme Speed
 
 === TRAINER_GRUNT_MT_CHIMNEY_1 ===
 Name: Grunt
@@ -4925,11 +5763,21 @@ AI: Check Bad Move
 
 Qwilfish
 Level: 46
+Ability: Poison Point
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fell Stinger
+- Brine
+- Poison Jab
+- Toxic Spikes
 
 Qwilfish-Hisui
 Level: 46
+Ability: Poison Point
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bite
+- Fell Stinger
+- Barb Barrage
+- Toxic Spikes
 
 === TRAINER_DOMINIK ===
 Name: Dominik
@@ -4942,7 +5790,12 @@ AI: Check Bad Move
 
 Quagsire
 Level: 48
+Ability: Water Absorb
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Mud Shot
+- Yawn
+- Aqua Tail
+- Toxic
 
 === TRAINER_DOUGLAS ===
 Name: Douglas
@@ -4955,11 +5808,21 @@ AI: Check Bad Move
 
 Tentacruel
 Level: 46
+Ability: Clear Body
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Supersonic
+- Hex
+- Poison Jab
+- Surf
 
 Lanturn
 Level: 46
+Ability: Volt Absorb
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Eerie Impulse
+- Bubble Beam
+- Confuse Ray
+- Discharge
 
 === TRAINER_DARRIN ===
 Name: Darrin
@@ -4972,15 +5835,30 @@ AI: Check Bad Move
 
 Tentacruel
 Level: 48
+Ability: Liquid Ooze
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Supersonic
+- Hex
+- Poison Jab
+- Surf
 
 Pelipper
 Level: 48
+Ability: Keen Eye
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Air Slash
+- Tailwind
+- Water Pulse
+- Roost
 
 Cloyster
 Level: 48
+Ability: Skill Link
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Iron Defense
+- Shell Smash
+- Icicle Spear
+- Razor Shell
 
 === TRAINER_TONY_1 ===
 Name: Tony
@@ -4991,13 +5869,23 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Tauros-Paldea-Aqua
+Tauros-Paldea-Aqua @ Shell Bell
 Level: 48
+Ability: Anger Point
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Work Up
+- Double Kick
+- Zen Headbutt
+- Raging Bull
 
-Seadra
+Seadra @ Water Gem
 Level: 48
+Ability: Poison Point
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Focus Energy
+- Water Pulse
+- Dragon Pulse
 
 === TRAINER_JEROME ===
 Name: Jerome
@@ -5010,11 +5898,21 @@ AI: Check Bad Move
 
 Tentacruel
 Level: 50
+Ability: Liquid Ooze
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Supersonic
+- Hex
+- Poison Jab
+- Surf
 
 Relicanth
 Level: 50
+Ability: Rock Head
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ancient Power
+- Yawn
+- Aqua Tail
+- Double-Edge
 
 === TRAINER_MATTHEW ===
 Name: Matthew
@@ -5027,11 +5925,21 @@ AI: Check Bad Move
 
 Slowbro-Galar
 Level: 50
+Ability: Own Tempo
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Shell Side Arm
+- Amnesia
+- Psychic
+- Psych Up
 
 Slowking-Galar
 Level: 50
+Ability: Own Tempo
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Power Gem
+- Nasty Plot
+- Eerie Spell
+- Surf
 
 === TRAINER_DAVID ===
 Name: David
@@ -5044,15 +5952,30 @@ AI: Check Bad Move
 
 Tentacruel
 Level: 50
+Ability: Clear Body
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Supersonic
+- Hex
+- Poison Jab
+- Surf
 
 Pelipper
 Level: 50
+Ability: Drizzle
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Air Slash
+- Tailwind
+- Water Pulse
+- Roost
 
 Huntail
 Level: 50
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Screech
+- Ice Fang
+- Crunch
+- Aqua Tail
 
 === TRAINER_SPENCER ===
 Name: Spencer
@@ -5063,13 +5986,23 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Tentacruel
+Tentacruel @ Water Gem
 Level: 62
+Ability: Liquid Ooze
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Reflect Type
+- Supersonic
+- Sludge Wave
+- Hydro Pump
 
-Pelipper
+Pelipper @ Wacan Berry
 Level: 62
+Ability: Keen Eye
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Air Slash
+- Supersonic
+- Hurricane
+- Hydro Pump
 
 === TRAINER_ROLAND ===
 Name: Roland
@@ -5082,11 +6015,21 @@ AI: Check Bad Move
 
 Sharpedo
 Level: 62
+Ability: Speed Boost
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Focus Energy
+- Ice Fang
+- Crunch
+- Liquidation
 
 Slowbro
 Level: 62
+Ability: Own Tempo
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Yawn
+- Water Pulse
+- Slack Off
+- Psychic
 
 === TRAINER_NOLEN ===
 Name: Nolen
@@ -5097,13 +6040,23 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Tentacruel
+Tentacruel @ Expert Belt
 Level: 64
+Ability: Liquid Ooze
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Reflect Type
+- Hex
+- Sludge Wave
+- Hydro Pump
 
-Kingler
+Kingler @ Scope Lens
 Level: 64
+Ability: Shell Armor
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hammer Arm
+- Stomp
+- Swords Dance
+- Crabhammer
 
 === TRAINER_STAN ===
 Name: Stan
@@ -5114,13 +6067,23 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Kingdra
+Kingdra @ Dragon Fang
 Level: 64
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Dragon Pulse
+- Hydro Pump
+- Dragon Dance
 
-Gyarados
+Gyarados @ Gyaradosite
 Level: 64
+Ability: Intimidate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Fang
+- Waterfall
+- Dragon Dance
+- Hurricane
 
 === TRAINER_BARRY ===
 Name: Barry
@@ -5133,11 +6096,21 @@ AI: Check Bad Move
 
 Gyarados
 Level: 66
+Ability: Intimidate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Fang
+- Waterfall
+- Dragon Dance
+- Hurricane
 
-Tentacruel
+Tauros-Paldea-Aqua
 Level: 66
+Ability: Intimidate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Work Up
+- Zen Headbutt
+- Raging Bull
+- Close Combat
 
 === TRAINER_DEAN ===
 Name: Dean
@@ -5148,17 +6121,32 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Seadra
+Seadra @ Eviolite
 Level: 64
+Ability: Sniper
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Focus Energy
+- Dragon Pulse
+- Hydro Pump
+- Dragon Dance
 
-Quagsire
+Quagsire @ Rindo Berry
 Level: 64
+Ability: Water Absorb
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rain Dance
+- Yawn
+- Aqua Tail
+- Earthquake
 
-Azumarill
+Azumarill @ Life Orb
 Level: 64
+Ability: Huge Power
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Charm
+- Bounce
+- Aqua Tail
+- Play Rough
 
 === TRAINER_RODNEY ===
 Name: Rodney
@@ -5171,11 +6159,21 @@ AI: Check Bad Move
 
 Gyarados
 Level: 68
+Ability: Intimidate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Fang
+- Rain Dance
+- Aqua Tail
+- Hurricane
 
 Milotic
 Level: 68
+Ability: Competitive
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Disarming Voice
+- Attract
+- Recover
+- Hydro Pump
 
 === TRAINER_RICHARD ===
 Name: Richard
@@ -5186,17 +6184,41 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Pelipper
+Pelipper @ Damp Rock
 Level: 68
+Ability: Drizzle
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Air Slash
+- Tailwind
+- Hurricane
+- Hydro Pump
 
-Vaporeon
+Vaporeon @ Water Gem
 Level: 68
+Ability: Water Absorb
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Charm
+- Aurora Beam
+- Acid Armor
+- Hydro Pump
 
-Sharpedo
+Sharpedo @ Muscle Band
 Level: 68
+Ability: Rough Skin
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Fang
+- Ice Fang
+- Crunch
+- Liquidation
+
+Omastar @ White Herb
+Level: 68
+Ability: Shell Armor
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Mud Shot
+- Ancient Power
+- Surf
+- Shell Smash
 
 === TRAINER_HERMAN ===
 Name: Herman
@@ -5207,13 +6229,41 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Corsola
+Corsola @ Bright Powder
 Level: 68
+Ability: Hustle
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bubble Beam
+- Power Gem
+- Earth Power
+- Recover
 
-Relicanth
+Relicanth @ Assault Vest
 Level: 68
+Ability: Rock Head
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Yawn
+- Aqua Tail
+- Double-Edge
+- Head Smash
+
+Mantine @ Mystic Water
+Level: 68
+Ability: Swift Swim
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psybeam
+- Wide Guard
+- Air Slash
+- Hydro Pump
+
+Kabutops @ Scope Lens
+Level: 68
+Ability: Battle Armor
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Night Slash
+- Ancient Power
+- Leech Life
+- Liquidation
 
 === TRAINER_SANTIAGO ===
 Name: Santiago
@@ -5226,11 +6276,21 @@ AI: Check Bad Move
 
 Slowking
 Level: 68
+Ability: Own Tempo
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Power Gem
+- Nasty Plot
+- Surf
+- Psychic
 
 Gorebyss
 Level: 68
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Draining Kiss
+- Aqua Ring
+- Safeguard
+- Hydro Pump
 
 === TRAINER_GILBERT ===
 Name: Gilbert
@@ -5241,17 +6301,32 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Sharpedo
+Sharpedo @ Life Orb
 Level: 68
+Ability: Rough Skin
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Fang
+- Ice Fang
+- Crunch
+- Liquidation
 
-Golduck
+Golduck @ Kings Rock
 Level: 68
+Ability: Cloud Nine
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Zen Headbutt
+- Screech
+- Amnesia
+- Hydro Pump
 
-Dewgong
+Dewgong @ Sitrus Berry
 Level: 68
+Ability: Thick Fat
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Aqua Ring
+- Dive
+- Ice Beam
+- Snowscape
 
 === TRAINER_FRANKLIN ===
 Name: Franklin
@@ -5262,17 +6337,32 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Qwilfish
+Qwilfish @ Payapa Berry
 Level: 70
+Ability: Poison Point
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fell Stinger
+- Poison Jab
+- Toxic Spikes
+- Aqua Tail
 
-Lapras
+Lapras @ Leftovers
 Level: 70
+Ability: Shell Armor
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Shard
+- Body Slam
+- Ice Beam
+- Hydro Pump
 
-Kingdra
+Kingdra @ Haban Berry
 Level: 70
+Ability: Sniper
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Focus Energy
+- Dragon Pulse
+- Hydro Pump
+- Dragon Dance
 
 === TRAINER_KEVIN ===
 Name: Kevin
@@ -5285,11 +6375,21 @@ AI: Check Bad Move
 
 Walrein
 Level: 68
+Ability: Thick Fat
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rollout
+- Defense Curl
+- Brine
+- Blizzard
 
 Lapras
 Level: 68
+Ability: Water Absorb
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sing
+- Confuse Ray
+- Brine
+- Ice Beam
 
 === TRAINER_JACK ===
 Name: Jack
@@ -5300,13 +6400,23 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Gyarados
+Gyarados @ Water Gem
 Level: 70
+Ability: Moxie
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Fang
+- Aqua Tail
+- Dragon Dance
+- Hurricane
 
-Vaporeon
+Vaporeon @ Wacan Berry
 Level: 70
+Ability: Water Absorb
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Charm
+- Aurora Beam
+- Acid Armor
+- Hydro Pump
 
 === TRAINER_DUDLEY ===
 Name: DUDLEY
@@ -5338,16 +6448,26 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Octillery
+Octillery @ Loaded Dice
 Level: 62
+Ability: Sniper
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rock Blast
+- Bullet Seed
+- Ice Beam
+- Hydro Pump
 
-Dewgong
+Dewgong @ Chesto Berry
 Level: 62
+Ability: Thick Fat
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rest
+- Aqua Jet
+- Aqua Tail
+- Ice Beam
 
 === TRAINER_TONY_2 ===
-Name: TONY
+Name: Tony
 Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
@@ -5355,12 +6475,35 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Sharpedo
-Level: 30
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Tauros-Paldea-Aqua @ Shell Bell
+Level: 58
+Ability: Anger Point
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Work Up
+- Zen Headbutt
+- Raging Bull
+- Wave Crash
+
+Seadra @ Water Gem
+Level: 58
+Ability: Poison Point
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Smokescreen
+- Focus Energy
+- Dragon Pulse
+- Hydro Pump
+
+Cloyster @ Never-Melt Ice
+Level: 58
+Ability: Skill Link
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Supersonic
+- Shell Smash
+- Icicle Spear
+- Razor Shell
 
 === TRAINER_TONY_3 ===
-Name: TONY
+Name: Tony
 Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
@@ -5368,12 +6511,44 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Sharpedo
-Level: 33
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+Tauros-Paldea-Aqua @ Shell Bell
+Level: 64
+Ability: Anger Point
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Work Up
+- Zen Headbutt
+- Wave Crash
+- Close Combat
+
+Kingdra @ Water Gem
+Level: 64
+Ability: Swift Swim
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Smokescreen
+- Focus Energy
+- Dragon Pulse
+- Hydro Pump
+
+Cloyster @ Never-Melt Ice
+Level: 64
+Ability: Skill Link
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Supersonic
+- Shell Smash
+- Icicle Spear
+- Razor Shell
+
+Azumarill @ White Herb
+Level: 64
+Ability: Huge Power
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Charm
+- Aqua Tail
+- Play Rough
+- Superpower
 
 === TRAINER_TONY_4 ===
-Name: TONY
+Name: Tony
 Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
@@ -5381,16 +6556,53 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Staryu
-Level: 34
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+Tauros-Paldea-Aqua @ Shell Bell
+Level: 72
+Ability: Anger Point
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Work Up
+- Zen Headbutt
+- Wave Crash
+- Close Combat
 
-Sharpedo
-Level: 36
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+Kingdra @ Water Gem
+Level: 72
+Ability: Swift Swim
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Smokescreen
+- Focus Energy
+- Dragon Pulse
+- Wave Crash
+
+Cloyster @ Never-Melt Ice
+Level: 72
+Ability: Skill Link
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Supersonic
+- Shell Smash
+- Icicle Spear
+- Razor Shell
+
+Azumarill @ White Herb
+Level: 72
+Ability: Huge Power
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Charm
+- Aqua Tail
+- Play Rough
+- Superpower
+
+Starmie @ Twisted Spoon
+Level: 72
+Ability: Illuminate
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Rapid Spin
+- Power Gem
+- Psychic
+- Hydro Pump
 
 === TRAINER_TONY_5 ===
-Name: TONY
+Name: Tony
 Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
@@ -5398,13 +6610,59 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Starmie
-Level: 37
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+Tauros-Paldea-Aqua @ Shell Bell
+Level: 80
+Ability: Anger Point
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Work Up
+- Zen Headbutt
+- Wave Crash
+- Close Combat
 
-Sharpedo
-Level: 39
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+Kingdra @ Water Gem
+Level: 80
+Ability: Swift Swim
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Smokescreen
+- Focus Energy
+- Dragon Pulse
+- Wave Crash
+
+Cloyster @ Never-Melt Ice
+Level: 80
+Ability: Skill Link
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Supersonic
+- Shell Smash
+- Icicle Spear
+- Razor Shell
+
+Azumarill @ White Herb
+Level: 80
+Ability: Huge Power
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Charm
+- Aqua Tail
+- Play Rough
+- Superpower
+
+Starmie @ Twisted Spoon
+Level: 80
+Ability: Illuminate
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Rapid Spin
+- Power Gem
+- Psychic
+- Hydro Pump
+
+Crawdaunt @ Scope Lens
+Level: 80
+Ability: Adaptability
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Night Slash
+- Swords Dance
+- Crunch
+- Crabhammer
 
 === TRAINER_TAKAO ===
 Name: Takao
@@ -5432,17 +6690,32 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Hitmonlee
+Hitmonlee @ Wide Lens
 Level: 70
+Ability: Reckless
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Fake Out
+- Wide Guard
+- Blaze Kick
+- Axe Kick
 
-Machamp
+Machamp @ Kings Rock
 Level: 70
+Ability: No Guard
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Knock Off
+- Dual Chop
+- Bulk Up
+- Dynamic Punch
 
-Tauros-Paldea-Blaze
+Tauros-Paldea-Blaze @ Charcoal
 Level: 70
+Ability: Anger Point
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Work Up
+- Zen Headbutt
+- Raging Bull
+- Close Combat
 
 === TRAINER_KIYO ===
 Name: Kiyo
@@ -5453,17 +6726,32 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Hariyama
+Hariyama @ Focus Sash
 Level: 68
+Ability: Thick Fat
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Fake Out
+- Knock Off
+- Belly Drum
+- Close Combat
 
-Annihilape
+Annihilape @ Punching Glove
 Level: 68
+Ability: Inner Focus
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Rage Fist
+- Close Combat
+- Stomping Tantrum
+- Outrage
 
-Blaziken
+Blaziken @ Coba Berry
 Level: 68
+Ability: Blaze
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Double Kick
+- Blaze Kick
+- Bulk Up
+- Brave Bird
 
 === TRAINER_KOICHI ===
 Name: Koichi
@@ -5476,11 +6764,21 @@ AI: Check Bad Move
 
 Primeape
 Level: 46
+Ability: Vital Spirit
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Focus Energy
+- Rage Fist
+- Close Combat
+- Screech
 
 Machoke
 Level: 46
+Ability: Guts
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Focus Energy
+- Low Sweep
+- Knock Off
+- Bulk Up
 
 === TRAINER_NOB_1 ===
 Name: Nob
@@ -5618,11 +6916,39 @@ AI: Check Bad Move
 
 Hariyama @ Kings Rock
 Level: 46
+Ability: Thick Fat
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Fake Out
+- Knock Off
+- Belly Drum
+- Close Combat
 
-Machamp @ Protective Pads
+Primeape @ Protective Pads
 Level: 46
+Ability: Anger Point
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Focus Energy
+- Cross Chop
+- Assurance
+- Close Combat
+
+Breloom @ Black Sludge
+Level: 46
+Ability: Poison Heal
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Toxic
+- Leech Seed
+- Brick Break
+- Seed Bomb
+
+Hitmonchan @ Punching Glove
+Level: 46
+Ability: Iron Fist
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Drain Punch
+- Bullet Punch
+- Thunder Punch
+- Close Combat
 
 === TRAINER_DAISUKE ===
 Name: Daisuke
@@ -5656,11 +6982,21 @@ AI: Check Bad Move
 
 Tauros-Paldea-Combat
 Level: 58
+Ability: Intimidate
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Work Up
+- Zen Headbutt
+- Raging Bull
+- Double-Edge
 
 Sirfetch'd
 Level: 58
+Ability: Steadfast
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- First Impression
+- Brick Break
+- Swords Dance
+- Leaf Blade
 
 === TRAINER_KIRK ===
 Name: Kirk
@@ -5765,15 +7101,30 @@ AI: Check Bad Move
 
 Raichu-Alola
 Level: 58
+Ability: Surge Surfer
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Nasty Plot
+- Light Screen
+- Thunder
+- Psychic
 
 Exploud
 Level: 58
+Ability: Soundproof
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Crunch
+- Thunder Fang
+- Stomp
+- Uproar
 
 Obstagoon
 Level: 58
+Ability: Guts
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Obstruct
+- Cross Chop
+- Headbutt
+- Taunt
 
 === TRAINER_DALTON_1 ===
 Name: Dalton
@@ -6132,13 +7483,50 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Cacturne
-Level: 36
+Cacturne @ Leftovers
+Level: 40
+Ability: Sand Veil
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Growth
+- Spiky Shield
+- Leech Seed
+- Sucker Punch
 
-Claydol
-Level: 36
+Gliscor @ Kings Rock
+Level: 40
+Ability: Hyper Cutter
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunder Fang
+- Poison Jab
+- Night Slash
+- X-Scissor
+
+Omastar @ Wise Glasses
+Level: 40
+Ability: Shell Armor
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Crunch
+- Mud Shot
+- Ancient Power
+- Brine
+
+Kabutops @ Rindo Berry
+Level: 40
+Ability: Battle Armor
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Night Slash
+- Aqua Jet
+- Mud Shot
+- Ancient Power
+
+Nidoqueen @ White Herb
+Level: 40
+Ability: Poison Point
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Superpower
+- Sludge Wave
+- Crunch
+- Earth Power
 
 === TRAINER_BEAU ===
 Name: Beau
@@ -6150,16 +7538,40 @@ Double Battle: No
 AI: Check Bad Move
 
 Jolteon
-Level: 36
+Level: 40
+Ability: Volt Absorb
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bite
+- Charm
+- Double Kick
+- Discharge
 
 Ursaring
-Level: 36
+Level: 40
+Ability: Guts
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Payback
+- Slash
+- Play Rough
+- Scary Face
 
 Cacturne
-Level: 36
+Level: 40
+Ability: Sand Veil
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Growth
+- Spiky Shield
+- Leech Seed
+- Sucker Punch
+
+Aerodactyl
+Level: 40
+Ability: Pressure
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Wing Attack
+- Rock Slide
+- Crunch
+- Iron Head
 
 === TRAINER_LARRY ===
 Name: Larry
@@ -6216,9 +7628,32 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Tauros
+Tauros @ Normal Gem
 Level: 40
+Ability: Anger Point
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Work Up
+- Payback
+- Zen Headbutt
+- Raging Bull
+
+Kangaskhan @ Silk Scarf
+Level: 40
+Ability: Scrappy
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fake Out
+- Headbutt
+- Sucker Punch
+- Crunch
+
+Ursaring @ Flame Orb
+Level: 40
+Ability: Guts
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Payback
+- Slash
+- Play Rough
+- Scary Face
 
 === TRAINER_ETHAN_1 ===
 Name: Ethan
@@ -6398,7 +7833,12 @@ AI: Check Bad Move
 
 Yanmega @ Bug Gem
 Level: 48
+Ability: Speed Boost
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Bug Buzz
+- Air Slash
+- Detect
+- Ancient Power
 
 === TRAINER_DONALD ===
 Name: Donald
@@ -6411,15 +7851,30 @@ AI: Check Bad Move
 
 Pinsir @ Bright Powder
 Level: 46
+Ability: Mold Breaker
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Focus Energy
+- X-Scissor
+- Swords Dance
+- Superpower
 
 Heracross @ Coba Berry
 Level: 46
+Ability: Guts
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Aerial Ace
+- Throat Chop
+- Megahorn
+- Close Combat
 
 Scizor @ Occa Berry
 Level: 46
+Ability: Swarm
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Wing Attack
+- Bullet Punch
+- Iron Head
+- X-Scissor
 
 === TRAINER_TAYLOR ===
 Name: Taylor
@@ -6432,15 +7887,30 @@ AI: Check Bad Move
 
 Beautifly
 Level: 46
+Ability: Swarm
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Air Cutter
+- Giga Drain
+- Bug Buzz
+- Quiver Dance
 
 Dustox
 Level: 46
+Ability: Shield Dust
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Venoshock
+- Psybeam
+- Toxic
+- Quiver Dance
 
 Butterfree
 Level: 46
+Ability: Compound Eyes
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Sleep Powder
+- Air Slash
+- Bug Buzz
+- Quiver Dance
 
 === TRAINER_JEFFREY_1 ===
 Name: Jeffrey
@@ -6593,19 +8063,19 @@ Level: 70
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
 Heracross
-Level: 38
+Level: 70
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
 Masquerain @ Silver Powder
-Level: 38
+Level: 70
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
 Forretress
-Level: 38
+Level: 70
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
 Yanmega
-Level: 38
+Level: 70
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
 Scizor @ Scizorite
@@ -6623,12 +8093,21 @@ AI: Check Bad Move
 
 Kadabra
 Level: 20
+Ability: Synchronize
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Kinesis
+- Psybeam
+- Ally Switch
 - Hidden Power
 
 Slowpoke-Galar
 Level: 20
+Ability: Gluttony
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Curse
+- Yawn
+- Confusion
+- Water Pulse
 
 === TRAINER_PRESTON ===
 Name: Preston
@@ -6714,13 +8193,32 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Alakazam @ Twisted Spoon
+Exeggutor @ Power Herb
 Level: 74
+Ability: Chlorophyll
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psyshock
+- Giga Drain
+- Solar Beam
+- Hypnosis
 
 Farigiraf @ Colbur Berry
 Level: 74
+Ability: Armor Tail
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Stomp
+- Twin Beam
+- Crunch
+- Nasty Plot
+
+Medicham @ Medichamite
+Level: 74
+Ability: Pure Power
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fire Punch
+- Work Up
+- Zen Headbutt
+- Axe Kick
 
 === TRAINER_CAMERON_1 ===
 Name: Cameron
@@ -6973,13 +8471,32 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Exeggutor @ Yache Berry
+Chimecho @ Kasib Berry
 Level: 74
+Ability: Levitate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Yawn
+- Extrasensory
+- Uproar
+- Safeguard
 
-Medicham @ Roseli Berry
+Rapidash-Galar @ Protective Pads
 Level: 74
+Ability: Pastel Veil
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psycho Cut
+- Megahorn
+- Stomp
+- Dazzling Gleam
+
+Alakazam @ Alakazite
+Level: 74
+Ability: Inner Focus
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Kinesis
+- Ally Switch
+- Psychic
+- Calm Mind
 
 === TRAINER_JACKI_1 ===
 Name: Jacki
@@ -6992,15 +8509,30 @@ AI: Check Bad Move
 
 Alakazam
 Level: 58
+Ability: Inner Focus
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Kinesis
+- Reflect
+- Psychic
+- Calm Mind
 
 Rapidash-Galar
 Level: 58
+Ability: Pastel Veil
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psycho Cut
+- Megahorn
+- Stomp
+- Dazzling Gleam
 
 Chimecho
 Level: 58
+Ability: Levitate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Yawn
+- Extrasensory
+- Uproar
+- Safeguard
 
 === TRAINER_JACKI_2 ===
 Name: Jacki
@@ -7013,19 +8545,39 @@ AI: Check Bad Move
 
 Alakazam
 Level: 62
+Ability: Inner Focus
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Kinesis
+- Reflect
+- Psychic
+- Calm Mind
 
 Rapidash-Galar
 Level: 62
+Ability: Pastel Veil
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Psycho Cut
+- Megahorn
+- Stomp
+- Dazzling Gleam
 
 Chimecho
 Level: 62
+Ability: Levitate
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Yawn
+- Extrasensory
+- Uproar
+- Safeguard
 
 Grumpig
 Level: 62
+Ability: Thick Fat
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Teeter Dance
+- Power Gem
+- Rest
+- Psychic
 
 === TRAINER_JACKI_3 ===
 Name: Jacki
@@ -7038,23 +8590,48 @@ AI: Check Bad Move
 
 Alakazam
 Level: 64
+Ability: Inner Focus
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Kinesis
+- Reflect
+- Psychic
+- Calm Mind
 
 Rapidash-Galar
 Level: 64
+Ability: Pastel Veil
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Psycho Cut
+- Megahorn
+- Stomp
+- Dazzling Gleam
 
 Chimecho
 Level: 64
+Ability: Levitate
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Yawn
+- Extrasensory
+- Uproar
+- Safeguard
 
 Grumpig
 Level: 64
+Ability: Thick Fat
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Teeter Dance
+- Power Gem
+- Rest
+- Psychic
 
 Hypno
 Level: 64
+Ability: Insomnia
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Hypnosis
+- Disable
+- Psychic
+- Nasty Plot
 
 === TRAINER_JACKI_4 ===
 Name: Jacki
@@ -7067,27 +8644,57 @@ AI: Check Bad Move
 
 Alakazam
 Level: 66
+Ability: Inner Focus
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Kinesis
+- Reflect
+- Psychic
+- Calm Mind
 
 Rapidash-Galar
 Level: 66
+Ability: Pastel Veil
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Psycho Cut
+- Megahorn
+- Stomp
+- Dazzling Gleam
 
 Chimecho
 Level: 66
+Ability: Levitate
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Yawn
+- Extrasensory
+- Uproar
+- Safeguard
 
 Grumpig
 Level: 66
+Ability: Thick Fat
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Teeter Dance
+- Power Gem
+- Rest
+- Psychic
 
 Hypno
 Level: 66
+Ability: Insomnia
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Hypnosis
+- Disable
+- Psychic
+- Nasty Plot
 
 Slowking-Galar
 Level: 66
+Ability: Own Tempo
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Power Gem
+- Nasty Plot
+- Eerie Spell
+- Surf
 
 === TRAINER_JACKI_5 ===
 Name: Jacki
@@ -7100,27 +8707,57 @@ AI: Check Bad Move
 
 Alakazam
 Level: 70
+Ability: Inner Focus
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Kinesis
+- Reflect
+- Psychic
+- Calm Mind
 
 Rapidash-Galar
 Level: 70
+Ability: Pastel Veil
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Psycho Cut
+- Megahorn
+- Stomp
+- Dazzling Gleam
 
 Chimecho
 Level: 70
+Ability: Levitate
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Yawn
+- Extrasensory
+- Uproar
+- Safeguard
 
 Grumpig
 Level: 70
+Ability: Thick Fat
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Teeter Dance
+- Power Gem
+- Rest
+- Psychic
 
 Hypno
 Level: 70
+Ability: Insomnia
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Hypnosis
+- Disable
+- Psychic
+- Nasty Plot
 
 Slowking-Galar
 Level: 70
+Ability: Own Tempo
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Power Gem
+- Nasty Plot
+- Eerie Spell
+- Surf
 
 === TRAINER_WALTER_1 ===
 Name: Walter
@@ -8205,7 +9842,30 @@ AI: Check Bad Move
 
 Hypno
 Level: 28
+Ability: Insomnia
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Hypnosis
+- Disable
+- Psybeam
+- Psych Up
+
+Mawile
+Level: 28
+Ability: Intimidate
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Fairy Wind
+- Sucker Punch
+- Iron Defense
+- Crunch
+
+Miltank
+Level: 28
+Ability: Thick Fat
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Growl
+- Rollout
+- Defense Curl
+- Headbutt
 
 === TRAINER_PAUL ===
 Name: Paul
@@ -8218,15 +9878,30 @@ AI: Check Bad Move
 
 Aipom
 Level: 28
+Ability: Run Away
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Sand Attack
+- Astonish
+- Fury Swipes
+- Screech
 
 Lickitung
 Level: 28
+Ability: Own Tempo
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Lick
+- Defense Curl
+- Rollout
+- Wrap
 
 Vigoroth
 Level: 28
+Ability: Vital Spirit
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Focus Energy
+- Encore
+- Slash
+- Throat Chop
 
 === TRAINER_JERRY_2 ===
 Name: JERRY
@@ -8328,11 +10003,28 @@ AI: Check Bad Move
 
 Swinub
 Level: 28
+Ability: Snow Cloak
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Mud-Slap
+- Powder Snow
+- Ice Shard
+- Endure
 
 Sneasel
 Level: 28
+Ability: Keen Eye
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Leer
+- Taunt
+- Metal Claw
+- Icy Wind
+
+Delibird
+Level: 28
+Ability: Hustle
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Present
+- Drill Peck
 
 === TRAINER_KAREN_2 ===
 Name: Karen
@@ -8976,11 +10668,21 @@ AI: Check Bad Move
 
 Plusle @ Oran Berry
 Level: 18
+Ability: Plus
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Play Nice
+- Thunder Wave
+- Helping Hand
+- Spark
 
 Minun @ Oran Berry
 Level: 18
+Ability: Minus
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Play Nice
+- Thunder Wave
+- Helping Hand
+- Spark
 
 === TRAINER_ISABEL_2 ===
 Name: Isabel
@@ -8992,12 +10694,22 @@ Double Battle: No
 AI: Check Bad Move
 
 Plusle @ Sitrus Berry
-Level: 36
+Level: 50
+Ability: Plus
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Nuzzle
+- Copycat
+- Thunder
+- Nasty Plot
 
 Minun @ Sitrus Berry
 Level: 36
+Ability: Minus
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Nuzzle
+- Copycat
+- Thunder
+- Nasty Plot
 
 === TRAINER_ISABEL_3 ===
 Name: Isabel
@@ -9009,12 +10721,22 @@ Double Battle: No
 AI: Check Bad Move
 
 Plusle @ Sitrus Berry
-Level: 44
+Level: 60
+Ability: Plus
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Nuzzle
+- Copycat
+- Thunder
+- Nasty Plot
 
 Minun @ Sitrus Berry
-Level: 44
+Level: 60
+Ability: Minus
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Nuzzle
+- Copycat
+- Thunder
+- Nasty Plot
 
 === TRAINER_ISABEL_4 ===
 Name: Isabel
@@ -9026,12 +10748,22 @@ Double Battle: No
 AI: Check Bad Move
 
 Plusle @ Sitrus Berry
-Level: 52
+Level: 70
+Ability: Plus
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Nuzzle
+- Copycat
+- Thunder
+- Nasty Plot
 
 Minun @ Sitrus Berry
-Level: 52
+Level: 70
+Ability: Minus
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Nuzzle
+- Copycat
+- Thunder
+- Nasty Plot
 
 === TRAINER_ISABEL_5 ===
 Name: Isabel
@@ -9043,12 +10775,22 @@ Double Battle: No
 AI: Check Bad Move
 
 Plusle @ Sitrus Berry
-Level: 60
+Level: 80
+Ability: Plus
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Nuzzle
+- Copycat
+- Thunder
+- Nasty Plot
 
 Minun @ Sitrus Berry
-Level: 60
+Level: 80
+Ability: Minus
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Nuzzle
+- Copycat
+- Thunder
+- Nasty Plot
 
 === TRAINER_TIMOTHY_1 ===
 Name: Timothy
@@ -9523,7 +11265,10 @@ AI: Check Bad Move
 
 Poochyena
 Level: 5
+Ability: Run Away
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Howl
 
 === TRAINER_BILLY ===
 Name: Billy
@@ -9747,13 +11492,23 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Mightyena
-Level: 30
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
-
 Linoone
-Level: 30
+Level: 40
+Ability: Gluttony
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Slash
+- Baby-Doll Eyes
+- Headbutt
+- Hone Claws
+
+Mightyena
+Level: 40
+Ability: Intimidate
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Fire Fang
+- Crunch
+- Howl
+- Roar
 
 === TRAINER_CALVIN_3 ===
 Name: Calvin
@@ -9764,17 +11519,31 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Swellow
-Level: 36
+Swellow @ Flame Orb
+Level: 50
+Ability: Guts
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Brave Bird
+- Growl
+- Focus Energy
+- Quick Attack
 
-Linoone
-Level: 38
+Linoone @ Sitrus Berry
+Level: 50
+Ability: Gluttony
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Baby-Doll Eyes
+- Headbutt
+- Belly Drum
+- Double-Edge
 
-Mightyena
-Level: 38
+Mightyena @ Black Glasses
+Level: 50
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Fire Fang
+- Crunch
+- Howl
+- Roar
 
 === TRAINER_CALVIN_4 ===
 Name: Calvin
@@ -9785,21 +11554,41 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Swellow
-Level: 44
+Swellow @ Flame Orb
+Level: 60
+Ability: Guts
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Brave Bird
+- Focus Energy
+- Quick Attack
+- Reversal
 
-Linoone
-Level: 46
+Linoone @ Sitrus Berry
+Level: 60
+Ability: Gluttony
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Baby-Doll Eyes
+- Headbutt
+- Belly Drum
+- Double-Edge
 
-Mightyena
-Level: 46
+Mightyena @ Black Glasses
+Level: 60
+Ability: Intimidate
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Fire Fang
+- Crunch
+- Howl
+- Play Rough
 
-Raticate
-Level: 44
+Raticate @ Chople Berry
+Level: 60
+Ability: Guts
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Swords Dance
+- Focus Energy
+- Crunch
+- Double-Edge
 
 === TRAINER_CALVIN_5 ===
 Name: Calvin
@@ -9810,25 +11599,50 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Swellow
-Level: 52
+Swellow @ Flame Orb
+Level: 70
+Ability: Guts
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Brave Bird
+- Focus Energy
+- Quick Attack
+- Reversal
 
-Linoone
-Level: 54
+Linoone @ Sitrus Berry
+Level: 70
+Ability: Gluttony
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Baby-Doll Eyes
+- Headbutt
+- Belly Drum
+- Double-Edge
 
-Mightyena
-Level: 54
+Mightyena @ Black Glasses
+Level: 70
+Ability: Intimidate
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Fire Fang
+- Crunch
+- Howl
+- Play Rough
 
-Raticate
-Level: 52
+Raticate @ Chople Berry
+Level: 70
+Ability: Guts
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Swords Dance
+- Focus Energy
+- Crunch
+- Double-Edge
 
-Pidgeot
-Level: 54
+Pidgeot @ Sharp Beak
+Level: 70
+Ability: Big Pecks
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Hurricane
+- Quick Attack
+- Feather Dance
+- Roost
 
 === TRAINER_EDDIE ===
 Name: Eddie
@@ -9841,11 +11655,21 @@ AI: Check Bad Move
 
 Linoone
 Level: 22
+Ability: Gluttony
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Slash
+- Baby-Doll Eyes
+- Headbutt
+- Hone Claws
 
 Yanma
 Level: 22
+Ability: Speed Boost
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Quick Attack
+- Air Cutter
+- Detect
+- Supersonic
 
 === TRAINER_ALLEN ===
 Name: Allen
@@ -10035,16 +11859,27 @@ Double Battle: No
 AI: Check Bad Move
 
 Magikarp
-Level: 14
+Level: 16
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Splash
+- Tackle
 
 Feebas
-Level: 14
+Level: 16
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Splash
+- Tackle
 
 Mantyke
-Level: 14
+Level: 16
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Supersonic
+- Wing Attack
+- Water Pulse
 
 === TRAINER_NED ===
 Name: Ned
@@ -10073,20 +11908,40 @@ Double Battle: No
 AI: Check Bad Move
 
 Tentacool
-Level: 20
+Level: 22
+Ability: Clear Body
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Sting
+- Acid
+- Water Pulse
+- Screech
 
 Wailmer
-Level: 20
+Level: 22
+Ability: Oblivious
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Growl
+- Astonish
+- Mist
+- Water Pulse
 
 Remoraid
 Level: 22
+Ability: Hustle
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Focus Energy
+- Psybeam
+- Aurora Beam
+- Bubble Beam
 
 Chinchou
 Level: 22
+Ability: Illuminate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Supersonic
+- Bubble Beam
+- COnfuse Ray
+- Spark
 
 === TRAINER_NOLAN ===
 Name: Nolan
@@ -10112,11 +11967,21 @@ AI: Check Bad Move
 
 Tentacruel
 Level: 46
+Ability: Clear Body
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Reflect Type
+- Bubble Beam
+- Hex
+- Poison Jab
 
 Wailord
 Level: 46
+Ability: Oblivious
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Noble Roar
+- Water Pulse
+- Bounce
+- Body Slam
 
 === TRAINER_WADE ===
 Name: Wade
@@ -10148,13 +12013,32 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Cloyster
+Cloyster @ White Herb
 Level: 50
+Ability: Shell Armor
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Icicle Crash
+- Toxic Spikes
+- Shell Smash
+- Razor Shell
 
-Starmie
+Starmie @ Water Gem
 Level: 50
+Ability: Natural Cure
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Rapid Spin
+- Power Gem
+- Psychic
+- Hydro Pump
+
+Gyarados @ Wacan Berry
+Level: 50
+Ability: Intimidate
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Ice Fang
+- Crunch
+- Aqua Tail
+- Hurricane
 
 === TRAINER_ELLIOT_2 ===
 Name: Elliot
@@ -10165,17 +12049,32 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Gyarados
-Level: 30
+Gyarados @ Life Orb
+Level: 48
+Ability: Intimidate
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Ice Fang
+- Aqua Tail
+- Dragon Dance
+- Hurricane
 
-Feebas
-Level: 30
+Milotic @ Flame Orb
+Level: 48
+Ability: Marvel Scale
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Disarming Voice
+- Attract
+- Recover
+- Surf
 
-Mantyke
-Level: 30
+Mantine @ Mystic Water
+Level: 48
+Ability: Swift Swim
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Psybeam
+- Air Slash
+- Aqua Ring
+- Hydro Pump
 
 === TRAINER_ELLIOT_3 ===
 Name: Elliot
@@ -10186,21 +12085,41 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Gyarados
-Level: 40
+Gyarados @ Life Orb
+Level: 56
+Ability: Intimidate
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Ice Fang
+- Aqua Tail
+- Dragon Dance
+- Hurricane
 
-Milotic
-Level: 40
+Milotic @ Flame Orb
+Level: 56
+Ability: Marvel Scale
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Disarming Voice
+- Attract
+- Recover
+- Surf
 
-Mantine
-Level: 40
+Mantine @ Mystic Water
+Level: 56
+Ability: Swift Swim
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Psybeam
+- Air Slash
+- Aqua Ring
+- Hydro Pump
 
-Tentacruel
-Level: 40
+Tentacruel @ Poison Barb
+Level: 56
+Ability: Clear Body
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Supersonic
+- Hex
+- Surf
+- Sludge Wave
 
 === TRAINER_ELLIOT_4 ===
 Name: Elliot
@@ -10211,25 +12130,50 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Gyarados
-Level: 50
+Gyarados @ Life Orb
+Level: 64
+Ability: Intimidate
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Ice Fang
+- Aqua Tail
+- Dragon Dance
+- Hurricane
 
-Milotic
-Level: 50
+Milotic @ Flame Orb
+Level: 64
+Ability: Marvel Scale
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Disarming Voice
+- Attract
+- Recover
+- Surf
 
-Mantine
-Level: 50
+Mantine @ Mystic Water
+Level: 64
+Ability: Swift Swim
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Psybeam
+- Air Slash
+- Aqua Ring
+- Hydro Pump
 
-Tentacruel
-Level: 50
+Tentacruel @ Poison Barb
+Level: 64
+Ability: Clear Body
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Supersonic
+- Hex
+- Sludge Wave
+- Hydro Pump
 
-Sharpedo
-Level: 50
+Sharpedo @ Rocky Helmet
+Level: 64
+Ability: Rough Skin
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Poison Fang
+- Ice Fang
+- Crunch
+- Liquidation
 
 === TRAINER_ELLIOT_5 ===
 Name: Elliot
@@ -10240,29 +12184,59 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move / Try To Faint
 
-Gyarados
-Level: 60
+Gyarados @ Life Orb
+Level: 80
+Ability: Intimidate
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Ice Fang
+- Aqua Tail
+- Dragon Dance
+- Hurricane
 
-Milotic
-Level: 60
+Milotic @ Flame Orb
+Level: 80
+Ability: Marvel Scale
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Disarming Voice
+- Attract
+- Recover
+- Surf
 
-Mantine
-Level: 60
+Mantine @ Mystic Water
+Level: 80
+Ability: Swift Swim
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Psybeam
+- Air Slash
+- Aqua Ring
+- Hydro Pump
 
-Tentacruel
-Level: 60
+Tentacruel @ Poison Barb
+Level: 80
+Ability: Clear Body
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Supersonic
+- Hex
+- Sludge Wave
+- Hydro Pump
 
-Sharpedo
-Level: 60
+Sharpedo @ Rocky Helmet
+Level: 80
+Ability: Rough Skin
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Poison Fang
+- Ice Fang
+- Crunch
+- Liquidation
 
-Crawdaunt
-Level: 60
+Whiscash @ Assault Vest
+Level: 80
+Ability: Hydration
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Zen Headbutt
+- Thrash
+- Aqua Tail
+- Earthquake
 
 === TRAINER_RONALD ===
 Name: Ronald
@@ -10273,29 +12247,57 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Magikarp
+Magikarp @ Jaboca Berry
 Level: 68
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Splash
+- Tackle
+- Flail
 
-Feebas
+Feebas @ Rowap Berry
 Level: 68
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Splash
+- Tackle
+- Flail
 
-Gyarados
+Gyarados @ Expert Belt
 Level: 68
+Ability: Intimidate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Fang
+- Crunch
+- Aqua Tail
+- Hurricane
 
-Milotic
+Milotic @ Flame Orb
 Level: 68
+Ability: Marvel Scale
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Disarming Voice
+- Attract
+- Recover
+- Hydro Pump
 
-Poliwrath
+Poliwrath @ Fighting Gem
 Level: 68
+Ability: Water Absorb
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hypnosis
+- Hydro Pump
+- Belly Drum
+- Dynamic Punch
 
-Politoed
+Politoed @ Throat Spray
 Level: 68
+Ability: Damp
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hydro Pump
+- Hypnosis
+- Hyper Voice
+- Earth Power
 
 === TRAINER_JACOB ===
 Name: Jacob
@@ -10854,13 +12856,23 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Poliwrath
+Poliwrath @ Wide Lens
 Level: 64
+Ability: Water Absorb
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Body Slam
+- Hypnosis
+- Hydro Pump
+- Dynamic Punch
 
-Politoed
+Politoed @ Focus Band
 Level: 64
+Ability: Water Absorb
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hydro Pump
+- Hypnosis
+- Hyper Voice
+- Earth Power
 
 === TRAINER_DEMETRIUS ===
 Name: Demetrius
@@ -10924,11 +12936,21 @@ AI: Check Bad Move
 
 Pelipper
 Level: 68
+Ability: Drizzle
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tailwind
+- Supersonic
+- Hurricane
+- Hydro Pump
 
 Starmie
 Level: 68
+Ability: Illuminate
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
+- Rapid Spin
+- Power Gem
+- Psychic
+- Power Gem
 
 === TRAINER_ISAIAH_2 ===
 Name: Isaiah
@@ -11033,11 +13055,21 @@ AI: Check Bad Move
 
 Politoed
 Level: 66
+Ability: Drizzle
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hydro Pump
+- Hypnosis
+- Hyper Voice
+- Earth Power
 
 Azumarill
 Level: 66
+Ability: Huge Power
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Charm
+- Bounce
+- Aqua Tail
+- Play Rough
 
 === TRAINER_DONNY ===
 Name: Donny
@@ -11050,11 +13082,21 @@ AI: Check Bad Move
 
 Cloyster
 Level: 66
+Ability: Skill Link
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Toxic Spikes
+- Shell Smash
+- Icicle Spear
+- Razor Shell
 
 Feraligatr
 Level: 66
+Ability: Torrent
 IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+- Ice Fang
+- Crunch
+- Screech
+- Aqua Tail
 
 === TRAINER_TALIA ===
 Name: Talia
@@ -11067,11 +13109,21 @@ AI: Check Bad Move
 
 Starmie
 Level: 68
+Ability: Natural Cure
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rapid Spin
+- Power Gem
+- Psychic
+- Hydro Pump
 
 Kingdra
 Level: 68
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Focus Energy
+- Dragon Pulse
+- Hydro Pump
+- Dragon Dance
 
 === TRAINER_KATELYN_1 ===
 Name: Katelyn
@@ -11097,11 +13149,21 @@ AI: Check Bad Move
 
 Golduck
 Level: 68
+Ability: Cloud Nine
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Zen Headbutt
+- Screech
+- Amnesia
+- Hydro Pump
 
 Quagsire
 Level: 68
+Ability: Water Absorb
 IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+- Yawn
+- Aqua Tail
+- Toxic
+- Earthquake
 
 === TRAINER_KATELYN_2 ===
 Name: Katelyn
@@ -11467,11 +13529,20 @@ AI: Check Bad Move
 
 Murkrow @ Eviolite
 Level: 46
+Ability: Insomnia
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Wing Attack
+- Assurance
+- Taunt
+- Foul Play
 
 Xatu @ Colbur Berry
 Level: 46
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Air Slash
+- Confuse Ray
+- Psycho Shift
+- Psychic
 
 === TRAINER_HUGH ===
 Name: Hugh
@@ -11484,11 +13555,21 @@ AI: Check Bad Move
 
 Pelipper
 Level: 46
+Ability: Keen Eye
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Air Slash
+- Tailwind
+- Water Pulse
+- Mist
 
 Tropius
 Level: 46
+Ability: Chlorophyll
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Leaf Storm
+- Air Slash
+- Body Slam
+- Outrage
 
 === TRAINER_PHIL ===
 Name: Phil
@@ -11501,15 +13582,30 @@ AI: Check Bad Move
 
 Swellow @ Normal Gem
 Level: 46
+Ability: Guts
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Brave Bird
+- Focus Energy
+- Quick Attack
+- Quick Guard
 
 Fearow @ Wacan Berry
 Level: 46
+Ability: Keen Eye
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Drill Run
+- Assurance
+- Take Down
+- Drill Peck
 
 Togekiss @ Babiri Berry
 Level: 46
+Ability: Serene Grace
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Air Slash
+- Aura Sphere
+- Tri Attack
+- Ancient Power
 
 === TRAINER_JARED ===
 Name: Jared
@@ -11634,11 +13730,21 @@ AI: Check Bad Move
 
 Pelipper
 Level: 54
+Ability: Keen Eye
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Air Slash
+- Tailwind
+- Water Pulse
+- Roost
 
 Xatu
 Level: 54
+Ability: Synchronize
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Air Slash
+- Confuse Ray
+- Psychic
+- Wish
 
 === TRAINER_ROBERT_1 ===
 Name: Robert
@@ -11662,17 +13768,50 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Pidgeot @ Wacan Berry
+Xatu @ Bright Powder
 Level: 66
+Ability: Synchronize
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Air Slash
+- Tailwind
+- Confuse Ray
+- Psychic
 
-Togekiss @ Bright Powder
+Fearow @ Scope Lens
 Level: 66
+Ability: Sniper
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Drill Run
+- Focus Energy
+- Roost
+- Drill Peck
 
-Altaria @ Shell Bell
+Swellow @ Flame Orb
 Level: 66
+Ability: Guts
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Brave Bird
+- Focus Energy
+- Quick Attack
+- Reversal
+
+Togekiss @ Kings Rock
+Level: 66
+Ability: Serene Grace
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Air Slash
+- Aura Sphere
+- Tri Attack
+- Ancient Power
+
+Pidgeot @ Pidgeotite
+Level: 66
+Ability: Keen Eye
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hurricane
+- Quick Attack
+- Roost
+- Air Slash
 
 === TRAINER_CHESTER ===
 Name: Chester
@@ -11685,11 +13824,21 @@ AI: Check Bad Move
 
 Swellow @ Wacan Berry
 Level: 46
+Ability: Guts
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Brave Bird
+- Focus Energy
+- Quick Attack
+- Quick Guard
 
 Altaria @ Kings Rock
 Level: 46
+Ability: Natural Cure
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Pluck
+- Dragon Pulse
+- Sing
+- Moonblast
 
 === TRAINER_ROBERT_2 ===
 Name: Robert
@@ -11700,7 +13849,7 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Xatu
+Noctowl
 Level: 54
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 
@@ -11717,7 +13866,7 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Xatu
+Noctowl
 Level: 58
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 
@@ -11738,7 +13887,7 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Xatu
+Noctowl
 Level: 64
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
@@ -11763,11 +13912,11 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Altaria
+Noctowl
 Level: 70
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
-Xatu
+Altaria
 Level: 70
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
@@ -11792,17 +13941,32 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Xatu
+Xatu @ Wacan Berry
 Level: 70
+Ability: Magic Bounce
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Air Slash
+- Tailwind
+- Confuse Ray
+- Psychic
 
-Altaria
+Altaria @ Power Herb
 Level: 70
+Ability: Natural Cure
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Dragon Pulse
+- Sing
+- Moonblast
+- Sky Attack
 
-Fearow
+Fearow @ Flying Gem
 Level: 70
+Ability: Keen Eye
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Drill Run
+- Assurance
+- Focus Energy
+- Drill Peck
 
 === TRAINER_BECK ===
 Name: Beck
@@ -11813,21 +13977,41 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Skarmory
+Skarmory @ Sitrus Berry
 Level: 70
+Ability: Sturdy
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sand Attack
+- Steel Wing
+- Drill Peck
+- Spikes
 
-Noctowl
+Noctowl @ Wide Lens
 Level: 70
+Ability: Keen Eye
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Air Slash
+- Moonblast
+- Hypnosis
+- Dream Eater
 
-Pidgeot
+Pidgeot @ Wacan Berry
 Level: 70
+Ability: Tangled Feet
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hurricane
+- Quick Attack
+- Feather Dance
+- Roost
 
-Swellow
+Swellow @ Flame Orb
 Level: 70
+Ability: Guts
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Brave Bird
+- Pluck
+- Quick Attack
+- Quick Guard
 
 === TRAINER_YASU ===
 Name: Yasu
@@ -11915,13 +14099,23 @@ Gender: Female
 Music: Girl
 Double Battle: No
 
-Azumarill
+Azumarill @ Kebia Berry
 Level: 48
+Ability: Huge Power
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Helping Hand
+- Bounce
+- Aqua Tail
+- Play Rough
 
-Dewgong
+Dewgong @ Wise Glasses
 Level: 48
+Ability: Thick Fat
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Encore
+- Aqua Ring
+- Aurora Beam
+- Aqua Jet
 
 === TRAINER_LAO_1 ===
 Name: Lao
@@ -12233,7 +14427,39 @@ AI: Check Bad Move
 
 Tauros-Paldea-Combat @ Coba Berry
 Level: 46
+Ability: Anger Point
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Work Up
+- Assurance
+- Zen Headbutt
+- Raging Bull
+
+Machoke @ Eviolite
+Level: 46
+Ability: Guts
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Low Sweep
+- Knock Off
+- Dual Chop
+- Bulk Up
+
+Medicham @ Coba Berry
+Level: 46
+Ability: Pure Power
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Ice Punch
+- Work Up
+- Zen Headbutt
+- High Jump Kick
+
+Hitmontop @ Black Belt
+Level: 46
+Ability: Technician
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Fake Out
+- Triple Kick
+- Rapid Spin
+- Detect
 
 === TRAINER_PAULA ===
 Name: Paula
@@ -12246,7 +14472,39 @@ AI: Check Bad Move
 
 Sneasler @ Quick Claw
 Level: 46
+Ability: Pressure
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Dire Claw
+- Metal Claw
+- Brick Break
+- Hone Claws
+
+Poliwrath @ Wacan Berry
+Level: 46
+Ability: Water Absorb
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Hypnosis
+- Hydro Pump
+- Belly Drum
+- Dynamic Punch
+
+Sirfetch'd @ Payapa Berry
+Level: 46
+Ability: Steadfast
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- First Impression
+- Knock Off
+- Brick Break
+- Swords Dance
+
+Hitmonlee @ Fighting Gem
+Level: 46
+Ability: Reckless
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Focus Energy
+- Sucker Punch
+- Blaze Kick
+- High Jump Kick
 
 === TRAINER_CYNDY_2 ===
 Name: Cyndy
@@ -12392,11 +14650,21 @@ AI: Check Bad Move
 
 Roserade
 Level: 50
+Ability: Natural Cure
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Grassy Terrain
+- Toxic Spikes
+- Synthesis
+- Petal Dance
 
 Delcatty
 Level: 50
+Ability: Cute Charm
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fake Out
+- Payback
+- Double-Edge
+- Play Rough
 
 === TRAINER_ANGELICA ===
 Name: Angelica
@@ -12590,11 +14858,21 @@ AI: Check Bad Move
 
 Pelipper
 Level: 46
+Ability: Keen Eye
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Air Slash
+- Tailwind
+- Water Pulse
+- Mist
 
 Golduck
 Level: 46
+Ability: Damp
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Zen Headbutt
+- Screech
+- Amnesia
+- Hydro Pump
 
 === TRAINER_IMANI ===
 Name: Imani
@@ -12607,7 +14885,12 @@ AI: Check Bad Move
 
 Azumarill
 Level: 48
+Ability: Huge Power
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rollout
+- Defense Curl
+- Aqua Tail
+- Play Rough
 
 === TRAINER_KYLA ===
 Name: Kyla
@@ -12620,11 +14903,21 @@ AI: Check Bad Move
 
 Whiscash
 Level: 46
+Ability: Oblivious
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Zen Headbutt
+- Thrash
+- Aqua Tail
+- Earthquake
 
 Wailord
 Level: 46
+Ability: Oblivious
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Noble Roar
+- Heavy Slam
+- Dive
+- Bounce
 
 === TRAINER_DENISE ===
 Name: Denise
@@ -12637,11 +14930,21 @@ AI: Check Bad Move
 
 Corsola
 Level: 48
+Ability: Hustle
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Aqua Ring
+- Bubble Beam
+- Power Gem
+- Earth Power
 
 Lanturn
 Level: 48
+Ability: Volt Absorb
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Eerie Impulse
+- Bubble Beam
+- Confuse Ray
+- Discharge
 
 === TRAINER_BETH ===
 Name: Beth
@@ -12654,11 +14957,21 @@ AI: Check Bad Move
 
 Vaporeon
 Level: 48
+Ability: Water Absorb
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Charm
+- Helping Hand
+- Aurora Beam
+- Muddy Water
 
 Dewgong
 Level: 48
+Ability: Thick Fat
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Headbutt
+- Encore
+- Aurora Beam
+- Brine
 
 === TRAINER_TARA ===
 Name: Tara
@@ -12671,11 +14984,21 @@ AI: Check Bad Move
 
 Kingler
 Level: 50
+Ability: Hyper Cutter
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Wide Guard
+- Hammer Arm
+- Razor Shell
+- Swords Dance
 
 Mantine
 Level: 50
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psybeam
+- Roost
+- Air Slash
+- Hydro Pump
 
 === TRAINER_MISSY ===
 Name: Missy
@@ -12688,11 +15011,21 @@ AI: Check Bad Move
 
 Slowbro
 Level: 50
+Ability: Own Tempo
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Yawn
+- Disable
+- Surf
+- Psychic
 
 Slowking
 Level: 50
+Ability: Own Tempo
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Power Gem
+- Nasty Plot
+- Surf
+- Psychic
 
 === TRAINER_ALICE ===
 Name: Alice
@@ -12705,15 +15038,30 @@ AI: Check Bad Move
 
 Seaking
 Level: 50
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Supersonic
+- Horn Attack
+- Aqua Ring
+- Waterfall
 
 Octillery
 Level: 50
+Ability: Sniper
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Gunk Shot
+- Focus Energy
+- Ice Beam
+- Hydro Pump
 
 Gorebyss
 Level: 50
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Draining Kiss
+- Amnesia
+- Psychic
+- Hydro Pump
 
 === TRAINER_JENNY_1 ===
 Name: Jenny
@@ -12724,9 +15072,14 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Lapras
+Lapras @ Focus Sash
 Level: 62
+Ability: Water Absorb
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sing
+- Confuse Ray
+- Ice Beam
+- Hydro Pump
 
 === TRAINER_GRACE ===
 Name: Grace
@@ -12737,17 +15090,32 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Azumarill
+Azumarill @ Mystic Water
 Level: 60
+Ability: Huge Power
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Charm
+- Aqua Tail
+- Play Rough
+- Rain Dance
 
-Quagsire
+Quagsire @ Rindo Berry
 Level: 60
+Ability: Water Absorb
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Yawn
+- Aqua Tail
+- Toxic
+- Earthquake
 
-Seaking
+Seaking @ Focus Band
 Level: 60
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Supersonic
+- Aqua Ring
+- Waterfall
+- Megahorn
 
 === TRAINER_TANYA ===
 Name: Tanya
@@ -12758,13 +15126,23 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Wailord
+Wailord @ Sitrus Berry
 Level: 64
+Ability: Water Veil
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Noble Roar
+- Body Slam
+- Rest
+- Water Spout
 
-Milotic
+Milotic @ Mystic Water
 Level: 64
+Ability: Competitive
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Disarming Voice
+- Attract
+- Recover
+- Surf
 
 === TRAINER_SHARON ===
 Name: Sharon
@@ -12777,11 +15155,21 @@ AI: Check Bad Move
 
 Seaking
 Level: 64
+Ability: Water Veil
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Supersonic
+- Aqua Ring
+- Waterfall
+- Megahorn
 
 Dewgong
 Level: 64
+Ability: Thick Fat
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Headbutt
+- Aqua Jet
+- Dive
+- Ice Beam
 
 === TRAINER_NIKKI ===
 Name: Nikki
@@ -12792,13 +15180,23 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Seaking
+Walrein
 Level: 66
+Ability: Thick Fat
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Crunch
+- Rollout
+- Surf
+- Blizzard
 
 Vaporeon
 Level: 66
+Ability: Water Absorb
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Charm
+- Aurora Beam
+- Aqua Ring
+- Hydro Pump
 
 === TRAINER_BRENDA ===
 Name: Brenda
@@ -12809,13 +15207,50 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Octillery
+Octillery @ Scope Lens
 Level: 66
+Ability: Sniper
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Gunk Shot
+- Ice Beam
+- Hydro Pump
+- Hyper Beam
 
-Milotic
+Milotic @ Flame Orb
 Level: 66
+Ability: Marvel Scale
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Disarming Voice
+- Attract
+- Recover
+- Hydro Pump
+
+Tauros-Paldea-Aqua @ Shell Bell
+Level: 66
+Ability: Anger Point
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Work Up
+- Zen Headbutt
+- Wave Crash
+- Close Combat
+
+Lanturn @ Air Balloon
+Level: 66
+Ability: Volt Absorb
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Eerie Impulse
+- Confuse Ray
+- Discharge
+- Hydro Pump
+
+Gyarados @ Gyaradosite
+Level: 66
+Ability: Moxie
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Fang
+- Aqua Tail
+- Dragon Dance
+- Hurricane
 
 === TRAINER_KATIE ===
 Name: Katie
@@ -12828,11 +15263,21 @@ AI: Check Bad Move
 
 Slowbro
 Level: 68
+Ability: Own Tempo
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Yawn
+- Surf
+- Slack Off
+- Psychic
 
 Huntail
 Level: 68
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Fang
+- Crunch
+- Aqua Tail
+- Coil
 
 === TRAINER_SUSIE ===
 Name: Susie
@@ -12845,11 +15290,21 @@ AI: Check Bad Move
 
 Luvdisc
 Level: 68
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Attract
+- Draining Kiss
+- Aqua Ring
+- Hydro Pump
 
 Azumarill
 Level: 68
+Ability: Huge Power
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Charm
+- Aqua Tail
+- Play Rough
+- Superpower
 
 === TRAINER_KARA ===
 Name: Kara
@@ -12860,17 +15315,32 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Seaking
+Seaking @ Liechi Berry
 Level: 68
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Supersonic
+- Aqua Ring
+- Waterfall
+- Megahorn
 
-Whiscash
+Dewgong @ Wise Glasses
 Level: 68
+Ability: Thick Fat
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Shard
+- Brine
+- Aqua Tail
+- Ice Beam
 
-Crawdaunt
+Swampert @ Swampertite
 Level: 68
+Ability: Torrent
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Hammer Arm
+- Rock Slide
+- Hydro Pump
 
 === TRAINER_DANA ===
 Name: Dana
@@ -12881,13 +15351,23 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Whiscash
+Whiscash @ Assault Vest
 Level: 68
+Ability: Oblivious
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Zen Headbutt
+- Thrash
+- Aqua Tail
+- Earthquake
 
-Crawdaunt
+Crawdaunt @ Scope Lens
 Level: 68
+Ability: Hyper Cutter
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Taunt
+- Swords Dance
+- Crunch
+- Crabhammer
 
 === TRAINER_SIENNA ===
 Name: Sienna
@@ -12919,17 +15399,32 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Qwilfish-Hisui
+Qwilfish-Hisui @ Shuca Berry
 Level: 70
+Ability: Poison Point
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fell Stinger
+- Barb Barrage
+- Toxic Spikes
+- Crunch
 
-Walrein
+Walrein @ Never-Melt Ice
 Level: 70
+Ability: Thick Fat
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Crunch
+- Body Slam
+- Surf
+- Blizzard
 
-Azumarill
+Azumarill @ Kebia Berry
 Level: 70
+Ability: Huge Power
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Charm
+- Aqua Tail
+- Play Rough
+- Superpower
 
 === TRAINER_LINDA ===
 Name: Linda
@@ -12940,13 +15435,23 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Kingdra
+Kingdra @ Dragon Fang
 Level: 70
+Ability: Sniper
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Focus Energy
+- Dragon Pulse
+- Hydro Pump
+- Dragon Dance
 
-Milotic
+Milotic @ Flame Orb
 Level: 70
+Ability: Marvel Scale
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Disarming Voice
+- Attract
+- Recover
+- Hydro Pump
 
 === TRAINER_KAYLEE ===
 Name: KAYLEE
@@ -12974,21 +15479,41 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Luvdisc
+Luvdisc @ Bright Powder
 Level: 70
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Attract
+- Draining Kiss
+- Aqua Ring
+- Hydro Pump
 
-Luvdisc
+Luvdisc @ Focus Band
 Level: 70
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Attract
+- Draining Kiss
+- Aqua Ring
+- Hydro Pump
 
-Dewgong
+Dewgong @ Chesto Berry
 Level: 70
+Ability: Thick Fat
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rest
+- Dive
+- Ice Beam
+- Snowscape
 
-Walrein
+Walrein @ Rocky Helmet
 Level: 70
+Ability: Ice Body
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Crunch
+- Body Slam
+- Surf
+- Blizzard
 
 === TRAINER_CARLEE ===
 Name: Carlee
@@ -13001,15 +15526,30 @@ AI: Check Bad Move
 
 Seaking @ Bright Powder
 Level: 66
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Supersonic
+- Aqua Ring
+- Waterfall
+- Megahorn
 
 Golduck @ Wacan Berry
 Level: 66
+Ability: Damp
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Aqua Jet
+- Zen Headbutt
+- Screech
+- Hydro Pump
 
 Feraligatr @ Protective Pads
 Level: 66
+Ability: Torrent
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Fang
+- Crunch
+- Aqua Tail
+- Superpower
 
 === TRAINER_JENNY_2 ===
 Name: Jenny
@@ -13020,13 +15560,23 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Lapras
+Lapras @ Focus Sash
 Level: 64
+Ability: Water Absorb
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Sing
+- Confuse Ray
+- Ice Beam
+- Hydro Pump
 
-Walrein
+Walrein @ Rocky Helmet
 Level: 64
+Ability: Thick Fat
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Rollout
+- Body Slam
+- Surf
+- Blizzard
 
 === TRAINER_JENNY_3 ===
 Name: Jenny
@@ -13037,17 +15587,32 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Lapras
+Lapras @ Focus Sash
 Level: 66
+Ability: Water Absorb
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Sing
+- Confuse Ray
+- Ice Beam
+- Hydro Pump
 
-Walrein
+Walrein @ Rocky Helmet
 Level: 66
+Ability: Thick Fat
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Rollout
+- Body Slam
+- Surf
+- Blizzard
 
-Wailord
+Wailord @ Sitrus Berry
 Level: 66
+Ability: Oblivious
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Noble Roar
+- Heavy Slam
+- Bounce
+- Water Spout
 
 === TRAINER_JENNY_4 ===
 Name: Jenny
@@ -13058,21 +15623,41 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Lapras
+Lapras @ Focus Sash
 Level: 68
+Ability: Water Absorb
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Sing
+- Confuse Ray
+- Ice Beam
+- Hydro Pump
 
-Walrein
+Walrein @ Rocky Helmet
 Level: 68
+Ability: Thick Fat
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Rollout
+- Body Slam
+- Surf
+- Blizzard
 
-Wailord
+Wailord @ Sitrus Berry
 Level: 68
+Ability: Oblivious
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Noble Roar
+- Heavy Slam
+- Bounce
+- Water Spout
 
-Starmie
+Starmie @ Kasib Berry
 Level: 68
+Ability: Natural Cure
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Rapid Spin
+- Power Gem
+- Psychic
+- Hydro Pump
 
 === TRAINER_JENNY_5 ===
 Name: Jenny
@@ -13083,25 +15668,50 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Lapras
+Lapras @ Focus Sash
 Level: 70
+Ability: Water Absorb
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Sing
+- Confuse Ray
+- Ice Beam
+- Hydro Pump
 
-Walrein
+Walrein @ Rocky Helmet
 Level: 70
+Ability: Thick Fat
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Rollout
+- Body Slam
+- Surf
+- Blizzard
 
-Wailord
+Wailord @ Sitrus Berry
 Level: 70
+Ability: Oblivious
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Noble Roar
+- Heavy Slam
+- Bounce
+- Water Spout
 
-Starmie
+Starmie @ Kasib Berry
 Level: 70
+Ability: Natural Cure
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Rapid Spin
+- Power Gem
+- Psychic
+- Hydro Pump
 
-Feraligatr
+Feraligatr @ Life Orb
 Level: 70
+Ability: Sheer Force
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Ice Fang
+- Crunch
+- Aqua Tail
+- Superpower
 
 === TRAINER_HEIDI ===
 Name: Heidi
@@ -13113,16 +15723,40 @@ Double Battle: No
 AI: Check Bad Move
 
 Jumpluff
-Level: 38
+Level: 40
+Ability: Chlorophyll
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fairy Wind
+- Poison Powder
+- Mega Drain
+- Acrobatics
 
 Claydol
-Level: 38
+Level: 40
+Ability: Levitate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rapid Spin
+- Ancient Power
+- Extrasensory
+- Earth Power
 
 Quagsire
-Level: 38
+Level: 40
+Ability: Water Absorb
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Mud Shot
+- Mist
+- Muddy Water
+- Amnesia
+
+Roserade
+Level: 40
+Ability: Poison Point
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Giga Drain
+- Toxic
+- Ingrain
+- Growth
 
 === TRAINER_BECKY ===
 Name: Becky
@@ -13133,21 +15767,50 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Sandslash-Alola
-Level: 38
+Sandslash-Alola @ Occa Berry
+Level: 40
+Ability: Snow Cloak
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Metal Claw
-- Rapid Spin
-- Swords Dance
 - Icicle Crash
+- Metal Claw
+- Swords Dance
+- Rapid Spin
 
-Azumarill
-Level: 38
+Azumarill @ Muscle Band
+Level: 40
+Ability: Huge Power
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Aqua Tail
-- Play Rough
 - Rollout
 - Defense Curl
+- Aqua Tail
+- Play Rough
+
+Cradily @ Big Root
+Level: 40
+Ability: Suction Cups
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Leech Seed
+- Confuse Ray
+- Ingrain
+- Giga Drain
+
+Armaldo @ Scope Lens
+Level: 40
+Ability: Battle Armor
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smack Down
+- Metal Claw
+- Bug Bite
+- Crush Claw
+
+Nidoking @ Wide Lens
+Level: 40
+Ability: Poison Point
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Megahorn
+- Double Kick
+- Poison Jab
+- Earth Power
 
 === TRAINER_CAROL ===
 Name: Carol
@@ -13208,13 +15871,32 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Delcatty
+Delcatty @ Bright Powder
 Level: 40
+Ability: Cute Charm
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fake Out
+- Charm
+- Double-Edge
+- Play Rough
 
-Altaria
+Altaria @ Expert Belt
 Level: 40
+Ability: Natural Cure
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Pluck
+- Disarming Voice
+- Dragon Pulse
+- Sing
+
+Shuckle @ Binding Band
+Level: 40
+Ability: Sturdy
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Wrap
+- Rollout
+- Bug Bite
+- Rock Slide
 
 === TRAINER_DIANA_1 ===
 Name: Diana
@@ -13599,15 +16281,30 @@ AI: Check Bad Move
 
 Wingull
 Level: 16
+Ability: Keen Eye
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Growl
+- Water Gun
+- Quick Attack
+- Wing Attack
 
 Horsea
 Level: 16
+Ability: Swift Swim
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Water Gun
+- Smokescreen
+- Twister
+- Focus Energy
 
 Machop
 Level: 16
+Ability: No Guard
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Focus Energy
+- Revenge
+- Low Sweep
+- Knock Off
 
 === TRAINER_EDMOND ===
 Name: Edmond
@@ -13620,15 +16317,30 @@ AI: Check Bad Move
 
 Wingull
 Level: 16
+Ability: Keen Eye
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Growl
+- Water Gun
+- Quick Attack
+- Wing Attack
 
 Krabby
 Level: 16
+Ability: Hyper Cutter
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Water Gun
+- Leer
+- Metal Claw
+- Mud Shot
 
 Barboach
 Level: 16
+Ability: Oblivious
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Mud-Slap
+- Rest
+- Snore
+- Water Pulse
 
 === TRAINER_ERNEST_1 ===
 Name: Ernest
@@ -13803,13 +16515,41 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Walrein
+Walrein @ Chesto Berry
 Level: 48
+Ability: Thick Fat
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Crunch
+- Rest
+- Aurora Beam
+- Surf
 
-Medicham
+Medicham @ Wide Lens
 Level: 48
+Ability: Pure Power
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fire Punch
+- Work Up
+- Zen Headbutt
+- High Jump Kick
+
+Kingler @ Rindo Berry
+Level: 48
+Ability: Shell Armor
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Wide Guard
+- Hammer Arm
+- Razor Shell
+- Swords Dance
+
+Machamp @ Black Belt
+Level: 48
+Ability: No Guard
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Low Sweep
+- Knock Off
+- Dual Chop
+- Bulk Up
 
 === TRAINER_ERNEST_2 ===
 Name: Ernest
@@ -13987,15 +16727,30 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Absol
 Level: 48
+Ability: Pressure
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Knock Off
+- Taunt
+- Night Slash
+- Swords Dance
 
 Crobat
 Level: 48
+Ability: Inner Focus
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Cross Poison
+- Tailwind
+- Supersonic
+- Bite
 
 Azumarill
 Level: 48
+Ability: Huge Power
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rollout
+- Aqua Tail
+- Play Rough
+- Double-Edge
 
 === TRAINER_JONAS ===
 Name: Jonas
@@ -14077,17 +16832,32 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Machamp
+Machamp @ Roseli Berry
 Level: 70
+Ability: No Guard
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Knock Off
+- Dual Chop
+- Bulk Up
+- Dynamic Punch
 
-Walrein
+Walrein @ Rocky Helmet
 Level: 70
+Ability: Thick Fat
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Crunch
+- Body Slam
+- Surf
+- Blizzard
 
-Tentacruel
+Tentacruel @ Water Gem
 Level: 70
+Ability: Liquid Ooze
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Supersonic
+- Hex
+- Poison Jab
+- Hydro Pump
 
 === TRAINER_MARLEY ===
 Name: Marley
@@ -14135,17 +16905,32 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Hitmonchan
+Hitmonchan @ Punching Glove
 Level: 70
+Ability: Iron Fist
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Fake Out
+- Drain Punch
+- Bullet Punch
+- Thunder Punch
 
-Annihilape
+Annihilape @ Expert Belt
 Level: 70
+Ability: Inner Focus
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Rage Fist
+- Close Combat
+- Stomping Tantrum
+- Outrage
 
-Tauros-Paldea-Aqua
+Tauros-Paldea-Aqua @ Mystic Water
 Level: 70
+Ability: Anger Point
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Work Up
+- Zen Headbutt
+- Raging Bull
+- Close Combat
 
 === TRAINER_HUDSON ===
 Name: Hudson
@@ -14156,13 +16941,23 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Wailord
+Wailord @ Petaya Berry
 Level: 70
+Ability: Water Veil
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Noble Roar
+- Heavy Slam
+- Bounce
+- Water Spout
 
-Cloyster
+Cloyster @ Chople Berry
 Level: 70
+Ability: Skill Link
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Supersonic
+- Shell Smash
+- Icicle Spear
+- Razor Shell
 
 === TRAINER_CONOR ===
 Name: Conor
@@ -14211,15 +17006,30 @@ AI: Check Bad Move
 
 Lombre
 Level: 20
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fake Out
+- Knock Off
+- Water Gun
+- Mega Drain
 
 Nuzleaf
 Level: 20
+Ability: Early Bird
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Air Cutter
+- Torment
+- Razor Leaf
+- Growth
 
 Scyther
 Level: 20
+Ability: Technician
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Quick Attack
+- Leer
+- Fury Cutter
+- Wing Attack
 
 === TRAINER_HECTOR ===
 Name: Hector
@@ -14284,16 +17094,40 @@ Double Battle: No
 AI: Check Bad Move
 
 Lombre
-Level: 30
+Level: 40
+Ability: Swift Swim
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Fake Out
+- Knock Off
+- Bubble Beam
+- Giga Drain
 
 Nuzleaf
-Level: 30
+Level: 40
+Ability: Early Bird
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Air Cutter
+- Razor Leaf
+- Payback
+- Synthesis
 
 Scyther
-Level: 30
+Level: 40
+Ability: Technician
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Fury Cutter
+- Wing Attack
+- Double Hit
+- Focus Energy
+
+Lickitung
+Level: 40
+Ability: Own Tempo
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Supersonic
+- Disable
+- Stomp
+- Knock Off
 
 === TRAINER_EDWIN_3 ===
 Name: Edwin
@@ -14304,17 +17138,41 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Ludicolo
-Level: 40
+Ludicolo @ Damp Rock
+Level: 54
+Ability: Swift Swim
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Fake Out
+- Rain Dance
+- Hydro Pump
+- Energy Ball
 
-Shiftry
-Level: 40
+Shiftry @ Kings Rock
+Level: 54
+Ability: Wind Rider
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Hurricane
+- Payback
+- Growth
+- Leaf Blade
 
-Scizor
-Level: 40
+Scizor @ Metronome
+Level: 54
+Ability: Technician
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Wing Attack
+- Fury Cutter
+- Metal Claw
+- Swords Dance
+
+Lickilicky @ Rocky Helmet
+Level: 54
+Ability: Own Tempo
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Rollout
+- Stomp
+- Knock Off
+- Power Whip
 
 === TRAINER_EDWIN_4 ===
 Name: Edwin
@@ -14325,21 +17183,50 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Ludicolo
-Level: 50
+Ludicolo @ Damp Rock
+Level: 66
+Ability: Swift Swim
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Fake Out
+- Rain Dance
+- Hydro Pump
+- Energy Ball
 
-Shiftry
-Level: 50
+Shiftry @ Kings Rock
+Level: 66
+Ability: Wind Rider
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Hurricane
+- Payback
+- Growth
+- Leaf Blade
 
-Scizor
-Level: 50
+Scizor @ Metronome
+Level: 66
+Ability: Technician
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Wing Attack
+- Fury Cutter
+- Metal Claw
+- Swords Dance
 
-Porygon2
-Level: 50
+Lickilicky @ Rocky Helmet
+Level: 66
+Ability: Own Tempo
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Rollout
+- Stomp
+- Knock Off
+- Power Whip
+
+Porygon2 @ Eviolite
+Level: 66
+Ability: Download
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Psybeam
+- Recover
+- Discharge
+- Tri Attack
 
 === TRAINER_EDWIN_5 ===
 Name: Edwin
@@ -14350,25 +17237,59 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Ludicolo
-Level: 60
+Ludicolo @ Damp Rock
+Level: 80
+Ability: Swift Swim
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Fake Out
+- Rain Dance
+- Hydro Pump
+- Energy Ball
 
-Shiftry
-Level: 60
+Shiftry @ Kings Rock
+Level: 80
+Ability: Wind Rider
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Hurricane
+- Payback
+- Growth
+- Leaf Blade
 
-Scizor
-Level: 60
+Scizor @ Metronome
+Level: 80
+Ability: Technician
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Wing Attack
+- Fury Cutter
+- Metal Claw
+- Swords Dance
 
-Porygon-Z
-Level: 60
+Lickilicky @ Rocky Helmet
+Level: 80
+Ability: Own Tempo
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Rollout
+- Stomp
+- Knock Off
+- Power Whip
 
-Farigiraf
-Level: 60
+Porygon-Z @ Expert Belt
+Level: 80
+Ability: Download
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Psybeam
+- Recover
+- Discharge
+- Hyper Beam
+
+Farigiraf @ Scope Lens
+Level: 80
+Ability: Cud Chew
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Stomp
+- Twin Beam
+- Crunch
+- Nasty Plot
 
 === TRAINER_WALLY_VR_1 ===
 Name: Wally
@@ -15096,15 +18017,30 @@ AI: Check Bad Move
 
 Pinsir
 Level: 48
+Ability: Hyper Cutter
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Storm Throw
+- X-Scissor
+- Swords Dance
+- Submission
 
 Heracross
 Level: 48
+Ability: Guts
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Aerial Ace
+- Brick Break
+- Throat Chop
+- Thrash
 
 Yanmega
 Level: 48
+Ability: Speed Boost
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bug Buzz
+- Air Slash
+- Night Slash
+- Detect
 
 === TRAINER_MITCHELL ===
 Name: Mitchell
@@ -15351,13 +18287,23 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Omastar
+Omastar @ Bright Powder
 Level: 48
+Ability: Shell Armor
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Withdraw
+- Crunch
+- Ancient Power
+- Brine
 
-Kabutops
+Kabutops @ Muscle Band
 Level: 48
+Ability: Battle Armor
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Night Slash
+- Sand Attack
+- Aqua Jet
+- Mud Shot
 
 === TRAINER_LYDIA_2 ===
 Name: Lydia
@@ -15553,9 +18499,50 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Sirfetch'd @ Leek
+Ninetales-Alola @ Light Clay
 Level: 66
+Ability: Snow Warning
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Blizzard
+- Nasty Plot
+- Aurora Veil
+- Dazzling Gleam
+
+Castform @ Kings Rock
+Level: 66
+Ability: Forecast
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Weather Ball
+- Hydro Pump
+- Blizzard
+- Hurricane
+
+Starmie @ Psychic Gem
+Level: 66
+Ability: Illuminate
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Rapid Spin
+- Psychic
+- Hydro Pump
+- Confuse Ray
+
+Lapras @ Leftovers
+Level: 66
+Ability: Shell Armor
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Sing
+- Confuse Ray
+- Ice Beam
+- Hydro Pump
+
+Glalie @ Glalitite
+Level: 66
+Ability: Ice Body
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Freeze-Dry
+- Frost Breath
+- Ice Fang
+- Crunch
 
 === TRAINER_JACKSON_2 ===
 Name: Jackson
@@ -15785,13 +18772,50 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Ludicolo @ Mystic Water
+Ludicolo @ Damp Rock
 Level: 66
+Ability: Swift Swim
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Rain Dance
+- Hydro Pump
+- Teeter Dance
+- Energy Ball
 
-Shiftry @ Miracle Seed
+Shiftry @ Rocky Helmet
 Level: 66
+Ability: Wind Rider
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Hurricane
+- Extrasensory
+- Sucker Punch
+- Leaf Blade
+
+Raichu @ Magnet
+Level: 66
+Ability: Lightning Rod
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Nasty Plot
+- Charm
+- Iron Tail
+- Thunder
+
+Azumarill @ White Herb
+Level: 66
+Ability: Huge Power
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Charm
+- Aqua Tail
+- Play Rough
+- Superpower
+
+Manectric @ Manectite
+Level: 66
+Ability: Static
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Howl
+- Bite
+- Wild Charge
+- Thunder
 
 === TRAINER_CATHERINE_2 ===
 Name: Catherine
@@ -16043,15 +19067,30 @@ AI: Check Bad Move
 
 Grumpig
 Level: 58
+Ability: Thick Fat
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Confuse Ray
+- Power Gem
+- Psyshock
+- Payback
 
 Granbull
 Level: 58
+Ability: Intimidate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunder Fang
+- Charm
+- Headbutt
+- Play Rough
 
 Scizor
 Level: 58
+Ability: Swarm
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bullet Punch
+- Iron Head
+- X-Scissor
+- Swords Dance
 
 === TRAINER_GRUNT_JAGGED_PASS ===
 Name: Grunt
@@ -16183,11 +19222,21 @@ AI: Check Bad Move
 
 Poliwrath
 Level: 66
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hypnosis
+- Hydro Pump
+- Belly Drum
+- Dynamic Punch
 
 Mantine
 Level: 66
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psybeam
+- Air Slash
+- Aqua Ring
+- Hydro Pump
 
 === TRAINER_ATHENA ===
 Name: Athena
@@ -16237,15 +19286,30 @@ AI: Check Bad Move
 
 Tentacruel @ Poison Barb
 Level: 66
+Ability: Clear Body
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Reflect Type
+- Supersonic
+- Poison Jab
+- Hydro Pump
 
 Quagsire @ Rindo Berry
 Level: 66
+Ability: Water Absorb
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Yawn
+- Aqua Tail
+- Toxic
+- Earthquake
 
 Blastoise @ Kings Rock
 Level: 66
+Ability: Torrent
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Flash Cannon
+- Shell Smash
+- Iron Defense
+- Wave Crash
 
 === TRAINER_GRUNT_MT_CHIMNEY_2 ===
 Name: Grunt
@@ -16280,11 +19344,21 @@ AI: Check Bad Move
 
 Octillery
 Level: 68
+Ability: Sniper
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Focus Energy
+- Ice Beam
+- Hydro Pump
+- Hyper Beam
 
 Wailord
 Level: 68
+Ability: Water Veil
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Noble Roar
+- Heavy Slam
+- Body Slam
+- Water Spout
 
 === TRAINER_TERRY ===
 Name: TERRY
@@ -16682,11 +19756,21 @@ AI: Check Bad Move
 
 Starmie
 Level: 62
+Ability: Analytic
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rapid Spin
+- Power Gem
+- Psychic
+- Hydro Pump
 
 Slowking
 Level: 62
+Ability: Own Tempo
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Power Gem
+- Nasty Plot
+- Water Pulse
+- Psychic
 
 === TRAINER_GRUNT_WEATHER_INST_5 ===
 Name: Grunt
@@ -16699,15 +19783,30 @@ AI: Check Bad Move
 
 Gyarados
 Level: 48
+Ability: Intimidate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Fang
+- Crunch
+- Aqua Tail
+- Hurricane
 
 Raticate-Alola
 Level: 48
+Ability: Hustle
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Swords Dance
+- Focus Energy
+- Crunch
+- Double-Edge
 
 Gorebyss
 Level: 48
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Draining Kiss
+- Water Pulse
+- Psychic
+- Coil
 
 === TRAINER_TABITHA_MT_CHIMNEY ===
 Name: Tabitha
@@ -16956,15 +20055,30 @@ AI: Check Bad Move
 
 Oddish
 Level: 8
+Ability: Chlorophyll
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Absorb
+- Growth
+- Acid
+- Sweet Scent
 
 Lotad
 Level: 8
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Astonish
+- Growl
+- Absorb
+- Water Gun
 
 Shroomish
 Level: 8
+Ability: Quick Feet
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Absorb
+- Tackle
+- Stun Spore
+- Leech Seed
 
 === TRAINER_JANICE ===
 Name: Janice
@@ -17026,20 +20140,40 @@ Double Battle: No
 AI: Check Bad Move
 
 Gloom
-Level: 36
+Level: 44
+Ability: Chlorophyll
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Giga Drain
+- Toxic
+- Moonblast
+- Grassy Terrain
 
 Weepinbell
-Level: 36
+Level: 44
+Ability: Chlorophyll
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Growth
+- Sleep Powder
+- Knock Off
+- Razor Leaf
 
 Lombre
-Level: 36
+Level: 44
+Ability: Swift Swim
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Fake Out
+- Bubble Beam
+- Leech Seed
+- Giga Drain
 
-Breloom
-Level: 36
+Nuzleaf
+Level: 44
+Ability: Early Bird
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Air Cutter
+- Razor Leaf
+- Payback
+- Synthesis
 
 === TRAINER_HALEY_3 ===
 Name: Haley
@@ -17050,25 +20184,50 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Vileplume
-Level: 46
+Vileplume @ Terrain Extender
+Level: 56
+Ability: Chlorophyll
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Toxic
+- Moonblast
+- Grassy Terrain
+- Petal Dance
 
-Victreebel
-Level: 46
+Victreebel @ Payapa Berry
+Level: 56
+Ability: Chlorophyll
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Sleep Powder
+- Sweet Scent
+- Power Whip
+- Leaf Blade
 
-Ludicolo
-Level: 46
+Ludicolo @ Coba Berry
+Level: 56
+Ability: Swift Swim
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Fake Out
+- Hydro Pump
+- Teeter Dance
+- Energy Ball
 
-Shiftry
-Level: 46
+Shiftry @ Scope Lens
+Level: 56
+Ability: Wind Rider
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Hurricane
+- Payback
+- Synthesis
+- Leaf Blade
 
-Breloom
-Level: 46
+Breloom @ Loaded Dice
+Level: 56
+Ability: Technician
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Toxic
+- Leech Seed
+- Force Palm
+- Bullet Seed
 
 === TRAINER_HALEY_4 ===
 Name: Haley
@@ -17079,29 +20238,59 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Vileplume
-Level: 54
+Vileplume @ Terrain Extender
+Level: 68
+Ability: Chlorophyll
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Toxic
+- Moonblast
+- Grassy Terrain
+- Petal Dance
 
-Victreebel
-Level: 54
+Victreebel @ Payapa Berry
+Level: 68
+Ability: Chlorophyll
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Sleep Powder
+- Sweet Scent
+- Power Whip
+- Leaf Blade
 
-Ludicolo
-Level: 54
+Ludicolo @ Coba Berry
+Level: 68
+Ability: Swift Swim
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Fake Out
+- Hydro Pump
+- Teeter Dance
+- Energy Ball
 
-Shiftry
-Level: 54
+Shiftry @ Scope Lens
+Level: 68
+Ability: Wind Rider
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Hurricane
+- Payback
+- Synthesis
+- Leaf Blade
 
-Breloom
-Level: 54
+Breloom @ Loaded Dice
+Level: 68
+Ability: Technician
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Toxic
+- Leech Seed
+- Force Palm
+- Bullet Seed
 
-Venusaur
-Level: 54
+Venusaur @ Venusaurite
+Level: 68
+Ability: Overgrow
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Petal Dance
+- Growth
+- Leech Seed
+- Sleep Powder
 
 === TRAINER_HALEY_5 ===
 Name: Haley
@@ -17112,29 +20301,59 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Vileplume
-Level: 60
+Vileplume @ Terrain Extender
+Level: 80
+Ability: Chlorophyll
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Toxic
+- Moonblast
+- Grassy Terrain
+- Petal Dance
 
-Victreebel
-Level: 60
+Victreebel @ Payapa Berry
+Level: 80
+Ability: Chlorophyll
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Sleep Powder
+- Sweet Scent
+- Power Whip
+- Leaf Blade
 
-Ludicolo
-Level: 60
+Ludicolo @ Coba Berry
+Level: 80
+Ability: Swift Swim
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Fake Out
+- Hydro Pump
+- Teeter Dance
+- Energy Ball
 
-Shiftry
-Level: 60
+Shiftry @ Scope Lens
+Level: 80
+Ability: Wind Rider
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Hurricane
+- Payback
+- Synthesis
+- Leaf Blade
 
-Breloom
-Level: 60
+Breloom @ Loaded Dice
+Level: 80
+Ability: Technician
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Toxic
+- Leech Seed
+- Force Palm
+- Bullet Seed
 
-Venusaur
-Level: 60
+Venusaur @ Venusaurite
+Level: 80
+Ability: Overgrow
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Petal Dance
+- Growth
+- Leech Seed
+- Sleep Powder
 
 === TRAINER_SALLY ===
 Name: Sally
@@ -17147,11 +20366,21 @@ AI: Check Bad Move
 
 Gligar
 Level: 22
+Ability: Hyper Cutter
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Knock Off
+- Fury Cutter
+- Poison Tail
+- Acrobatics
 
 Kirlia
 Level: 22
+Ability: Synchronize
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Disarming Voice
+- Hypnosis
+- Draining Kiss
+- Psybeam
 
 === TRAINER_ROBIN ===
 Name: Robin
@@ -17164,15 +20393,30 @@ AI: Check Bad Move
 
 Meowth-Galar
 Level: 22
+Ability: Tough Claws
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fake Out
+- Hone Claws
+- Metal Claw
+- Taunt
 
 Marill
 Level: 22
+Ability: Huge Power
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rollout
+- Defense Curl
+- Charm
+- Aqua Tail
 
 Sneasel
 Level: 22
+Ability: Inner Focus
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Leer
+- Taunt
+- Quick Attack
+- Metal Claw
 
 === TRAINER_ANDREA ===
 Name: Andrea
@@ -17314,11 +20558,21 @@ AI: Check Bad Move
 
 Masquerain
 Level: 46
+Ability: Intimidate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Scary Face
+- Air Slash
+- Giga Drain
+- Bug Buzz
 
 Parasect
 Level: 46
+Ability: Effect Spore
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Cross Poison
+- Spore
+- Slash
+- Giga Drain
 
 === TRAINER_GREG ===
 Name: Greg
@@ -17331,11 +20585,21 @@ AI: Check Bad Move
 
 Volbeat
 Level: 48
+Ability: Illuminate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Confuse Ray
+- Tail Glow
+- Bug Buzz
+- Play Rough
 
 Illumise
 Level: 48
+Ability: Illuminate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Charm
+- Zen Headbutt
+- Bug Buzz
+- Play Rough
 
 === TRAINER_KENT ===
 Name: Kent
@@ -17348,7 +20612,12 @@ AI: Check Bad Move
 
 Ninjask
 Level: 48
+Ability: Speed Boost
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Aerial Ace
+- Metal Claw
+- Screech
+- Bug Bite
 
 === TRAINER_JAMES_1 ===
 Name: James
@@ -17491,19 +20760,39 @@ AI: Check Bad Move
 
 Geodude
 Level: 26
+Ability: Rock Head
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Defense Curl
+- Rollout
+- Bulldoze
+- Smack Down
 
 Geodude-Alola
 Level: 26
+Ability: Magnet Pull
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Defense Curl
+- Rollout
+- Smack Down
+- Thunder Punch
 
 Graveler
 Level: 26
+Ability: Sturdy
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Defense Curl
+- Rollout
+- Bulldoze
+- Smack Down
 
 Graveler-Alola
 Level: 26
+Ability: Sturdy
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Defense Curl
+- Rollout
+- Smack Down
+- Thunder Punch
 
 === TRAINER_LENNY ===
 Name: Lenny
@@ -17548,17 +20837,32 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Onix
+Onix @ Focus Band
 Level: 40
+Ability: Sturdy
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Dragon Breath
+- Rock Slide
+- Screech
+- Stealth Rock
 
-Rhyhorn
+Rhyhorn @ Loaded Dice
 Level: 40
+Ability: Rock Head
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Stomp
+- Rock Blast
+- Drill Run
+- Take Down
 
-Nosepass
+Nosepass @ Hard Stone
 Level: 40
+Ability: Sturdy
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rock Slide
+- Discharge
+- Earth Power
+- Stone Edge
 
 === TRAINER_CLARK ===
 Name: Clark
@@ -17665,20 +20969,40 @@ Double Battle: No
 AI: Check Bad Move
 
 Graveler
-Level: 34
+Level: 48
+Ability: Rock Head
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Defense Curl
+- Rollout
+- Bulldoze
+- Smack Down
 
 Graveler-Alola
-Level: 34
+Level: 48
+Ability: Magnet Pull
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Defense Curl
+- Rollout
+- Smack Down
+- Thunder Punch
 
 Golem
-Level: 34
+Level: 48
+Ability: Sand Veil
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Defense Curl
+- Heavy Slam
+- Smack Down
+- Earthquake
 
 Golem-Alola
-Level: 34
+Level: 48
+Ability: Galvanize
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Defense Curl
+- Heavy Slam
+- Smack Down
+- Discharge
 
 === TRAINER_TRENT_3 ===
 Name: Trent
@@ -17690,24 +21014,49 @@ Double Battle: No
 AI: Check Bad Move
 
 Pupitar
-Level: 44
+Level: 54
+Ability: Shed Skin
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Iron Defense
+- Crunch
+- Earthquake
+- Stone Edge
 
 Probopass
-Level: 44
+Level: 54
+Ability: Sturdy
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Tri Attack
+- Power Gem
+- Discharge
+- Earth Power
 
 Golem
-Level: 44
+Level: 54
+Ability: Sand Veil
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Heavy Slam
+- Stealth Rock
+- Earthquake
+- Stone Edge
 
 Golem-Alola
-Level: 44
+Level: 54
+Ability: Galvanize
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Rock Polish
+- Heavy Slam
+- Double-Edge
+- Stone Edge
 
 Aggron
-Level: 44
+Level: 54
+Ability: Rock Head
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Rock Slide
+- Iron Head
+- Take Down
+- Autotomize
 
 === TRAINER_TRENT_4 ===
 Name: Trent
@@ -17718,29 +21067,59 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Tyranitar
-Level: 56
+Tyranitar @ Tyranitarite
+Level: 66
+Ability: Sand Stream
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Thunder Fang
+- Crunch
+- Earthquake
+- Stone Edge
 
-Probopass
-Level: 56
+Probopass @ Focus Band
+Level: 66
+Ability: Sturdy
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Tri Attack
+- Power Gem
+- Discharge
+- Earth Power
 
-Golem
-Level: 56
+Golem @ Hard Stone
+Level: 66
+Ability: Sand Veil
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Heavy Slam
+- Stealth Rock
+- Earthquake
+- Stone Edge
 
-Golem-Alola
-Level: 56
+Golem-Alola @ Magnet
+Level: 66
+Ability: Galvanize
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Rock Polish
+- Heavy Slam
+- Double-Edge
+- Stone Edge
 
-Aggron
-Level: 56
+Aggron @ Quick Claw
+Level: 66
+Ability: Rock Head
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Rock Slide
+- Iron Head
+- Take Down
+- Autotomize
 
-Rhyperior
-Level: 56
+Rhyperior @ Rock Gem
+Level: 66
+Ability: Solid Rock
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Hammer Arm
+- Earthquake
+- Stone Edge
+- Megahorn
 
 === TRAINER_TRENT_5 ===
 Name: Trent
@@ -17751,29 +21130,59 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Tyranitar
-Level: 60
+Tyranitar @ Tyranitarite
+Level: 80
+Ability: Sand Stream
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Thunder Fang
+- Crunch
+- Earthquake
+- Stone Edge
 
-Probopass
-Level: 60
+Probopass @ Focus Band
+Level: 80
+Ability: Sturdy
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Tri Attack
+- Power Gem
+- Discharge
+- Earth Power
 
-Golem
-Level: 60
+Golem @ Hard Stone
+Level: 80
+Ability: Sand Veil
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Heavy Slam
+- Stealth Rock
+- Earthquake
+- Stone Edge
 
-Golem-Alola
-Level: 60
+Golem-Alola @ Magnet
+Level: 80
+Ability: Galvanize
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Rock Polish
+- Heavy Slam
+- Double-Edge
+- Stone Edge
 
-Aggron
-Level: 60
+Aggron @ Quick Claw
+Level: 80
+Ability: Rock Head
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Rock Slide
+- Iron Head
+- Autotomize
+- Double-Edge
 
-Rhyperior
-Level: 60
+Rhyperior @ Rock Gem
+Level: 80
+Ability: Solid Rock
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Hammer Arm
+- Earthquake
+- Megahorn
+- Rock Wrecker
 
 === TRAINER_DEZ_AND_LUKE ===
 Name: Dez & Luke
@@ -17786,19 +21195,39 @@ AI: Check Bad Move
 
 Leafeon
 Level: 58
+Ability: Leaf Guard
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Helping Hand
+- Baby-Doll Eyes
+- Swords Dance
+- Leaf Blade
 
 Glaceon
 Level: 58
+Ability: Snow Cloak
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Helping Hand
+- Baby-Doll Eyes
+- Bite
+- Freeze-Dry
 
 Gardevoir
 Level: 58
+Ability: Trace
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Misty Terrain
+- Mystical Fire
+- Dazzling Gleam
+- Psychic
 
 Gallade
 Level: 58
+Ability: Steadfast
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Aqua Cutter
+- Sacred Sword
+- Swords Dance
+- Psycho Cut
 
 === TRAINER_LEA_AND_JED ===
 Name: Lea & Jed
@@ -18162,7 +21591,7 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move / Try To Faint
 
-Weezing
+Weezing @ Poison Barb
 Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Heat Wave
@@ -18170,7 +21599,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sludge Bomb
 - Toxic
 
-Ninjask
+Ninjask @ Occa Berry
 Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Aerial Ace
@@ -18948,15 +22377,30 @@ AI: Check Bad Move
 
 Seaking
 Level: 64
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Supersonic
+- Aqua Ring
+- Waterfall
+- Megahorn
 
 Octillery
 Level: 64
+Ability: Sniper
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Gunk Shot
+- Focus Energy
+- Ice Beam
+- Hydro Pump
 
 Whiscash
 Level: 64
+Ability: Oblivious
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Zen Headbutt
+- Thrash
+- Aqua Tail
+- Earthquake
 
 === TRAINER_HENRY ===
 Name: Henry
@@ -18969,11 +22413,21 @@ AI: Check Bad Move
 
 Sharpedo
 Level: 64
+Ability: Rough Skin
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Fang
+- Screech
+- Crunch
+- Liquidation
 
-Tentacruel
+Lanturn
 Level: 64
+Ability: Volt Absorb
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Eerie Impulse
+- Confuse Ray
+- Discharge
+- Hydro Pump
 
 === TRAINER_ROGER ===
 Name: Roger
@@ -18986,19 +22440,37 @@ AI: Check Bad Move
 
 Magikarp
 Level: 70
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Splash
+- Tackle
+- Flail
 
 Feebas
 Level: 70
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Splash
+- Tackle
+- Flail
 
 Gyarados
 Level: 66
+Ability: Intimidate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Fang
+- Crunch
+- Aqua Tail
+- Hurricane
 
 Milotic
 Level: 66
+Ability: Competitive
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Disarming Voice
+- Attract
+- Recover
+- Hydro Pump
 
 === TRAINER_ALEXA ===
 Name: Alexa
@@ -19010,25 +22482,50 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Rhyperior
+Rhyperior @ Hard Stone
 Level: 66
+Ability: Solid Rock
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Hammer Arm
+- Earthquake
+- Stone Edge
+- Megahorn
 
-Milotic
+Milotic @ Flame Orb
 Level: 66
+Ability: Marvel Scale
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Disarming Voice
+- Attract
+- Recover
+- Hydro Pump
 
-Ninetales-Alola
+Ninetales-Alola @ Icy Rock
 Level: 66
+Ability: Snow Warning
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Blizzard
+- Nasty Plot
+- Aurora Veil
+- Dazzling Gleam
 
-Sylveon
+Sylveon @ Fairy Feather
 Level: 66
+Ability: Cute Charm
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Charm
+- Baby-Doll Eyes
+- Misty Terrain
+- Moonblast
 
 Charizard @ Charizardite X
 Level: 66
+Ability: Blaze
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Dragon Claw
+- Heat Wave
+- Air Slash
+- Inferno
 
 === TRAINER_RUBEN ===
 Name: Ruben
@@ -19040,25 +22537,50 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Ampharos
+Ampharos @ Air Balloon
 Level: 66
+Ability: Static
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Confuse Ray
+- Power Gem
+- Dazzling Gleam
+- Thunder
 
-Mr Rime
+Mr Rime @ Light Clay
 Level: 66
+Ability: Tangled Feet
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Light Screen
+- Reflect
+- Freeze-Dry
+- Psychic
 
-Clodsire
+Clodsire @ Black Sludge
 Level: 66
+Ability: Water Absorb
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Toxic Spikes
+- Yawn
+- Poison Jab
+- Earthquake
 
-Umbreon
+Umbreon @ Leftovers
 Level: 66
+Ability: Inner Focus
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Baby-Doll Eyes
+- Confuse Ray
+- Moonlight
+- Dark Pulse
 
 Venusaur @ Venusaurite
 Level: 66
+Ability: Overgrow
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Petal Dance
+- Leech Seed
+- Synthesis
+- Power Whip
 
 === TRAINER_KOJI_1 ===
 Name: Koji
@@ -19088,15 +22610,30 @@ AI: Check Bad Move
 
 Tentacruel
 Level: 66
+Ability: Clear Body
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Supersonic
+- Hex
+- Sludge Wave
+- Hydro Pump
 
 Kingler
 Level: 66
+Ability: Shell Armor
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hammer Arm
+- Metal Claw
+- Swords Dance
+- Crabhammer
 
-Gyarados
+Gyarados @ Gyaradosite
 Level: 66
+Ability: Intimidate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Fang
+- Aqua Tail
+- Dragon Dance
+- Hurricane
 
 === TRAINER_AIDAN ===
 Name: Aidan
@@ -19145,11 +22682,21 @@ AI: Check Bad Move
 
 Walrein
 Level: 68
+Ability: Thick Fat
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Crunch
+- Rollout
+- Surf
+- Blizzard
 
 Tauros-Paldea-Aqua
 Level: 68
+Ability: Intimidate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Work Up
+- Zen Headbutt
+- Raging Bull
+- Close Combat
 
 === TRAINER_TISHA ===
 Name: Tisha
@@ -19162,11 +22709,21 @@ AI: Check Bad Move
 
 Lanturn
 Level: 68
+Ability: Volt Absorb
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Eerie Impulse
+- Confuse Ray
+- Discharge
+- Hydro Pump
 
 Azumarill
 Level: 68
+Ability: Huge Power
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rollout
+- Defense Curl
+- Aqua Tail
+- Play Rough
 
 === TRAINER_TORI_AND_TIA ===
 Name: Tori & Tia
@@ -19582,21 +23139,41 @@ Music: Swimmer
 Double Battle: Yes
 AI: Check Bad Move
 
-Dewgong
+Poliwrath @ Wide Lens
 Level: 68
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Body Slam
+- Hydro Pump
+- Circle Throw
+- Dynamic Punch
 
-Quagsire
+Politoed @ Damp Rock
 Level: 68
+Ability: Drizzle
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hydro Pump
+- Body Slam
+- Hypnosis
+- Earth Power
 
-Starmie
+Starmie @ Mystic Water
 Level: 68
+Ability: Natural Cure
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rapid Spin
+- Power Gem
+- Psychic
+- Surf
 
-Whiscash
+Lapras @ Leftovers
 Level: 68
+Ability: Water Absorb
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Shard
+- Body Slam
+- Ice Beam
+- Hydro Pump
 
 === TRAINER_LILA_AND_ROY_1 ===
 Name: Lila & Roy
@@ -19750,19 +23327,39 @@ AI: Check Bad Move
 
 Milotic
 Level: 48
+Ability: Competitive
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Water Pulse
+- Disarming Voice
+- Attract
+- Recover
 
 Walrein
 Level: 48
+Ability: Thick Fat
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Crunch
+- Ice Fang
+- Brine
+- Aurora Beam
 
 Azumarill
 Level: 48
+Ability: Huge Power
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Helping Hand
+- Charm
+- Aqua Tail
+- Play Rough
 
 Gyarados
 Level: 48
+Ability: Intimidate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Fang
+- Crunch
+- Aqua Tail
+- Hurricane
 
 === TRAINER_CHRIS ===
 Name: Chris
@@ -19775,19 +23372,39 @@ AI: Check Bad Move
 
 Gyarados
 Level: 46
+Ability: Intimidate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Fang
+- Waterfall
+- Crunch
+- Hurricane
 
 Tentacruel
 Level: 46
+Ability: Clear Body
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Supersonic
+- Hex
+- Poison Jab
+- Surf
 
 Sharpedo
 Level: 46
+Ability: Rough Skin
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Fang
+- Ice Fang
+- Crunch
+- Liquidation
 
 Whiscash
 Level: 46
+Ability: Oblivious
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Zen Headbutt
+- Thrash
+- Aqua Tail
+- Earthquake
 
 === TRAINER_DAWSON ===
 Name: Dawson
@@ -19856,15 +23473,30 @@ AI: Check Bad Move
 
 Marill
 Level: 16
+Ability: Huge Power
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rollout
+- Defense Curl
+- Helping Hand
+- Bubble Beam
 
 Poliwag
 Level: 16
+Ability: Water Absorb
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Water Gun
+- Hypnosis
+- Pound
+- Mud Shot
 
 Psyduck
 Level: 16
+Ability: Damp
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tail Whip
+- Confusion
+- Water Pulse
+- Disable
 
 === TRAINER_CHANDLER ===
 Name: Chandler
@@ -19877,15 +23509,30 @@ AI: Check Bad Move
 
 Tentacool
 Level: 16
+Ability: Clear Body
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Sting
+- Acid
+- Supersonic
+- Water Pulse
 
 Staryu
 Level: 16
+Ability: Illuminate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Harden
+- Water Gun
+- Rapid Spin
 
 Chinchou
 Level: 16
+Ability: Volt Absorb
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Electro Ball
+- Thunder Wave
+- Bubble Beam
+- Confuse Ray
 
 === TRAINER_KALEB ===
 Name: Kaleb
@@ -19899,10 +23546,18 @@ AI: Check Bad Move
 Minun @ Oran Berry
 Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Play Nice
+- Thunder Wave
+- Helping Hand
+- Spark
 
 Plusle @ Oran Berry
 Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Play Nice
+- Thunder Wave
+- Helping Hand
+- Spark
 
 === TRAINER_JOSEPH ===
 Name: Joseph
@@ -19915,15 +23570,30 @@ AI: Check Bad Move
 
 Electrike
 Level: 20
+Ability: Static
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunder Wave
+- Howl
+- Shock Wave
+- Bite
 
 Voltorb
 Level: 20
+Ability: Soundproof
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Charge
+- Eerie Impulse
+- Rollout
+- Charge Beam
 
 Loudred
 Level: 20
+Ability: Soundproof
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bite
+- Pound
+- Echoed Voice
+- Howl
 
 === TRAINER_ALYSSA ===
 Name: Alyssa
@@ -19936,11 +23606,21 @@ AI: Check Bad Move
 
 Magnemite
 Level: 20
+Ability: Magnet Pull
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunder Shock
+- Supersonic
+- Thunder Wave
+- Gyro Ball
 
 Yanma
 Level: 20
+Ability: Speed Boost
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Quick Attack
+- Air Cutter
+- Detect
 
 === TRAINER_MARCOS ===
 Name: Marcos
@@ -20675,11 +24355,21 @@ AI: Check Bad Move
 
 Tentacruel
 Level: 46
+Ability: Clear Body
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Supersonic
+- Bubble Beam
+- Hex
+- Poison Jab
 
 Seadra
 Level: 46
+Ability: Poison Point
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Focus Energy
+- Water Pulse
+- Dragon Pulse
 
 === TRAINER_ISABELLE ===
 Name: Isabelle
@@ -20692,11 +24382,21 @@ AI: Check Bad Move
 
 Azumarill
 Level: 46
+Ability: Huge Power
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Helping Hand
+- Charm
+- Aqua Tail
+- Play Rough
 
 Golduck
 Level: 46
+Ability: Damp
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Disable
+- Zen Headbutt
+- Screech
+- Hydro Pump
 
 === TRAINER_ANDRES_1 ===
 Name: Andres
@@ -20709,15 +24409,30 @@ AI: Check Bad Move
 
 Dugtrio
 Level: 46
+Ability: Sand Veil
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Night Slash
+- Sand Tomb
+- Sandstorm
+- Dig
 
 Pupitar
 Level: 46
+Ability: Shed Skin
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Iron Defense
+- Rock Slide
+- Crunch
+- Earthquake
 
 Clodsire
 Level: 46
+Ability: Water Absorb
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Amnesia
+- Mud Shot
+- Poison Jab
+- Megahorn
 
 === TRAINER_JOSUE ===
 Name: Josue
@@ -20730,15 +24445,30 @@ AI: Check Bad Move
 
 Swellow
 Level: 46
+Ability: Guts
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Brave Bird
+- Growl
+- Focus Energy
+- Quick Guard
 
 Altaria
 Level: 46
+Ability: Natural Cure
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Pluck
+- Dragon Pulse
+- Sing
+- Moonblast
 
 Togetic
 Level: 46
+Ability: Serene Grace
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Fairy Wind
+- Life Dew
+- Charm
+- Ancient Power
 
 === TRAINER_CAMRON ===
 Name: Camron
@@ -20751,11 +24481,21 @@ AI: Check Bad Move
 
 Starmie
 Level: 48
+Ability: Natural Cure
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rapid Spin
+- Power Gem
+- Psychic
+- Hydro Pump
 
 Sharpedo
 Level: 48
+Ability: Rough Skin
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Fang
+- Ice Fang
+- Crunch
+- Liquidation
 
 === TRAINER_CORY_1 ===
 Name: Cory
@@ -20839,13 +24579,32 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Skarmory
+Skarmory @ Focus Band
 Level: 50
+Ability: Sturdy
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Metal Claw
+- Steel Wing
+- Drill Peck
+- Spikes
 
-Pidgeot
+Pidgeot @ Flying Gem
 Level: 50
+Ability: Tangled Feet
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hurricane
+- Quick Attack
+- Feather Dance
+- Tailwind
+
+Fearow @ Charti Berry
+Level: 50
+Ability: Sniper
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Drill Run
+- Assurance
+- Focus Energy
+- Drill Peck
 
 === TRAINER_CELIA ===
 Name: Celia
@@ -20856,17 +24615,32 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Azumarill
-Level: 38
+Azumarill @ Life Orb
+Level: 40
+Ability: Huge Power
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Charm
+- Bounce
+- Aqua Tail
+- Play Rough
 
-Ludicolo
-Level: 38
+Ludicolo @ Coba Berry
+Level: 40
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fake Out
+- Rain Dance
+- Hydro Pump
+- Energy Ball
 
-Exeggutor
-Level: 38
+Exeggutor @ Wide Lens
+Level: 40
+Ability: Chlorophyll
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psyshock
+- Giga Drain
+- Hypnosis
+- Leech Seed
 
 === TRAINER_BRYAN ===
 Name: Bryan
@@ -20877,17 +24651,32 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Sandslash
-Level: 38
+Sandslash @ Soft Sand
+Level: 40
+Ability: Sand Veil
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Crush Claw
+- Fury Cutter
+- Rapid Spin
+- Bulldoze
 
-Sandslash-Alola
-Level: 38
+Sandslash-Alola @ Never-Melt Ice
+Level: 40
+Ability: Snow Cloak
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Icicle Crash
+- Metal Claw
+- Swords Dance
+- Iron Head
 
-Donphan
-Level: 38
+Donphan @ Passho Berry
+Level: 40
+Ability: Sturdy
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunder Fang
+- Defense Curl
+- Knock Off
+- Stomping Tantrum
 
 === TRAINER_BRANDEN ===
 Name: Branden
@@ -20898,17 +24687,32 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Grumpig
-Level: 38
+Grumpig @ Twisted Spoon
+Level: 40
+Ability: Thick Fat
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psybeam
+- Teeter Dance
+- Psych Up
+- Power Gem
 
-Forretress
-Level: 38
+Forretress @ Focus Band
+Level: 40
+Ability: Sturdy
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Toxic Spikes
+- Bug Bite
+- Heavy Slam
+- Curse
 
-Machoke
-Level: 38
+Machoke @ Payapa Berry
+Level: 40
+Ability: No Guard
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Focus Energy
+- Low Sweep
+- Knock Off
+- Dual Chop
 
 === TRAINER_BRYANT ===
 Name: Bryant
@@ -20963,11 +24767,21 @@ AI: Check Bad Move
 
 Dodrio
 Level: 44
+Ability: Early Bird
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tri Attack
+- Uproar
+- Swords Dance
+- Drill Peck
 
 Pidgeot
 Level: 44
+Ability: Tangled Feet
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hurricane
+- Quick Attack
+- Feather Dance
+- Roost
 
 === TRAINER_JAIDEN ===
 Name: Jaiden
@@ -20997,11 +24811,21 @@ AI: Check Bad Move
 
 Alakazam @ Twisted Spoon
 Level: 44
+Ability: Synchronize
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Kinesis
+- Reflect
+- Ally Switch
+- Psychic
 
 Gardevoir @ Wise Glasses
 Level: 44
+Ability: Trace
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Mystical Fire
+- Dazzling Gleam
+- Hypnosis
+- Psychic
 
 === TRAINER_HELENE ===
 Name: Helene
@@ -21014,11 +24838,21 @@ AI: Check Bad Move
 
 Medicham @ Black Belt
 Level: 44
+Ability: Pure Power
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunder Punch
+- Work Up
+- Zen Headbutt
+- High Jump Kick
 
 Hariyama @ Muscle Band
 Level: 44
+Ability: Guts
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fake Out
+- Force Palm
+- Knock Off
+- Belly Drum
 
 === TRAINER_MARLENE ===
 Name: Marlene
@@ -21076,7 +24910,7 @@ Level: 10
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Farfetch'd
-Level: 8
+Level: 10
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MELINA ===
@@ -21236,15 +25070,30 @@ AI: Check Bad Move
 
 Seaking @ Mystic Water
 Level: 46
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Supersonic
+- Agility
+- Aqua Ring
+- Waterfall
 
 Roserade @ Payapa Berry
 Level: 46
+Ability: Poison Point
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Leech Seed
+- Toxic Spikes
+- Synthesis
+- Petal Dance
 
 Mismagius @ Kasib Berry
 Level: 46
+Ability: Levitate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Mystical Fire
+- Power Gem
+- Phantom Force
+- Magical Leaf
 
 === TRAINER_LEONEL ===
 Name: Leonel
@@ -21310,17 +25159,32 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Ledian
+Ledian @ Coba Berry
 Level: 54
+Ability: Swarm
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Reflect
+- Mach Punch
+- Bug Buzz
+- Air Slash
 
-Ariados
+Ariados @ Payapa Berry
 Level: 54
+Ability: Insomnia
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fell Stinger
+- Swords Dance
+- Sucker Punch
+- Poison Jab
 
-Scizor
+Scizor @ Muscle Band
 Level: 54
+Ability: Technician
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Wing Attack
+- Bullet Punch
+- Iron Head
+- X-Scissor
 
 === TRAINER_MYLES ===
 Name: Myles
@@ -21333,27 +25197,57 @@ AI: Check Bad Move
 
 Clefable
 Level: 56
+Ability: Magic Guard
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Meteor Mash
+- Moonblast
+- Charm
+- Copycat
 
 Hitmonlee
 Level: 56
+Ability: Reckless
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Sucker Punch
+- Blaze Kick
+- Close Combat
+- Axe Kick
 
 Electivire
 Level: 56
+Ability: Motor Drive
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Thunder Wave
+- Thunder Punch
+- Low Kick
+- Light Screen
 
 Pinsir
 Level: 56
+Ability: Hyper Cutter
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Focus Energy
+- X-Scissor
+- Swords Dance
+- Superpower
 
 Quagsire
 Level: 56
+Ability: Water Absorb
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Rain Dance
+- Aqua Tail
+- Toxic
+- Earthquake
 
 Gardevoir
 Level: 56
+Ability: Trace
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Mystical Fire
+- Calm Mind
+- Psychic
+- Moonblast
 
 === TRAINER_PAT ===
 Name: Pat
@@ -21366,27 +25260,57 @@ AI: Check Bad Move
 
 Gengar
 Level: 56
+Ability: Cursed Body
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Hypnosis
+- Spite
+- Dark Pulse
+- Shadow Ball
 
 Hitmonchan
 Level: 56
+Ability: Iron Fist
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Drain Punch
+- Bullet Punch
+- Ice Punch
+- Focus Punch
 
 Magmortar
 Level: 56
+Ability: Flame Body
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Smokescreen
+- Clear Smog
+- Confuse Ray
+- Flamethrower
 
 Heracross
 Level: 56
+Ability: Guts
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Aerial Ace
+- Brick Break
+- Throat Chop
+- Megahorn
 
 Clodsire
 Level: 56
+Ability: Poison Point
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Yawn
+- Poison Jab
+- Megahorn
+- Earthquake
 
 Gallade
 Level: 56
+Ability: Steadfast
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Night Slash
+- Leaf Blade
+- Swords Dance
+- Psycho Cut
 
 === TRAINER_CRISTIN_1 ===
 Name: Cristin
@@ -23320,21 +27244,41 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Dugtrio
-Level: 50
+Dugtrio @ Soft Sand
+Level: 54
+Ability: Sand Veil
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Night Slash
+- Sand Tomb
+- Sandstorm
+- Earthquake
 
-Pupitar
-Level: 50
+Pupitar @ Chople Berry
+Level: 54
+Ability: Shed Skin
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Iron Defense
+- Crunch
+- Earthquake
+- Stone Edge
 
-Clodsire
-Level: 50
+Clodsire @ Quick Claw
+Level: 54
+Ability: Water Absorb
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Yawn
+- Poison Jab
+- Megahorn
+- Earthquake
 
-Marowak
-Level: 50
+Marowak @ Thick Club
+Level: 54
+Ability: Rock Head
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Stomping Tantrum
+- Focus Energy
+- Bonemerang
+- Thrash
 
 === TRAINER_ANDRES_3 ===
 Name: Andres
@@ -23345,25 +27289,50 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Dugtrio
-Level: 52
+Dugtrio @ Soft Sand
+Level: 66
+Ability: Sand Veil
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Night Slash
+- Sand Tomb
+- Sandstorm
+- Earthquake
 
-Pupitar
-Level: 52
+Tyranitar @ Chople Berry
+Level: 66
+Ability: Sand Stream
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Thunder Fang
+- Crunch
+- Earthquake
+- Stone Edge
 
-Clodsire
-Level: 52
+Clodsire @ Quick Claw
+Level: 66
+Ability: Water Absorb
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Yawn
+- Poison Jab
+- Megahorn
+- Earthquake
 
-Marowak
-Level: 52
+Marowak @ Thick Club
+Level: 66
+Ability: Rock Head
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Stomping Tantrum
+- Focus Energy
+- Bonemerang
+- Double-Edge
 
-Camerupt
-Level: 52
+Camerupt @ Passho Berry
+Level: 66
+Ability: Solid Rock
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Eruption
+- Rock Slide
+- Earth Power
+- Yawn
 
 === TRAINER_ANDRES_4 ===
 Name: Andres
@@ -23374,29 +27343,59 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Dugtrio
-Level: 54
+Dugtrio @ Soft Sand
+Level: 74
+Ability: Sand Veil
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Night Slash
+- Sand Tomb
+- Sandstorm
+- Earthquake
 
-Pupitar
-Level: 54
+Tyranitar @ Chople Berry
+Level: 74
+Ability: Sand Stream
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Thunder Fang
+- Crunch
+- Earthquake
+- Stone Edge
 
-Clodsire
-Level: 54
+Clodsire @ Quick Claw
+Level: 74
+Ability: Water Absorb
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Yawn
+- Poison Jab
+- Megahorn
+- Earthquake
 
-Marowak
-Level: 54
+Marowak @ Thick Club
+Level: 74
+Ability: Rock Head
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Stomping Tantrum
+- Focus Energy
+- Bonemerang
+- Double-Edge
 
-Camerupt
-Level: 54
+Camerupt @ Passho Berry
+Level: 74
+Ability: Solid Rock
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Eruption
+- Rock Slide
+- Earth Power
+- Yawn
 
-Probopass
-Level: 54
+Probopass @ Focus Band
+Level: 74
+Ability: Sand Force
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Power Gem
+- Earth Power
+- Lock-On
+- Zap Cannon
 
 === TRAINER_ANDRES_5 ===
 Name: Andres
@@ -23407,29 +27406,59 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Dugtrio
-Level: 60
+Dugtrio @ Soft Sand
+Level: 80
+Ability: Sand Veil
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Night Slash
+- Sand Tomb
+- Sandstorm
+- Earthquake
 
-Tyranitar
-Level: 60
+Tyranitar @ Chople Berry
+Level: 80
+Ability: Sand Stream
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Thunder Fang
+- Crunch
+- Earthquake
+- Stone Edge
 
-Clodsire
-Level: 60
+Clodsire @ Quick Claw
+Level: 80
+Ability: Water Absorb
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Yawn
+- Poison Jab
+- Megahorn
+- Earthquake
 
-Marowak
-Level: 60
+Marowak @ Thick Club
+Level: 80
+Ability: Rock Head
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Stomping Tantrum
+- Focus Energy
+- Bonemerang
+- Double-Edge
 
-Camerupt
-Level: 60
+Camerupt @ Passho Berry
+Level: 80
+Ability: Solid Rock
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Eruption
+- Rock Slide
+- Earth Power
+- Yawn
 
-Probopass
-Level: 60
+Probopass @ Focus Band
+Level: 80
+Ability: Sand Force
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Power Gem
+- Earth Power
+- Lock-On
+- Zap Cannon
 
 === TRAINER_CORY_2 ===
 Name: Cory
@@ -23441,7 +27470,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Gyarados
-Level: 52
+Level: 58
 Ability: Intimidate
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 - Ice Fang
@@ -23450,7 +27479,7 @@ IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 - Thrash
 
 Ampharos
-Level: 52
+Level: 58
 Ability: Static
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 - Dragon Pulse
@@ -23459,7 +27488,7 @@ IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 - Power Gem
 
 Overqwil
-Level: 52
+Level: 58
 Ability: Poison Point
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 - Fell Stinger
@@ -23468,7 +27497,7 @@ IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 - Crunch
 
 Lapras
-Level: 52
+Level: 58
 Ability: Shell Armor
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 - Ice Shard
@@ -23486,7 +27515,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Gyarados
-Level: 54
+Level: 64
 Ability: Intimidate
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Ice Fang
@@ -23495,16 +27524,16 @@ IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Thrash
 
 Ampharos
-Level: 54
+Level: 64
 Ability: Static
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
-- Dragon Dance
+- Dragon Pulse
 - Confuse Ray
 - Discharge
 - Dazzling Gleam
 
 Overqwil
-Level: 54
+Level: 64
 Ability: Poison Point
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Fell Stinger
@@ -23513,7 +27542,7 @@ IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Crunch
 
 Lapras
-Level: 54
+Level: 64
 Ability: Shell Armor
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Ice Shard
@@ -23522,7 +27551,7 @@ IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Hydro Pump
 
 Machamp
-Level: 54
+Level: 64
 Ability: No Guard
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Knock Off
@@ -23540,7 +27569,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Gyarados
-Level: 56
+Level: 72
 Ability: Intimidate
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Ice Fang
@@ -23549,16 +27578,16 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Thrash
 
 Ampharos
-Level: 56
+Level: 72
 Ability: Static
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-- Dragon Dance
+- Dragon Pulse
 - Confuse Ray
 - Discharge
 - Dazzling Gleam
 
 Overqwil
-Level: 56
+Level: 72
 Ability: Poison Point
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Fell Stinger
@@ -23567,7 +27596,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Crunch
 
 Lapras
-Level: 56
+Level: 72
 Ability: Shell Armor
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Ice Shard
@@ -23576,7 +27605,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Hydro Pump
 
 Machamp
-Level: 56
+Level: 72
 Ability: No Guard
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Knock Off
@@ -23585,7 +27614,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Cross Chop
 
 Dragonite
-Level: 56
+Level: 72
 Ability: Inner Focus
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Wing Attack
@@ -23603,7 +27632,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Gyarados
-Level: 60
+Level: 80
 Ability: Intimidate
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Ice Fang
@@ -23612,16 +27641,16 @@ IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Thrash
 
 Ampharos
-Level: 60
+Level: 80
 Ability: Static
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Dragon Dance
+- Dragon Pulse
 - Confuse Ray
 - Discharge
 - Dazzling Gleam
 
 Overqwil
-Level: 60
+Level: 80
 Ability: Poison Point
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Fell Stinger
@@ -23630,7 +27659,7 @@ IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Crunch
 
 Lapras
-Level: 60
+Level: 80
 Ability: Shell Armor
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Ice Shard
@@ -23639,7 +27668,7 @@ IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Hydro Pump
 
 Machamp
-Level: 60
+Level: 80
 Ability: No Guard
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Knock Off
@@ -23648,7 +27677,7 @@ IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Cross Chop
 
 Dragonite
-Level: 60
+Level: 80
 Ability: Inner Focus
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Wing Attack
@@ -24079,19 +28108,39 @@ AI: Check Bad Move
 
 Raichu-Alola
 Level: 62
+Ability: Surge Surfer
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Nasty Plot
+- Light Screen
+- Thunder
+- Psychic
 
 Exploud
 Level: 62
+Ability: Soundproof
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Crunch
+- Thunder Fang
+- Stomp
+- Uproar
 
 Obstagoon
 Level: 62
+Ability: Guts
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Obstruct
+- Cross Chop
+- Headbutt
+- Taunt
 
 Manectric
 Level: 62
+Ability: Static
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Thunder Wave
+- Roar
+- Thunder
+- Electric Terrain
 
 === TRAINER_FERNANDO_3 ===
 Name: Fernando
@@ -24104,23 +28153,48 @@ AI: Check Bad Move
 
 Raichu-Alola
 Level: 64
+Ability: Surge Surfer
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Nasty Plot
+- Light Screen
+- Thunder
+- Psychic
 
 Exploud
 Level: 64
+Ability: Soundproof
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Crunch
+- Thunder Fang
+- Stomp
+- Hyper Voice
 
 Obstagoon
 Level: 64
+Ability: Guts
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Obstruct
+- Cross Chop
+- Hone Claws
+- Double-Edge
 
 Manectric
 Level: 64
+Ability: Static
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Thunder Wave
+- Roar
+- Thunder
+- Electric Terrain
 
 Marowak-Alola
 Level: 64
+Ability: Cursed Body
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Shadow Bone
+- Stomping Tantrum
+- Thrash
+- Flare Blitz
 
 === TRAINER_FERNANDO_4 ===
 Name: Fernando
@@ -24133,27 +28207,57 @@ AI: Check Bad Move
 
 Raichu-Alola
 Level: 66
+Ability: Surge Surfer
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Nasty Plot
+- Light Screen
+- Thunder
+- Psychic
 
 Exploud
 Level: 66
+Ability: Soundproof
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Crunch
+- Thunder Fang
+- Stomp
+- Hyper Voice
 
 Obstagoon
 Level: 66
+Ability: Guts
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Obstruct
+- Cross Chop
+- Hone Claws
+- Double-Edge
 
 Manectric
 Level: 66
+Ability: Static
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Thunder Wave
+- Roar
+- Thunder
+- Electric Terrain
 
 Marowak-Alola
 Level: 66
+Ability: Cursed Body
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Shadow Bone
+- Stomping Tantrum
+- Thrash
+- Flare Blitz
 
 Jolteon
 Level: 66
+Ability: Volt Absorb
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Charm
+- Sand Attack
+- Thunder Wave
+- Thunder
 
 === TRAINER_FERNANDO_5 ===
 Name: Fernando
@@ -24166,27 +28270,57 @@ AI: Check Bad Move
 
 Raichu-Alola
 Level: 70
+Ability: Surge Surfer
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Nasty Plot
+- Light Screen
+- Thunder
+- Psychic
 
 Exploud
 Level: 70
+Ability: Soundproof
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Crunch
+- Thunder Fang
+- Stomp
+- Hyper Voice
 
 Obstagoon
 Level: 70
+Ability: Guts
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Obstruct
+- Cross Chop
+- Hone Claws
+- Double-Edge
 
 Manectric
 Level: 70
+Ability: Static
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Thunder Wave
+- Roar
+- Thunder
+- Electric Terrain
 
 Marowak-Alola
 Level: 70
+Ability: Cursed Body
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Shadow Bone
+- Stomping Tantrum
+- Thrash
+- Flare Blitz
 
 Jolteon
 Level: 70
+Ability: Volt Absorb
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Charm
+- Sand Attack
+- Thunder Wave
+- Thunder
 
 === TRAINER_SAWYER_2 ===
 Name: Sawyer
@@ -24558,7 +28692,30 @@ Double Battle: No
 
 Jynx @ Occa Berry
 Level: 74
+Ability: Oblivious
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fake Tears
+- Psychic
+- Lovely Kiss
+- Blizzard
+
+Grumpig @ Twisted Spoon
+Level: 74
+Ability: Thick Fat
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psych Up
+- Confuse Ray
+- Power Gem
+- Psychic
+
+Gardevoir @ Gardevoirite
+Level: 74
+Ability: Synchronize
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Mystical Fire
+- Life Dew
+- Psychic
+- Moonblast
 
 === TRAINER_ALVARO ===
 Name: Alvaro
@@ -24570,11 +28727,30 @@ Double Battle: No
 
 Starmie @ Rindo Berry
 Level: 74
+Ability: Natural Cure
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rapid Spin
+- Power Gem
+- Psychic
+- Hydro Pump
 
 Mr Rime @ Never-Melt Ice
 Level: 74
+Ability: Screen Cleaner
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Light Screen
+- Reflect
+- Freeze-Dry
+- Psychic
+
+Claydol @ Metronome
+Level: 74
+Ability: Levitate
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hyper Beam
+- Ancient Power
+- Extrasensory
+- Earth Power
 
 === TRAINER_EVERETT ===
 Name: Everett
@@ -24586,7 +28762,30 @@ Double Battle: No
 
 Wobbuffet @ Focus Sash
 Level: 74
+Ability: Telepathy
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Encore
+- Counter
+- Mirror Coat
+- Destiny Bond
+
+Espeon @ Twisted Spoon
+Level: 74
+Ability: Synchronize
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Charm
+- Helping Hand
+- Swift
+- Psychic
+
+Raichu @ Shuca Berry
+Level: 74
+Ability: Surge Surfer
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Nasty Plot
+- Charm
+- Iron Tail
+- Thunder
 
 === TRAINER_RED ===
 Name: RED
