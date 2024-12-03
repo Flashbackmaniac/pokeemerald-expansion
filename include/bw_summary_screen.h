@@ -19,7 +19,7 @@
 #define BW_SUMMARY_NATURE_COLORS                    TRUE                // color stats increased or reduced by nature, red = boosted, blue = reduced
 #define BW_SUMMARY_NATURE_ARROWS                    TRUE               // arrows to show stats increased or reduced by nature
 #define BW_SUMMARY_CATEGORY_ICONS                   TRUE                // determines whether category (split) icons are shown or not
-#define BW_SUMMARY_IV_EV_DISPLAY                    BW_IV_EV_GRADED     // determines how to show IVs and EVs
+#define BW_SUMMARY_IV_EV_DISPLAY                    BW_IV_EV_HIDDEN     // determines how to show IVs and EVs
 #define BW_SUMMARY_DECAP                            TRUE               // indicates if summary screen-specific strings should be decapitalized
 #define BW_SUMMARY_SHOW_FRIENDSHIP                  TRUE               // show a heart that fills up to indicate friendship value
 #define BW_SUMMARY_BW_STATUS_ICONS                  TRUE                // use Gen 5 style status icons instead of the default ones.
@@ -31,6 +31,7 @@
 #define BW_SUMMARY_MON_IDLE_ANIMS                   TRUE                // loops the mon animations regularly as an "idle" anim
 #define BW_SUMMARY_MON_SHADOWS                      TRUE                // displays a shadow for the mon sprite
 #define BW_SUMMARY_SHOW_TERA_TYPE                   FALSE               // show tera type icons
+#define BW_SUMMARY_SHOW_CONTEST_MOVES               TRUE                // show the contest moves page
 
 /* Info for users
 

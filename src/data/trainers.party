@@ -892,6 +892,7 @@ Gender: Male
 Music: Intense
 Double Battle: No
 AI: Basic Trainer
+AI: Basic Trainer
 
 Hariyama
 Level: 58
@@ -1126,6 +1127,7 @@ Gender: Male
 Music: Aqua
 Items: Super Potion / Super Potion
 Double Battle: No
+AI: Basic Trainer
 AI: Basic Trainer
 
 Mightyena @ Rocky Helmet
@@ -2585,6 +2587,7 @@ Music: Cool
 Items: Hyper Potion
 Double Battle: No
 AI: Basic Trainer
+AI: Basic Trainer
 
 Pidgeot @ Salac Berry
 Level: 40
@@ -2612,6 +2615,7 @@ Gender: Male
 Music: Cool
 Items: Hyper Potion
 Double Battle: No
+AI: Basic Trainer
 AI: Basic Trainer
 
 Spinda @ Kings Rock
@@ -2641,6 +2645,7 @@ Music: Cool
 Items: Hyper Potion
 Double Battle: No
 AI: Basic Trainer
+AI: Basic Trainer
 
 Porygon2 @ Sitrus Berry
 Level: 42
@@ -2668,6 +2673,7 @@ Gender: Male
 Music: Cool
 Items: Hyper Potion
 Double Battle: No
+AI: Basic Trainer
 AI: Basic Trainer
 
 Vigoroth @ Eviolite
@@ -2705,6 +2711,7 @@ Gender: Male
 Music: Cool
 Items: Hyper Potion
 Double Battle: No
+AI: Basic Trainer
 AI: Basic Trainer
 
 Porygon-Z @ Focus Sash
@@ -3498,6 +3505,7 @@ Music: Cool
 Items: Hyper Potion
 Double Battle: No
 AI: Basic Trainer
+AI: Basic Trainer
 
 Miltank @ Sitrus Berry
 Level: 42
@@ -3525,6 +3533,7 @@ Gender: Female
 Music: Cool
 Items: Hyper Potion
 Double Battle: No
+AI: Check Bad Move / Try To Faint / Force Setup First Turn
 AI: Check Bad Move / Try To Faint / Force Setup First Turn
 
 Zangoose @ Quick Claw
@@ -3562,6 +3571,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
+AI: Check Bad Move / Try To Faint / Force Setup First Turn
 AI: Check Bad Move / Try To Faint / Force Setup First Turn
 
 Ninetales-Alola @ Icy Rock
@@ -3685,6 +3695,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
+AI: Basic Trainer
 AI: Basic Trainer
 
 Sableye @ Quick Claw
@@ -9118,6 +9129,7 @@ Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
 AI: Basic Trainer / Force Setup First Turn
+AI: Basic Trainer / Force Setup First Turn
 Mugshot: Purple
 
 Overqwil @ Poison Barb
@@ -9182,6 +9194,7 @@ Gender: Female
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
+AI: Basic Trainer
 AI: Basic Trainer
 Mugshot: Green
 
@@ -9248,6 +9261,7 @@ Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
 AI: Basic Trainer
+AI: Basic Trainer
 Mugshot: Pink
 
 Ninetales-Alola @ Icy Rock
@@ -9312,6 +9326,7 @@ Gender: Male
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
+AI: Basic Trainer
 AI: Basic Trainer
 Mugshot: Blue
 
@@ -9378,6 +9393,7 @@ Music: Female
 Items: Potion / Potion
 Double Battle: No
 AI: Basic Trainer
+AI: Basic Trainer
 
 Geodude
 Level: 14
@@ -9420,6 +9436,7 @@ Music: Male
 Items: Super Potion / Super Potion
 Double Battle: No
 AI: Basic Trainer
+AI: Basic Trainer
 
 Machop
 Level: 20
@@ -9461,6 +9478,7 @@ Gender: Male
 Music: Male
 Items: Super Potion / Super Potion
 Double Battle: No
+AI: Basic Trainer
 AI: Basic Trainer
 
 Voltorb
@@ -9511,6 +9529,7 @@ Gender: Female
 Music: Female
 Items: Hyper Potion / Hyper Potion
 Double Battle: No
+AI: Basic Trainer
 AI: Basic Trainer
 
 Ninetales @ Heat Rock
@@ -10800,6 +10819,7 @@ Gender: Male
 Music: Intense
 Double Battle: No
 AI: Basic Trainer
+AI: Basic Trainer
 
 Hariyama
 Level: 46
@@ -10816,6 +10836,7 @@ Pic: Expert M
 Gender: Male
 Music: Intense
 Double Battle: No
+AI: Basic Trainer
 AI: Basic Trainer
 
 Hariyama
@@ -10837,6 +10858,7 @@ Pic: Expert M
 Gender: Male
 Music: Intense
 Double Battle: No
+AI: Basic Trainer
 AI: Basic Trainer
 
 Hariyama
@@ -10862,6 +10884,7 @@ Pic: Expert M
 Gender: Male
 Music: Intense
 Double Battle: No
+AI: Basic Trainer
 AI: Basic Trainer
 
 Hariyama @ Flame Orb
@@ -10916,6 +10939,7 @@ Pic: Expert M
 Gender: Male
 Music: Intense
 Double Battle: No
+AI: Basic Trainer
 AI: Basic Trainer
 
 Hariyama @ Flame Orb
@@ -10979,6 +11003,7 @@ Pic: Expert F
 Gender: Female
 Music: Intense
 Double Battle: No
+AI: Basic Trainer
 AI: Basic Trainer
 
 Meditite @ Muscle Band
@@ -11100,6 +11125,7 @@ Gender: Female
 Music: Intense
 Double Battle: No
 AI: Basic Trainer
+AI: Basic Trainer
 
 Medicham
 Level: 52
@@ -11144,6 +11170,7 @@ Pic: Expert F
 Gender: Female
 Music: Intense
 Double Battle: No
+AI: Basic Trainer
 AI: Basic Trainer
 
 Medicham
@@ -11198,6 +11225,7 @@ Pic: Expert F
 Gender: Female
 Music: Intense
 Double Battle: No
+AI: Basic Trainer
 AI: Basic Trainer
 
 Medicham
@@ -11384,6 +11412,7 @@ Music: Cool
 Items: Full Restore
 Double Battle: No
 AI: Basic Trainer
+AI: Basic Trainer
 
 Slaking @ Life Orb
 Level: 80
@@ -11420,6 +11449,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
+AI: Basic Trainer
 AI: Basic Trainer
 
 Gardevoir @ Bright Powder
@@ -11725,6 +11755,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore / Full Restore
 Double Battle: No
+AI: Basic Trainer
 AI: Basic Trainer
 Mugshot: Yellow
 
@@ -16724,6 +16755,7 @@ Music: Cool
 Items: Hyper Potion
 Double Battle: No
 AI: Basic Trainer
+AI: Basic Trainer
 
 Absol
 Level: 48
@@ -16759,6 +16791,7 @@ Pic: Ninja Boy
 Gender: Male
 Music: Suspicious
 Double Battle: No
+AI: Basic Trainer
 AI: Basic Trainer
 
 Weezing @ Poison Barb
@@ -16867,6 +16900,7 @@ Gender: Female
 Music: Cool
 Items: Hyper Potion
 Double Battle: No
+AI: Basic Trainer
 AI: Basic Trainer
 
 Arcanine @ Jaboca Berry
@@ -17300,6 +17334,7 @@ Music: Male
 Items: Full Restore / Full Restore
 Double Battle: No
 AI: Basic Trainer
+AI: Basic Trainer
 
 Altaria @ Yache Berry
 Level: 80
@@ -17362,6 +17397,7 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
+AI: Basic Trainer
 AI: Basic Trainer
 
 Treecko
@@ -17466,6 +17502,7 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: Check Bad Move / Try To Faint / Force Setup First Turn
 
 Torchic
 Level: 5
@@ -17568,6 +17605,7 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
+AI: Basic Trainer
 AI: Basic Trainer
 
 Mudkip
@@ -17672,6 +17710,7 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Basic Trainer
+AI: Basic Trainer
 
 Treecko
 Level: 5
@@ -17775,6 +17814,7 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Basic Trainer
+AI: Basic Trainer
 
 Torchic
 Level: 5
@@ -17877,6 +17917,7 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
+AI: Basic Trainer
 AI: Basic Trainer
 
 Mudkip
@@ -18464,6 +18505,7 @@ Music: Cool
 Items: Full Restore
 Double Battle: No
 AI: Basic Trainer
+AI: Basic Trainer
 
 Magmortar @ Charcoal
 Level: 54
@@ -18497,6 +18539,7 @@ Gender: Male
 Music: Cool
 Items: Full Restore
 Double Battle: No
+AI: Basic Trainer
 AI: Basic Trainer
 
 Ninetales-Alola @ Light Clay
@@ -18719,6 +18762,7 @@ Music: Cool
 Items: Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: Check Bad Move / Try To Faint / Force Setup First Turn
 
 Venusaur
 Level: 48
@@ -18736,6 +18780,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
+AI: Check Bad Move / Try To Faint / Force Setup First Turn
 AI: Check Bad Move / Try To Faint / Force Setup First Turn
 
 Electivire @ Magnet
@@ -18770,6 +18815,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
+AI: Basic Trainer
 AI: Basic Trainer
 
 Ludicolo @ Damp Rock
@@ -19246,6 +19292,7 @@ Gender: Female
 Music: Cool
 Items: Hyper Potion
 Double Battle: No
+AI: Basic Trainer
 AI: Basic Trainer
 
 Manectric
@@ -19816,6 +19863,7 @@ Gender: Male
 Music: Magma
 Double Battle: No
 AI: Basic Trainer
+AI: Basic Trainer
 
 Numel
 Level: 32
@@ -19882,6 +19930,7 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Basic Trainer
+AI: Basic Trainer
 
 Pidgey
 Level: 16
@@ -19898,6 +19947,7 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
+AI: Check Bad Move / Try To Faint / Force Setup First Turn
 AI: Check Bad Move / Try To Faint / Force Setup First Turn
 
 Pidgey
@@ -19916,6 +19966,7 @@ Gender: Male
 Music: Magma
 Items: Super Potion / Super Potion
 Double Battle: No
+AI: Basic Trainer
 AI: Basic Trainer
 
 Mightyena @ Rocky Helmet
@@ -19980,6 +20031,7 @@ Gender: Male
 Music: Magma
 Items: Super Potion / Super Potion
 Double Battle: No
+AI: Basic Trainer
 AI: Basic Trainer
 
 Mightyena
@@ -21463,6 +21515,7 @@ Music: Cool
 Items: Hyper Potion
 Double Battle: No
 AI: Basic Trainer
+AI: Basic Trainer
 
 Kecleon
 Level: 36
@@ -21744,6 +21797,7 @@ Music: Male
 Items: Full Restore / Full Restore
 Double Battle: No
 AI: Basic Trainer
+AI: Basic Trainer
 
 Altaria @ Yache Berry
 Level: 84
@@ -21808,6 +21862,7 @@ Music: Male
 Items: Full Restore / Full Restore
 Double Battle: No
 AI: Basic Trainer
+AI: Basic Trainer
 
 Altaria @ Yache Berry
 Level: 88
@@ -21871,6 +21926,7 @@ Music: Male
 Items: Full Restore / Full Restore
 Double Battle: No
 AI: Basic Trainer
+AI: Basic Trainer
 
 Altaria @ Yache Berry
 Level: 92
@@ -21933,6 +21989,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore
 Double Battle: No
+AI: Basic Trainer
 AI: Basic Trainer
 
 Altaria @ Yache Berry
@@ -22481,6 +22538,7 @@ Music: Cool
 Items: Full Restore
 Double Battle: No
 AI: Basic Trainer
+AI: Basic Trainer
 
 Rhyperior @ Hard Stone
 Level: 66
@@ -22535,6 +22593,7 @@ Gender: Male
 Music: Cool
 Items: Hyper Potion
 Double Battle: No
+AI: Basic Trainer
 AI: Basic Trainer
 
 Ampharos @ Air Balloon
@@ -24542,6 +24601,7 @@ Music: Cool
 Items: Hyper Potion
 Double Battle: No
 AI: Basic Trainer
+AI: Basic Trainer
 
 Blaziken
 Level: 50
@@ -25104,6 +25164,7 @@ Music: Cool
 Items: Hyper Potion
 Double Battle: No
 AI: Basic Trainer
+AI: Basic Trainer
 
 Manectric
 Level: 52
@@ -25342,6 +25403,7 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Basic Trainer
+AI: Basic Trainer
 
 Pidgey
 Level: 16
@@ -25358,6 +25420,7 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
+AI: Basic Trainer
 AI: Basic Trainer
 
 Pidgey
@@ -25376,6 +25439,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
+AI: Basic Trainer
 AI: Basic Trainer
 
 Golem
@@ -25418,6 +25482,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
+AI: Basic Trainer
 AI: Basic Trainer
 
 Omanyte
@@ -25469,6 +25534,7 @@ Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
+AI: Basic Trainer
 
 Omastar
 Level: 42
@@ -25518,6 +25584,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
+AI: Basic Trainer
 AI: Basic Trainer
 
 Aerodactyl
@@ -25577,6 +25644,7 @@ Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
+AI: Basic Trainer
 
 Machamp @ Sitrus Berry
 Level: 33
@@ -25619,6 +25687,7 @@ Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
+AI: Basic Trainer
 
 Machamp @ Sitrus Berry
 Level: 38
@@ -25660,6 +25729,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
+AI: Basic Trainer
 AI: Basic Trainer
 
 Hitmonchan
@@ -25710,6 +25780,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
+AI: Basic Trainer
 AI: Basic Trainer
 
 Hitmonlee
@@ -25769,6 +25840,7 @@ Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
+AI: Basic Trainer
 
 Mareep
 Level: 36
@@ -25810,6 +25882,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
+AI: Basic Trainer
 AI: Basic Trainer
 
 Pikachu
@@ -25861,6 +25934,7 @@ Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
+AI: Basic Trainer
 
 Raichu
 Level: 44
@@ -25910,6 +25984,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
+AI: Basic Trainer
 AI: Basic Trainer
 
 Electabuzz
@@ -25969,6 +26044,7 @@ Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
+AI: Basic Trainer
 
 Magcargo @ White Herb
 Level: 38
@@ -26010,6 +26086,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
+AI: Basic Trainer
 AI: Basic Trainer
 
 Growlithe
@@ -26060,6 +26137,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
+AI: Basic Trainer
 AI: Basic Trainer
 
 Houndour
@@ -26119,6 +26197,7 @@ Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
+AI: Basic Trainer
 
 Arcanine
 Level: 51
@@ -26177,6 +26256,7 @@ Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
+AI: Basic Trainer
 
 Chansey
 Level: 42
@@ -26218,6 +26298,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
+AI: Basic Trainer
 AI: Basic Trainer
 
 Slaking @ Sitrus Berry
@@ -26269,6 +26350,7 @@ Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
+AI: Basic Trainer
 
 Slaking @ Sitrus Berry
 Level: 52
@@ -26318,6 +26400,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
+AI: Basic Trainer
 AI: Basic Trainer
 
 Slaking @ Sitrus Berry
@@ -26377,6 +26460,7 @@ Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer / Risky
+AI: Basic Trainer / Risky
 
 Dratini @ Sitrus Berry
 Level: 40
@@ -26426,6 +26510,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
+AI: Basic Trainer / Risky
 AI: Basic Trainer / Risky
 
 Hoothoot
@@ -26485,6 +26570,7 @@ Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer / Risky
+AI: Basic Trainer / Risky
 
 Noctowl
 Level: 48
@@ -26542,6 +26628,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
+AI: Basic Trainer / Risky
 AI: Basic Trainer / Risky
 
 Noctowl
@@ -26601,6 +26688,7 @@ Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
+AI: Basic Trainer
 
 Slowpoke
 Level: 48
@@ -26650,6 +26738,7 @@ Gender: Male
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
+AI: Basic Trainer
 AI: Basic Trainer
 
 Drowzee
@@ -26709,6 +26798,7 @@ Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
+AI: Basic Trainer
 
 Hypno
 Level: 58
@@ -26766,6 +26856,7 @@ Gender: Male
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
+AI: Basic Trainer
 AI: Basic Trainer
 
 Hypno
@@ -26825,6 +26916,7 @@ Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
+AI: Basic Trainer
 
 Poliwag
 Level: 46
@@ -26875,6 +26967,7 @@ Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
+AI: Basic Trainer
 
 Poliwhirl
 Level: 50
@@ -26924,6 +27017,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
+AI: Basic Trainer
 AI: Basic Trainer
 
 Lapras
@@ -26983,6 +27077,7 @@ Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
+AI: Basic Trainer
 
 Lapras
 Level: 61
@@ -27040,6 +27135,7 @@ Gender: Male
 Music: Suspicious
 Double Battle: No
 AI: Basic Trainer
+AI: Basic Trainer
 
 Illumise
 Level: 24
@@ -27088,6 +27184,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore / Full Restore
 Double Battle: No
+AI: Basic Trainer
 AI: Basic Trainer
 
 Skarmory @ Focus Band
@@ -27152,6 +27249,7 @@ Gender: Female
 Music: Male
 Double Battle: No
 AI: Basic Trainer
+AI: Basic Trainer
 
 Beldum
 Level: 5
@@ -27164,6 +27262,7 @@ Pic: Dome Ace Tucker
 Gender: Male
 Music: Male
 Double Battle: No
+AI: Basic Trainer
 AI: Basic Trainer
 
 Beldum
@@ -27178,6 +27277,7 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Basic Trainer
+AI: Basic Trainer
 
 Beldum
 Level: 5
@@ -27190,6 +27290,7 @@ Pic: Arena Tycoon Greta
 Gender: Female
 Music: Male
 Double Battle: No
+AI: Basic Trainer
 AI: Basic Trainer
 
 Beldum
@@ -27204,6 +27305,7 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Basic Trainer
+AI: Basic Trainer
 
 Beldum
 Level: 5
@@ -27217,6 +27319,7 @@ Gender: Female
 Music: Male
 Double Battle: No
 AI: Basic Trainer
+AI: Basic Trainer
 
 Beldum
 Level: 5
@@ -27229,6 +27332,7 @@ Pic: Pyramid King Brandon
 Gender: Male
 Music: Male
 Double Battle: No
+AI: Basic Trainer
 AI: Basic Trainer
 
 Beldum
