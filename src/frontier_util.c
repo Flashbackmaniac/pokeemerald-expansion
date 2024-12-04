@@ -151,8 +151,8 @@ const struct FrontierBrain gFrontierBrainInfo[NUM_FRONTIER_FACILITIES] =
         },
         .wonTexts = {
             COMPOUND_STRING(
-                "Your POKéMON are wimpy because\n"
-                "you're wimpy as a TRAINER!"),           //Silver
+                "Your Pokémon are wimpy because\n"
+                "you're wimpy as a Trainer!"),           //Silver
             COMPOUND_STRING(
                 "Gwahahaha!\n"
                 "My brethren, we have nothing to fear!") //Gold
