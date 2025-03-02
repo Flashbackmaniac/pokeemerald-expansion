@@ -20,9 +20,7 @@ LavaridgeTown_HerbShop_Pokemart:
 	.2byte ITEM_REMEDY
 	.2byte ITEM_FINE_REMEDY
 	.2byte ITEM_SUPERB_REMEDY
-	.2byte ITEM_NONE
-	release
-	end
+	pokemartlistend
 
 LavaridgeTown_HerbShop_EventScript_ExpertM::
 	msgbox LavaridgeTown_HerbShop_Text_HerbalMedicineWorksButMonWillDislike, MSGBOX_NPC

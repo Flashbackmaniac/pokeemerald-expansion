@@ -19,9 +19,7 @@ LilycoveCity_DepartmentStore_3F_Pokemart_Vitamins:
 	.2byte ITEM_ZINC
 	.2byte ITEM_CARBOS
 	.2byte ITEM_HP_UP
-	.2byte ITEM_NONE
-	release
-	end
+	pokemartlistend
 
 LilycoveCity_DepartmentStore_3F_EventScript_ClerkRight::
 	lock
@@ -42,9 +40,7 @@ LilycoveCity_DepartmentStore_3F_Pokemart_StatBoosters:
 	.2byte ITEM_DIRE_HIT
 	.2byte ITEM_GUARD_SPEC
 	.2byte ITEM_X_ACCURACY
-	.2byte ITEM_NONE
-	release
-	end
+	pokemartlistend
 
 LilycoveCity_DepartmentStore_3F_EventScript_Clerk_RightCounter_Left::
 	lock
@@ -76,9 +72,7 @@ LilycoveCity_DepartmentStore_3F_Pokemart_TypeEnhancingItem:
 	.2byte ITEM_BLACK_GLASSES
 	.2byte ITEM_METAL_COAT
 	.2byte ITEM_FAIRY_FEATHER
-	.2byte ITEM_NONE
-	release
-	end
+	pokemartlistend
 
 LilycoveCity_DepartmentStore_3F_EventScript_Clerk_RightCounter_Right::
 	lock
@@ -110,9 +104,7 @@ LilycoveCity_DepartmentStore_3F_Pokemart_Gem:
 	.2byte ITEM_DARK_GEM
 	.2byte ITEM_STEEL_GEM
 	.2byte ITEM_FAIRY_GEM
-	.2byte ITEM_NONE
-	release
-	end
+	pokemartlistend
 
 LilycoveCity_DepartmentStore_3F_EventScript_Clerk_LeftCounter_Left::
 	lock

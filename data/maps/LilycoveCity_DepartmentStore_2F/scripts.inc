@@ -41,9 +41,7 @@ LilycoveCity_DepartmentStore_2F_Pokemart_Pokeball:
 	.2byte ITEM_LOVE_BALL
 	.2byte ITEM_FAST_BALL
 	.2byte ITEM_HEAVY_BALL
-	.2byte ITEM_NONE
-	release
-	end
+	pokemartlistend
 
 LilycoveCity_DepartmentStore_2F_EventScript_Clerk_RightCounter_Right::
 	lock
@@ -67,9 +65,7 @@ LilycoveCity_DepartmentStore_2F_Pokemart2:
 	.2byte ITEM_MAX_REPEL
 	.2byte ITEM_WAVE_MAIL
 	.2byte ITEM_MECH_MAIL
-	.2byte ITEM_NONE
-	release
-	end
+	pokemartlistend
 
 LilycoveCity_DepartmentStore_2F_EventScript_Clerk_LeftCounter_Left::
 	lock
@@ -90,9 +86,7 @@ LilycoveCity_DepartmentStore_2F_Pokemart_Mulch:
 	.2byte ITEM_RICH_MULCH
 	.2byte ITEM_SURPRISE_MULCH
 	.2byte ITEM_BOOST_MULCH
-	.2byte ITEM_NONE
-	release
-	end
+	pokemartlistend
 
 LilycoveCity_DepartmentStore_2F_EventScript_Clerk_LeftCounter_Right::
 	lock
@@ -125,9 +119,7 @@ LilycoveCity_DepartmentStore_2F_Pokemart_Berry:
 	.2byte ITEM_WATMEL_BERRY
 	.2byte ITEM_DURIN_BERRY
 	.2byte ITEM_BELUE_BERRY
-	.2byte ITEM_NONE
-	release
-	end
+	pokemartlistend
 
 LilycoveCity_DepartmentStore_2F_Text_LearnToUseItemsProperly:
 	.string "Learn to use items properly.\n"
