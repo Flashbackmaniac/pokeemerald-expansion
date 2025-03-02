@@ -214,7 +214,7 @@ MauvilleCity_BikeShop_Text_ExplainBikesChooseWhichOne:
 	.string "prefer technical rides!\p"
 	.string "Plus, a new feature with these Bikes is\n"
 	.string "that you can change the way you ride\l"
-	.string "with the press of the R Button!\p"
+	.string "with the press of the L Button!\p"
 	.string "I'm a real sweetheart, so you can\n"
 	.string "have whichever one you like!\p"
 	.string "Which one will you choose?$"

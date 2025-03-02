@@ -48,9 +48,7 @@ SlateportCity_Mart_Pokemart_Mail:
 	.2byte ITEM_DREAM_MAIL
 	.2byte ITEM_FAB_MAIL
 	.2byte ITEM_RETRO_MAIL
-	.2byte ITEM_NONE
-	release
-	end
+	pokemartlistend
 
 SlateportCity_Mart_EventScript_BlackBelt::
 	msgbox SlateportCity_Mart_Text_SomeItemsOnlyAtMart, MSGBOX_NPC

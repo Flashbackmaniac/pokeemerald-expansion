@@ -3,7 +3,6 @@
 #include "battle.h"
 #include "battle_util.h"
 #include "bg.h"
-#include "bw_summary_screen.h"
 #include "contest_effect.h"
 #include "data.h"
 #include "decompress.h"
@@ -667,11 +666,7 @@ static void DoMoveRelearnerMain(void)
     case MENU_STATE_SHOW_MOVE_SUMMARY_SCREEN:
         if (!gPaletteFade.active)
         {
-            if (BW_SUMMARY_SCREEN)
-                ShowSelectMovePokemonSummaryScreen_BW(gPlayerParty, sMoveRelearnerStruct->partyMon, gPlayerPartyCount - 1, CB2_InitLearnMoveReturnFromSelectMove, GetCurrentSelectedMove());
-            else
-                ShowSelectMovePokemonSummaryScreen(gPlayerParty, sMoveRelearnerStruct->partyMon, gPlayerPartyCount - 1, CB2_InitLearnMoveReturnFromSelectMove, GetCurrentSelectedMove());
-            
+            ShowSelectMovePokemonSummaryScreen(gPlayerParty, sMoveRelearnerStruct->partyMon, gPlayerPartyCount - 1, CB2_InitLearnMoveReturnFromSelectMove, GetCurrentSelectedMove());
             FreeMoveRelearnerResources();
         }
         break;
@@ -972,7 +967,7 @@ void MoveRelearnerShowHideHearts(s32 moveId)
     }
     else
     {
-        numHearts = (u8)(gContestEffects[gMovesInfo[moveId].contestEffect].appeal / 10);
+        numHearts = (u8)(gContestEffects[GetMoveContestEffect(moveId)].appeal / 10);
 
         if (numHearts == 0xFF)
             numHearts = 0;
@@ -986,7 +981,7 @@ void MoveRelearnerShowHideHearts(s32 moveId)
             gSprites[sMoveRelearnerStruct->heartSpriteIds[i]].invisible = FALSE;
         }
 
-        numHearts = (u8)(gContestEffects[gMovesInfo[moveId].contestEffect].jam / 10);
+        numHearts = (u8)(gContestEffects[GetMoveContestEffect(moveId)].jam / 10);
 
         if (numHearts == 0xFF)
             numHearts = 0;

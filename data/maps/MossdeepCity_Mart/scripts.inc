@@ -77,9 +77,7 @@ MossdeepCity_Mart_Pokemart_MegaStone:
 	.2byte ITEM_METAGROSSITE
 	.2byte ITEM_LATIASITE
 	.2byte ITEM_LATIOSITE
-	.2byte ITEM_NONE
-	release
-	end
+	pokemartlistend
 
 MossdeepCity_Mart_EventScript_Woman::
 	msgbox MossdeepCity_Mart_Text_ReviveIsFantastic, MSGBOX_NPC

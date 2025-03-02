@@ -67,9 +67,7 @@ RustboroCity_Mart_Pokemart_Pokeball:
 	.2byte ITEM_TIMER_BALL
 	.2byte ITEM_REPEAT_BALL
 	.2byte ITEM_NET_BALL
-	.2byte ITEM_NONE
-	release
-	end
+	pokemartlistend
 
 RustboroCity_Mart_EventScript_PokefanF::
 	msgbox RustboroCity_Mart_Text_BuyingHealsInCaseOfShroomish, MSGBOX_NPC

@@ -42,9 +42,7 @@ FallarborTown_Mart_Pokemart_Pokeball:
 	.2byte ITEM_QUICK_BALL
 	.2byte ITEM_DUSK_BALL
 	.2byte ITEM_DIVE_BALL
-	.2byte ITEM_NONE
-	release
-	end
+	pokemartlistend
 
 FallarborTown_Mart_EventScript_Woman::
 	msgbox FallarborTown_Mart_Text_DecidingSkittyEvolve, MSGBOX_NPC

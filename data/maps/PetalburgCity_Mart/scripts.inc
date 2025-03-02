@@ -70,9 +70,7 @@ PetalburgCity_Mart_Pokemart_BattleItem:
 	.2byte ITEM_X_ACCURACY
 	.2byte ITEM_DIRE_HIT
 	.2byte ITEM_GUARD_SPEC
-	.2byte ITEM_NONE
-	release
-	end
+	pokemartlistend
 
 PetalburgCity_Mart_EventScript_Woman::
 	msgbox PetalburgCity_Mart_Text_WeakWillGrowStronger, MSGBOX_NPC

@@ -41,9 +41,7 @@ VerdanturfTown_Mart_Pokemart_Pokeball:
 	.2byte ITEM_HEAL_BALL
 	.2byte ITEM_NEST_BALL
 	.2byte ITEM_LUXURY_BALL
-	.2byte ITEM_NONE
-	release
-	end
+	pokemartlistend
 
 VerdanturfTown_Mart_EventScript_Boy::
 	msgbox VerdanturfTown_Mart_Text_XSpecialIsCrucial, MSGBOX_NPC
