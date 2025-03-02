@@ -633,7 +633,7 @@ MauvilleCity_GameCorner_Text_NeedCoinCaseForCoins:
 	.string "Okay, you wanted some Coins for\n"
 	.string "the games?\p"
 	.string "But you don't have a Coin Case for\n"
-	.string "stowing the COINS.$"
+	.string "stowing the Coins.$"
 
 MauvilleCity_GameCorner_Text_WereYouLookingForCoins:
 	.string "Were you looking for Coins?\p"
@@ -658,7 +658,7 @@ MauvilleCity_GameCorner_Text_DontNeedCoinsThen:
 
 MauvilleCity_GameCorner_Text_ExchangeCoinsForPrizes:
 	.string "Welcome.\p"
-	.string "You can exchange your COINS for\n"
+	.string "You can exchange your Coins for\n"
 	.string "prizes here.$"
 
 MauvilleCity_GameCorner_Text_WhichPrize:
@@ -673,7 +673,7 @@ MauvilleCity_GameCorner_Text_SendToYourHomePC:
 	.string "We'll send it to your PC at home.$"
 
 MauvilleCity_GameCorner_Text_NotEnoughCoins:
-	.string "You don't have enough COINS.$"
+	.string "You don't have enough Coins.$"
 
 @ Unused
 MauvilleCity_GameCorner_Text_NoRoomForPlacingDecor:

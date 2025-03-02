@@ -219,9 +219,9 @@ Route117_EventScript_Aisha::
 	end
 
 Route117_EventScript_XavierEncounter::
-	goto_if_set FLAG_UNUSED_0x265, Route117_EventScript_XavierBattleAgain
-	goto_if_set FLAG_UNUSED_0x266, Route117_EventScript_XavierChangedMind
-	setflag FLAG_UNUSED_0x266
+	goto_if_set FLAG_TEMP_3, Route117_EventScript_XavierBattleAgain
+	goto_if_set FLAG_TEMP_4, Route117_EventScript_XavierChangedMind
+	setflag FLAG_TEMP_4
 	applymovement LOCALID_XAVIER, Common_Movement_FacePlayer
 	msgbox Route117_Text_XavierAskToBattle, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, Route117_EventScript_BattleXavier
@@ -232,8 +232,8 @@ Route117_EventScript_XavierEncounter::
 Route117_EventScript_BattleXavier::
 	msgbox Route117_Text_XavierAlrightLetsDoThis, MSGBOX_DEFAULT
 	trainerbattle_no_intro TRAINER_XAVIER, Route117_Text_XavierDefeat
-	setflag FLAG_UNUSED_0x265
-	clearflag FLAG_UNUSED_0x266
+	setflag FLAG_TEMP_3
+	clearflag FLAG_TEMP_4
 	msgbox Route117_Text_XavierWantToContinue, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, Route117_EventScript_BattleXavier
 	msgbox Route117_Text_XavierComeBackAnyTime, MSGBOX_DEFAULT
@@ -258,9 +258,9 @@ Route117_EventScript_XavierBattleAgain::
 	end
 
 Route117_EventScript_PierceEncounter::
-	goto_if_set FLAG_UNUSED_0x267, Route117_EventScript_PierceWantToLevelUpSomeMore
-	goto_if_set FLAG_UNUSED_0x268, Route117_EventScript_PierceBackWantToBattle
-	setflag FLAG_UNUSED_0x268
+	goto_if_set FLAG_TEMP_5, Route117_EventScript_PierceWantToLevelUpSomeMore
+	goto_if_set FLAG_TEMP_6, Route117_EventScript_PierceBackWantToBattle
+	setflag FLAG_TEMP_6
 	applymovement LOCALID_PIERCE, Common_Movement_FacePlayer
 	msgbox Route117_Text_PierceAskToBattle, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, Route117_EventScript_BattlePierce
@@ -271,8 +271,8 @@ Route117_EventScript_PierceEncounter::
 Route117_EventScript_BattlePierce::
 	msgbox Route117_Text_PierceOkayCommence, MSGBOX_DEFAULT
 	trainerbattle_no_intro TRAINER_PIERCE, Route117_Text_PierceDefeat
-	setflag FLAG_UNUSED_0x267
-	clearflag FLAG_UNUSED_0x268
+	setflag FLAG_TEMP_5
+	clearflag FLAG_TEMP_6
 	msgbox Route117_Text_PierceKeepGoing, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, Route117_EventScript_BattlePierce
 	msgbox Route117_Text_PierceAlwaysBeHere, MSGBOX_DEFAULT

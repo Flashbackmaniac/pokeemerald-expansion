@@ -1,4 +1,5 @@
 .set LOCALID_MOVE_RELEARNER, 1
+.set LOCALID_JOKE_MOVE_TUTOR, 2
 
 FallarborTown_MoveRelearnersHouse_MapScripts::
 	.byte 0
@@ -54,6 +55,68 @@ FallarborTown_MoveRelearnersHouse_EventScript_SeeYouLater::
 	releaseall
 	end
 
+FallarborTown_MoveRelearnersHouse_EventScript_JokeMoveTutor::
+	lockall
+	applymovement LOCALID_JOKE_MOVE_TUTOR, Common_Movement_FacePlayer
+	waitmovement 0
+	goto_if_set FLAG_TEMP_2, FallarborTown_MoveRelearnersHouse_EventScript_JokeMoveTutor_MoveList
+	msgbox FallarborTown_MoveRelearnersHouse_Text_JokeMoveTutor_Introduction, MSGBOX_DEFAULT
+	setflag FLAG_TEMP_2
+	goto FallarborTown_MoveRelearnersHouse_EventScript_JokeMoveTutor_MoveList
+	end
+
+FallarborTown_MoveRelearnersHouse_EventScript_JokeMoveTutor_MoveList::
+	msgbox FallarborTown_MoveRelearnersHouse_Text_JokeMoveTutor_HaveALook, MSGBOX_DEFAULT
+	call FallarborTown_MoveRelearnersHouse_Multichoice_JokeMoveTutor_MoveList
+	releaseall
+	end
+
+FallarborTown_MoveRelearnersHouse_Multichoice_JokeMoveTutor_MoveList::
+	dynmultichoice 0, 0, FALSE, 4, 0, DYN_MULTICHOICE_CB_NONE, FallarborTown_MoveRelearnersHouse_Multichoice_JokeMoveTutor_Text_Celebrate, FallarborTown_MoveRelearnersHouse_Multichoice_JokeMoveTutor_Text_Hold_Hands, FallarborTown_MoveRelearnersHouse_Multichoice_JokeMoveTutor_Text_Splash, FallarborTown_MoveRelearnersHouse_Multichoice_JokeMoveTutor_Text_Cancel
+	switch VAR_RESULT
+	case 0, FallarborTown_MoveRelearnersHouse_EventScript_JokeMoveTutor_Celebrate
+	case 1, FallarborTown_MoveRelearnersHouse_EventScript_JokeMoveTutor_Hold_Hands
+	case 2, FallarborTown_MoveRelearnersHouse_EventScript_JokeMoveTutor_Splash
+	case 3, FallarborTown_MoveRelearnersHouse_EventScript_JokeMoveTutor_Cancel
+	compare VAR_RESULT 127
+	goto_if_eq FallarborTown_MoveRelearnersHouse_EventScript_JokeMoveTutor_Cancel
+	return
+
+FallarborTown_MoveRelearnersHouse_EventScript_JokeMoveTutor_Celebrate::
+	msgbox FallarborTown_MoveRelearnersHouse_Text_JokeMoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
+	setvar VAR_0x8005, MOVE_CELEBRATE
+	special ChooseMonForMoveTutor
+	waitstate
+	goto_if_eq VAR_RESULT, 0, FallarborTown_MoveRelearnersHouse_EventScript_JokeMoveTutor_MoveList
+	msgbox FallarborTown_MoveRelearnersHouse_Text_JokeMoveTutor_SeeYouLater
+	releaseall
+	end
+
+FallarborTown_MoveRelearnersHouse_EventScript_JokeMoveTutor_Hold_Hands::
+	msgbox FallarborTown_MoveRelearnersHouse_Text_JokeMoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
+	setvar VAR_0x8005, MOVE_HOLD_HANDS
+	special ChooseMonForMoveTutor
+	waitstate
+	goto_if_eq VAR_RESULT, 0, FallarborTown_MoveRelearnersHouse_EventScript_JokeMoveTutor_MoveList
+	msgbox FallarborTown_MoveRelearnersHouse_Text_JokeMoveTutor_SeeYouLater
+	releaseall
+	end
+
+FallarborTown_MoveRelearnersHouse_EventScript_JokeMoveTutor_Splash::
+	msgbox FallarborTown_MoveRelearnersHouse_Text_JokeMoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
+	setvar VAR_0x8005, MOVE_SPLASH
+	special ChooseMonForMoveTutor
+	waitstate
+	goto_if_eq VAR_RESULT, 0, FallarborTown_MoveRelearnersHouse_EventScript_JokeMoveTutor_MoveList
+	msgbox FallarborTown_MoveRelearnersHouse_Text_JokeMoveTutor_SeeYouLater
+	releaseall
+	end
+
+FallarborTown_MoveRelearnersHouse_EventScript_JokeMoveTutor_Cancel::
+	msgbox FallarborTown_MoveRelearnersHouse_Text_JokeMoveTutor_SeeYouLater, MSGBOX_DEFAULT
+	releaseall
+	end
+
 FallarborTown_MoveRelearnersHouse_Text_ImTheMoveTutor:
 	.string "I'm the Move Tutor.\p"
 	.string "I know all the moves that Pokémon\n"
@@ -84,4 +147,35 @@ FallarborTown_MoveRelearnersHouse_Text_SeeYouLater:
 FallarborTown_MoveRelearnersHouse_Text_CantTeachEgg:
 	.string "Hunh? There isn't a single move that\n"
 	.string "I can teach an Egg.$"
+
+FallarborTown_MoveRelearnersHouse_Text_JokeMoveTutor_Introduction:
+	.string "That Move Relearner has gotten\n"
+	.string "better with his services as of late.\p"
+	.string "I'm not going to let myself get\n"
+	.string "caught in the dust, no sirree!\p"
+	.string "Hey, you! So you want your Pokémon\n"
+	.string "to learn a move?$"
+
+FallarborTown_MoveRelearnersHouse_Text_JokeMoveTutor_HaveALook:
+	.string "Feast your eyes on these\n"
+	.string "truly exquisite moves!$"
+
+FallarborTown_MoveRelearnersHouse_Multichoice_JokeMoveTutor_Text_Celebrate:
+	.string "Celebrate$"
+
+FallarborTown_MoveRelearnersHouse_Multichoice_JokeMoveTutor_Text_Hold_Hands:
+	.string "Hold Hands$"
+
+FallarborTown_MoveRelearnersHouse_Multichoice_JokeMoveTutor_Text_Splash:
+	.string "Splash$"
+
+FallarborTown_MoveRelearnersHouse_Multichoice_JokeMoveTutor_Text_Cancel:
+	.string "Cancel$"
+
+FallarborTown_MoveRelearnersHouse_Text_JokeMoveTutor_WhichMonToTeach:
+	.string "Which Pokémon should learn this move?$"
+
+FallarborTown_MoveRelearnersHouse_Text_JokeMoveTutor_SeeYouLater:
+	.string "Okay, see you later. Return if your\n"
+	.string "Pokémon needs some top-notch moves.$"
 
