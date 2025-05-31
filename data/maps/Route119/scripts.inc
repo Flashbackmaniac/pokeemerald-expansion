@@ -548,7 +548,7 @@ Route119_Text_ScottWayToGoBeSeeingYou:
 	.string "a face all red from anger.\p"
 	.string "I sure seem to run into you often.\n"
 	.string "Are you off to Fortree Gym next?\p"
-	.string "I expect that you'll do well at the GYM.\n"
+	.string "I expect that you'll do well at the Gym.\n"
 	.string "Well, I'll be seeing you!$"
 
 

@@ -403,7 +403,8 @@ Route117_PokemonDayCare_Multichoice_MoveTutor_MoveList_Psychic::
 	case 12, Route117_PokemonDayCare_EventScript_MoveTutor_Gravity
 	case 13, Route117_PokemonDayCare_EventScript_MoveTutor_FutureSight
 	case 14, Route117_PokemonDayCare_EventScript_MoveTutor_ExpandingForce
-	case 15, Route117_PokemonDayCare_EventScript_MoveTutor_TypeList
+	case 15, Route117_PokemonDayCare_EventScript_MoveTutor_PsychicNoise
+	case 16, Route117_PokemonDayCare_EventScript_MoveTutor_TypeList
 	compare VAR_RESULT 127
 	goto_if_eq Route117_PokemonDayCare_EventScript_MoveTutor_TypeList
 	return
@@ -766,7 +767,7 @@ Route117_PokemonDayCare_EventScript_MoveTutor_DrainPunch::
 
 Route117_PokemonDayCare_EventScript_MoveTutor_BodyPress::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
-	setvar VAR_0x8005, MOVE_TAKE_DOWN
+	setvar VAR_0x8005, MOVE_BODY_PRESS
 	special ChooseMonForMoveTutor
 	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Fighting
@@ -1026,7 +1027,7 @@ Route117_PokemonDayCare_EventScript_MoveTutor_MudShot::
 
 Route117_PokemonDayCare_EventScript_MoveTutor_StompingTantrum::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
-	setvar VAR_0x8005, MOVE_TAKE_DOWN
+	setvar VAR_0x8005, MOVE_STOMPING_TANTRUM
 	special ChooseMonForMoveTutor
 	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Ground
@@ -1086,7 +1087,7 @@ Route117_PokemonDayCare_EventScript_MoveTutor_HighHorsepower::
 
 Route117_PokemonDayCare_EventScript_MoveTutor_ScorchingSands::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
-	setvar VAR_0x8005, MOVE_TAKE_DOWN
+	setvar VAR_0x8005, MOVE_SCORCHING_SANDS
 	special ChooseMonForMoveTutor
 	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Ground
@@ -3070,7 +3071,7 @@ Route117_PokemonDayCare_Multichoice_Text_MoveTutor_MistyTerrain:
 	.string "Misty Terrain$"
 
 Route117_PokemonDayCare_Multichoice_Text_MoveTutor_MistyExplosion:
-	.string "MistyExplosion$"
+	.string "Misty Explosion$"
 
 Route117_PokemonDayCare_Multichoice_Text_MoveTutor_AlluringVoice:
 	.string "Alluring Voice$"

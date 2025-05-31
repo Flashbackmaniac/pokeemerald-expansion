@@ -26584,23 +26584,48 @@ AI: Basic Trainer
 
 Swablu
 Level: 24
+Ability: Natural Cure
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Peck
+- Disarming Voice
+- Dragon Breath
+- Safeguard
 
 Skitty
 Level: 24
+Ability: Cute Charm
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Tackle
+- Sing
+- Disarming Voice
+- Payback
 
 Roselia
 Level: 24
+Ability: Poison Point
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Poison Sting
+- Stun Spore
+- Leech Seed
+- Magical Leaf
 
 Magnemite
 Level: 24
+Ability: Sturdy
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Thunder Shock
+- Supersonic
+- Gyro Ball
+- Screech
 
 Kirlia
 Level: 26
+Ability: Trace
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Hypnosis
+- Draining Kiss
+- Psybeam
+- Life Dew
 
 === TRAINER_WALLY_VR_2 ===
 Name: Wally

@@ -266,7 +266,7 @@ MauvilleCity_BikeShop_Text_HandbooksAreInBack:
 	.string "the back.\p"
 	.string "Oh, yeah. I've heard that the new Bikes\n"
 	.string "Rydel have been giving out could switch\l"
-	.string "modes with the press of the R Button.$"
+	.string "modes with the press of the L Button.$"
 
 MauvilleCity_BikeShop_Text_MachHandbookWhichPage:
 	.string "It's a handbook on the Mach Bike.\p"
