@@ -29,6 +29,7 @@ RustboroCity_Mart_Pokemart_Basic:
 	.2byte ITEM_X_ATTACK
 	.2byte ITEM_X_DEFENSE
 	pokemartlistend
+	pokemartlistend
 
 RustboroCity_Mart_EventScript_PokemartExpanded::
 	pokemart 0

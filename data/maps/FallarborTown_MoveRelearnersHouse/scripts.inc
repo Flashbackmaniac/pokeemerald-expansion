@@ -1,4 +1,3 @@
-.set LOCALID_MOVE_RELEARNER, 1
 .set LOCALID_JOKE_MOVE_TUTOR, 2
 
 FallarborTown_MoveRelearnersHouse_MapScripts::
