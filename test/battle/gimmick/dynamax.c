@@ -25,49 +25,6 @@ SINGLE_BATTLE_TEST("Dynamax: Dynamax increases HP and max HP by 1.5x", u16 hp)
     }
 }
 
-SINGLE_BATTLE_TEST("(DYNAMAX) Dynamax Level increases HP and max HP multipliers by 0.05 for each level", u16 hp)
-{
-    u32 dynamax, level;
-    PARAMETRIZE { dynamax = GIMMICK_NONE; level = 0; }
-    PARAMETRIZE { dynamax = GIMMICK_DYNAMAX; level = 0; }
-    PARAMETRIZE { dynamax = GIMMICK_DYNAMAX; level = 1; }
-    PARAMETRIZE { dynamax = GIMMICK_DYNAMAX; level = 2; }
-    PARAMETRIZE { dynamax = GIMMICK_DYNAMAX; level = 3; }
-    PARAMETRIZE { dynamax = GIMMICK_DYNAMAX; level = 4; }
-    PARAMETRIZE { dynamax = GIMMICK_DYNAMAX; level = 5; }
-    PARAMETRIZE { dynamax = GIMMICK_DYNAMAX; level = 6; }
-    PARAMETRIZE { dynamax = GIMMICK_DYNAMAX; level = 7; }
-    PARAMETRIZE { dynamax = GIMMICK_DYNAMAX; level = 8; }
-    PARAMETRIZE { dynamax = GIMMICK_DYNAMAX; level = 9; }
-    PARAMETRIZE { dynamax = GIMMICK_DYNAMAX; level = 10; }
-    GIVEN {
-        PLAYER(SPECIES_WOBBUFFET) { DynamaxLevel(level); }
-        OPPONENT(SPECIES_WOBBUFFET);
-    } WHEN {
-        TURN { MOVE(player, MOVE_SCRATCH, gimmick: dynamax); MOVE(opponent, MOVE_CELEBRATE); }
-    } SCENE {
-        if (dynamax) {
-            ANIMATION(ANIM_TYPE_GENERAL, B_ANIM_DYNAMAX_GROWTH, player);
-            MESSAGE("Wobbuffet used Max Strike!");
-        }
-        MESSAGE("The opposing Wobbuffet used Celebrate!");
-    } THEN {
-        results[i].hp = player->hp;
-    } FINALLY {
-        EXPECT_MUL_EQ(results[0].hp, Q_4_12(1.5), results[1].hp);
-        EXPECT_MUL_EQ(results[0].hp, Q_4_12(1.55), results[2].hp);
-        EXPECT_MUL_EQ(results[0].hp, Q_4_12(1.6), results[3].hp);
-        EXPECT_MUL_EQ(results[0].hp, Q_4_12(1.65), results[4].hp);
-        EXPECT_MUL_EQ(results[0].hp, Q_4_12(1.7), results[5].hp);
-        EXPECT_MUL_EQ(results[0].hp, Q_4_12(1.75), results[6].hp);
-        EXPECT_MUL_EQ(results[0].hp, Q_4_12(1.8), results[7].hp);
-        EXPECT_MUL_EQ(results[0].hp, Q_4_12(1.85), results[8].hp);
-        EXPECT_MUL_EQ(results[0].hp, Q_4_12(1.9), results[9].hp);
-        EXPECT_MUL_EQ(results[0].hp, Q_4_12(1.95), results[10].hp);
-        EXPECT_MUL_EQ(results[0].hp, Q_4_12(2.0), results[11].hp);
-    }
-}
-
 SINGLE_BATTLE_TEST("Dynamax: Dynamax Level increases HP and max HP multipliers by 0.05 for each level", u16 hp)
 {
     u32 dynamax, level;
@@ -204,6 +161,24 @@ SINGLE_BATTLE_TEST("Dynamax: Dynamax expires after three turns and correctly con
             EXPECT_MUL_EQ(finalHP, GetDynamaxLevelHPMultiplier(dynamaxLevel, FALSE), capturedHP);
         EXPECT_LE(finalHP, 200);
         EXPECT_GE(finalHP, 200 - capturedDamage);
+    }
+}
+
+// Visual test to make sure Zoroark appears as Wobbuffet/Zigzagoon until illusion breaks
+SINGLE_BATTLE_TEST("Dynamax: Illusion doesn't break upon Dynamaxing when illusioned")
+{
+    u32 species;
+    PARAMETRIZE { species = SPECIES_WOBBUFFET; }
+    PARAMETRIZE { species = SPECIES_ZIGZAGOON; }
+    GIVEN {
+        PLAYER(SPECIES_ZOROARK);
+        PLAYER(species);
+        OPPONENT(SPECIES_WOBBUFFET);
+    } WHEN {
+        TURN { MOVE(player, MOVE_SCRATCH, gimmick: GIMMICK_DYNAMAX); MOVE(opponent, MOVE_SCRATCH); }
+    } SCENE {
+        ANIMATION(ANIM_TYPE_MOVE, MOVE_SCRATCH, opponent);
+        ANIMATION(ANIM_TYPE_GENERAL, B_ANIM_ILLUSION_OFF, player);
     }
 }
 
@@ -448,6 +423,7 @@ SINGLE_BATTLE_TEST("Dynamax: Dynamaxed Pokemon that changes forms does not gain 
 {
     u16 capturedHP, finalHP;
     GIVEN {
+        WITH_CONFIG(GEN_CONFIG_BATTLE_BOND, GEN_8);
         PLAYER(SPECIES_GRENINJA_BATTLE_BOND) { Ability(ABILITY_BATTLE_BOND); HP(100); Speed(100); }
         OPPONENT(SPECIES_CATERPIE) { HP(1); Speed(1000); }
         OPPONENT(SPECIES_WOBBUFFET) { Speed(10); }
@@ -479,7 +455,7 @@ SINGLE_BATTLE_TEST("Dynamax: Dynamaxed Pokemon that changes forms does not gain 
     } SCENE {
         ANIMATION(ANIM_TYPE_GENERAL, B_ANIM_DYNAMAX_GROWTH, player);
         ANIMATION(ANIM_TYPE_MOVE, MOVE_MAX_STRIKE, player);
-        ANIMATION(ANIM_TYPE_GENERAL, B_ANIM_FORM_CHANGE, player);
+        ANIMATION(ANIM_TYPE_GENERAL, B_ANIM_POWER_CONSTRUCT, player);
     } THEN {
         EXPECT_MUL_EQ(maxHP - hp, GetDynamaxLevelHPMultiplier(0, FALSE), player->maxHP - player->hp);
     }
@@ -1603,7 +1579,7 @@ SINGLE_BATTLE_TEST("Dynamax: Moxie clones can be triggered by Max Moves fainting
     } SCENE {
         MESSAGE("The opposing Wobbuffet fainted!");
         ABILITY_POPUP(player, ABILITY_MOXIE);
-        MESSAGE("Gyarados's Moxie raised its Attack!");
+        MESSAGE("Gyarados's Attack rose!");
     }
 }
 

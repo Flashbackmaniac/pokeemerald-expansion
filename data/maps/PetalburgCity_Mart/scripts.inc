@@ -26,7 +26,6 @@ PetalburgCity_Mart_Pokemart_Basic:
 	.2byte ITEM_X_DEFENSE
 	.2byte ITEM_ORANGE_MAIL
 	pokemartlistend
-	pokemartlistend
 
 PetalburgCity_Mart_EventScript_ExpandedItems::
 	pokemart 0

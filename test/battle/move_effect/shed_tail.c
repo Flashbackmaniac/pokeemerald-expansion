@@ -125,26 +125,3 @@ SINGLE_BATTLE_TEST("Shed Tail creates a Substitute with 1/4 of user maximum heal
             NOT MESSAGE("Bulbasaur's substitute faded!");
     }
 }
-
-SINGLE_BATTLE_TEST("Shed Tail creates a Substitute with 1/4 of user maximum health")
-{
-    u32 hp;
-    PARAMETRIZE { hp = 160; }
-    PARAMETRIZE { hp = 164; }
-
-    GIVEN {
-        ASSUME(GetMoveFixedDamage(MOVE_DRAGON_RAGE) == 40);
-        ASSUME(GetMoveEffect(MOVE_DRAGON_RAGE) == EFFECT_FIXED_DAMAGE_ARG);
-        PLAYER(SPECIES_BULBASAUR) { MaxHP(hp); }
-        PLAYER(SPECIES_BULBASAUR);
-        OPPONENT(SPECIES_CHARMANDER);
-    } WHEN {
-        TURN { MOVE(player, MOVE_SHED_TAIL); MOVE(opponent, MOVE_DRAGON_RAGE); SEND_OUT(player, 1); }
-    } SCENE {
-        ANIMATION(ANIM_TYPE_MOVE, MOVE_SHED_TAIL, player);
-        if (hp == 160)
-            MESSAGE("Bulbasaur's substitute faded!");
-        else
-            NOT MESSAGE("Bulbasaur's substitute faded!");
-    }
-}

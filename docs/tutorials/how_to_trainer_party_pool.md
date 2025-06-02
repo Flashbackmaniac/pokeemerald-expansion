@@ -60,7 +60,7 @@ Class: Lass
 Pic: Lass
 Gender: Female
 Music: Female
-Double Battle: Yes
+Battle Type: Doubles
 AI: Check Bad Move
 Party Size: 4
 Pool Rules: Weather Doubles

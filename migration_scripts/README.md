@@ -161,7 +161,7 @@ Converts trainer data (for `convert_trainer_parties.py`) and partner data (for `
 +Pic: Hiker
 +Gender: Male
 +Music: Hiker
-+Double Battle: No
++Battle Type: Singles
 +AI: Check Bad Move / Try To Faint / Check Viability
 +
 +Geodude
