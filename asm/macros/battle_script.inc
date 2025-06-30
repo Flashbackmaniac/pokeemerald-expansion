@@ -2563,4 +2563,3 @@
 	callnative BS_JumpIfNoWhiteOut
 	.4byte \jumpInstr
 	.endm
-	
