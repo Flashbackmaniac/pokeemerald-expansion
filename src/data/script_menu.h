@@ -67,6 +67,11 @@ static const struct MenuAction MultichoiceList_StatusInfo[] =
     {COMPOUND_STRING("SLP")},
     {COMPOUND_STRING("BRN")},
     {COMPOUND_STRING("FRZ")},
+    {COMPOUND_STRING("PSN")},
+    {COMPOUND_STRING("PAR")},
+    {COMPOUND_STRING("SLP")},
+    {COMPOUND_STRING("BRN")},
+    {COMPOUND_STRING("FRZ")},
     {gText_Exit},
 };
 
@@ -78,6 +83,8 @@ static const struct MenuAction MultichoiceList_BrineyOffDewford[] =
 
 static const struct MenuAction MultichoiceList_ViewedPaintings[] =
 {
+    {COMPOUND_STRING("Saw it")},
+    {COMPOUND_STRING("Not yet")},
     {COMPOUND_STRING("Saw it")},
     {COMPOUND_STRING("Not yet")},
 };
@@ -236,6 +243,8 @@ static const struct MenuAction MultichoiceList_Satisfaction[] =
 {
     {COMPOUND_STRING("Satisfied")},
     {COMPOUND_STRING("Dissatisfied")},
+    {COMPOUND_STRING("Satisfied")},
+    {COMPOUND_STRING("Dissatisfied")},
 };
 
 static const struct MenuAction MultichoiceList_SternDeepSea[] =
@@ -286,6 +295,8 @@ static const struct MenuAction MultichoiceList_HowsFishing[] =
 {
     {COMPOUND_STRING("Excellent")},
     {COMPOUND_STRING("Not so good")},
+    {COMPOUND_STRING("Excellent")},
+    {COMPOUND_STRING("Not so good")},
 };
 
 static const struct MenuAction MultichoiceList_SSTidalSlateportWithBF[] =
@@ -304,6 +315,8 @@ static const struct MenuAction MultichoiceList_SSTidalBattleFrontier[] =
 
 static const struct MenuAction MultichoiceList_RightLeft[] =
 {
+    {COMPOUND_STRING("Right")},
+    {COMPOUND_STRING("Left")},
     {COMPOUND_STRING("Right")},
     {COMPOUND_STRING("Left")},
 };
@@ -566,6 +579,9 @@ static const struct MenuAction MultichoiceList_FrontierGamblerBet[] =
     {COMPOUND_STRING("  5BP")},
     {COMPOUND_STRING("10BP")},
     {COMPOUND_STRING("15BP")},
+    {COMPOUND_STRING("  5BP")},
+    {COMPOUND_STRING("10BP")},
+    {COMPOUND_STRING("15BP")},
     {gText_Exit},
 };
 
@@ -728,6 +744,10 @@ static const struct MenuAction MultichoiceList_TVLati[] =
 
 static const struct MenuAction MultichoiceList_BattleTowerFeelings[] =
 {
+    {COMPOUND_STRING("I'll battle now!")},
+    {COMPOUND_STRING("I won!")},
+    {COMPOUND_STRING("I lost!")},
+    {COMPOUND_STRING("I won't tell.")},
     {COMPOUND_STRING("I'll battle now!")},
     {COMPOUND_STRING("I won!")},
     {COMPOUND_STRING("I lost!")},

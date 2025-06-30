@@ -6,10 +6,57 @@ ASSUMPTIONS
     ASSUME(gMovesInfo[MOVE_HEAL_BELL].effect == EFFECT_HEAL_BELL);
     ASSUME(gMovesInfo[MOVE_AROMATHERAPY].effect == EFFECT_HEAL_BELL);
     ASSUME(MoveHasAdditionalEffect(MOVE_SPARKLY_SWIRL, MOVE_EFFECT_AROMATHERAPY));
+    ASSUME(MoveHasAdditionalEffect(MOVE_SPARKLY_SWIRL, MOVE_EFFECT_AROMATHERAPY));
 }
 
 DOUBLE_BATTLE_TEST("Sparkly Swirl cures the entire party")
 {
+    GIVEN {
+        ASSUME(GetMoveEffect(MOVE_AROMATHERAPY) == EFFECT_HEAL_BELL);
+        PLAYER(SPECIES_WOBBUFFET) {
+            if (status != STATUS1_SLEEP && status != STATUS1_FREEZE)
+                Status1(status);
+        }
+        PLAYER(SPECIES_WOBBUFFET) { Status1(status); }
+        PLAYER(SPECIES_WOBBUFFET) { Status1(status); }
+        PLAYER(SPECIES_WOBBUFFET) { Status1(status); }
+        PLAYER(SPECIES_WOBBUFFET) { Status1(status); }
+        PLAYER(SPECIES_WOBBUFFET) { Status1(status); }
+        OPPONENT(SPECIES_WYNAUT);
+        OPPONENT(SPECIES_WYNAUT);
+    } WHEN {
+        TURN { MOVE(playerLeft, MOVE_SPARKLY_SWIRL, target: opponentLeft); }
+        TURN { SWITCH(playerLeft, 2); SWITCH(playerRight, 3); }
+    } SCENE {
+        int i;
+
+        ANIMATION(ANIM_TYPE_MOVE, MOVE_SPARKLY_SWIRL, playerLeft);
+        STATUS_ICON(playerLeft, none: TRUE);
+        STATUS_ICON(playerRight, none: TRUE);
+        NOT MESSAGE("Wobbuffet was hurt by its poisoning!");
+        for (i = 0; i < PARTY_SIZE; i++)
+            EXPECT_EQ(GetMonData(&gPlayerParty[i], MON_DATA_STATUS), STATUS1_NONE);
+    }
+}
+
+DOUBLE_BATTLE_TEST("Heal Bell/Aromatherapy cures the entire party of the user from primary status effects")
+{
+    u32 j, move, status;
+    PARAMETRIZE { move = MOVE_HEAL_BELL;    status = STATUS1_SLEEP; }
+    PARAMETRIZE { move = MOVE_AROMATHERAPY; status = STATUS1_SLEEP; }
+    PARAMETRIZE { move = MOVE_HEAL_BELL;    status = STATUS1_POISON; }
+    PARAMETRIZE { move = MOVE_AROMATHERAPY; status = STATUS1_POISON; }
+    PARAMETRIZE { move = MOVE_HEAL_BELL;    status = STATUS1_BURN; }
+    PARAMETRIZE { move = MOVE_AROMATHERAPY; status = STATUS1_BURN; }
+    PARAMETRIZE { move = MOVE_HEAL_BELL;    status = STATUS1_FREEZE; }
+    PARAMETRIZE { move = MOVE_AROMATHERAPY; status = STATUS1_FREEZE; }
+    PARAMETRIZE { move = MOVE_HEAL_BELL;    status = STATUS1_PARALYSIS; }
+    PARAMETRIZE { move = MOVE_AROMATHERAPY; status = STATUS1_PARALYSIS; }
+    PARAMETRIZE { move = MOVE_HEAL_BELL;    status = STATUS1_TOXIC_POISON; }
+    PARAMETRIZE { move = MOVE_AROMATHERAPY; status = STATUS1_TOXIC_POISON; }
+    PARAMETRIZE { move = MOVE_HEAL_BELL;    status = STATUS1_FROSTBITE; }
+    PARAMETRIZE { move = MOVE_AROMATHERAPY; status = STATUS1_FROSTBITE; }
+
     GIVEN {
         ASSUME(GetMoveEffect(MOVE_AROMATHERAPY) == EFFECT_HEAL_BELL);
         PLAYER(SPECIES_WOBBUFFET) {

@@ -283,7 +283,7 @@ TEST("Trainer Party Pool can choose which functions to use for picking mons")
     Free(testParty);
 }
 
-TEST("trainerproc supports both Battle Type: Doubles and Battle Type: Doubles")
+TEST("trainerproc supports both Double Battle: Yes and Battle Type: Doubles")
 {
     u32 currTrainer;
     PARAMETRIZE { currTrainer = 9; }

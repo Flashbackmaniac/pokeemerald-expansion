@@ -2,8 +2,8 @@ import re
 import os
 
 def trainer_battle_types(data):
-    data = re.sub(re.escape("Battle Type: Singles"), "Battle Type: Singles", data)
-    data = re.sub(re.escape("Battle Type: Doubles"), "Battle Type: Doubles", data)
+    data = re.sub(re.escape("Double Battle: No"), "Battle Type: Singles", data)
+    data = re.sub(re.escape("Double Battle: Yes"), "Battle Type: Doubles", data)
 
     return data
 
