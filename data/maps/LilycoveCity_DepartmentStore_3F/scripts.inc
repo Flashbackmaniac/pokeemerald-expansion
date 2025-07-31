@@ -20,7 +20,6 @@ LilycoveCity_DepartmentStore_3F_Pokemart_Vitamins:
 	.2byte ITEM_CARBOS
 	.2byte ITEM_HP_UP
 	pokemartlistend
-	pokemartlistend
 
 LilycoveCity_DepartmentStore_3F_EventScript_ClerkRight::
 	lock
