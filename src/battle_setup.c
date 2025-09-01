@@ -48,7 +48,6 @@
 #include "constants/game_stat.h"
 #include "constants/items.h"
 #include "constants/songs.h"
-#include "constants/map_types.h"
 #include "constants/trainers.h"
 #include "constants/trainer_hill.h"
 #include "constants/weather.h"
@@ -622,7 +621,7 @@ static void CB2_EndScriptedWildBattle(void)
     }
 }
 
-u8 BattleSetup_GetEnvironmentId(void)
+enum BattleEnvironments BattleSetup_GetEnvironmentId(void)
 {
     u16 tileBehavior;
     s16 x, y;
@@ -778,7 +777,7 @@ u8 GetTrainerBattleTransition(void)
     u8 enemyLevel;
     u8 playerLevel;
     u32 trainerId = SanitizeTrainerId(TRAINER_BATTLE_PARAM.opponentA);
-    u32 trainerClass = GetTrainerClassFromId(TRAINER_BATTLE_PARAM.opponentA);
+    enum TrainerClassID trainerClass = GetTrainerClassFromId(TRAINER_BATTLE_PARAM.opponentA);
 
     if (DoesTrainerHaveMugshot(trainerId))
         return B_TRANSITION_MUGSHOT;
@@ -909,13 +908,13 @@ static void CB2_EndFirstBattle(void)
 
 static void TryUpdateGymLeaderRematchFromWild(void)
 {
-    if (GetGameStat(GAME_STAT_WILD_BATTLES) % 10 == 0)
+    if (GetGameStat(GAME_STAT_WILD_BATTLES) % 60 == 0)
         UpdateGymLeaderRematch();
 }
 
 static void TryUpdateGymLeaderRematchFromTrainer(void)
 {
-    if (GetGameStat(GAME_STAT_TRAINER_BATTLES) % 5 == 0)
+    if (GetGameStat(GAME_STAT_TRAINER_BATTLES) % 20 == 0)
         UpdateGymLeaderRematch();
 }
 
@@ -1270,7 +1269,7 @@ static void SaveChangesToPlayerParty(void)
     {
         if ((participatedPokemon >> i & 1) == 1)
         {
-            gSaveBlock1Ptr->playerParty[i] = gPlayerParty[j];
+            SavePlayerPartyMon(i, &gPlayerParty[j]);
             j++;
         }
     }
@@ -1612,7 +1611,7 @@ static bool32 UpdateRandomTrainerRematches(const struct RematchTrainer *table, u
             // Trainer already wants a rematch. Don't bother updating it.
             return TRUE;
         }
-        else if (TrainerIsMatchCallRegistered(i) && ((Random() % 100) <= 50))
+        else if (TrainerIsMatchCallRegistered(i) && ((Random() % 100) <= 30))
             // 31% chance of getting a rematch.
         {
             SetRematchIdForTrainer(table, i);
@@ -1825,7 +1824,7 @@ static bool32 IsRematchStepCounterMaxed(void)
 void TryUpdateRandomTrainerRematches(u16 mapGroup, u16 mapNum)
 {
     if (IsRematchStepCounterMaxed() && UpdateRandomTrainerRematches(gRematchTable, mapGroup, mapNum) == TRUE)
-        gSaveBlock1Ptr->trainerRematchStepCounter = 255;
+        gSaveBlock1Ptr->trainerRematchStepCounter = 0;
 }
 #endif //FREE_MATCH_CALL
 
