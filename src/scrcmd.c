@@ -2311,11 +2311,7 @@ bool8 ScrCmd_checkfieldmove(struct ScriptContext *ctx)
             break;
         }
     }
-        if (gSpecialVar_Result == PARTY_SIZE && PlayerHasMove(move))
-	    {
-		    gSpecialVar_Result = 0;
-		    gSpecialVar_0x8004 = GetMonData(&gPlayerParty[0], MON_DATA_SPECIES, NULL);
-	    }
+
     return FALSE;
 }
 
