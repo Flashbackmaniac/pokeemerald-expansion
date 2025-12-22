@@ -212,9 +212,6 @@ enum EjectPackTiming
     OTHER,
 };
 
-#define SKY_DROP_NO_TARGET 0xFF
-#define SKY_DROP_RELEASED_TARGET 0xFE
-
 void HandleAction_ThrowBall(void);
 u32 GetCurrentBattleWeather(void);
 bool32 EndOrContinueWeather(void);
