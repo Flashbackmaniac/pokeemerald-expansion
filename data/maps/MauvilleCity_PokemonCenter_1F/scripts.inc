@@ -37,13 +37,7 @@ MauvilleCity_PokemonCenter_1F_EventScript_Youngster::
 	end
 
 PokemonCenter_EventScript_MoveRelearner::
-	lockall
-	applymovement LOCALID_MAUVILLE_MOVE_RELEARNER, Common_Movement_FacePlayer
-	waitmovement 0
-	goto_if_set FLAG_TEMP_1, FallarborTown_MoveRelearnersHouse_EventScript_AskTeachMove
-	msgbox FallarborTown_MoveRelearnersHouse_Text_ImTheMoveTutor, MSGBOX_DEFAULT
-	setflag FLAG_TEMP_1
-	goto FallarborTown_MoveRelearnersHouse_EventScript_AskTeachMove
+	call Common_EventScript_MoveRelearner
 	end
 
 MauvilleCity_PokemonCenter_1F_Text_ManOverThereSaysWeirdThings:

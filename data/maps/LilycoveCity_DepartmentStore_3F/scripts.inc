@@ -148,6 +148,7 @@ LilycoveCity_DepartmentStore_3F_Pokemart_EvolutionItem:
 	.2byte ITEM_MAGMARIZER
 	.2byte ITEM_DUBIOUS_DISC
 	.2byte ITEM_REAPER_CLOTH
+	.2byte ITEM_BLACK_AUGURITE
 	pokemartlistend
 
 LilycoveCity_DepartmentStore_3F_EventScript_Clerk_LeftCounter_Right::
@@ -235,6 +236,10 @@ LilycoveCity_DepartmentStore_3F_Pokemart_HeldItem:
 	.2byte ITEM_BLUNDER_POLICY
 	.2byte ITEM_ROOM_SERVICE
 	.2byte ITEM_UTILITY_UMBRELLA
+	.2byte ITEM_CLEAR_AMULET
+	.2byte ITEM_PUNCHING_GLOVE
+	.2byte ITEM_LOADED_DICE
+	.2byte ITEM_MIRROR_HERB
 	pokemartlistend
 
 LilycoveCity_DepartmentStore_3F_EventScript_TriathleteM::

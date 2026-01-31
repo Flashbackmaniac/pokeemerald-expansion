@@ -568,18 +568,18 @@ SlateportCity_Pokemart_PowerTMs:
 	.2byte ITEM_TM_SECRET_POWER
 	pokemartlistend
 	
-SlateportCity_EventScript_PowerItemClerk::
+SlateportCity_EventScript_PowerItem_Clerk::
 	lock
 	faceplayer
-	message SlateportCity_Text_PowerItemClerk
+	message SlateportCity_Text_PowerItem_Clerk
 	waitmessage
-	pokemart SlateportCity_Pokemart_PowerItems
+	pokemart SlateportCity_Pokemart_PowerItem
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 
 	.align 2
-SlateportCity_Pokemart_PowerItems:
+SlateportCity_Pokemart_PowerItem:
 	.2byte ITEM_POWER_WEIGHT
 	.2byte ITEM_POWER_BRACER
 	.2byte ITEM_POWER_BELT
@@ -589,10 +589,10 @@ SlateportCity_Pokemart_PowerItems:
 	.2byte ITEM_NONE
 	pokemartlistend
 	
-SlateportCity_EventScript_FriendshipBerryClerk::
+SlateportCity_EventScript_FriendshipBerry_Clerk::
 	lock
 	faceplayer
-	message SlateportCity_Text_FriendshipBerryClerk
+	message SlateportCity_Text_FriendshipBerry_Clerk
 	waitmessage
 	pokemart SlateportCity_Pokemart_FriendshipBerry
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
@@ -610,10 +610,10 @@ SlateportCity_Pokemart_FriendshipBerry:
 	.2byte ITEM_NONE
 	pokemartlistend
 
-SlateportCity_EventScript_MochiClerk::
+SlateportCity_EventScript_Mochi_Clerk::
 	lock
 	faceplayer
-	message SlateportCity_Text_MochiClerk
+	message SlateportCity_Text_Mochi_Clerk
 	waitmessage
 	pokemart SlateportCity_Pokemart_Mochi
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
@@ -632,10 +632,10 @@ SlateportCity_Pokemart_Mochi:
 	.2byte ITEM_NONE
 	pokemartlistend
 	
-SlateportCity_EventScript_EvolutionItemClerk::
+SlateportCity_EventScript_EvolutionItem_Clerk::
 	lock
 	faceplayer
-	message SlateportCity_Text_EvolutionItemClerk
+	message SlateportCity_Text_EvolutionItem_Clerk
 	waitmessage
 	pokemart SlateportCity_Pokemart_EvolutionItem
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
@@ -687,6 +687,7 @@ SlateportCity_Pokemart_EvolutionItem:
 	.2byte ITEM_FLOWER_SWEET
 	.2byte ITEM_STAR_SWEET
 	.2byte ITEM_RIBBON_SWEET
+	.2byte ITEM_BLACK_AUGURITE
 	.2byte ITEM_AUSPICIOUS_ARMOR
 	.2byte ITEM_MALICIOUS_ARMOR
 	.2byte ITEM_GIMMIGHOUL_COIN
@@ -1509,18 +1510,18 @@ SlateportCity_Text_TakingBattleTentChallenge:
 	.string "the perfect fit for the Battle Tent!\p"
 	.string "Give it your best effort!$"
 	
-SlateportCity_Text_PowerItemClerk:
+SlateportCity_Text_PowerItem_Clerk:
 	.string "Welcome! I sell items that help\n"
 	.string "with Pokémon training!$"
 	
-SlateportCity_Text_FriendshipBerryClerk:
+SlateportCity_Text_FriendshipBerry_Clerk:
 	.string "Are you in need of friendship-raising\n"
 	.string "berries? I've got them here!$"
 
-SlateportCity_Text_MochiClerk:
+SlateportCity_Text_Mochi_Clerk:
 	.string "Welcome! I've got some rice cakes\n"
 	.string "from a faraway land!$"
 	
-SlateportCity_Text_EvolutionItemClerk:
+SlateportCity_Text_EvolutionItem_Clerk:
 	.string "Greetings! I'm selling a whole bunch\n"
 	.string "of evolution items!$"

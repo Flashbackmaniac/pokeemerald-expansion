@@ -53,10 +53,10 @@ FallarborTown_EventScript_MoveTutorSign::
 	msgbox FallarborTown_Text_MoveTutorSign, MSGBOX_SIGN
 	end
 
-FallarborTown_EventScript_MintClerk::
+FallarborTown_EventScript_Mint_Clerk::
 	lock
 	faceplayer
-	message FallarborTown_Text_MintClerk
+	message FallarborTown_Text_Mint_Clerk
 	waitmessage
 	pokemart FallarborTown_Pokemart_Mint
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
@@ -132,7 +132,7 @@ FallarborTown_Text_MoveTutorSign:
 	.string "Move Tutor's House\n"
 	.string "“New moves taught to Pokémon.”$"
 
-FallarborTown_Text_MintClerk:
+FallarborTown_Text_Mint_Clerk:
 	.string "I've been growing and harvesting mints\n"
 	.string "that alter the growth of Pokémon\l"
 	.string "stats. Would you like to buy some?$"

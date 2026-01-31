@@ -25,6 +25,22 @@ FortreeCity_Mart_Pokemart:
 	.2byte ITEM_WOOD_MAIL
 	pokemartlistend
 
+FortreeCity_Mart_EventScript_AbilityItem_Clerk::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart FortreeCity_Mart_Pokemart_AbilityItem
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+FortreeCity_Mart_Pokemart_AbilityItem:
+	.2byte ITEM_ABILITY_CAPSULE
+	.2byte ITEM_ABILITY_PATCH
+	pokemartlistend
+
 FortreeCity_Mart_EventScript_Woman::
 	msgbox FortreeCity_Mart_Text_SuperRepelBetter, MSGBOX_NPC
 	end

@@ -516,7 +516,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SlateportCity_EventScript_PowerItemClerk",
+      "script": "SlateportCity_EventScript_PowerItem_Clerk",
       "flag": "0"
     },
     {
@@ -529,7 +529,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SlateportCity_EventScript_MochiClerk",
+      "script": "SlateportCity_EventScript_Mochi_Clerk",
       "flag": "0"
     },
     {
@@ -542,7 +542,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SlateportCity_EventScript_FriendshipBerryClerk",
+      "script": "SlateportCity_EventScript_FriendshipBerry_Clerk",
       "flag": "0"
     },
     {
@@ -555,7 +555,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SlateportCity_EventScript_EvolutionItemClerk",
+      "script": "SlateportCity_EventScript_EvolutionItem_Clerk",
       "flag": "0"
     }
   ],
