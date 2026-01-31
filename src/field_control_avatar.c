@@ -642,6 +642,8 @@ static bool8 TryStartStepBasedScript(struct MapPosition *position, u16 metatileB
         return TRUE;
     if (UpdateRepelCounter() == TRUE)
         return TRUE;
+    if (OnStep_DexNavSearch())
+        return TRUE;
     return FALSE;
 }
 
