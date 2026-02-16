@@ -10,7 +10,6 @@ ASSUMPTIONS
 
 DOUBLE_BATTLE_TEST("Sparkly Swirl cures the entire party")
 {
-<<<<<<< HEAD
     GIVEN {
         ASSUME(GetMoveEffect(MOVE_AROMATHERAPY) == EFFECT_HEAL_BELL);
         PLAYER(SPECIES_WOBBUFFET) {
@@ -28,84 +27,6 @@ DOUBLE_BATTLE_TEST("Sparkly Swirl cures the entire party")
         TURN { MOVE(playerLeft, MOVE_SPARKLY_SWIRL, target: opponentLeft); }
         TURN { SWITCH(playerLeft, 2); SWITCH(playerRight, 3); }
     } SCENE {
-        int i;
-
-        ANIMATION(ANIM_TYPE_MOVE, MOVE_SPARKLY_SWIRL, playerLeft);
-        STATUS_ICON(playerLeft, none: TRUE);
-        STATUS_ICON(playerRight, none: TRUE);
-        NOT MESSAGE("Wobbuffet was hurt by its poisoning!");
-        for (i = 0; i < PARTY_SIZE; i++)
-            EXPECT_EQ(GetMonData(&gPlayerParty[i], MON_DATA_STATUS), STATUS1_NONE);
-    }
-}
-
-DOUBLE_BATTLE_TEST("Heal Bell/Aromatherapy cures the entire party of the user from primary status effects")
-{
-    u32 j, move, status;
-    PARAMETRIZE { move = MOVE_HEAL_BELL;    status = STATUS1_SLEEP; }
-    PARAMETRIZE { move = MOVE_AROMATHERAPY; status = STATUS1_SLEEP; }
-    PARAMETRIZE { move = MOVE_HEAL_BELL;    status = STATUS1_POISON; }
-    PARAMETRIZE { move = MOVE_AROMATHERAPY; status = STATUS1_POISON; }
-    PARAMETRIZE { move = MOVE_HEAL_BELL;    status = STATUS1_BURN; }
-    PARAMETRIZE { move = MOVE_AROMATHERAPY; status = STATUS1_BURN; }
-    PARAMETRIZE { move = MOVE_HEAL_BELL;    status = STATUS1_FREEZE; }
-    PARAMETRIZE { move = MOVE_AROMATHERAPY; status = STATUS1_FREEZE; }
-    PARAMETRIZE { move = MOVE_HEAL_BELL;    status = STATUS1_PARALYSIS; }
-    PARAMETRIZE { move = MOVE_AROMATHERAPY; status = STATUS1_PARALYSIS; }
-    PARAMETRIZE { move = MOVE_HEAL_BELL;    status = STATUS1_TOXIC_POISON; }
-    PARAMETRIZE { move = MOVE_AROMATHERAPY; status = STATUS1_TOXIC_POISON; }
-    PARAMETRIZE { move = MOVE_HEAL_BELL;    status = STATUS1_FROSTBITE; }
-    PARAMETRIZE { move = MOVE_AROMATHERAPY; status = STATUS1_FROSTBITE; }
-
-=======
->>>>>>> 64d40d3c1464011d8642d280b622f3e7fa27c5d3
-    GIVEN {
-        ASSUME(GetMoveEffect(MOVE_AROMATHERAPY) == EFFECT_HEAL_BELL);
-        PLAYER(SPECIES_WOBBUFFET) {
-            if (status != STATUS1_SLEEP && status != STATUS1_FREEZE)
-                Status1(status);
-        }
-        PLAYER(SPECIES_WOBBUFFET) { Status1(status); }
-        PLAYER(SPECIES_WOBBUFFET) { Status1(status); }
-        PLAYER(SPECIES_WOBBUFFET) { Status1(status); }
-        PLAYER(SPECIES_WOBBUFFET) { Status1(status); }
-        PLAYER(SPECIES_WOBBUFFET) { Status1(status); }
-        OPPONENT(SPECIES_WYNAUT);
-        OPPONENT(SPECIES_WYNAUT);
-    } WHEN {
-        TURN { MOVE(playerLeft, MOVE_SPARKLY_SWIRL, target: opponentLeft); }
-        TURN { SWITCH(playerLeft, 2); SWITCH(playerRight, 3); }
-    } SCENE {
-<<<<<<< HEAD
-        ANIMATION(ANIM_TYPE_MOVE, move, playerLeft);
-        switch(status)
-        {
-        case STATUS1_SLEEP:        STATUS_ICON(playerLeft, sleep: FALSE);     STATUS_ICON(playerRight, sleep: FALSE);     break;
-        case STATUS1_POISON:       STATUS_ICON(playerLeft, poison: FALSE);    STATUS_ICON(playerRight, poison: FALSE);    break;
-        case STATUS1_BURN:         STATUS_ICON(playerLeft, burn: FALSE);      STATUS_ICON(playerRight, burn: FALSE);      break;
-        case STATUS1_PARALYSIS:    STATUS_ICON(playerLeft, paralysis: FALSE); STATUS_ICON(playerRight, paralysis: FALSE); break;
-        case STATUS1_TOXIC_POISON: STATUS_ICON(playerLeft, badPoison: FALSE); STATUS_ICON(playerRight, badPoison: FALSE); break;
-        case STATUS1_FROSTBITE:    STATUS_ICON(playerLeft, frostbite: FALSE); STATUS_ICON(playerRight, frostbite: FALSE); break;
-        }
-        for (j = 0; j < PARTY_SIZE; j++)
-            EXPECT_EQ(GetMonData(&gPlayerParty[j], MON_DATA_STATUS), STATUS1_NONE);
-    }
-}
-
-DOUBLE_BATTLE_TEST("Heal Bell does not cure Soundproof partners (Gen 4, Gen 6+)")
-{
-    enum Ability ability;
-    u32 config;
-
-    PARAMETRIZE { ability = ABILITY_SCRAPPY;    config = GEN_4; }
-    PARAMETRIZE { ability = ABILITY_SOUNDPROOF; config = GEN_4; }
-    PARAMETRIZE { ability = ABILITY_SOUNDPROOF; config = GEN_5; }
-    PARAMETRIZE { ability = ABILITY_SOUNDPROOF; config = GEN_6; }
-
-    GIVEN {
-        ASSUME(IsSoundMove(MOVE_HEAL_BELL));
-        WITH_CONFIG(GEN_CONFIG_HEAL_BELL_SOUNDPROOF, config);
-=======
         int i;
 
         ANIMATION(ANIM_TYPE_MOVE, MOVE_SPARKLY_SWIRL, playerLeft);
@@ -180,7 +101,6 @@ DOUBLE_BATTLE_TEST("Heal Bell does not cure Soundproof partners (Gen 4, Gen 6+)"
     GIVEN {
         ASSUME(IsSoundMove(MOVE_HEAL_BELL));
         WITH_CONFIG(CONFIG_HEAL_BELL_SOUNDPROOF, config);
->>>>>>> 64d40d3c1464011d8642d280b622f3e7fa27c5d3
         PLAYER(SPECIES_WOBBUFFET);
         PLAYER(SPECIES_EXPLOUD) { Ability(ability); Status1(STATUS1_POISON); }
         OPPONENT(SPECIES_WYNAUT);
@@ -208,11 +128,7 @@ SINGLE_BATTLE_TEST("Heal Bell cures inactive Soundproof Pokemon (Gen5+)")
 
     GIVEN {
         ASSUME(IsSoundMove(MOVE_HEAL_BELL));
-<<<<<<< HEAD
-        WITH_CONFIG(GEN_CONFIG_HEAL_BELL_SOUNDPROOF, config);
-=======
         WITH_CONFIG(CONFIG_HEAL_BELL_SOUNDPROOF, config);
->>>>>>> 64d40d3c1464011d8642d280b622f3e7fa27c5d3
         PLAYER(SPECIES_WOBBUFFET) { Status1(STATUS1_POISON); }
         PLAYER(SPECIES_EXPLOUD) { Ability(ability); Status1(STATUS1_POISON); }
         OPPONENT(SPECIES_WYNAUT);
@@ -240,11 +156,7 @@ SINGLE_BATTLE_TEST("Heal Bell cures a Soundproof user (Gen5, Gen8+)")
     PARAMETRIZE { config = GEN_8; }
     GIVEN {
         ASSUME(IsSoundMove(MOVE_HEAL_BELL));
-<<<<<<< HEAD
-        WITH_CONFIG(GEN_CONFIG_HEAL_BELL_SOUNDPROOF, config);
-=======
         WITH_CONFIG(CONFIG_HEAL_BELL_SOUNDPROOF, config);
->>>>>>> 64d40d3c1464011d8642d280b622f3e7fa27c5d3
         PLAYER(SPECIES_EXPLOUD) { Ability(ABILITY_SOUNDPROOF); Status1(STATUS1_POISON); }
         OPPONENT(SPECIES_WYNAUT);
     } WHEN {
@@ -270,12 +182,8 @@ DOUBLE_BATTLE_TEST("Aromatherapy cure Soundproof battlers regardless of config")
 
     GIVEN {
         ASSUME(!IsSoundMove(MOVE_AROMATHERAPY));
-<<<<<<< HEAD
-        WITH_CONFIG(GEN_CONFIG_HEAL_BELL_SOUNDPROOF, config);
-=======
         WITH_CONFIG(CONFIG_HEAL_BELL_SOUNDPROOF, config);
->>>>>>> 64d40d3c1464011d8642d280b622f3e7fa27c5d3
-        PLAYER(SPECIES_WOBBUFFET) { Ability(ability); Status1(STATUS1_POISON); };
+        PLAYER(SPECIES_WOBBUFFET) { Ability(ability); Status1(STATUS1_POISON); }
         PLAYER(SPECIES_EXPLOUD) { Ability(ability); Status1(STATUS1_POISON); }
         OPPONENT(SPECIES_WYNAUT);
         OPPONENT(SPECIES_WYNAUT);
@@ -299,11 +207,7 @@ SINGLE_BATTLE_TEST("Aromatherapy cures inactive Soundproof Pokemon regardless of
 
     GIVEN {
         ASSUME(!IsSoundMove(MOVE_AROMATHERAPY));
-<<<<<<< HEAD
-        WITH_CONFIG(GEN_CONFIG_HEAL_BELL_SOUNDPROOF, config);
-=======
         WITH_CONFIG(CONFIG_HEAL_BELL_SOUNDPROOF, config);
->>>>>>> 64d40d3c1464011d8642d280b622f3e7fa27c5d3
         PLAYER(SPECIES_WOBBUFFET) { }
         PLAYER(SPECIES_EXPLOUD) { Ability(ability); Status1(STATUS1_POISON); }
         OPPONENT(SPECIES_WYNAUT);
