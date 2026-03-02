@@ -406,9 +406,6 @@ DOUBLE_BATTLE_TEST("Dancer-called moves doesn't update move to be called by Mirr
     }
 }
 
-TO_DO_BATTLE_TEST("Dancer-called moves doesn't update move to be called by Mimick")
-TO_DO_BATTLE_TEST("Dancer-called moves doesn't update move to be called by Mirror Move")
-
 DOUBLE_BATTLE_TEST("Dancer doesn't call a move that didn't execute due to Powder")
 {
     GIVEN {
@@ -583,7 +580,7 @@ SINGLE_BATTLE_TEST("Dancer user may hit itself in confusion instead of copying a
     PARAMETRIZE { genConfig = GEN_7; pctChance = 33; }
     PASSES_RANDOMLY(pctChance, 100, RNG_CONFUSION);
     GIVEN {
-        WITH_CONFIG(CONFIG_CONFUSION_SELF_DMG_CHANCE, genConfig);
+        WITH_CONFIG(B_CONFUSION_SELF_DMG_CHANCE, genConfig);
         ASSUME(IsDanceMove(MOVE_DRAGON_DANCE));
         ASSUME(GetMoveEffect(MOVE_CONFUSE_RAY) == EFFECT_CONFUSE);
         PLAYER(SPECIES_WOBBUFFET) { Speed(30); }
@@ -750,7 +747,7 @@ SINGLE_BATTLE_TEST("Dancer can still copy status moves if the user is holding an
 DOUBLE_BATTLE_TEST("Dancer copies Lunar Dance after the original user faints, but before the replacement is sent out")
 {
     GIVEN {
-        WITH_CONFIG(CONFIG_HEALING_WISH_SWITCH, GEN_7);
+        WITH_CONFIG(B_HEALING_WISH_SWITCH, GEN_7);
         ASSUME(GetMoveEffect(MOVE_LUNAR_DANCE) == EFFECT_LUNAR_DANCE);
         PLAYER(SPECIES_WOBBUFFET) { Speed(50); }
         PLAYER(SPECIES_ORICORIO) { Ability(ABILITY_DANCER); Speed(20); }
