@@ -88,19 +88,19 @@ static const struct WindowTemplate sHelpBarWindowTemplate[] =
 static const u8 *const sHelpBarTexts[HELPBAR_COUNT] =
 {
     [HELPBAR_NONE]                  = COMPOUND_STRING("{CLEAR 0x80}"),
-    [HELPBAR_MAP_ZOOMED_OUT]        = COMPOUND_STRING("{A_BUTTON}ZOOM {B_BUTTON}CANCEL"),
-    [HELPBAR_MAP_ZOOMED_IN]         = COMPOUND_STRING("{A_BUTTON}FULL {B_BUTTON}CANCEL"),
-    [HELPBAR_MAP_ZOOMED_OUT_CANFLY] = COMPOUND_STRING("{A_BUTTON}ZOOM {B_BUTTON}CANCEL {R_BUTTON}FLY"),
-    [HELPBAR_MAP_ZOOMED_IN_CANFLY]  = COMPOUND_STRING("{A_BUTTON}FULL {B_BUTTON}CANCEL {R_BUTTON}FLY"),
-    [HELPBAR_CONDITION_MON_LIST]    = COMPOUND_STRING("{A_BUTTON}CONDITION {B_BUTTON}CANCEL"),
-    [HELPBAR_CONDITION_MON_STATUS]  = COMPOUND_STRING("{A_BUTTON}MARKINGS {B_BUTTON}CANCEL"),
-    [HELPBAR_CONDITION_MARKINGS]    = COMPOUND_STRING("{A_BUTTON}SELECT MARK {B_BUTTON}CANCEL"),
-    [HELPBAR_MC_TRAINER_LIST]       = COMPOUND_STRING("{A_BUTTON}MENU {B_BUTTON}CANCEL"),
-    [HELPBAR_MC_CALL_MENU]          = COMPOUND_STRING("{A_BUTTON}OK {B_BUTTON}CANCEL"),
-    [HELPBAR_MC_CHECK_PAGE]         = COMPOUND_STRING("{B_BUTTON}CANCEL"),
-    [HELPBAR_RIBBONS_MON_LIST]      = COMPOUND_STRING("{A_BUTTON}RIBBONS {B_BUTTON}CANCEL"),
-    [HELPBAR_RIBBONS_LIST]          = COMPOUND_STRING("{A_BUTTON}CHECK {B_BUTTON}CANCEL"),
-    [HELPBAR_RIBBONS_CHECK]         = COMPOUND_STRING("{B_BUTTON}CANCEL"),
+    [HELPBAR_MAP_ZOOMED_OUT]        = COMPOUND_STRING("{A_BUTTON}Zoom {B_BUTTON}Cancel"),
+    [HELPBAR_MAP_ZOOMED_IN]         = COMPOUND_STRING("{A_BUTTON}Full {B_BUTTON}Cancel"),
+    [HELPBAR_MAP_ZOOMED_OUT_CANFLY] = COMPOUND_STRING("{A_BUTTON}Zoom {B_BUTTON}Cancel {R_BUTTON}Fly"),
+    [HELPBAR_MAP_ZOOMED_IN_CANFLY]  = COMPOUND_STRING("{A_BUTTON}Full {B_BUTTON}Cancel {R_BUTTON}Fly"),
+    [HELPBAR_CONDITION_MON_LIST]    = COMPOUND_STRING("{A_BUTTON}Condition {B_BUTTON}Cancel"),
+    [HELPBAR_CONDITION_MON_STATUS]  = COMPOUND_STRING("{A_BUTTON}Markings {B_BUTTON}Cancel"),
+    [HELPBAR_CONDITION_MARKINGS]    = COMPOUND_STRING("{A_BUTTON}Select MARK {B_BUTTON}Cancel"),
+    [HELPBAR_MC_TRAINER_LIST]       = COMPOUND_STRING("{A_BUTTON}Menu {B_BUTTON}Cancel"),
+    [HELPBAR_MC_CALL_MENU]          = COMPOUND_STRING("{A_BUTTON}OK {B_BUTTON}Cancel"),
+    [HELPBAR_MC_CHECK_PAGE]         = COMPOUND_STRING("{B_BUTTON}Cancel"),
+    [HELPBAR_RIBBONS_MON_LIST]      = COMPOUND_STRING("{A_BUTTON}Ribbons {B_BUTTON}Cancel"),
+    [HELPBAR_RIBBONS_LIST]          = COMPOUND_STRING("{A_BUTTON}CHECK {B_BUTTON}Cancel"),
+    [HELPBAR_RIBBONS_CHECK]         = COMPOUND_STRING("{B_BUTTON}Cancel"),
 };
 
 static const u8 sHelpBarTextColors[3] =
@@ -237,8 +237,6 @@ static const struct SpriteTemplate sSpinningPokenavSpriteTemplate =
     .paletteTag = 0,
     .oam = &sSpinningPokenavSpriteOam,
     .anims = sSpinningPokenavAnimTable,
-    .images = NULL,
-    .affineAnims = gDummySpriteAffineAnimTable,
     .callback = SpriteCB_SpinningPokenav
 };
 
@@ -276,10 +274,6 @@ static const struct SpriteTemplate sLeftHeaderSpriteTemplate =
     .tileTag = 2,
     .paletteTag = 1,
     .oam = &sOamData_LeftHeader,
-    .anims = gDummySpriteAnimTable,
-    .images = NULL,
-    .affineAnims = gDummySpriteAffineAnimTable,
-    .callback = SpriteCallbackDummy
 };
 
 static const struct SpriteTemplate sSubmenuLeftHeaderSpriteTemplate =
@@ -287,10 +281,6 @@ static const struct SpriteTemplate sSubmenuLeftHeaderSpriteTemplate =
     .tileTag = 2,
     .paletteTag = 2,
     .oam = &sOamData_SubmenuLeftHeader,
-    .anims = gDummySpriteAnimTable,
-    .images = NULL,
-    .affineAnims = gDummySpriteAffineAnimTable,
-    .callback = SpriteCallbackDummy
 };
 
 bool32 InitPokenavMainMenu(void)

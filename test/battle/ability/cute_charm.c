@@ -3,7 +3,7 @@
 
 SINGLE_BATTLE_TEST("Cute Charm inflicts infatuation on contact")
 {
-    u32 move;
+    enum Move move;
     PARAMETRIZE { move = MOVE_SCRATCH; }
     PARAMETRIZE { move = MOVE_SWIFT; }
     GIVEN {
@@ -49,6 +49,8 @@ SINGLE_BATTLE_TEST("Cute Charm cannot infatuate same gender")
 TO_DO_BATTLE_TEST("Cute Charm cannot infatuate if either Pokémon are Gender-unknown")
 
 TO_DO_BATTLE_TEST("Cute Charm triggers 1/3 of the time (Gen 3)")
+
+TO_DO_BATTLE_TEST("Cute Charm cannot infatuate if either Pokémon are Gender-unknown")
 
 TO_DO_BATTLE_TEST("Cute Charm cannot infatuate if either Pokémon are Gender-unknown")
 

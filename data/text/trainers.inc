@@ -4788,7 +4788,7 @@ VSSeeker_Text_BatteryNotChargedNeedXSteps::
 VSSeeker_Text_NoTrainersWithinRange::
 	.string "There are no Trainers within range\n"
 	.string "who can battle…\p"
-	.string "The VS Seeker was turned off.{PAUSE_UNTIL_PRESS}$"
+	.string "The Vs. Seeker was turned off.{PAUSE_UNTIL_PRESS}$"
 
 VSSeeker_Text_TrainersNotReady::
 	.string "The other Trainers don't appear\n"

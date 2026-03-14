@@ -12,12 +12,13 @@
 #line 3
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_1,
 #line 4
-        .trainerPic = TRAINER_PIC_BRENDAN,
-        .encounterMusic_gender =
+        .trainerPic = TRAINER_PIC_FRONT_BRENDAN,
+#line 5
+        .gender = TRAINER_GENDER_MALE,
 #line 6
-            TRAINER_ENCOUNTER_MUSIC_MALE,
+        .encounterMusic = TRAINER_ENCOUNTER_MUSIC_MALE,
 #line 7
-        .trainerBackPic = TRAINER_BACK_PIC_BRENDAN,
+        .trainerBackPic = TRAINER_PIC_BACK_BRENDAN,
         .partySize = 0,
         .party = (const struct TrainerMon[])
         {
@@ -31,14 +32,15 @@
 #line 11
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 12
-        .trainerPic = TRAINER_PIC_STEVEN,
-        .encounterMusic_gender =
+        .trainerPic = TRAINER_PIC_FRONT_STEVEN,
+#line 13
+        .gender = TRAINER_GENDER_MALE,
 #line 14
-            TRAINER_ENCOUNTER_MUSIC_MALE,
+        .encounterMusic = TRAINER_ENCOUNTER_MUSIC_MALE,
 #line 16
         .aiFlags = AI_FLAG_BASIC_TRAINER,
 #line 15
-        .trainerBackPic = TRAINER_BACK_PIC_STEVEN,
+        .trainerBackPic = TRAINER_PIC_BACK_STEVEN,
         .partySize = 3,
         .party = (const struct TrainerMon[])
         {
@@ -56,6 +58,7 @@
             .ability = ABILITY_STURDY,
 #line 20
             .lvl = 66,
+            .ball = POKEBALL_COUNT,
 #line 19
             .nature = NATURE_IMPISH,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -81,6 +84,7 @@
             .ability = ABILITY_ROCK_HEAD,
 #line 31
             .lvl = 66,
+            .ball = POKEBALL_COUNT,
 #line 30
             .nature = NATURE_ADAMANT,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -104,6 +108,7 @@
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 42
             .lvl = 66,
+            .ball = POKEBALL_COUNT,
 #line 41
             .nature = NATURE_ADAMANT,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,

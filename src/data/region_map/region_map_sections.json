@@ -813,7 +813,7 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 2
     },
     {
       "id": "MAPSEC_ROUTE_2",
@@ -821,7 +821,7 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 3
     },
     {
       "id": "MAPSEC_ROUTE_3",
@@ -845,7 +845,7 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 2
     },
     {
       "id": "MAPSEC_ROUTE_6",
@@ -853,7 +853,7 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 2
     },
     {
       "id": "MAPSEC_ROUTE_7",
@@ -885,7 +885,7 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 3
     },
     {
       "id": "MAPSEC_ROUTE_11",
@@ -901,7 +901,7 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 5
     },
     {
       "id": "MAPSEC_ROUTE_13",
@@ -917,7 +917,7 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 2
     },
     {
       "id": "MAPSEC_ROUTE_15",
@@ -941,7 +941,7 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 5
     },
     {
       "id": "MAPSEC_ROUTE_18",
@@ -957,7 +957,7 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 2
     },
     {
       "id": "MAPSEC_ROUTE_20",
@@ -973,7 +973,7 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 2
     },
     {
       "id": "MAPSEC_ROUTE_22",
@@ -989,7 +989,7 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 4
     },
     {
       "id": "MAPSEC_ROUTE_24",
@@ -997,7 +997,7 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 2
     },
     {
       "id": "MAPSEC_ROUTE_25",
@@ -1205,7 +1205,7 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 6
     },
     {
       "id": "MAPSEC_TREASURE_BEACH",
@@ -1213,7 +1213,7 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 2
     },
     {
       "id": "MAPSEC_CAPE_BRINK",
@@ -1221,7 +1221,7 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 2
     },
     {
       "id": "MAPSEC_BOND_BRIDGE",
@@ -1293,7 +1293,7 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 3
     },
     {
       "id": "MAPSEC_MEMORIAL_PILLAR",
@@ -1301,7 +1301,7 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 3
     },
     {
       "id": "MAPSEC_OUTCAST_ISLAND",
@@ -1309,7 +1309,7 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 3
     },
     {
       "id": "MAPSEC_GREEN_PATH",
@@ -1325,7 +1325,7 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 5
     },
     {
       "id": "MAPSEC_RUIN_VALLEY",
@@ -1341,7 +1341,7 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 2
     },
     {
       "id": "MAPSEC_CANYON_ENTRANCE",
@@ -1357,7 +1357,7 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 3
     },
     {
       "id": "MAPSEC_TANOBY_RUINS",
@@ -1373,7 +1373,7 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 3
     },
     {
       "id": "MAPSEC_SEVII_ISLE_23",
@@ -1389,7 +1389,7 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 3
     },
     {
       "id": "MAPSEC_NAVEL_ROCK_FRLG",
