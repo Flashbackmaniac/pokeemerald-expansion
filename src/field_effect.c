@@ -25,6 +25,7 @@
 #include "party_menu.h"
 #include "pokemon.h"
 #include "pokemon_storage_system.h"
+#include "regions.h"
 #include "script.h"
 #include "sound.h"
 #include "sprite.h"
@@ -3328,6 +3329,10 @@ u8 FldEff_UseSurf(void)
     gTasks[taskId].tMonId = gFieldEffectArguments[0];
     Overworld_ClearSavedMusic();
     Overworld_ChangeMusicTo(MUS_SURF);
+    if (GetCurrentRegion() == REGION_KANTO)
+    {
+        Overworld_ChangeMusicTo(MUS_RG_SURF);
+    }
     return FALSE;
 }
 

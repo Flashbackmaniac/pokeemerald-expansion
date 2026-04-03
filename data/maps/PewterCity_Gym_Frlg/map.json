@@ -2,8 +2,7 @@
   "id": "MAP_PEWTER_CITY_GYM",
   "name": "PewterCity_Gym_Frlg",
   "layout": "LAYOUT_PEWTER_CITY_GYM",
-  "music": "MUS_GYM",
-  "region": "REGION_KANTO",
+  "music": "MUS_RG_GYM",
   "region_map_section": "MAPSEC_PEWTER_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -100,5 +99,6 @@
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "PewterCity_Gym_EventScript_GymStatue"
     }
-  ]
+  ],
+  "region": "REGION_KANTO"
 }

@@ -2,8 +2,7 @@
   "id": "MAP_FOUR_ISLAND_POKEMON_CENTER_1F",
   "name": "FourIsland_PokemonCenter_1F_Frlg",
   "layout": "LAYOUT_POKEMON_CENTER_1F_FRLG",
-  "music": "MUS_POKE_CENTER",
-  "region": "REGION_KANTO",
+  "music": "MUS_RG_POKE_CENTER",
   "region_map_section": "MAPSEC_FOUR_ISLAND",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -108,5 +107,6 @@
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "FourIsland_PokemonCenter_1F_EventScript_PokemonJournal"
     }
-  ]
+  ],
+  "region": "REGION_KANTO"
 }

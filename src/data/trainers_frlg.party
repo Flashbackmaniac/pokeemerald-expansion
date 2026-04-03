@@ -220,45 +220,58 @@ Level: 17
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
 === TRAINER_BUG_CATCHER_RICK ===
-Name: RICK
+Name: Rick
 Class: Bug Catcher Frlg
 Pic: Bug Catcher Frlg
 Gender: Male
 Music: Male
 Double Battle: No
 AI: Check Bad Move
-
-Weedle
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Caterpie
 Level: 6
+Ability: Shield Dust
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- String Shot
+
+Weedle
+Level: 6
+Ability: Shield Dust
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Sting
+- String Shot
 
 === TRAINER_BUG_CATCHER_DOUG ===
-Name: DOUG
+Name: Doug
 Class: Bug Catcher Frlg
 Pic: Bug Catcher Frlg
 Gender: Male
 Music: Male
 Double Battle: No
 AI: Check Bad Move
-
-Weedle
-Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kakuna
 Level: 7
+Ability: Shed Skin
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Harden
 
-Weedle
+Scatterbug
 Level: 7
+Ability: Shield Dust
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- String Shot
+
+Blipbug
+Level: 7
+Ability: Swarm
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Struggle Bug
 
 === TRAINER_BUG_CATCHER_SAMMY ===
-Name: SAMMY
+Name: Sammy
 Class: Bug Catcher Frlg
 Pic: Bug Catcher Frlg
 Gender: Male
@@ -266,9 +279,28 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Weedle
-Level: 9
+Grubbin
+Level: 7
+Ability: Swarm
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Vise Grip
+- String Shot
+
+Wimpod
+Level: 7
+Ability: Wimp Out
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Struggle Bug
+- Sand Attack
+- Defense Curl
+
+Tarountula
+Level: 7
+Ability: Insomnia
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- String Shot
+- Struggle Bug
 
 === TRAINER_BUG_CATCHER_COLTON ===
 Name: COLTON
@@ -914,7 +946,7 @@ Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CAMPER_LIAM ===
-Name: LIAM
+Name: Liam
 Class: Camper Frlg
 Pic: Camper Frlg
 Gender: Male
@@ -924,16 +956,35 @@ AI: Check Bad Move
 
 Geodude
 Level: 10
+Ability: Rock Head
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 - Defense Curl
+- Rock Polish
 
-Sandshrew
-Level: 11
+Geodude-Alola
+Level: 10
+Ability: Magnet Pull
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Scratch
+- Tackle
 - Defense Curl
+- Rock Polish
+
+Rockruff
+Level: 11
+Ability: Keen Eye
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Leer
 - Sand Attack
+
+Nacli
+Level: 11
+Ability: Purifying Salt
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Harden
+- Rock Throw
 
 === TRAINER_CAMPER_SHANE ===
 Name: SHANE
@@ -7035,7 +7086,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Wing Attack
 
 === TRAINER_LEADER_BROCK ===
-Name: BROCK
+Name: Brock
 Class: Leader Frlg
 Pic: Leader Brock Frlg
 Gender: Male
@@ -7045,15 +7096,38 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Geodude
 Level: 12
+Ability: Sturdy
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 - Defense Curl
+- Rock Polish
+- Rock Tomb
+
+Rockruff
+Level: 12
+Ability: Keen Eye
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Leer
+- Rock Throw
+- Rock Tomb
+
+Rolycoly
+Level: 12
+Ability: Heatproof
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Rapid Spin
+- Smack Down
+- Rock Tomb
 
 Onix
 Level: 14
+Ability: Rock Head
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
-- Bind
+- Smack Down
+- Dragon Breath
 - Rock Tomb
 
 === TRAINER_LEADER_MISTY ===
@@ -9241,7 +9315,7 @@ Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BUG_CATCHER_ANTHONY ===
-Name: ANTHONY
+Name: Anthony
 Class: Bug Catcher Frlg
 Pic: Bug Catcher Frlg
 Gender: Male
@@ -9251,14 +9325,27 @@ AI: Check Bad Move
 
 Caterpie
 Level: 7
+Ability: Shield Dust
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- String Shot
 
-Caterpie
+Weedle
 Level: 8
+Ability: Shield Dust
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Sting
+- String Shot
+
+Cutiefly
+Level: 7
+Ability: Shield Dust
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Absorb
+- Fairy Wind
 
 === TRAINER_BUG_CATCHER_CHARLIE ===
-Name: CHARLIE
+Name: Charlie
 Class: Bug Catcher Frlg
 Pic: Bug Catcher Frlg
 Gender: Male
@@ -9267,16 +9354,28 @@ Double Battle: No
 AI: Check Bad Move
 
 Metapod
-Level: 7
+Level: 8
+Ability: Shed Skin
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- String Shot
+- Harden
 
-Caterpie
-Level: 7
+Kakuna
+Level: 8
+Ability: Shed Skin
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Sting
+- String Shot
+- Harden
 
-Metapod
-Level: 7
+Spewpa
+Level: 9
+Ability: Shed Skin
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- String Shot
+- Harden
 
 === TRAINER_TWINS_ELI_ANNE_2 ===
 Name: ELI & ANNE
