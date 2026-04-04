@@ -2,7 +2,8 @@
   "id": "MAP_ROUTE23",
   "name": "Route23_Frlg",
   "layout": "LAYOUT_ROUTE23",
-  "music": "MUS_VICTORY_ROAD",
+  "music": "MUS_RG_VICTORY_ROAD",
+  "region": "REGION_KANTO",
   "region_map_section": "MAPSEC_ROUTE_23",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
@@ -631,6 +632,5 @@
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route23_EventScript_VictoryRoadGateSign"
     }
-  ],
-  "region": "REGION_KANTO"
+  ]
 }

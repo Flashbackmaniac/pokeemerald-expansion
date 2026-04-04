@@ -3,6 +3,7 @@
   "name": "ThreeIsland_PokemonCenter_1F_Frlg",
   "layout": "LAYOUT_POKEMON_CENTER_1F_FRLG",
   "music": "MUS_RG_POKE_CENTER",
+  "region": "REGION_KANTO",
   "region_map_section": "MAPSEC_THREE_ISLAND",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -90,6 +91,5 @@
     }
   ],
   "coord_events": [],
-  "bg_events": [],
-  "region": "REGION_KANTO"
+  "bg_events": []
 }

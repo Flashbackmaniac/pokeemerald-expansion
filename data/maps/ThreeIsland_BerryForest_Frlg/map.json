@@ -3,6 +3,7 @@
   "name": "ThreeIsland_BerryForest_Frlg",
   "layout": "LAYOUT_THREE_ISLAND_BERRY_FOREST",
   "music": "MUS_RG_VIRIDIAN_FOREST",
+  "region": "REGION_KANTO",
   "region_map_section": "MAPSEC_BERRY_FOREST",
   "requires_flash": false,
   "weather": "WEATHER_SHADE",
@@ -13,7 +14,7 @@
   "show_map_name": true,
   "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": null,
+  "connections": 0,
   "object_events": [
     {
       "local_id": "LOCALID_BERRY_FOREST_LOSTELLE",
@@ -236,7 +237,9 @@
       "dest_warp_id": "1"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "sign",
@@ -384,6 +387,5 @@
       "quantity": 1,
       "underfoot": false
     }
-  ],
-  "region": "REGION_KANTO"
+  ]
 }

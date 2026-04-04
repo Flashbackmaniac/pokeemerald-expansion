@@ -3,6 +3,7 @@
   "name": "IndigoPlateau_PokemonCenter_1F_Frlg",
   "layout": "LAYOUT_INDIGO_PLATEAU_POKEMON_CENTER_1F",
   "music": "MUS_RG_GYM",
+  "region": "REGION_KANTO",
   "region_map_section": "MAPSEC_INDIGO_PLATEAU",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -154,6 +155,5 @@
     }
   ],
   "coord_events": [],
-  "bg_events": [],
-  "region": "REGION_KANTO"
+  "bg_events": []
 }

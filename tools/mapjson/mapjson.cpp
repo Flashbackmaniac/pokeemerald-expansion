@@ -641,8 +641,6 @@ string generate_map_constants_text(string groups_filepath, Json groups_data, vec
 
     text << "};\n\n";
 
-    text << "};\n\n";
-
     text << "//Constants for unused maps\n";
     int map_id_num = 0;
     int old_map_group = -1;

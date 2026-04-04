@@ -104,7 +104,40 @@ SINGLE_BATTLE_TEST("Absorb does not drain any HP if user flinched")
     }
 }
 
-TO_DO_BATTLE_TEST("Absorb recovers 50% of the damage dealt to a Substitute");
+SINGLE_BATTLE_TEST("Absorb does not drain any HP if user flinched")
+{
+    GIVEN {
+        PLAYER(SPECIES_WOBBUFFET);
+        OPPONENT(SPECIES_WOBBUFFET);
+    } WHEN {
+        TURN { MOVE(opponent, MOVE_FAKE_OUT); MOVE(player, MOVE_ABSORB); }
+    } SCENE {
+        ANIMATION(ANIM_TYPE_MOVE, MOVE_FAKE_OUT, opponent);
+        NONE_OF {
+            ANIMATION(ANIM_TYPE_MOVE, MOVE_ABSORB, player);
+            MESSAGE("The opposing Wobbuffet had its energy drained!");
+        }
+    }
+}
+
+SINGLE_BATTLE_TEST("Absorb recovers 50% of the damage dealt to a Substitute")
+{
+    u16 damage;
+    s16 healing;
+    GIVEN {
+        PLAYER(SPECIES_WOBBUFFET);
+        OPPONENT(SPECIES_WOBBUFFET) { HP(1); }
+    } WHEN {
+        TURN { MOVE(player, MOVE_SUBSTITUTE); MOVE(opponent, MOVE_ABSORB); }
+    } SCENE {
+        ANIMATION(ANIM_TYPE_MOVE, MOVE_SUBSTITUTE, player);
+        ANIMATION(ANIM_TYPE_MOVE, MOVE_ABSORB, opponent);
+        SUB_HIT(player, captureDamage: &damage);
+        HP_BAR(opponent, captureDamage: &healing);
+    } THEN {
+        EXPECT_MUL_EQ(damage, Q_4_12(-0.5), healing);
+    }
+}
 
 SINGLE_BATTLE_TEST("Absorb does not drain any HP if user does 0 damage")
 {

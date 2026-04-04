@@ -3,6 +3,7 @@
   "name": "TwoIsland_CapeBrink_Frlg",
   "layout": "LAYOUT_TWO_ISLAND_CAPE_BRINK",
   "music": "MUS_RG_ROUTE3",
+  "region": "REGION_KANTO",
   "region_map_section": "MAPSEC_CAPE_BRINK",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
@@ -20,7 +21,9 @@
       "direction": "down"
     }
   ],
-  "object_events": [],
+  "object_events": [
+
+  ],
   "warp_events": [
     {
       "x": 12,
@@ -30,7 +33,9 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "hidden_item",
@@ -52,6 +57,5 @@
       "quantity": 1,
       "underfoot": false
     }
-  ],
-  "region": "REGION_KANTO"
+  ]
 }

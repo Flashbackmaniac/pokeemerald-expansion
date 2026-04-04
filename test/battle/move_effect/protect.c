@@ -958,3 +958,87 @@ DOUBLE_BATTLE_TEST("Wide Guard is still activate even if user is switched out du
         }
     }
 }
+
+DOUBLE_BATTLE_TEST("Protect is not ignored after a new mon switched in because of U-Turn")
+{
+    GIVEN {
+        PLAYER(SPECIES_WOBBUFFET);
+        PLAYER(SPECIES_WYNAUT);
+        OPPONENT(SPECIES_WOBBUFFET);
+        OPPONENT(SPECIES_WOBBUFFET);
+        OPPONENT(SPECIES_WYNAUT);
+    } WHEN {
+        TURN {
+            MOVE(playerRight, MOVE_PROTECT);
+            MOVE(opponentLeft, MOVE_POUND, target: playerRight);
+            MOVE(opponentRight, MOVE_U_TURN, target: playerLeft);
+            SEND_OUT(opponentRight, 2);
+        }
+        TURN {
+            MOVE(playerLeft, MOVE_DETECT);
+            MOVE(opponentLeft, MOVE_POUND, target: playerRight);
+            MOVE(opponentRight, MOVE_POUND, target: playerLeft);
+        }
+    } SCENE {
+        ANIMATION(ANIM_TYPE_MOVE, MOVE_PROTECT, playerRight);
+        ANIMATION(ANIM_TYPE_MOVE, MOVE_U_TURN, opponentRight);
+        ANIMATION(ANIM_TYPE_MOVE, MOVE_DETECT, playerLeft);
+        ANIMATION(ANIM_TYPE_MOVE, MOVE_POUND, opponentLeft);
+        NOT ANIMATION(ANIM_TYPE_MOVE, MOVE_POUND, opponentRight);
+    }
+}
+
+DOUBLE_BATTLE_TEST("Protect is not transferred to a mon that is switched in due to Eject Button")
+{
+    GIVEN {
+        PLAYER(SPECIES_URSHIFU) { Ability(ABILITY_UNSEEN_FIST); }
+        PLAYER(SPECIES_WYNAUT);
+        OPPONENT(SPECIES_WOBBUFFET);
+        OPPONENT(SPECIES_WYNAUT) { Item(ITEM_EJECT_BUTTON); }
+        OPPONENT(SPECIES_SQUIRTLE);
+        OPPONENT(SPECIES_WOBBUFFET);
+    } WHEN {
+        TURN {
+            MOVE(opponentRight, MOVE_PROTECT);
+            MOVE(playerLeft, MOVE_POUND, target: opponentRight);
+            SEND_OUT(opponentRight, 2);
+            MOVE(playerRight, MOVE_POUND, target: opponentRight);
+            SEND_OUT(opponentRight, 3);
+        }
+    } SCENE {
+        ANIMATION(ANIM_TYPE_MOVE, MOVE_PROTECT, opponentRight);
+        ANIMATION(ANIM_TYPE_MOVE, MOVE_POUND, playerLeft);
+        ANIMATION(ANIM_TYPE_GENERAL, B_ANIM_HELD_ITEM_EFFECT, opponentRight);
+        ANIMATION(ANIM_TYPE_MOVE, MOVE_POUND, playerRight);
+        HP_BAR(opponentRight);
+    }
+}
+
+DOUBLE_BATTLE_TEST("Wide Guard is still activate even if user is switched out due to Eject Button")
+{
+    GIVEN {
+        PLAYER(SPECIES_WOBBUFFET);
+        PLAYER(SPECIES_WYNAUT);
+        OPPONENT(SPECIES_WOBBUFFET);
+        OPPONENT(SPECIES_WYNAUT) { Item(ITEM_EJECT_BUTTON); }
+        OPPONENT(SPECIES_SQUIRTLE);
+        OPPONENT(SPECIES_WOBBUFFET);
+    } WHEN {
+        TURN {
+            MOVE(opponentRight, MOVE_WIDE_GUARD);
+            MOVE(playerLeft, MOVE_POUND, target: opponentRight);
+            SEND_OUT(opponentRight, 2);
+            MOVE(playerRight, MOVE_HYPER_VOICE, target: opponentRight);
+            SEND_OUT(opponentRight, 3);
+        }
+    } SCENE {
+        ANIMATION(ANIM_TYPE_MOVE, MOVE_WIDE_GUARD, opponentRight);
+        ANIMATION(ANIM_TYPE_MOVE, MOVE_POUND, playerLeft);
+        ANIMATION(ANIM_TYPE_GENERAL, B_ANIM_HELD_ITEM_EFFECT, opponentRight);
+        NONE_OF {
+            ANIMATION(ANIM_TYPE_MOVE, MOVE_HYPER_VOICE, playerRight);
+            HP_BAR(opponentLeft);
+            HP_BAR(opponentRight);
+        }
+    }
+}

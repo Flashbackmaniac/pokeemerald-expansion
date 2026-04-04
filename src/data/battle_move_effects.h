@@ -221,13 +221,6 @@ const struct BattleMoveEffect gBattleMoveEffects[NUM_BATTLE_MOVE_EFFECTS] =
         .battleFactoryStyle = FACTORY_STYLE_HIGH_RISK,
     },
 
-    [EFFECT_SHEER_COLD] =
-    {
-        .battleScript = BattleScript_EffectHit,
-        .battleTvScore = 7,
-        .battleFactoryStyle = FACTORY_STYLE_HIGH_RISK,
-    },
-
     [EFFECT_FUSION_COMBO] =
     {
         .battleScript = BattleScript_EffectHit,
