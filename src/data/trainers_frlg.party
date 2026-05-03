@@ -7,7 +7,7 @@ Music: Male
 Double Battle: No
 
 === TRAINER_YOUNGSTER_BEN ===
-Name: BEN
+Name: Ben
 Class: Youngster Frlg
 Pic: Youngster Frlg
 Gender: Male
@@ -16,15 +16,34 @@ Double Battle: No
 AI: Check Bad Move
 
 Rattata
-Level: 11
+Level: 12
+Ability: Guts
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tail Whip
+- Quick Attack
+- Focus Energy
+- Bite
+
+Rattata-Alola
+Level: 12
+Ability: Gluttony
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tail Whip
+- Quick Attack
+- Focus Energy
+- Bite
 
 Ekans
-Level: 11
+Level: 12
+Ability: Shed Skin
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Wrap
+- Leer
+- Poison Sting
+- Bite
 
 === TRAINER_YOUNGSTER_CALVIN ===
-Name: CALVIN
+Name: Calvin
 Class: Youngster Frlg
 Pic: Youngster Frlg
 Gender: Male
@@ -34,10 +53,33 @@ AI: Check Bad Move
 
 Spearow
 Level: 14
+Ability: Keen Eye
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Peck
+- Leer
+- Assurance
+- Fury Attack
+
+Wattrel
+Level: 14
+Ability: Wind Power
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Peck
+- Growl
+- Thunder Shock
+- Quick Attack
+
+Lechonk
+Level: 14
+Ability: Aroma Veil
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Tail Whip
+- Disarming Voice
+- Mud Shot
 
 === TRAINER_YOUNGSTER_JOSH ===
-Name: JOSH
+Name: Josh
 Class: Youngster Frlg
 Pic: Youngster Frlg
 Gender: Male
@@ -45,20 +87,35 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Rattata
-Level: 10
+Eevee
+Level: 14
+Ability: Adaptability
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Rattata
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Tail Whip
+- Sand Attack
+- Quick Attack
 
 Zubat
-Level: 10
+Level: 14
+Ability: Inner Focus
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Absorb
+- Supersonic
+- Astonish
+- Mean Look
+
+Jangmo-o
+Level: 14
+Ability: Bulletproof
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Leer
+- Dragon Tail
+- Scary Face
 
 === TRAINER_YOUNGSTER_TIMMY ===
-Name: TIMMY
+Name: Timmy
 Class: Youngster Frlg
 Pic: Youngster Frlg
 Gender: Male
@@ -67,15 +124,43 @@ Double Battle: No
 AI: Check Bad Move
 
 Sandshrew
-Level: 14
+Level: 18
+Ability: Sand Veil
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Defense Curl
+- Rollout
+- Rapid Spin
+- Bulldoze
 
 Ekans
-Level: 14
+Level: 18
+Ability: Shed Skin
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Sting
+- Bite
+- Glare
+- Screech
+
+Rookidee
+Level: 18
+Ability: Keen Eye
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Power Trip
+- Hone Claws
+- Fury Attack
+- Pluck
+
+Ivysaur
+Level: 18
+Ability: Overgrow
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Growth
+- Leech Seed
+- Razor Leaf
+- Poison Powder
 
 === TRAINER_YOUNGSTER_JOEY ===
-Name: JOEY
+Name: Joey
 Class: Youngster Frlg
 Pic: Youngster Frlg
 Gender: Male
@@ -83,16 +168,35 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Rattata
-Level: 15
+Krabby
+Level: 19
+Ability: Hyper Cutter
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Water Gun
+- Harden
+- Metal Claw
+- Mud Shot
 
-Spearow
-Level: 15
+Yamper
+Level: 19
+Ability: Ball Fetch
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Tail Whip
+- Nuzzle
+- Bite
+
+Charcadet
+Level: 19
+Ability: Flash Fire
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ember
+- Astonish
+- Clear Smog
+- Fire Spin
 
 === TRAINER_YOUNGSTER_DAN ===
-Name: DAN
+Name: Dan
 Class: Youngster Frlg
 Pic: Youngster Frlg
 Gender: Male
@@ -101,11 +205,34 @@ Double Battle: No
 AI: Check Bad Move
 
 Slowpoke
-Level: 17
+Level: 19
+Ability: Oblivious
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Yawn
+- Confusion
+- Water Pulse
+
+Jangmo-o
+Level: 19
+Ability: Bulletproof
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Leer
+- Dragon Tail
+- Scary Face
+- Headbutt
+
+Fidough
+Level: 19
+Ability: Own Tempo
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Lick
+- Bite
+- Baby-Doll Eyes
+- Play Rough
 
 === TRAINER_YOUNGSTER_CHAD ===
-Name: CHAD
+Name: Chad
 Class: Youngster Frlg
 Pic: Youngster Frlg
 Gender: Male
@@ -113,16 +240,35 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
-Level: 14
+Litleo
+Level: 20
+Ability: Unnerve
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ember
+- Work Up
+- Headbutt
+- Noble Roar
 
-Sandshrew
-Level: 14
+Sandshrew-Alola
+Level: 20
+Ability: Snow Cloak
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Powder Snow
+- Fury Cutter
+- Rapid Spin
+- Metal Claw
+
+Wartortle
+Level: 20
+Ability: Torrent
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Withdraw
+- Rapid Spin
+- Bite
+- Water Pulse
 
 === TRAINER_YOUNGSTER_TYLER ===
-Name: TYLER
+Name: Tyler
 Class: Youngster Frlg
 Pic: Youngster Frlg
 Gender: Male
@@ -130,12 +276,35 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Nidoran M
-Level: 21
+Teddiursa
+Level: 23
+Ability: Quick Feet
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Baby-Doll Eyes
+- Lick
+- Payback
+- Slash
+
+Dreepy
+Level: 23
+Ability: Clear Body
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Astonish
+- Infestation
+- Quick Attack
+- Bite
+
+Bombirdier
+Level: 24
+Ability: Big Pecks
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hone Claws
+- Thief
+- Rock Throw
+- Pluck
 
 === TRAINER_YOUNGSTER_EDDIE ===
-Name: EDDIE
+Name: Eddie
 Class: Youngster Frlg
 Pic: Youngster Frlg
 Gender: Male
@@ -143,12 +312,35 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
-Level: 21
+Arbok
+Level: 30
+Ability: Intimidate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Sting
+- Crunch
+- Screech
+- Acid
+
+Corvisquire
+Level: 30
+Ability: Unnerve
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Power Trip
+- Hone Claws
+- Pluck
+- Scary Face
+
+Oinkologne
+Level: 31
+Ability: Lingering Aroma
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Covet
+- Dig
+- Headbutt
+- Yawn
 
 === TRAINER_YOUNGSTER_DILLON ===
-Name: DILLON
+Name: Dillon
 Class: Youngster Frlg
 Pic: Youngster Frlg
 Gender: Male
@@ -156,16 +348,35 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Sandshrew
-Level: 19
+Sandslash
+Level: 31
+Ability: Sand Veil
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rollout
+- Fury Cutter
+- Rapid Spin
+- Bulldoze
 
-Zubat
-Level: 19
+Golbat
+Level: 31
+Ability: Inner Focus
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Mean Look
+- Poison Fang
+- Quick Guard
+- Air Cutter
+
+Raboot
+Level: 31
+Ability: Blaze
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Double Kick
+- Flame Charge
+- Agility
+- Headbutt
 
 === TRAINER_YOUNGSTER_YASU ===
-Name: YASU
+Name: Yasu
 Class: Youngster Frlg
 Pic: Youngster Frlg
 Gender: Male
@@ -173,20 +384,35 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Rattata
-Level: 17
+Marowak
+Level: 31
+Ability: Rock Head
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tail Whip
+- Headbutt
+- Stomping Tantrum
+- Bone Rush
 
-Rattata
-Level: 17
+Kangaskhan
+Level: 31
+Ability: Early Bird
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fake Out
+- Bite
+- Focus Energy
+- Headbutt
 
-Raticate
-Level: 17
+Drizzile
+Level: 32
+Ability: Torrent
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Water Pulse
+- Tearful Look
+- Sucker Punch
+- U-turn
 
 === TRAINER_YOUNGSTER_DAVE ===
-Name: DAVE
+Name: Dave
 Class: Youngster Frlg
 Pic: Youngster Frlg
 Gender: Male
@@ -194,13 +420,32 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Nidoran M
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 Nidorino
-Level: 18
+Level: 31
+Ability: Poison Point
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Sting
+- Peck
+- Toxic Spikes
+- Double Kick
+
+Vulpix
+Level: 31
+Ability: Flash Fire
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Incinerate
+- Confuse Ray
+- Will-O-Wisp
+- Extrasensory
+
+Thwackey
+Level: 31
+Ability: Overgrow
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Razor Leaf
+- Screech
+- Knock Off
+- Slam
 
 === TRAINER_YOUNGSTER_BEN_2 ===
 Name: BEN
@@ -229,14 +474,14 @@ Double Battle: No
 AI: Check Bad Move
 
 Caterpie
-Level: 6
+Level: 7
 Ability: Shield Dust
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 - String Shot
 
 Weedle
-Level: 6
+Level: 7
 Ability: Shield Dust
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Poison Sting
@@ -280,14 +525,14 @@ Double Battle: No
 AI: Check Bad Move
 
 Grubbin
-Level: 7
+Level: 9
 Ability: Swarm
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Vise Grip
 - String Shot
 
 Wimpod
-Level: 7
+Level: 9
 Ability: Wimp Out
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Struggle Bug
@@ -295,7 +540,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Defense Curl
 
 Tarountula
-Level: 7
+Level: 9
 Ability: Insomnia
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
@@ -303,7 +548,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Struggle Bug
 
 === TRAINER_BUG_CATCHER_COLTON ===
-Name: COLTON
+Name: Colton
 Class: Bug Catcher Frlg
 Pic: Bug Catcher Frlg
 Gender: Male
@@ -311,20 +556,35 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Caterpie
-Level: 10
+Dewpider
+Level: 12
+Ability: Water Bubble
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Infestation
+- Bug Bite
+- Bite
+- Bubble Beam
 
-Weedle
-Level: 10
+Sizzlipede
+Level: 12
+Ability: Flash Fire
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ember
+- Smokescreen
+- Wrap
+- Bite
 
-Caterpie
-Level: 10
+Butterfree
+Level: 13
+Ability: Compound Eyes
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Gust
+- Harden
+- Tackle
+- String Shot
 
 === TRAINER_BUG_CATCHER_GREG ===
-Name: GREG
+Name: Greg
 Class: Bug Catcher Frlg
 Pic: Bug Catcher Frlg
 Gender: Male
@@ -332,24 +592,39 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Weedle
-Level: 9
+Metapod
+Level: 10
+Ability: Shed Skin
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- String Shot
+- Harden
 
 Kakuna
-Level: 9
+Level: 10
+Ability: Shed Skin
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Sting
+- String Shot
+- Harden
 
-Caterpie
-Level: 9
+Spewpa
+Level: 10
+Ability: Shed Skin
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- String Shot
+- Harden
 
-Metapod
-Level: 9
+Dottler
+Level: 10
+Ability: Swarm
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Confusion
+- Struggle Bug
 
 === TRAINER_BUG_CATCHER_JAMES ===
-Name: JAMES
+Name: James
 Class: Bug Catcher Frlg
 Pic: Bug Catcher Frlg
 Gender: Male
@@ -357,100 +632,34 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Caterpie
-Level: 11
+Wimpod
+Level: 12
+Ability: Wimp Out
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Struggle Bug
+- Sand Attack
+- Defense Curl
 
-Metapod
-Level: 11
+Tarountula
+Level: 12
+Ability: Insomnia
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- String Shot
+- Struggle Bug
+- Assurance
+
+Beedrill
+Level: 13
+Ability: Swarm
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Harden
+- Poison Sting
+- Fury Attack
+- Fury Cutter
 
 === TRAINER_BUG_CATCHER_KENT ===
-Name: KENT
-Class: Bug Catcher Frlg
-Pic: Bug Catcher Frlg
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Weedle
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Kakuna
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BUG_CATCHER_ROBBY ===
-Name: ROBBY
-Class: Bug Catcher Frlg
-Pic: Bug Catcher Frlg
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Caterpie
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Metapod
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Caterpie
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BUG_CATCHER_CALE ===
-Name: CALE
-Class: Bug Catcher Frlg
-Pic: Bug Catcher Frlg
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Caterpie
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Weedle
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Metapod
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Kakuna
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BUG_CATCHER_KEIGO ===
-Name: KEIGO
-Class: Bug Catcher Frlg
-Pic: Bug Catcher Frlg
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Weedle
-Level: 16
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Caterpie
-Level: 16
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Weedle
-Level: 16
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BUG_CATCHER_ELIJAH ===
-Name: ELIJAH
+Name: Kent
 Class: Bug Catcher Frlg
 Pic: Bug Catcher Frlg
 Gender: Male
@@ -459,8 +668,173 @@ Double Battle: No
 AI: Check Bad Move
 
 Butterfree
-Level: 20
+Level: 15
+Ability: Compound Eyes
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Gust
+- Tackle
+- Confusion
+- Stun Spore
+
+Beedrill
+Level: 15
+Ability: Swarm
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Sting
+- String Shot
+- Fury Attack
+- Fury Cutter
+
+=== TRAINER_BUG_CATCHER_ROBBY ===
+Name: Robby
+Class: Bug Catcher Frlg
+Pic: Bug Catcher Frlg
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Paras
+Level: 13
+Ability: Effect Spore
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Scratch
+- Stun Spore
+- Poison Powder
+- Absorb
+
+Venonat
+Level: 13
+Ability: Compound Eyes
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Disable
+- Confusion
+- Poison Powder
+
+Snom
+Level: 13
+Ability: Shield Dust
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Powder Snow
+- Struggle Bug
+
+Nymble
+Level: 13
+Ability: Swarm
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Astonish
+- Assurance
+- Double Kick
+
+=== TRAINER_BUG_CATCHER_CALE ===
+Name: Cale
+Class: Bug Catcher Frlg
+Pic: Bug Catcher Frlg
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Butterfree
+Level: 17
+Ability: Compound Eyes
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Gust
+- Tackle
+- Stun Spore
+- Psybeam
+
+Beedrill
+Level: 17
+Ability: Swarm
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fury Attack
+- Poison Sting
+- Fury Cutter
+- Laser Focus
+
+Vivillon
+Level: 17
+Ability: Shield Dust
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Struggle Bug
+- Gust
+- Light Screen
+- Psybeam
+
+Spidops
+Level: 17
+Ability: Insomnia
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Silk Trap
+- Struggle Bug
+- Assurance
+- Bug Bite
+
+=== TRAINER_BUG_CATCHER_KEIGO ===
+Name: Keigo
+Class: Bug Catcher Frlg
+Pic: Bug Catcher Frlg
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Rellor
+Level: 21
+Ability: Compound Eyes
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Defense Curl
+- Rollout
+- Mud Shot
+- Bug Bite
+
+Dewpider
+Level: 21
+Ability: Water Bubble
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bite
+- Bubble Beam
+- Aqua Ring
+- Headbutt
+
+Dottler
+Level: 21
+Ability: Compound Eyes
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Reflect
+- Light Screen
+- Confusion
+- Struggle Bug
+
+=== TRAINER_BUG_CATCHER_ELIJAH ===
+Name: Elijah
+Class: Bug Catcher Frlg
+Pic: Bug Catcher Frlg
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Pinsir
+Level: 21
+Ability: Hyper Cutter
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Vise Grip
+- Focus Energy
+- Bug Bite
+- Storm Throw
+
+Heracross
+Level: 21
+Ability: Guts
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Arm Thrust
+- Leer
+- Aerial Ace
+- Horn Attack
 
 === TRAINER_BUG_CATCHER_BRENT ===
 Name: BRENT
@@ -501,7 +875,7 @@ Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LASS_JANICE ===
-Name: JANICE
+Name: Janice
 Class: Lass Frlg
 Pic: Lass Frlg
 Gender: Male
@@ -510,15 +884,42 @@ Double Battle: No
 AI: Check Bad Move
 
 Pidgey
-Level: 9
+Level: 12
+Ability: Keen Eye
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Sand Attack
+- Gust
 
-Pidgey
-Level: 9
+Fletchling
+Level: 12
+Ability: Big Pecks
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Peck
+- Growl
+- Quick Attack
+- Ember
+
+Pikipek
+Level: 12
+Ability: Keen Eye
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Peck
+- Growl
+- Echoed Voice
+- Rock Smash
+
+Rookidee
+Level: 12
+Ability: Keen Eye
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Peck
+- Leer
+- Power Trip
+- Hone Claws
 
 === TRAINER_LASS_SALLY ===
-Name: SALLY
+Name: Sally
 Class: Lass Frlg
 Pic: Lass Frlg
 Gender: Male
@@ -526,26 +927,49 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Rattata
-Level: 10
+Bunnelby
+Level: 13
+Ability: Cheek Pouch
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Leer
+- Mud Shot
 
 Nidoran F
-Level: 10
+Level: 13
+Ability: Poison Point
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Growl
+- Poison Sting
+- Scratch
+- Tail Whip
 
 === TRAINER_LASS_ROBIN ===
-Name: ROBIN
+Name: Robin
 Class: Lass Frlg
 Pic: Lass Frlg
 Gender: Male
 Music: Female
 Double Battle: No
 AI: Check Bad Move
+
+Clefairy
+Level: 14
+Ability: Cute Charm
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sweet Kiss
+- Disarming Voice
+- Pound
+- Copycat
 
 Jigglypuff
 Level: 14
+Ability: Cute Charm
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Disarming Voice
+- Sing
+- Pound
+- Defense Curl
 
 === TRAINER_LASS_CRISSY ===
 Name: CRISSY
@@ -569,7 +993,7 @@ Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LASS_MIRIAM ===
-Name: MIRIAM
+Name: Miriam
 Class: Lass Frlg
 Pic: Lass Frlg
 Gender: Male
@@ -578,15 +1002,34 @@ Double Battle: No
 AI: Check Bad Move
 
 Oddish
-Level: 11
+Level: 15
+Ability: Chlorophyll
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Growth
+- Acid
+- Sweet Scent
+- Mega Drain
 
 Bellsprout
-Level: 11
+Level: 15
+Ability: Chlorophyll
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Vine Whip
+- Growth
+- Wrap
+- Sleep Powder
+
+Fomantis
+Level: 15
+Ability: Leaf Guard
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fury Cutter
+- Growth
+- Ingrain
+- Razor Leaf
 
 === TRAINER_LASS_IRIS ===
-Name: IRIS
+Name: Iris
 Class: Lass Frlg
 Pic: Lass Frlg
 Gender: Male
@@ -596,10 +1039,33 @@ AI: Check Bad Move
 
 Clefairy
 Level: 14
+Ability: Cute Charm
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Disarming Voice
+- Charm
+- Pound
+- Copycat
+
+Meowth
+Level: 14
+Ability: Technician
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Growl
+- Feint
+- Scratch
+- Pay Day
+
+Seel
+Level: 15
+Ability: Thick Fat
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Headbutt
+- Growl
+- Charm
+- Icy Wind
 
 === TRAINER_LASS_RELI ===
-Name: RELI
+Name: Reli
 Class: Lass Frlg
 Pic: Lass Frlg
 Gender: Male
@@ -607,16 +1073,53 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Nidoran M
-Level: 16
+Nidorina
+Level: 18
+Ability: Poison Point
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Sting
+- Scratch
+- Tail Whip
+- Fury Swipes
 
-Nidoran F
-Level: 16
+Nidorino
+Level: 18
+Ability: Poison Point
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Sting
+- Peck
+- Focus Energy
+- Fury Attack
+
+Litleo
+Level: 18
+Ability: Rivalry
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Ember
+- Work Up
+- Noble Roar
+
+Hatenna
+Level: 18
+Ability: Healer
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Confusion
+- Play Nice
+- Life Dew
+- Disarming Voice
+
+Smoliv
+Level: 18
+Ability: Early Bird
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sweet Scent
+- Growth
+- Razor Leaf
+- Flail
 
 === TRAINER_LASS_ALI ===
-Name: ALI
+Name: Ali
 Class: Lass Frlg
 Pic: Lass Frlg
 Gender: Male
@@ -624,72 +1127,158 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Pidgey
-Level: 12
+Flittle
+Level: 17
+Ability: Anticipation
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Peck
+- Confusion
+- Baby-Doll Eyes
+- Disarming Voice
 
-Oddish
-Level: 12
+Morelull
+Level: 17
+Ability: Effect Spore
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Confuse Ray
+- Ingrain
+- Mega Drain
+- Sleep Powder
 
-Bellsprout
-Level: 12
+Tinkatink
+Level: 17
+Ability: Own Tempo
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_LASS_HALEY ===
-Name: HALEY
-Class: Lass Frlg
-Pic: Lass Frlg
-Gender: Male
-Music: Female
-Double Battle: No
-AI: Check Bad Move
-
-Oddish
-Level: 13
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Pidgey
-Level: 13
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Oddish
-Level: 13
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_LASS_ANN ===
-Name: ANN
-Class: Lass Frlg
-Pic: Lass Frlg
-Gender: Male
-Music: Female
-Double Battle: No
-AI: Check Bad Move
-
-Pidgey
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Nidoran F
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_LASS_DAWN ===
-Name: DAWN
-Class: Lass Frlg
-Pic: Lass Frlg
-Gender: Male
-Music: Female
-Double Battle: No
-AI: Check Bad Move
-
-Rattata
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Baby-Doll Eyes
+- Metal Claw
+- Rock Smash
+- Draining Kiss
 
 Pikachu
-Level: 18
+Level: 17
+Ability: Static
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Nuzzle
+- Thunder Shock
+- Quick Attack
+- Feint
+
+=== TRAINER_LASS_HALEY ===
+Name: Haley
+Class: Lass Frlg
+Pic: Lass Frlg
+Gender: Male
+Music: Female
+Double Battle: No
+AI: Check Bad Move
+
+Eldegoss
+Level: 20
+Ability: Cotton Down
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Cotton Spore
+- Sing
+- Rapid Spin
+- Razor Leaf
+
+Corvisquire
+Level: 20
+Ability: Keen Eye
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Power Trip
+- Hone Claws
+- Fury Attack
+- Pluck
+
+Growlithe
+Level: 20
+Ability: Intimidate
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Howl
+- Bite
+- Flame Wheel
+- Agility
+
+Cufant
+Level: 20
+Ability: Sheer Force
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Growl
+- Rollout
+- Bulldoze
+- Stomp
+
+=== TRAINER_LASS_ANN ===
+Name: Ann
+Class: Lass Frlg
+Pic: Lass Frlg
+Gender: Male
+Music: Female
+Double Battle: No
+AI: Check Bad Move
+
+Quagsire
+Level: 23
+Ability: Water Absorb
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Water Gun
+- Mud Shot
+- Slam
+- Yawn
+
+Helioptile
+Level: 23
+Ability: Dry Skin
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunder Shock
+- Quick Attack
+- Charge
+- Bulldoze
+
+Dartrix
+Level: 24
+Ability: Overgrow
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Peck
+- Shadow Sneak
+- Razor Leaf
+- Synthesis
+
+=== TRAINER_LASS_DAWN ===
+Name: Dawn
+Class: Lass Frlg
+Pic: Lass Frlg
+Gender: Male
+Music: Female
+Double Battle: No
+AI: Check Bad Move
+
+Snubbull
+Level: 24
+Ability: Intimidate
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Charm
+- Bite
+- Lick
+- Headbutt
+
+Hattrem
+Level: 24
+Ability: Anticipation
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Play Nice
+- Disarming Voice
+- Brutal Swing
+- Psybeam
+
+Torracat
+Level: 25
+Ability: Blaze
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Lick
+- Bite
+- Double Kick
+- Fire Fang
 
 === TRAINER_LASS_PAIGE ===
 Name: PAIGE
@@ -810,7 +1399,7 @@ Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_SAILOR_EDMOND ===
-Name: EDMOND
+Name: Edmond
 Class: Sailor Frlg
 Pic: Sailor Frlg
 Gender: Male
@@ -818,16 +1407,26 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Machop
-Level: 18
+Machoke
+Level: 28
+Ability: No Guard
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Focus Energy
+- Low Sweep
+- Knock Off
+- Vital Throw
 
-Shellder
-Level: 18
+Bruxish
+Level: 28
+Ability: Dazzling
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Aqua Jet
+- Disable
+- Psyshock
+- Crunch
 
 === TRAINER_SAILOR_TREVOR ===
-Name: TREVOR
+Name: Trevor
 Class: Sailor Frlg
 Pic: Sailor Frlg
 Gender: Male
@@ -835,16 +1434,26 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Machop
-Level: 17
+Crabrawler
+Level: 27
+Ability: Hyper Cutter
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bubble Beam
+- Protect
+- Brick Break
+- Slam
 
-Tentacool
-Level: 17
+Poliwhirl
+Level: 27
+Ability: Water Absorb
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hypnosis
+- Mud Shot
+- Bubble Beam
+- Rain Dance
 
 === TRAINER_SAILOR_LEONARD ===
-Name: LEONARD
+Name: Leonard
 Class: Sailor Frlg
 Pic: Sailor Frlg
 Gender: Male
@@ -852,12 +1461,35 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Shellder
-Level: 21
+Pidgeotto
+Level: 25
+Ability: Keen Eye
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Gust
+- Sand Attack
+- Quick Attack
+- Twister
+
+Kadabra
+Level: 25
+Ability: Synchronize
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psybeam
+- Reflect
+- Psycho Cut
+- Recover
+
+Brionne
+Level: 26
+Ability: Torrent
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Disarming Voice
+- Aqua Jet
+- Icy Wind
+- Bubble Beam
 
 === TRAINER_SAILOR_DUNCAN ===
-Name: DUNCAN
+Name: Duncan
 Class: Sailor Frlg
 Pic: Sailor Frlg
 Gender: Male
@@ -865,20 +1497,35 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Horsea
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Shellder
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 Tentacool
-Level: 17
+Level: 25
+Ability: Clear Body
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Acid
+- Wrap
+- Supersonic
+- Bubble Beam
+
+Farfetch'd-Galar
+Level: 25
+Ability: Steadfast
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Leer
+- Fury Cutter
+- Rock Smash
+- Brutal Swing
+
+Azumarill
+Level: 26
+Ability: Thick Fat
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Charm
+- Slam
+- Aqua Tail
+- Play Rough
 
 === TRAINER_SAILOR_HUEY ===
-Name: HUEY
+Name: Huey
 Class: Sailor Frlg
 Pic: Sailor Frlg
 Gender: Male
@@ -886,16 +1533,26 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Tentacool
-Level: 18
+Clobbopus
+Level: 26
+Ability: Limber
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bind
+- Detect
+- Brick Break
+- Bulk Up
 
-Staryu
-Level: 18
+Veluza
+Level: 26
+Ability: Mold Breaker
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Aqua Jet
+- Pluck
+- Slash
+- Aqua Cutter
 
 === TRAINER_SAILOR_DYLAN ===
-Name: DYLAN
+Name: Dylan
 Class: Sailor Frlg
 Pic: Sailor Frlg
 Gender: Male
@@ -904,19 +1561,34 @@ Double Battle: No
 AI: Check Bad Move
 
 Horsea
-Level: 17
+Level: 25
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Focus Energy
+- Dragon Breath
+- Bubble Beam
 
-Horsea
-Level: 17
+Boltund
+Level: 25
+Ability: Strong Jaw
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Bite
+- Roar
+- Spark
 
-Horsea
-Level: 17
+Eiscue
+Level: 26
+Ability: Ice Face
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Powder Snow
+- Mist
+- Icy Wind
+- Headbutt
 
 === TRAINER_SAILOR_PHILLIP ===
-Name: PHILLIP
+Name: Phillip
 Class: Sailor Frlg
 Pic: Sailor Frlg
 Gender: Male
@@ -925,11 +1597,25 @@ Double Battle: No
 AI: Check Bad Move
 
 Machop
-Level: 20
+Level: 26
+Ability: No Guard
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Focus Energy
+- Low Sweep
+- Knock Off
+- Vital Throw
+
+Drednaw
+Level: 26
+Ability: Strong Jaw
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Water Gun
+- Bite
+- Rock Tomb
+- Headbutt
 
 === TRAINER_SAILOR_DWAYNE ===
-Name: DWAYNE
+Name: Dwayne
 Class: Sailor Frlg
 Pic: Sailor Frlg
 Gender: Male
@@ -938,12 +1624,22 @@ Double Battle: No
 AI: Check Bad Move
 
 Pikachu
-Level: 21
+Level: 34
+Ability: Static
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Nasty Plot
+- Charm
+- Iron Tail
+- Discharge
 
-Pikachu
-Level: 21
+Chinchou
+Level: 34
+Ability: Volt Absorb
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunder Wave
+- Bubble Beam
+- Confuse Ray
+- Discharge
 
 === TRAINER_CAMPER_LIAM ===
 Name: Liam
@@ -987,7 +1683,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Rock Throw
 
 === TRAINER_CAMPER_SHANE ===
-Name: SHANE
+Name: Shane
 Class: Camper Frlg
 Pic: Camper Frlg
 Gender: Male
@@ -995,16 +1691,26 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Rattata
-Level: 14
+Farfetch'd
+Level: 18
+Ability: Keen Eye
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Peck
+- Leer
+- Fury Cutter
+- Cut
 
-Ekans
-Level: 14
+Fletchinder
+Level: 18
+Ability: Flame Body
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Peck
+- Growl
+- Flame Charge
+- Flail
 
 === TRAINER_CAMPER_ETHAN ===
-Name: ETHAN
+Name: Ethan
 Class: Camper Frlg
 Pic: Camper Frlg
 Gender: Male
@@ -1012,12 +1718,62 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Mankey
+Mankey @ Black Belt
 Level: 18
+Ability: Vital Spirit
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Covet
+- Focus Energy
+- Low Kick
+- Swagger
+
+Doduo @ Sharp Beak
+Level: 18
+Ability: Early Bird
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Growl
+- Quick Attack
+- Fury Attack
+- Pluck
+
+Skwovet @ Oran Berry
+Level: 18
+Ability: Cheek Pouch
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Tail Whip
+- Bite
+- Stuff Cheeks
+
+Rockruff @ Hard Stone
+Level: 18
+Ability: Keen Eye
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Leer
+- Rock Throw
+- Howl
+
+Charcadet @ Charcoal
+Level: 18
+Ability: Flash Fire
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ember
+- Astonish
+- Clear Smog
+- Will-O-Wisp
+
+Toxel @ Leftovers
+Level: 18
+Ability: Rattled
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tearful Look
+- Nuzzle
+- Growl
+- Acid
 
 === TRAINER_CAMPER_RICKY ===
-Name: RICKY
+Name: Ricky
 Class: Camper Frlg
 Pic: Camper Frlg
 Gender: Male
@@ -1025,12 +1781,44 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Squirtle
-Level: 20
+Voltorb-Hisui
+Level: 21
+Ability: Soundproof
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Stun Spore
+- Bullet Seed
+- Charge Beam
+- Swift
+
+Gumshoos
+Level: 21
+Ability: Stakeout
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Sand Attack
+- Work Up
+- Bite
+
+Toedscool
+Level: 21
+Ability: Mycelium Might
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Powder
+- Supersonic
+- Mega Drain
+- Screech
+
+Quilladin
+Level: 21
+Ability: Overgrow
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Growl
+- Bite
+- Leech Seed
+- Seed Bomb
 
 === TRAINER_CAMPER_JEFF ===
-Name: JEFF
+Name: Jeff
 Class: Camper Frlg
 Pic: Camper Frlg
 Gender: Male
@@ -1038,13 +1826,41 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Spearow
-Level: 16
+Fearow
+Level: 22
+Ability: Keen Eye
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Leer
+- Assurance
+- Fury Attack
+- Aerial Ace
 
-Raticate
-Level: 16
+Cetoddle
+Level: 22
+Ability: Thick Fat
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Powder Snow
+- Growl
+- Echoed Voice
+- Take Down
+
+Jangmo-o
+Level: 22
+Ability: Bulletproof
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Dragon Tail
+- Scary Face
+- Headbutt
+- Work Up
+
+Frogadier
+Level: 22
+Ability: Torrent
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Quick Attack
+- Lick
+- Water Pulse
+- Smokescreen
 
 === TRAINER_CAMPER_CHRIS ===
 Name: CHRIS
@@ -1089,7 +1905,7 @@ Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_PICNICKER_DIANA ===
-Name: DIANA
+Name: Diana
 Class: Picnicker Frlg
 Pic: Picnicker Frlg
 Gender: Male
@@ -1098,11 +1914,34 @@ Double Battle: No
 AI: Check Bad Move
 
 Goldeen
-Level: 19
+Level: 28
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Peck
+- Water Pulse
+- Horn Attack
+- Aqua Ring
+
+Clauncher
+Level: 28
+Ability: Mega Launcher
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Vise Grip
+- Aqua Jet
+- Smack Down
+- Hone Claws
+
+Brionne
+Level: 29
+Ability: Torrent
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Disarming Voice
+- Baby-Doll Eyes
+- Icy Wind
+- Bubble Beam
 
 === TRAINER_PICNICKER_NANCY ===
-Name: NANCY
+Name: Nancy
 Class: Picnicker Frlg
 Pic: Picnicker Frlg
 Gender: Male
@@ -1110,16 +1949,44 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Rattata
-Level: 16
+Toxel
+Level: 21
+Ability: Static
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tearful Look
+- Nuzzle
+- Growl
+- Acid
 
-Pikachu
-Level: 16
+Togedemaru
+Level: 21
+Ability: Iron Barbs
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Defense Curl
+- Charge
+- Thunder Shock
+- Fell Stinger
+
+Vulpix
+Level: 21
+Ability: Flash Fire
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Quick Attack
+- Spite
+- Incinerate
+- Confuse Ray
+
+Growlithe-Hisui
+Level: 21
+Ability: Intimidate
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Leer
+- Howl
+- Bite
+- Flame Wheel
 
 === TRAINER_PICNICKER_ISABELLE ===
-Name: ISABELLE
+Name: Isabelle
 Class: Picnicker Frlg
 Pic: Picnicker Frlg
 Gender: Male
@@ -1127,20 +1994,44 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Pidgey
-Level: 16
+Maschiff
+Level: 22
+Ability: Intimidate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Lick
+- Hone Claws
+- Bite
+- Headbutt
 
-Pidgey
-Level: 16
+Fomantis
+Level: 22
+Ability: Leaf Guard
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fury Cutter
+- Growth
+- Ingrain
+- Razor Leaf
 
-Pidgey
-Level: 16
+Pidgeotto
+Level: 22
+Ability: Keen Eye
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sand Attack
+- Gust
+- Quick Attack
+- Twister
+
+Braixen
+Level: 22
+Ability: Blaze
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tail Whip
+- Flame Charge
+- Psybeam
+- Fire Spin
 
 === TRAINER_PICNICKER_KELSEY ===
-Name: KELSEY
+Name: Kelsey
 Class: Picnicker Frlg
 Pic: Picnicker Frlg
 Gender: Male
@@ -1148,13 +2039,32 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Nidoran M
-Level: 15
+Nidorino
+Level: 20
+Ability: Poison Point
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Sting
+- Peck
+- Focus Energy
+- Fury Attack
 
-Nidoran F
-Level: 15
+Nidorina
+Level: 20
+Ability: Poison Point
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Growl
+- Poison Sting
+- Scratch
+- Tail Whip
+
+Charmeleon
+Level: 20
+Ability: Blaze
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Growl
+- Smokescreen
+- Dragon Breath
+- Fire Fang
 
 === TRAINER_PICNICKER_ALICIA ===
 Name: ALICIA
@@ -1436,7 +2346,7 @@ Level: 23
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_SUPER_NERD_JOVAN ===
-Name: JOVAN
+Name: Jovan
 Class: Super Nerd Frlg
 Pic: Super Nerd Frlg
 Gender: Male
@@ -1445,15 +2355,34 @@ Double Battle: No
 AI: Check Bad Move
 
 Magnemite
-Level: 11
+Level: 14
+Ability: Magnet Pull
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunder Shock
+- Tackle
+- Supersonic
+- Electro Ball
 
 Voltorb
-Level: 11
+Level: 14
+Ability: Soundproof
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Charge
+- Tackle
+- Thunder Shock
+- Spark
+
+Impidimp
+Level: 15
+Ability: Frisk
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fake Out
+- Confide
+- Bite
+- Fake Tears
 
 === TRAINER_SUPER_NERD_MIGUEL ===
-Name: MIGUEL
+Name: Miguel
 Class: Super Nerd Frlg
 Pic: Super Nerd Frlg
 Gender: Male
@@ -1462,16 +2391,40 @@ Double Battle: No
 AI: Check Bad Move
 
 Grimer
-Level: 12
+Level: 16
+Ability: Stench
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Voltorb
-Level: 12
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Pound
+- Mud-Slap
+- Disable
+- Sludge
 
 Koffing
-Level: 12
+Level: 16
+Ability: Levitate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smog
+- Smokescreen
+- Clear Smog
+- Assurance
+
+Dratini
+Level: 16
+Ability: Shed Skin
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Leer
+- Twister
+- Thunder Wave
+- Dragon Tail
+
+Carbink
+Level: 16
+Ability: Clear Body
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Harden
+- Smack Down
+- Flail
 
 === TRAINER_SUPER_NERD_AIDAN ===
 Name: AIDAN
@@ -1629,7 +2582,7 @@ Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_HIKER_MARCOS ===
-Name: MARCOS
+Name: Marcos
 Class: Hiker Frlg
 Pic: Hiker Frlg
 Gender: Male
@@ -1638,19 +2591,43 @@ Double Battle: No
 AI: Check Bad Move
 
 Geodude
-Level: 10
+Level: 14
+Ability: Rock Head
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Defense Curl
+- Rock Polish
+- Rollout
 
-Geodude
-Level: 10
+Geodude-Alola
+Level: 14
+Ability: Magnet Pull
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Defense Curl
+- Rock Polish
+- Rollout
+
+Nacli
+Level: 14
+Ability: Purifying Salt
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Harden
+- Mud Shot
+- Smack Down
 
 Onix
-Level: 10
+Level: 14
+Ability: Rock Head
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Smack Down
+- Rock Polish
+- Dragon Breath
 
 === TRAINER_HIKER_FRANKLIN ===
-Name: FRANKLIN
+Name: Franklin
 Class: Hiker Frlg
 Pic: Hiker Frlg
 Gender: Male
@@ -1659,15 +2636,25 @@ Double Battle: No
 AI: Check Bad Move
 
 Machop
-Level: 15
+Level: 19
+Ability: Guts
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Leer
+- Focus Energy
+- Low Sweep
+- Knock Off
 
-Geodude
-Level: 15
+Rhyhorn
+Level: 19
+Ability: Lightning Rod
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tail Whip
+- Smack Down
+- Bulldoze
+- Horn Attack
 
 === TRAINER_HIKER_NOB ===
-Name: NOB
+Name: Nob
 Class: Hiker Frlg
 Pic: Hiker Frlg
 Gender: Male
@@ -1675,24 +2662,44 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Geodude
-Level: 13
+Binacle
+Level: 20
+Ability: Tough Claws
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Water Gun
+- Fury Cutter
+- Fury Swipes
+- Ancient Power
 
-Geodude
-Level: 13
+Rhyhorn
+Level: 20
+Ability: Lightning Rod
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smack Down
+- Bulldoze
+- Horn Attack
+- Scary Face
 
 Machop
-Level: 13
+Level: 20
+Ability: Guts
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Focus Energy
+- Low Sweep
+- Knock Off
+- Scary Face
 
-Geodude
-Level: 13
+Mudbray
+Level: 20
+Ability: Own Tempo
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Iron Defense
+- Double Kick
+- Bulldoze
+- Stomp
 
 === TRAINER_HIKER_WAYNE ===
-Name: WAYNE
+Name: Wayne
 Class: Hiker Frlg
 Pic: Hiker Frlg
 Gender: Male
@@ -1700,9 +2707,23 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Onix
-Level: 17
+Rockruff
+Level: 19
+Ability: Keen Eye
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Sand Attack
+- Rock Throw
+- Howl
+
+Carkol
+Level: 19
+Ability: Steam Engine
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rapid Spin
+- Smack Down
+- Flame Charge
+- Rock Polish
 
 === TRAINER_HIKER_ALAN ===
 Name: ALAN
@@ -2451,7 +3472,7 @@ Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ENGINEER_BAILY ===
-Name: BAILY
+Name: Baily
 Class: Engineer Frlg
 Pic: Engineer Frlg
 Gender: Male
@@ -2459,50 +3480,107 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Voltorb
-Level: 21
+Electrode
+Level: 33
+Ability: Soundproof
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Magnemite
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_ENGINEER_BRAXTON ===
-Name: BRAXTON
-Class: Engineer Frlg
-Pic: Engineer Frlg
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Magnemite
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_ENGINEER_BERNIE ===
-Name: BERNIE
-Class: Engineer Frlg
-Pic: Engineer Frlg
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Magnemite
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Magnemite
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Charge Beam
+- Swift
+- Electro Ball
+- Light Screen
 
 Magneton
-Level: 18
+Level: 33
+Ability: Magnet Pull
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunder Shock
+- Tri Attack
+- Gyro Ball
+- Screech
+
+Flaaffy
+Level: 33
+Ability: Static
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunder Shock
+- Cotton Spore
+- Take Down
+- Confuse Ray
+
+=== TRAINER_ENGINEER_BRAXTON ===
+Name: Braxton
+Class: Engineer Frlg
+Pic: Engineer Frlg
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Pincurchin
+Level: 31
+Ability: Lightning Rod
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Water Gun
+- Spark
+- Bubble Beam
+- Recover
+
+Bellibolt
+Level: 31
+Ability: Electromorphosis
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunder Shock
+- Water Gun
+- Charge
+- Mud Shot
+
+Raichu
+Level: 32
+Ability: Static
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Nuzzle
+- Charm
+- Iron Tail
+- Discharge
+
+=== TRAINER_ENGINEER_BERNIE ===
+Name: Bernie
+Class: Engineer Frlg
+Pic: Engineer Frlg
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Magnemite
+Level: 31
+Ability: Magnet Pull
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunder Shock
+- Supersonic
+- Gyro Ball
+- Magnet Rise
+
+Magneton
+Level: 31
+Ability: Magnet Pull
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunder Shock
+- Tri Attack
+- Gyro Ball
+- Magnet Rise
+
+Charjabug
+Level: 31
+Ability: Battery
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bug Bite
+- Charge
+- Bite
+- Spark
 
 === TRAINER_FISHERMAN_DALE ===
-Name: DALE
+Name: Dale
 Class: Fisherman Frlg
 Pic: Fisherman Frlg
 Gender: Male
@@ -2511,19 +3589,34 @@ Double Battle: No
 AI: Check Bad Move
 
 Goldeen
-Level: 17
+Level: 24
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Peck
+- Supersonic
+- Water Pulse
+- Horn Attack
 
 Tentacool
-Level: 17
+Level: 24
+Ability: Clear Body
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Acid
+- Wrap
+- Water Pulse
+- Bubble Beam
 
-Goldeen
-Level: 17
+Clauncher
+Level: 25
+Ability: Mega Launcher
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Vise Grip
+- Aqua Jet
+- Smack Down
+- Hone Claws
 
 === TRAINER_FISHERMAN_BARNY ===
-Name: BARNY
+Name: Barny
 Class: Fisherman Frlg
 Pic: Fisherman Frlg
 Gender: Male
@@ -2531,17 +3624,32 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Tentacool
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 Staryu
-Level: 17
+Level: 25
+Ability: Natural Cure
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Water Gun
+- Confuse Ray
+- Swift
+- Psybeam
+
+Chinchou
+Level: 25
+Ability: Volt Absorb
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bubble Beam
+- Confuse Ray
+- Spark
+- Charge
 
 Shellder
-Level: 17
+Level: 26
+Ability: Shell Armor
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Water Gun
+- Withdraw
+- Ice Shard
+- Aurora Beam
 
 === TRAINER_FISHERMAN_NED ===
 Name: NED
@@ -2729,7 +3837,7 @@ Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_SWIMMER_MALE_LUIS ===
-Name: LUIS
+Name: Luis
 Class: Swimmer M Frlg
 Pic: Swimmer M Frlg
 Gender: Male
@@ -2738,12 +3846,31 @@ Double Battle: No
 AI: Check Bad Move
 
 Horsea
-Level: 16
+Level: 28
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Twister
+- Focus Energy
+- Bubble Beam
 
-Shellder
-Level: 16
+Skrelp
+Level: 28
+Ability: Poison Touch
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Water Gun
+- Tail Whip
+- Poison Tail
+
+Araquanid
+Level: 29
+Ability: Water Bubble
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bug Bite
+- Bubble Beam
+- Headbutt
+- Crunch
 
 === TRAINER_SWIMMER_MALE_RICHARD ===
 Name: RICHARD
@@ -3181,7 +4308,7 @@ Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GAMER_HUGO ===
-Name: HUGO
+Name: Hugo
 Class: Gamer Frlg
 Pic: Gamer Frlg
 Gender: Male
@@ -3189,16 +4316,26 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Poliwag
-Level: 18
+Mr Mime
+Level: 30
+Ability: Soundproof
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Copycat
+- Encore
+- Protect
+- Psybeam
 
-Horsea
-Level: 18
+Bewear
+Level: 30
+Ability: Fluffy
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Baby-Doll Eyes
+- Payback
+- Brutal Swing
+- Strength
 
 === TRAINER_GAMER_JASPER ===
-Name: JASPER
+Name: Jasper
 Class: Gamer Frlg
 Pic: Gamer Frlg
 Gender: Male
@@ -3206,16 +4343,35 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Bellsprout
-Level: 18
+Squawkabilly
+Level: 31
+Ability: Intimidate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Quick Attack
+- Aerial Ace
+- Copycat
+- Fly
 
-Oddish
-Level: 18
+Lickitung
+Level: 31
+Ability: Own Tempo
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Defense Curl
+- Rollout
+- Wrap
+- Stomp
+
+Falinks
+Level: 32
+Ability: Battle Armor
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rock Smash
+- Headbutt
+- Bulk Up
+- Reversal
 
 === TRAINER_GAMER_DIRK ===
-Name: DIRK
+Name: Dirk
 Class: Gamer Frlg
 Pic: Gamer Frlg
 Gender: Male
@@ -3223,16 +4379,35 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Voltorb
-Level: 18
+Mr Mime-Galar
+Level: 31
+Ability: Vital Spirit
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Shard
+- Icy Wind
+- Double Kick
+- Psybeam
 
-Magnemite
-Level: 18
+Centiskorch
+Level: 31
+Ability: Flash Fire
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bite
+- Flame Wheel
+- Bug Bite
+- Coil
+
+Mabosstiff
+Level: 32
+Ability: Guard Dog
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Comeuppance
+- Hone Claws
+- Bite
+- Headbutt
 
 === TRAINER_GAMER_DARIAN ===
-Name: DARIAN
+Name: Darian
 Class: Gamer Frlg
 Pic: Gamer Frlg
 Gender: Male
@@ -3241,12 +4416,31 @@ Double Battle: No
 AI: Check Bad Move
 
 Growlithe
-Level: 18
+Level: 31
+Ability: Intimidate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Howl
+- Bite
+- Agility
+- Fire Fang
 
-Vulpix
-Level: 18
+Slowpoke
+Level: 31
+Ability: Own Tempo
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Curse
+- Yawn
+- Zen Headbutt
+- Surf
+
+Grafaiai
+Level: 32
+Ability: Poison Touch
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Doodle
+- Poison Fang
+- Slash
+- U-turn
 
 === TRAINER_GAMER_STAN ===
 Name: STAN
@@ -5124,7 +6318,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Earthquake
 
 === TRAINER_TEAM_ROCKET_GRUNT ===
-Name: GRUNT
+Name: Grunt
 Class: Team Rocket Frlg
 Pic: Rocket Grunt M Frlg
 Gender: Male
@@ -5133,15 +6327,43 @@ Double Battle: No
 AI: Check Bad Move
 
 Rattata
-Level: 13
+Level: 16
+Ability: Guts
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tail Whip
+- Quick Attack
+- Focus Energy
+- Take Down
+
+Rattata-Alola
+Level: 16
+Ability: Gluttony
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tail Whip
+- Quick Attack
+- Focus Energy
+- Bite
 
 Zubat
-Level: 13
+Level: 16
+Ability: Inner Focus
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Absorb
+- Astonish
+- Mean Look
+- Poison Fang
+
+Salandit
+Level: 16
+Ability: Corrosion
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Scratch
+- Poison Gas
+- Ember
+- Poison Fang
 
 === TRAINER_TEAM_ROCKET_GRUNT_2 ===
-Name: GRUNT
+Name: Grunt
 Class: Team Rocket Frlg
 Pic: Rocket Grunt M Frlg
 Gender: Male
@@ -5150,36 +6372,88 @@ Double Battle: No
 AI: Check Bad Move
 
 Sandshrew
-Level: 11
+Level: 16
+Ability: Sand Veil
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Defense Curl
+- Poison Sting
+- Rollout
+- Rapid Spin
 
-Rattata
-Level: 11
+Nickit
+Level: 16
+Ability: Unburden
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Quick Attack
+- Hone Claws
+- Snarl
+- Assurance
 
-Zubat
-Level: 11
+Mareanie
+Level: 16
+Ability: Merciless
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Sting
+- Peck
+- Bite
+- Venoshock
+
+Clobbopus
+Level: 16
+Ability: Limber
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rock Smash
+- Leer
+- Feint
+- Detect
 
 === TRAINER_TEAM_ROCKET_GRUNT_3 ===
-Name: GRUNT
+Name: Grunt
 Class: Team Rocket Frlg
 Pic: Rocket Grunt M Frlg
 Gender: Male
 Music: Aqua
 Double Battle: No
 AI: Check Bad Move
-
-Zubat
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Ekans
-Level: 11
+Level: 16
+Ability: Intimidate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Wrap
+- Poison Sting
+- Bite
+- Glare
+
+Silicobra
+Level: 16
+Ability: Shed Skin
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Wrap
+- Sand Attack
+- Brutal Swing
+- Bulldoze
+
+Pancham
+Level: 16
+Ability: Iron Fist
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Leer
+- Arm Thrust
+- Taunt
+- Low Sweep
+
+Varoom
+Level: 16
+Ability: Overcoat
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smog
+- Taunt
+- Assurance
+- Sludge
 
 === TRAINER_TEAM_ROCKET_GRUNT_4 ===
-Name: GRUNT
+Name: Grunt
 Class: Team Rocket Frlg
 Pic: Rocket Grunt M Frlg
 Gender: Male
@@ -5187,16 +6461,44 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Rattata
-Level: 13
+Inkay
+Level: 16
+Ability: Contrary
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hypnosis
+- Payback
+- Pluck
+- Psybeam
 
-Sandshrew
-Level: 13
+Yungoos
+Level: 16
+Ability: Stakeout
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Payback
+- Sand Attack
+- Work Up
+
+Stufful
+Level: 16
+Ability: Fluffy
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Leer
+- Baby-Doll Eyes
+- Brutal Swing
+
+Capsakid
+Level: 16
+Ability: Chlorophyll
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Leer
+- Bite
+- Growth
+- Razor Leaf
 
 === TRAINER_TEAM_ROCKET_GRUNT_5 ===
-Name: GRUNT
+Name: Grunt
 Class: Team Rocket Frlg
 Pic: Rocket Grunt M Frlg
 Gender: Male
@@ -5205,15 +6507,43 @@ Double Battle: No
 AI: Check Bad Move
 
 Machop
-Level: 17
+Level: 21
+Ability: No Guard
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Focus Energy
+- Revenge
+- Low Sweep
+- Knock Off
 
 Drowzee
-Level: 17
+Level: 21
+Ability: Insomnia
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hypnosis
+- Headbutt
+- Poison Gas
+- Psybeam
+
+Skrelp
+Level: 21
+Ability: Poison Point
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Acid
+- Water Gun
+- Tail Whip
+
+Sneasel
+Level: 21
+Ability: Inner Focus
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Leer
+- Taunt
+- Quick Attack
+- Metal Claw
 
 === TRAINER_TEAM_ROCKET_GRUNT_6 ===
-Name: GRUNT
+Name: Grunt
 Class: Team Rocket Frlg
 Pic: Rocket Grunt M Frlg
 Gender: Male
@@ -5222,12 +6552,40 @@ Double Battle: No
 AI: Check Bad Move
 
 Ekans
-Level: 15
+Level: 18
+Ability: Intimidate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Wrap
+- Poison Sting
+- Bite
+- Screech
 
 Zubat
-Level: 15
+Level: 18
+Ability: Inner Focus
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Absorb
+- Supersonic
+- Astonish
+- Poison Fang
+
+Nickit
+Level: 18
+Ability: Unburden
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Quick Attack
+- Tail Whip
+- Hone Claws
+- Assurance
+
+Girafarig
+Level: 18
+Ability: Inner Focus
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Astonish
+- Confusion
+- Assurance
+- Stomp
 
 === TRAINER_TEAM_ROCKET_GRUNT_7 ===
 Name: GRUNT
@@ -7131,7 +8489,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Rock Tomb
 
 === TRAINER_LEADER_MISTY ===
-Name: MISTY
+Name: Misty
 Class: Leader Frlg
 Pic: Leader Misty Frlg
 Gender: Male
@@ -7140,24 +8498,53 @@ Items: Super Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Staryu
-Level: 18
+Mareanie
+Level: 29
+Ability: Merciless
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Harden
-- Recover
+- Poison Sting
+- Venoshock
+- Pin Missile
+- Water Pulse
+
+Wugtrio
+Level: 29
+Ability: Gooey
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Mud-Slap
+- Slam
+- Water Pulse
+- Headbutt
+
+Seel
+Level: 29
+Ability: Thick Fat
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Headbutt
+- Icy Wind
+- Aqua Ring
+- Water Pulse
+
+Bruxish
+Level: 29
+Ability: Dazzling
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Disable
+- Psyshock
+- Crunch
 - Water Pulse
 
 Starmie
-Level: 21
+Level: 30
+Ability: Illuminate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Swift
-- Recover
-- Rapid Spin
-- Water Pulse
+- Psybeam
+- Brine
+- Power Gem
 
 === TRAINER_LEADER_LT_SURGE ===
-Name: LT. SURGE
+Name: Lt. Surge
 Class: Leader Frlg
 Pic: Leader Lt Surge Frlg
 Gender: Male
@@ -7166,29 +8553,59 @@ Items: Super Potion / Full Heal
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Voltorb
-Level: 21
+Magneton @ Terrain Extender
+Level: 34
+Ability: Sturdy
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Sonic Boom
-- Tackle
-- Screech
-- Shock Wave
+- Electric Terrain
+- Thunder Shock
+- Tri Attack
+- Flash Cannon
 
-Pikachu
-Level: 18
+Electrode @ Air Balloon
+Level: 34
+Ability: Static
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Quick Attack
-- Thunder Wave
-- Double Team
-- Shock Wave
+- Eerie Impulse
+- Charge Beam
+- Electro Ball
+- Light Screen
 
-Raichu
-Level: 24
+Heliolisk @ Electric Seed
+Level: 34
+Ability: Dry Skin
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Quick Attack
-- Thunder Wave
-- Double Team
+- Electric Terrain
+- Bulldoze
+- Volt Switch
+- Parabolic Charge
+
+Ampharos @ Quick Claw
+Level: 34
+Ability: Static
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Dragon Pulse
+- Fire Punch
+- Thunder Punch
+- Confuse Ray
+
+Pawmot @ Loaded Dice
+Level: 34
+Ability: Natural Cure
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Nuzzle
+- Dig
+- Spark
+- Arm Thrust
+
+Raichu @ Leftovers
+Level: 35
+Ability: Static
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Shock Wave
+- Nasty Plot
+- Iron Tail
+- Light Screen
 
 === TRAINER_LEADER_ERIKA ===
 Name: ERIKA
@@ -7351,7 +8768,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Calm Mind
 
 === TRAINER_GENTLEMAN_THOMAS ===
-Name: THOMAS
+Name: Thomas
 Class: Gentleman Frlg
 Pic: Gentleman Frlg
 Gender: Male
@@ -7359,16 +8776,44 @@ Music: Rich
 Double Battle: No
 AI: Check Bad Move
 
-Growlithe
-Level: 18
+Growlithe @ Scope Lens
+Level: 24
+Ability: Intimidate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Howl
+- Bite
+- Agility
+- Fire Fang
 
-Growlithe
-Level: 18
+Growlithe-Hisui @ Expert Belt
+Level: 24
+Ability: Intimidate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Leer
+- Howl
+- Bite
+- Fire Fang
+
+Flaaffy @ Quick Claw
+Level: 25
+Ability: Static
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunder Shock
+- Thunder Wave
+- Cotton Spore
+- Take Down
+
+Dubwool @ Covert Cloak
+Level: 25
+Ability: Fluffy
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Copycat
+- Guard Split
+- Double Kick
+- Headbutt
 
 === TRAINER_GENTLEMAN_ARTHUR ===
-Name: ARTHUR
+Name: Arthur
 Class: Gentleman Frlg
 Pic: Gentleman Frlg
 Gender: Male
@@ -7376,16 +8821,26 @@ Music: Rich
 Double Battle: No
 AI: Check Bad Move
 
-Nidoran M
-Level: 19
+Nidoking
+Level: 24
+Ability: Poison Point
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fury Attack
+- Double Kick
+- Horn Attack
+- Toxic
 
-Nidoran F
-Level: 19
+Nidoqueen
+Level: 24
+Ability: Poison Point
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fury Swipes
+- Double Kick
+- Bite
+- Toxic
 
 === TRAINER_GENTLEMAN_TUCKER ===
-Name: TUCKER
+Name: Tucker
 Class: Gentleman Frlg
 Pic: Gentleman Frlg
 Gender: Male
@@ -7393,9 +8848,41 @@ Music: Rich
 Double Battle: No
 AI: Check Bad Move
 
-Pikachu
-Level: 23
+Electabuzz
+Level: 32
+Ability: Static
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Charge
+- Swift
+- Shock Wave
+- Thunder Punch
+
+Boltund
+Level: 32
+Ability: Strong Jaw
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Nuzzle
+- Bite
+- Spark
+- Charm
+
+Pincurchin
+Level: 32
+Ability: Lightning Rod
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Peck
+- Spark
+- Bubble Beam
+- Recover
+
+Kilowattrel
+Level: 32
+Ability: Wind Power
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunder Shock
+- Uproar
+- Roost
+- Dual Wingbeat
 
 === TRAINER_GENTLEMAN_NORTON ===
 Name: NORTON
@@ -8399,7 +9886,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 === TRAINER_CAMPER_FLINT ===
-Name: FLINT
+Name: Flint
 Class: Camper Frlg
 Pic: Camper Frlg
 Gender: Male
@@ -8407,13 +9894,23 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Rattata
-Level: 14
+Steenee
+Level: 20
+Ability: Leaf Guard
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Play Nice
+- Rapid Spin
+- Razor Leaf
+- Sweet Scent
 
-Ekans
-Level: 14
+Milcery
+Level: 20
+Ability: Sweet Veil
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sweet Kiss
+- Sweet Scent
+- Draining Kiss
+- Charm
 
 === TRAINER_PICNICKER_MISSY ===
 Name: MISSY
@@ -8606,7 +10103,7 @@ Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GENTLEMAN_BROOKS ===
-Name: BROOKS
+Name: Brooks
 Class: Gentleman Frlg
 Pic: Gentleman Frlg
 Gender: Male
@@ -8614,12 +10111,62 @@ Music: Rich
 Double Battle: No
 AI: Check Bad Move
 
-Pikachu
-Level: 23
+Pikachu @ Magnet
+Level: 24
+Ability: Static
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Nasty Plot
+- Charm
+- Thunder Shock
+- Quick Attack
+
+Dedenne @ Sitrus Berry
+Level: 24
+Ability: Cheek Pouch
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Nuzzle
+- Charge
+- Charm
+- Parabolic Charge
+
+Togedemaru @ Rocky Helmet
+Level: 24
+Ability: Iron Barbs
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Nuzzle
+- Charge
+- Fell Stinger
+- Spark
+
+Morpeko @ Black Glasses
+Level: 24
+Ability: Hunger Switch
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunder Shock
+- Leer
+- Flatter
+- Bite
+
+Pawmo @ Kings Rock
+Level: 24
+Ability: Natural Cure
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Arm Thrust
+- Charge
+- Bite
+- Spark
+
+Mimikyu @ Leftovers
+Level: 24
+Ability: Disguise
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Wood Hammer
+- Shadow Sneak
+- Baby-Doll Eyes
+- Mimic
 
 === TRAINER_GENTLEMAN_LAMAR ===
-Name: LAMAR
+Name: Lamar
 Class: Gentleman Frlg
 Pic: Gentleman Frlg
 Gender: Male
@@ -8627,13 +10174,32 @@ Music: Rich
 Double Battle: No
 AI: Check Bad Move
 
-Growlithe
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 Ponyta
-Level: 17
+Level: 24
+Ability: Flash Fire
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Tail Whip
+- Flame Charge
+- Agility
+
+Dratini
+Level: 24
+Ability: Shed Skin
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Twister
+- Thunder Wave
+- Dragon Tail
+- Agility
+
+Thievul
+Level: 25
+Ability: Unburden
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thief
+- Hone Claws
+- Snarl
+- Nasty Plot
 
 === TRAINER_TWINS_ELI_ANNE ===
 Name: ELI & ANNE
@@ -9324,7 +10890,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Caterpie
-Level: 7
+Level: 8
 Ability: Shield Dust
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
@@ -9338,7 +10904,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - String Shot
 
 Cutiefly
-Level: 7
+Level: 8
 Ability: Shield Dust
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Absorb
@@ -9354,7 +10920,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Metapod
-Level: 8
+Level: 9
 Ability: Shed Skin
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
@@ -9362,7 +10928,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Harden
 
 Kakuna
-Level: 8
+Level: 9
 Ability: Shed Skin
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Poison Sting
