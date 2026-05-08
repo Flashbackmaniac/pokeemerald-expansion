@@ -263,8 +263,6 @@ static inline struct Benchmark BenchmarkStop(void)
 
 #define SET_RNG(tag, value) SetupRiggedRng(__LINE__, tag, value)
 
-#define SET_RNG(tag, value) SetupRiggedRng(__LINE__, tag, value)
-
 #define TO_DO \
     do { \
         Test_ExpectedResult(TEST_RESULT_TODO); \

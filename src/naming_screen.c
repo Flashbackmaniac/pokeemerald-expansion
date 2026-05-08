@@ -185,11 +185,11 @@ struct NamingScreenData
 
 EWRAM_DATA static struct NamingScreenData *sNamingScreen = NULL;
 
-static const u8 sPCIconOff_Gfx[] = INCBIN_U8("graphics/naming_screen/pc_icon_off.4bpp");
-static const u8 sPCIconOn_Gfx[] = INCBIN_U8("graphics/naming_screen/pc_icon_on.4bpp");
-static const u16 sKeyboard_Pal[] = INCBIN_U16("graphics/naming_screen/keyboard.gbapal");
-static const u16 sRival_Gfx[] = INCBIN_U16("graphics/naming_screen/rival.4bpp");
-static const u16 sRival_Pal[] = INCBIN_U16("graphics/naming_screen/rival.gbapal");
+static const u8 sPCIconOff_Gfx[] = INCGFX_U8("graphics/naming_screen/pc_icon_off.png", ".4bpp");
+static const u8 sPCIconOn_Gfx[] = INCGFX_U8("graphics/naming_screen/pc_icon_on.png", ".4bpp");
+static const u16 sKeyboard_Pal[] = INCGFX_U16("graphics/naming_screen/keyboard.pal", ".gbapal");
+static const u16 sRival_Gfx[] = INCGFX_U16("graphics/naming_screen/rival.png", ".4bpp");
+static const u16 sRival_Pal[] = INCGFX_U16("graphics/naming_screen/rival.pal", ".gbapal");
 
 static const u8 *const sTransferredToPCMessages[] =
 {
@@ -200,7 +200,7 @@ static const u8 *const sTransferredToPCMessages[] =
 };
 
 
-static const u8 sText_RivalsName[] = _("Rival's name?");
+static const u8 sText_RivalsName[] = _("RIVAL's NAME?");
 static const u8 sText_AlphabetUpperLower[] = _("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!");
 
 static const struct BgTemplate sBgTemplates[] =

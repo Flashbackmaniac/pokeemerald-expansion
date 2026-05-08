@@ -25,7 +25,7 @@ jobs:
       - name: Install binutils
         run: |
           sudo apt-get update
-          sudo apt-get install -y binutils-arm-none-eabi gcc-arm-none-eabi libnewlib-arm-none-eabi libpng-dev python3
+          sudo apt-get install -y --no-install-recommends binutils-arm-none-eabi gcc-arm-none-eabi libnewlib-arm-none-eabi libpng-dev python3
 
       - name: Cache build tools
         uses: actions/cache@v4
@@ -62,7 +62,7 @@ jobs:
       - name: Install binutils
         run: |
           sudo apt-get update
-          sudo apt-get install -y binutils-arm-none-eabi gcc-arm-none-eabi libnewlib-arm-none-eabi libpng-dev python3
+          sudo apt-get install -y --no-install-recommends binutils-arm-none-eabi gcc-arm-none-eabi libnewlib-arm-none-eabi libpng-dev python3
 
       - name: Cache build tools
         uses: actions/cache@v4
@@ -97,7 +97,7 @@ jobs:
       - name: Install binutils
         run: |
           sudo apt-get update
-          sudo apt-get install -y binutils-arm-none-eabi gcc-arm-none-eabi libnewlib-arm-none-eabi libpng-dev python3
+          sudo apt-get install -y --no-install-recommends binutils-arm-none-eabi gcc-arm-none-eabi libnewlib-arm-none-eabi libpng-dev python3
 
       - name: Cache build tools
         uses: actions/cache@v4
@@ -132,7 +132,7 @@ jobs:
       - name: Install binutils
         run: |
           sudo apt-get update
-          sudo apt-get install -y binutils-arm-none-eabi gcc-arm-none-eabi libnewlib-arm-none-eabi libpng-dev python3
+          sudo apt-get install -y --no-install-recommends binutils-arm-none-eabi gcc-arm-none-eabi libnewlib-arm-none-eabi libpng-dev python3
 
       - name: Cache build tools
         uses: actions/cache@v4
@@ -169,7 +169,7 @@ jobs:
       - name: Install binutils
         run: |
           sudo apt-get update
-          sudo apt-get install -y binutils-arm-none-eabi gcc-arm-none-eabi libnewlib-arm-none-eabi libpng-dev python3
+          sudo apt-get install -y --no-install-recommends binutils-arm-none-eabi gcc-arm-none-eabi libnewlib-arm-none-eabi libpng-dev python3
 
       - name: Cache build tools
         uses: actions/cache@v4
@@ -192,14 +192,6 @@ jobs:
             tools/patchelf/patchelf
             tools/mgba-rom-test-hydra/mgba-rom-test-hydra
           key: tools-check-${{ runner.os }}-${{ hashFiles('tools/*/Makefile', 'tools/**/*.c', 'tools/**/*.cpp', 'tools/**/*.h') }}
-
-      - name: Release
-        env:
-          GAME_VERSION: EMERALD
-        run: |
-          make tidy
-          make -j${nproc} release
-        # make tidy to purge previous build
 
       - name: Test
         env:
