@@ -837,7 +837,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Horn Attack
 
 === TRAINER_BUG_CATCHER_BRENT ===
-Name: BRENT
+Name: Brent
 Class: Bug Catcher Frlg
 Pic: Bug Catcher Frlg
 Gender: Male
@@ -845,16 +845,26 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Beedrill
-Level: 19
+Butterfree
+Level: 36
+Ability: Compound Eyes
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sleep Powder
+- Psybeam
+- Air Slash
+- Bug Buzz
 
 Beedrill
-Level: 19
+Level: 36
+Ability: Swarm
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bug Bite
+- Laser Focus
+- Assurance
+- Poison Jab
 
 === TRAINER_BUG_CATCHER_CONNER ===
-Name: CONNER
+Name: Conner
 Class: Bug Catcher Frlg
 Pic: Bug Catcher Frlg
 Gender: Male
@@ -862,17 +872,32 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Caterpie
-Level: 20
+Venomoth
+Level: 36
+Ability: Tinted Lens
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Quiver Dance
+- Air Slash
+- Psybeam
+- Bug Buzz
 
-Weedle
-Level: 20
+Ribombee
+Level: 36
+Ability: Shield Dust
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Pollen Puff
+- Draining Kiss
+- Struggle Bug
+- Covet
 
-Venonat
-Level: 20
+Spidops
+Level: 36
+Ability: Insomnia
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Silk Trap
+- Bug Bite
+- Headbutt
+- Sticky Web
 
 === TRAINER_LASS_JANICE ===
 Name: Janice
@@ -1863,7 +1888,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 
 === TRAINER_CAMPER_CHRIS ===
-Name: CHRIS
+Name: Chris
 Class: Camper Frlg
 Pic: Camper Frlg
 Gender: Male
@@ -1871,16 +1896,53 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Growlithe
-Level: 21
+Pyroar
+Level: 35
+Ability: Unnerve
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Work Up
+- Headbutt
+- Noble Roar
+- Fire Fang
 
-Charmander
-Level: 21
+Magmar
+Level: 35
+Ability: Flame Body
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Clear Smog
+- Confuse Ray
+- Scary Face
+- Lava Plume
+
+Hakamo-o
+Level: 35
+Ability: Bulletproof
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Headbutt
+- Work Up
+- Iron Defense
+- Dragon Claw
+
+Sandslash
+Level: 35
+Ability: Sand Veil
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Crush Claw
+- Fury Cutter
+- Bulldoze
+- Slash
+
+Incineroar
+Level: 36
+Ability: Blaze
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bulk Up
+- Darkest Lariat
+- Double Kick
+- Fire Fang
 
 === TRAINER_CAMPER_DREW ===
-Name: DREW
+Name: Drew
 Class: Camper Frlg
 Pic: Camper Frlg
 Gender: Male
@@ -1888,21 +1950,50 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Rattata
-Level: 19
+Dewgong
+Level: 35
+Ability: Thick Fat
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Headbutt
+- Aqua Ring
+- Aurora Beam
+- Brine
 
-Sandshrew
-Level: 19
+Drednaw
+Level: 35
+Ability: Strong Jaw
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Razor Shell
+- Crunch
+- Rock Tomb
+- Headbutt
 
-Ekans
-Level: 19
+Arbok
+Level: 35
+Ability: Intimidate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Crunch
+- Glare
+- Screech
+- Acid
 
-Sandshrew
-Level: 19
+Copperajah
+Level: 35
+Ability: Sheer Force
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Heavy Slam
+- Stomp
+- Iron Defense
+- Dig
+
+Primarina
+Level: 36
+Ability: Torrent
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sparkling Aria
+- Aqua Jet
+- Icy Wind
+- Sing
 
 === TRAINER_PICNICKER_DIANA ===
 Name: Diana
@@ -2067,7 +2158,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Fire Fang
 
 === TRAINER_PICNICKER_ALICIA ===
-Name: ALICIA
+Name: Alicia
 Class: Picnicker Frlg
 Pic: Picnicker Frlg
 Gender: Male
@@ -2075,24 +2166,53 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Oddish
-Level: 18
+Gloom
+Level: 35
+Ability: Chlorophyll
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Growth
+- Giga Drain
+- Toxic
+- Moonblast
 
-Bellsprout
-Level: 18
+Weepinbell
+Level: 35
+Ability: Chlorophyll
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Vine Whip
+- Growth
+- Acid
+- Knock Off
 
-Oddish
-Level: 18
+Tinkatuff
+Level: 35
+Ability: Own Tempo
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rock Smash
+- Draining Kiss
+- Flash Cannon
+- Play Rough
 
-Bellsprout
-Level: 18
+Cramorant
+Level: 35
+Ability: Gulp Missile
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fury Attack
+- Pluck
+- Dive
+- Drill Peck
+
+Chesnaught
+Level: 36
+Ability: Overgrow
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Spiky Shield
+- Leech Seed
+- Pin Missile
+- Seed Bomb
 
 === TRAINER_PICNICKER_CAITLIN ===
-Name: CAITLIN
+Name: Caitlin
 Class: Picnicker Frlg
 Pic: Picnicker Frlg
 Gender: Male
@@ -2100,12 +2220,26 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Meowth
-Level: 23
+Persian
+Level: 38
+Ability: Technician
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fake Out
+- Power Gem
+- Bite
+- Fury Swipes
+
+Snorlax
+Level: 38
+Ability: Thick Fat
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Yawn
+- Crunch
+- Body Slam
+- Heavy Slam
 
 === TRAINER_PICNICKER_HEIDI ===
-Name: HEIDI
+Name: Heidi
 Class: Picnicker Frlg
 Pic: Picnicker Frlg
 Gender: Male
@@ -2113,13 +2247,50 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Pikachu
-Level: 20
+Raichu
+Level: 37
+Ability: Static
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Nasty Plot
+- Charm
+- Iron Tail
+- Thunderbolt
 
-Clefairy
-Level: 20
+Clefable
+Level: 37
+Ability: Magic Guard
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Meteor Mash
+- Moonblast
+- Cosmic Power
+- Copycat
+
+Tsareena
+Level: 37
+Ability: Leaf Guard
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Play Nice
+- Rapid Spin
+- Trop Kick
+- Stomp
+
+Talonflame
+Level: 37
+Ability: Flame Body
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Flame Charge
+- Feint
+- Growl
+- Acrobatics
+
+Espathra
+Level: 37
+Ability: Opportunist
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Drill Peck
+- Lumina Crash
+- Baby-Doll Eyes
+- Uproar
 
 === TRAINER_PICNICKER_CAROL ===
 Name: CAROL
@@ -2726,7 +2897,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Rock Polish
 
 === TRAINER_HIKER_ALAN ===
-Name: ALAN
+Name: Alan
 Class: Hiker Frlg
 Pic: Hiker Frlg
 Gender: Male
@@ -2734,24 +2905,26 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Geodude
-Level: 21
+Stonjourner
+Level: 38
+Ability: Power Spot
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Magnitude
-- Rock Throw
-- Mud Sport
-- Defense Curl
+- Rock Tomb
+- Stomp
+- Stealth Rock
+- Rock Slide
 
-Onix
-Level: 21
+Steelix
+Level: 38
+Ability: Rock Head
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Harden
-- Rock Throw
-- Bind
-- Screech
+- Crunch
+- Autotomize
+- Rock Slide
+- Slam
 
 === TRAINER_HIKER_BRICE ===
-Name: BRICE
+Name: Brice
 Class: Hiker Frlg
 Pic: Hiker Frlg
 Gender: Male
@@ -2759,17 +2932,41 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Geodude
-Level: 20
+Graveler
+Level: 37
+Ability: Rock Head
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rock Polish
+- Bulldoze
+- Smack Down
+- Rock Blast
 
-Machop
-Level: 20
+Graveler-Alola
+Level: 37
+Ability: Magnet Pull
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rock Polish
+- Smack Down
+- Thunder Punch
+- Rock Blast
 
-Geodude
-Level: 20
+Mudsdale
+Level: 37
+Ability: Stamina
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Double Kick
+- Strength
+- High Horsepower
+- Heavy Slam
+
+Kabuto
+Level: 37
+Ability: Battle Armor
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Aqua Jet
+- Mud Shot
+- Ancient Power
+- Brine
 
 === TRAINER_HIKER_CLARK ===
 Name: CLARK
@@ -9744,7 +9941,7 @@ Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_HIKER_JEREMY ===
-Name: JEREMY
+Name: Jeremy
 Class: Hiker Frlg
 Pic: Hiker Frlg
 Gender: Male
@@ -9752,13 +9949,32 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Machop
-Level: 20
+Machoke
+Level: 36
+Ability: Guts
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Knock Off
+- Vital Throw
+- Strength
+- Dual Chop
 
 Onix
-Level: 20
+Level: 36
+Ability: Rock Head
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Dragon Breath
+- Curse
+- Rock Slide
+- Slam
+
+Omanyte
+Level: 36
+Ability: Shell Armor
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Withdraw
+- Mud Shot
+- Ancient Power
+- Brine
 
 === TRAINER_PICNICKER_ALMA ===
 Name: ALMA
