@@ -509,7 +509,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_TakeDown::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_TAKE_DOWN
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Normal
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -519,7 +518,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_ScaryFace::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_SCARY_FACE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Normal
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -529,7 +527,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Swift::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_SWIFT
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Normal
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -539,7 +536,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Endure::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_ENDURE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Normal
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -549,7 +545,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_FalseSwipe::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_FALSE_SWIPE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Normal
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -559,7 +554,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_BodySlam::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_BODY_SLAM
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Normal
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -569,7 +563,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_SleepTalk::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_SLEEP_TALK
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Normal
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -579,7 +572,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Metronome::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_METRONOME
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Normal
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -589,7 +581,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_SwordsDance::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_SWORDS_DANCE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Normal
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -599,7 +590,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Substitute::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_SUBSTITUTE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Normal
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -609,7 +599,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_HyperVoice::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_HYPER_VOICE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Normal
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -619,7 +608,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Encore::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_ENCORE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Normal
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -629,7 +617,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_HelpingHand::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_HELPING_HAND
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Normal
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -639,7 +626,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_BatonPass::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_BATON_PASS
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Normal
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -649,7 +635,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_GigaImpact::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_GIGA_IMPACT
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Normal
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -659,7 +644,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_TeraBlast::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_TERA_BLAST
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Normal
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -669,7 +653,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_SuperFang::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_SUPER_FANG
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Normal
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -679,7 +662,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Uproar::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_UPROAR
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Normal
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -689,7 +671,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_WeatherBall::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_WEATHER_BALL
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Normal
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -699,7 +680,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_PainSplit::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_PAIN_SPLIT
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Normal
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -709,7 +689,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_PsychUp::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_PSYCH_UP
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Normal
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -719,7 +698,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_DoubleEdge::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_DOUBLE_EDGE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Normal
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -729,7 +707,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Endeavor::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_ENDEAVOR
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Normal
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -739,7 +716,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_LowKick::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_LOW_KICK
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Fighting
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -749,7 +725,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_LowSweep::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_LOW_SWEEP
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Fighting
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -759,7 +734,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_DrainPunch::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_DRAIN_PUNCH
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Fighting
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -769,7 +743,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_BodyPress::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_BODY_PRESS
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Fighting
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -779,7 +752,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_AuraSphere::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_AURA_SPHERE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Fighting
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -789,7 +761,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Reversal::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_REVERSAL
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Fighting
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -799,7 +770,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_FocusBlast::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_FOCUS_BLAST
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Fighting
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -809,7 +779,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_CloseCombat::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_CLOSE_COMBAT
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Fighting
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -819,7 +788,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_VacuumWave::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_VACUUM_WAVE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Fighting
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -829,7 +797,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Coaching::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_COACHING
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Fighting
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -839,7 +806,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_UpperHand::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_UPPER_HAND
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Fighting
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -849,7 +815,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Acrobatics::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_ACROBATICS
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Flying
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -859,7 +824,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_AirCutter::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_AIR_CUTTER
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Flying
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -869,7 +833,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_AirSlash::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_AIR_SLASH
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Flying
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -879,7 +842,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Tailwind::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_TAILWIND
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Flying
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -889,7 +851,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Hurricane::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_HURRICANE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Flying
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -899,7 +860,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_BraveBird::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_BRAVE_BIRD
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Flying
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -909,7 +869,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_DualWingbeat::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_DUAL_WINGBEAT
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Flying
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -919,7 +878,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_FeatherDance::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_FEATHER_DANCE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Flying
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -929,7 +887,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_AcidSpray::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_ACID_SPRAY
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Poison
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -939,7 +896,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_PoisonTail::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_POISON_TAIL
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Poison
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -949,7 +905,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Venoshock::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_VENOSHOCK
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Poison
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -959,7 +914,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_PoisonJab::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_POISON_JAB
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Poison
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -969,7 +923,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_ToxicSpikes::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_TOXIC_SPIKES
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Poison
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -979,7 +932,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_GunkShot::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_GUNK_SHOT
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Poison
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -989,7 +941,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_SludgeWave::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_SLUDGE_WAVE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Poison
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -999,7 +950,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_MudSlap::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_MUD_SLAP
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Ground
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1009,7 +959,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Bulldoze::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_BULLDOZE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Ground
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1019,7 +968,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_MudShot::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_MUD_SHOT
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Ground
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1029,7 +977,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_StompingTantrum::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_STOMPING_TANTRUM
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Ground
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1039,7 +986,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Spikes::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_SPIKES
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Ground
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1049,7 +995,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_DrillRun::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_DRILL_RUN
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Ground
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1059,7 +1004,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_EarthPower::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_EARTH_POWER
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Ground
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1069,7 +1013,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_SandTomb::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_SAND_TOMB
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Ground
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1079,7 +1022,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_HighHorsepower::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_HIGH_HORSEPOWER
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Ground
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1089,7 +1031,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_ScorchingSands::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_SCORCHING_SANDS
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Ground
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1099,7 +1040,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_RockBlast::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_ROCK_BLAST
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Rock
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1109,7 +1049,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_RockSlide::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_ROCK_SLIDE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Rock
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1119,7 +1058,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_PowerGem::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_POWER_GEM
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Rock
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1129,7 +1067,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_StealthRock::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_STEALTH_ROCK
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Rock
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1139,7 +1076,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_StoneEdge::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_STONE_EDGE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Rock
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1149,7 +1085,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_SmackDown::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_SMACK_DOWN
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Rock
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1159,7 +1094,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_MeteorBeam::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_METEOR_BEAM
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Rock
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1169,7 +1103,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_StruggleBug::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_STRUGGLE_BUG
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Bug
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1179,7 +1112,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Pounce::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_POUNCE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Bug
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1189,7 +1121,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Uturn::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_U_TURN
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Bug
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1199,7 +1130,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_LeechLife::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_LEECH_LIFE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Bug
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1209,7 +1139,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_XScissor::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_X_SCISSOR
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Bug
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1219,7 +1148,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_PollenPuff::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_POLLEN_PUFF
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Bug
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1229,7 +1157,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_BugBuzz::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_BUG_BUZZ
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Bug
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1239,7 +1166,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_BugBite::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_BUG_BITE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Bug
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1249,7 +1175,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Lunge::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_LUNGE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Bug
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1259,7 +1184,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_SkitterSmack::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_SKITTER_SMACK
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Bug
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1269,7 +1193,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_ConfuseRay::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_CONFUSE_RAY
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Ghost
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1279,7 +1202,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Hex::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_HEX
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Ghost
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1289,7 +1211,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_NightShade::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_NIGHT_SHADE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Ghost
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1299,7 +1220,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_ShadowClaw::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_SHADOW_CLAW
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Ghost
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1309,7 +1229,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_PhantomForce::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_PHANTOM_FORCE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Ghost
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1319,7 +1238,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Spite::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_SPITE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Ghost
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1329,7 +1247,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Poltergeist::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_POLTERGEIST
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Ghost
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1339,7 +1256,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Curse::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_CURSE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Ghost
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1349,7 +1265,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_MetalClaw::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_METAL_CLAW
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Steel
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1359,7 +1274,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_SmartStrike::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_SMART_STRIKE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Steel
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1369,7 +1283,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_FlashCannon::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_FLASH_CANNON
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Steel
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1379,7 +1292,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_IronHead::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_IRON_HEAD
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Steel
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1389,7 +1301,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_IronDefense::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_IRON_DEFENSE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Steel
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1399,7 +1310,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_HeavySlam::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_HEAVY_SLAM
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Steel
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1409,7 +1319,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_SteelBeam::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_STEEL_BEAM
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Steel
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1419,7 +1328,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_GyroBall::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_GYRO_BALL
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Steel
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1429,7 +1337,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_MetalSound::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_METAL_SOUND
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Steel
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1439,7 +1346,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_HardPress::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_HARD_PRESS
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Steel
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1449,7 +1355,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_FireFang::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_FIRE_FANG
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Fire
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1459,7 +1364,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_FireSpin::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_FIRE_SPIN
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Fire
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1469,7 +1373,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_FlameCharge::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_FLAME_CHARGE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Fire
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1479,7 +1382,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_FirePunch::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_FIRE_PUNCH
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Fire
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1489,7 +1391,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_WillOWisp::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_WILL_O_WISP
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Fire
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1499,7 +1400,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_HeatWave::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_HEAT_WAVE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Fire
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1509,7 +1409,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_FireBlast::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_FIRE_BLAST
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Fire
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1519,7 +1418,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_FirePledge::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_FIRE_PLEDGE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Fire
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1529,7 +1427,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_BlastBurn::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_BLAST_BURN
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Fire
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1539,7 +1436,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_FlareBlitz::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_FLARE_BLITZ
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Fire
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1549,7 +1445,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_HeatCrash::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_HEAT_CRASH
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Fire
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1559,7 +1454,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_BurningJealousy::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_BURNING_JEALOUSY
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Fire
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1569,7 +1463,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_TemperFlare::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_TEMPER_FLARE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Fire
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1579,7 +1472,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_ChillingWater::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_CHILLING_WATER
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Water
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1589,7 +1481,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Liquidation::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_LIQUIDATION
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Water
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1599,7 +1490,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_HydroPump::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_HYDRO_PUMP
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Water
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1609,7 +1499,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_WaterPledge::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_WATER_PLEDGE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Water
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1619,7 +1508,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_HydroCannon::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_HYDRO_CANNON
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Water
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1629,7 +1517,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Scald::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_SCALD
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Water
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1639,7 +1526,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_FlipTurn::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_FLIP_TURN
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Water
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1649,7 +1535,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Whirlpool::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_WHIRLPOOL
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Water
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1659,7 +1544,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_MuddyWater::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_MUDDY_WATER
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Water
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1669,7 +1553,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Trailblaze::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_TRAILBLAZE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Grass
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1679,7 +1562,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_MagicalLeaf::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_MAGICAL_LEAF
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Grass
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1689,7 +1571,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_SeedBomb::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_SEED_BOMB
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Grass
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1699,7 +1580,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_GrassKnot::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_GRASS_KNOT
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Grass
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1709,7 +1589,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_EnergyBall::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_ENERGY_BALL
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Grass
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1719,7 +1598,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_GrassyTerrain::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_GRASSY_TERRAIN
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Grass
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1729,7 +1607,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_GrassPledge::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_GRASS_PLEDGE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Grass
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1739,7 +1616,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_FrenzyPlant::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_FRENZY_PLANT
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Grass
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1749,7 +1625,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_LeafStorm::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_LEAF_STORM
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Grass
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1759,7 +1634,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_SolarBlade::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_SOLAR_BLADE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Grass
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1769,7 +1643,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_GrassyGlide::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_GRASSY_GLIDE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Grass
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1779,7 +1652,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_PetalBlizzard::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_PETAL_BLIZZARD
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Grass
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1789,7 +1661,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_ThunderFang::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_THUNDER_FANG
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Electric
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1799,7 +1670,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_ChargeBeam::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_CHARGE_BEAM
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Electric
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1809,7 +1679,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_VoltSwitch::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_VOLT_SWITCH
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Electric
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1819,7 +1688,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_ThunderPunch::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_THUNDER_PUNCH
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Electric
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1829,7 +1697,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_ElectroBall::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_ELECTRO_BALL
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Electric
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1839,7 +1706,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_ThunderWave::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_THUNDER_WAVE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Electric
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1849,7 +1715,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_EerieImpulse::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_EERIE_IMPULSE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Electric
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1859,7 +1724,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_ElectricTerrain::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_ELECTRIC_TERRAIN
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Electric
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1869,7 +1733,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_WildCharge::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_WILD_CHARGE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Electric
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1879,7 +1742,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Charge::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_CHARGE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Electric
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1889,7 +1751,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_SupercellSlam::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_SUPERCELL_SLAM
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Electric
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1899,7 +1760,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Electroweb::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_ELECTROWEB
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Electric
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1909,7 +1769,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Agility::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_AGILITY
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Psychic
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1919,7 +1778,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Psybeam::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_PSYBEAM
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Psychic
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1929,7 +1787,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_StoredPower::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_STORED_POWER
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Psychic
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1939,7 +1796,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Psyshock::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_PSYSHOCK
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Psychic
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1949,7 +1805,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_ZenHeadbutt::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_ZEN_HEADBUTT
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Psychic
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1959,7 +1814,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_PsychicFangs::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_PSYCHIC_FANGS
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Psychic
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1969,7 +1823,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Imprison::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_IMPRISON
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Psychic
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1979,7 +1832,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_SkillSwap::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_SKILL_SWAP
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Psychic
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1989,7 +1841,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Trick::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_TRICK
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Psychic
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -1999,7 +1850,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Amnesia::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_AMNESIA
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Psychic
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2009,7 +1859,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_PsychicTerrain::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_PSYCHIC_TERRAIN
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Psychic
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2019,7 +1868,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_TrickRoom::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_TRICK_ROOM
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Psychic
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2029,7 +1877,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Gravity::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_GRAVITY
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Psychic
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2039,7 +1886,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_FutureSight::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_FUTURE_SIGHT
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Psychic
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2049,7 +1895,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_ExpandingForce::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_EXPANDING_FORCE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Psychic
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2059,7 +1904,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_PsychicNoise::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_PSYCHIC_NOISE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Psychic
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2069,7 +1913,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_IceFang::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_ICE_FANG
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Ice
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2079,7 +1922,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_IcyWind::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_ICY_WIND
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Ice
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2089,7 +1931,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Avalanche::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_AVALANCHE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Ice
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2099,7 +1940,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Snowscape::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_SNOWSCAPE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Ice
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2109,7 +1949,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_IcePunch::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_ICE_PUNCH
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Ice
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2119,7 +1958,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_IceSpinner::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_ICE_SPINNER
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Ice
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2129,7 +1967,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Haze::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_HAZE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Ice
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2139,7 +1976,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_IcicleSpear::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_ICICLE_SPEAR
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Ice
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2149,7 +1985,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_TripleAxel::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_TRIPLE_AXEL
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Ice
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2159,7 +1994,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_DragonTail::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_DRAGON_TAIL
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Dragon
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2169,7 +2003,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_DragonDance::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_DRAGON_DANCE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Dragon
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2179,7 +2012,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_DragonPulse::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_DRAGON_PULSE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Dragon
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2189,7 +2021,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Outrage::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_OUTRAGE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Dragon
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2199,7 +2030,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_DracoMeteor::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_DRACO_METEOR
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Dragon
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2209,7 +2039,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_ScaleShot::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_SCALE_SHOT
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Dragon
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2219,7 +2048,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_BreakingSwipe::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_BREAKING_SWIPE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Dragon
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2229,7 +2057,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_DragonCheer::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_DRAGON_CHEER
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Dragon
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2239,7 +2066,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_FakeTears::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_FAKE_TEARS
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Dark
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2249,7 +2075,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Snarl::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_SNARL
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Dark
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2259,7 +2084,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Fling::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_FLING
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Dark
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2269,7 +2093,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_FoulPlay::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_FOUL_PLAY
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Dark
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2279,7 +2102,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_DarkPulse::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_DARK_PULSE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Dark
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2289,7 +2111,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Crunch::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_CRUNCH
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Dark
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2299,7 +2120,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_NastyPlot::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_NASTY_PLOT
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Dark
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2309,7 +2129,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_KnockOff::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_KNOCK_OFF
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Dark
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2319,7 +2138,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_LashOut::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_LASH_OUT
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Dark
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2329,7 +2147,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_ThroatChop::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_THROAT_CHOP
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Dark
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2339,7 +2156,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_Charm::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_CHARM
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Fairy
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2349,7 +2165,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_DisarmingVoice::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_DISARMING_VOICE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Fairy
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2359,7 +2174,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_DrainingKiss::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_DRAINING_KISS
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Fairy
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2369,7 +2183,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_DazzlingGleam::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_DAZZLING_GLEAM
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Fairy
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2379,7 +2192,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_PlayRough::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_PLAY_ROUGH
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Fairy
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2389,7 +2201,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_MistyTerrain::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_MISTY_TERRAIN
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Fairy
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2399,7 +2210,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_MistyExplosion::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_MISTY_EXPLOSION
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Fairy
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall
@@ -2409,7 +2219,6 @@ Route117_PokemonDayCare_EventScript_MoveTutor_AlluringVoice::
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_ALLURING_VOICE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, Route117_PokemonDayCare_EventScript_MoveTutor_MoveList_Fairy
 	msgbox Route117_PokemonDayCare_Text_MoveTutor_SeeYouLater
 	releaseall

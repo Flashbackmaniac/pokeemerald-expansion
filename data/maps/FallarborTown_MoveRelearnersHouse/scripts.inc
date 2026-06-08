@@ -36,7 +36,6 @@ FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon::
 FallarborTown_MoveRelearnersHouse_EventScript_ChooseMove::
 	msgbox FallarborTown_MoveRelearnersHouse_Text_TeachWhichMove, MSGBOX_DEFAULT
 	special TeachMoveRelearnerMove
-	waitstate
 	goto_if_eq VAR_0x8004, 0, FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon
 	goto FallarborTown_MoveRelearnersHouse_EventScript_SeeYouLater
 	end
@@ -87,7 +86,6 @@ FallarborTown_MoveRelearnersHouse_EventScript_JokeMoveTutor_Celebrate::
 	msgbox FallarborTown_MoveRelearnersHouse_Text_JokeMoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_CELEBRATE
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, FallarborTown_MoveRelearnersHouse_EventScript_JokeMoveTutor_MoveList
 	msgbox FallarborTown_MoveRelearnersHouse_Text_JokeMoveTutor_SeeYouLater
 	releaseall
@@ -97,7 +95,6 @@ FallarborTown_MoveRelearnersHouse_EventScript_JokeMoveTutor_Hold_Hands::
 	msgbox FallarborTown_MoveRelearnersHouse_Text_JokeMoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_HOLD_HANDS
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, FallarborTown_MoveRelearnersHouse_EventScript_JokeMoveTutor_MoveList
 	msgbox FallarborTown_MoveRelearnersHouse_Text_JokeMoveTutor_SeeYouLater
 	releaseall
@@ -107,7 +104,6 @@ FallarborTown_MoveRelearnersHouse_EventScript_JokeMoveTutor_Splash::
 	msgbox FallarborTown_MoveRelearnersHouse_Text_JokeMoveTutor_WhichMonToTeach, MSGBOX_DEFAULT
 	setvar VAR_0x8005, MOVE_SPLASH
 	special ChooseMonForMoveTutor
-	waitstate
 	goto_if_eq VAR_RESULT, 0, FallarborTown_MoveRelearnersHouse_EventScript_JokeMoveTutor_MoveList
 	msgbox FallarborTown_MoveRelearnersHouse_Text_JokeMoveTutor_SeeYouLater
 	releaseall

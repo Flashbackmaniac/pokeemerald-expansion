@@ -3,6 +3,7 @@ ApricornTreeScript::
 	faceplayer
 	message ApricornTree_Text_Intro
 	waitmessage
+	waitbuttonpress
 	special ObjectEventInteractionGetApricornTreeData
 	goto_if_gt VAR_0x8005, 0, ApricornTree_EventScript_WantToPick
 	message ApricornTree_Text_Empty
