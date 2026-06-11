@@ -17,6 +17,7 @@
 #include "strings.h"
 #include "task.h"
 #include "text.h"
+#include "trainer.h"
 #include "util.h"
 #include "constants/battle_string_ids.h"
 #include "constants/items.h"
@@ -48,15 +49,15 @@ static void PrintOakText_ForPetesSake(enum BattlerId battler);
 static void PrintOakTextWithMainBgDarkened(enum BattlerId battler, const u8 *text, u8 delay);
 static void HandleInputChooseAction(enum BattlerId battler);
 
-static const u8 sText_ForPetesSake[] = _("Oak: Oh, for Pete's sake…\nSo pushy, as always.\p{B_PLAYER_NAME}.\pYou've never had a Pokémon battle\nbefore, have you?\pA Pokémon battle is when Trainers\npit their Pokémon against each\lother.\p");
-static const u8 sText_HowDissapointing[] = _("Oak: Hm…\nHow disappointing…\pIf you win, you earn prize money,\nand your Pokémon grow.\pBut if you lose, {B_PLAYER_NAME}, you end\nup paying prize money…\pHowever, since you had no warning\nthis time, I'll pay for you.\pBut things won't be this way once\nyou step outside these doors.\pThat's why you must strengthen your\nPokémon by battling wild Pokémon.\p");
-static const u8 sText_InflictingDamageIsKey[] = _("Oak: Inflicting damage on the foe\nis the key to any battle.\p");
-static const u8 sText_KeepAnEyeOnHP[] = _("Oak: Keep your eyes on your\nPokémon's HP.\pIt will faint if the HP drops to\n“0.”\p");
-static const u8 sText_LoweringStats[] = _("Oak: Lowering the foe's stats\nwill put you at an advantage.\p");
-static const u8 sText_OakNoRunningFromATrainer[] = _("Oak: No! There's no running away\nfrom a Trainer Pokémon battle!\p");
-static const u8 sText_TheTrainerThat[] = _("The Trainer that makes the other\nTrainer's Pokémon faint by lowering\ltheir HP to “0,” wins.\p");
+static const u8 sText_ForPetesSake[] = _("OAK: Oh, for Pete's sake…\nSo pushy, as always.\p{B_PLAYER_NAME}.\pYou've never had a POKéMON battle\nbefore, have you?\pA POKéMON battle is when TRAINERS\npit their POKéMON against each\lother.\p");
+static const u8 sText_HowDissapointing[] = _("OAK: Hm…\nHow disappointing…\pIf you win, you earn prize money,\nand your POKéMON grow.\pBut if you lose, {B_PLAYER_NAME}, you end\nup paying prize money…\pHowever, since you had no warning\nthis time, I'll pay for you.\pBut things won't be this way once\nyou step outside these doors.\pThat's why you must strengthen your\nPOKéMON by battling wild POKéMON.\p");
+static const u8 sText_InflictingDamageIsKey[] = _("OAK: Inflicting damage on the foe\nis the key to any battle.\p");
+static const u8 sText_KeepAnEyeOnHP[] = _("OAK: Keep your eyes on your\nPOKéMON's HP.\pIt will faint if the HP drops to\n“0.”\p");
+static const u8 sText_LoweringStats[] = _("OAK: Lowering the foe's stats\nwill put you at an advantage.\p");
+static const u8 sText_OakNoRunningFromATrainer[] = _("OAK: No! There's no running away\nfrom a TRAINER POKéMON battle!\p");
+static const u8 sText_TheTrainerThat[] = _("The TRAINER that makes the other\nTRAINER's POKéMON faint by lowering\ltheir HP to “0,” wins.\p");
 static const u8 sText_TryBattling[] = _("But rather than talking about it,\nyou'll learn more from experience.\pTry battling and see for yourself.\p");
-static const u8 sText_WinEarnsPrizeMoney[] = _("Oak: Hm! Excellent!\pIf you win, you earn prize money,\nand your Pokémon will grow!\pBattle other Trainers and make\nyour Pokémon strong!\p");
+static const u8 sText_WinEarnsPrizeMoney[] = _("OAK: Hm! Excellent!\pIf you win, you earn prize money,\nand your POKéMON will grow!\pBattle other TRAINERS and make\nyour POKéMON strong!\p");
 static const u8 gText_WhatWillOldManDo[] = _("What will the\nold man do?");
 
 static void (*const sOakOldManBufferCommands[CONTROLLER_CMDS_COUNT])(enum BattlerId battler) =
@@ -301,7 +302,7 @@ static void OpenPartyMenuToChooseMon(enum BattlerId battler)
         gBattlerControllerFuncs[battler] = WaitForMonSelection;
         caseId = gTasks[gBattleControllerData[battler]].data[0];
         DestroyTask(gBattleControllerData[battler]);
-        FreeAllWindowBuffers();
+        CloseMainBattleScreen();
         OpenPartyMenuInBattle(caseId);
     }
 }
@@ -324,7 +325,7 @@ static void OpenBagAndChooseItem(enum BattlerId battler)
     {
         gBattlerControllerFuncs[battler] = CompleteWhenChoseItem;
         ReshowBattleScreenDummy();
-        FreeAllWindowBuffers();
+        CloseMainBattleScreen();
         if (gBattleTypeFlags & BATTLE_TYPE_FIRST_BATTLE)
             CB2_BagMenuFromBattle();
         else
@@ -353,26 +354,28 @@ static void CompleteWhenChoseItem(enum BattlerId battler)
 
 static void Intro_TryShinyAnimShowHealthbox(enum BattlerId battler)
 {
+    struct Pokemon *party = GetBattlerParty(battler);
+
     if (!gBattleSpritesDataPtr->healthBoxesData[battler].triedShinyMonAnim
      && !gBattleSpritesDataPtr->healthBoxesData[battler].ballAnimActive)
-        TryShinyAnimation(battler, &gPlayerParty[gBattlerPartyIndexes[battler]]);
+        TryShinyAnimation(battler, &party[gBattlerPartyIndexes[battler]]);
     if (!gBattleSpritesDataPtr->healthBoxesData[BATTLE_PARTNER(battler)].triedShinyMonAnim
      && !gBattleSpritesDataPtr->healthBoxesData[BATTLE_PARTNER(battler)].ballAnimActive)
-        TryShinyAnimation(BATTLE_PARTNER(battler), &gPlayerParty[gBattlerPartyIndexes[BATTLE_PARTNER(battler)]]);
+        TryShinyAnimation(BATTLE_PARTNER(battler), &party[gBattlerPartyIndexes[BATTLE_PARTNER(battler)]]);
     if (!gBattleSpritesDataPtr->healthBoxesData[battler].ballAnimActive && !gBattleSpritesDataPtr->healthBoxesData[BATTLE_PARTNER(battler)].ballAnimActive)
     {
         if (IsDoubleBattle() && !(gBattleTypeFlags & BATTLE_TYPE_MULTI))
         {
             DestroySprite(&gSprites[gBattleControllerData[BATTLE_PARTNER(battler)]]);
             UpdateHealthboxAttribute(gHealthboxSpriteIds[BATTLE_PARTNER(battler)],
-                                     &gPlayerParty[gBattlerPartyIndexes[BATTLE_PARTNER(battler)]],
+                                     &party[gBattlerPartyIndexes[BATTLE_PARTNER(battler)]],
                                      HEALTHBOX_ALL);
             StartHealthboxSlideIn(BATTLE_PARTNER(battler));
             SetHealthboxSpriteVisible(gHealthboxSpriteIds[BATTLE_PARTNER(battler)]);
         }
         DestroySprite(&gSprites[gBattleControllerData[battler]]);
         UpdateHealthboxAttribute(gHealthboxSpriteIds[battler],
-                                 &gPlayerParty[gBattlerPartyIndexes[battler]],
+                                 &party[gBattlerPartyIndexes[battler]],
                                  HEALTHBOX_ALL);
         StartHealthboxSlideIn(battler);
         SetHealthboxSpriteVisible(gHealthboxSpriteIds[battler]);
@@ -384,6 +387,7 @@ static void Intro_TryShinyAnimShowHealthbox(enum BattlerId battler)
 static void Intro_WaitForShinyAnimAndHealthbox(enum BattlerId battler)
 {
     bool32 r4 = FALSE;
+    struct Pokemon *party = GetBattlerParty(battler);
 
     if (gSprites[gHealthboxSpriteIds[battler]].callback == SpriteCallbackDummy)
         r4 = TRUE;
@@ -398,7 +402,7 @@ static void Intro_WaitForShinyAnimAndHealthbox(enum BattlerId battler)
         FreeSpriteTilesByTag(ANIM_TAG_GOLD_STARS);
         FreeSpritePaletteByTag(ANIM_TAG_GOLD_STARS);
         CreateTask(Task_PlayerController_RestoreBgmAfterCry, 10);
-        HandleLowHpMusicChange(&gPlayerParty[gBattlerPartyIndexes[battler]], battler);
+        HandleLowHpMusicChange(&party[gBattlerPartyIndexes[battler]], battler);
         gBattlerControllerFuncs[battler] = PrintOakText_ForPetesSake;
     }
 }
@@ -677,13 +681,25 @@ void OakOldManBufferExecCompleted(enum BattlerId battler)
 
 static void OakOldManHandleDrawTrainerPic(enum BattlerId battler)
 {
-    u32 trainerPicId = (gBattleTypeFlags & BATTLE_TYPE_FIRST_BATTLE) ? gSaveBlock2Ptr->playerGender + TRAINER_PIC_BACK_RED : TRAINER_PIC_BACK_OLD_MAN;
-    BtlController_HandleDrawTrainerPic(battler, trainerPicId, FALSE, 80, (8 - gTrainerBacksprites[trainerPicId].coordinates.size) * 4 + 80, 30);
+    enum TrainerPicID trainerPicId;
+
+    if (gBattleTypeFlags & BATTLE_TYPE_FIRST_BATTLE)
+        trainerPicId = GetPlayerTrainerPic(gSaveBlock2Ptr->playerGender, GAME_VERSION);
+    else
+        trainerPicId = TRAINER_PIC_OLD_MAN;
+
+    BtlController_HandleDrawTrainerPic(battler, trainerPicId, FALSE, 80, (8 - GetTrainerBackPicCoords(trainerPicId)->size) * 4 + 80, 30);
 }
 
 static void OakOldManHandleTrainerSlide(enum BattlerId battler)
 {
-    u32 trainerPicId = (gBattleTypeFlags & BATTLE_TYPE_FIRST_BATTLE) ? gSaveBlock2Ptr->playerGender + TRAINER_PIC_BACK_RED : TRAINER_PIC_BACK_OLD_MAN;
+    enum TrainerPicID trainerPicId;
+
+    if (gBattleTypeFlags & BATTLE_TYPE_FIRST_BATTLE)
+        trainerPicId = GetPlayerTrainerPic(gSaveBlock2Ptr->playerGender, GAME_VERSION);
+    else
+        trainerPicId = TRAINER_PIC_OLD_MAN;
+
     BtlController_HandleTrainerSlide(battler, trainerPicId);
 }
 
@@ -709,8 +725,8 @@ static void OakOldManHandlePrintString(enum BattlerId battler)
         {
             switch (*stringId)
             {
-            case STRINGID_DEFENDERSSTATFELL:
-                if (IS_FRLG && !BtlCtrl_OakOldMan_TestState2Flag(FIRST_BATTLE_MSG_FLAG_STAT_CHG))
+            case STRINGID_STATFELL:
+                if (gBattlerTarget == battler && IS_FRLG && !BtlCtrl_OakOldMan_TestState2Flag(FIRST_BATTLE_MSG_FLAG_STAT_CHG))
                 {
                     BtlCtrl_OakOldMan_SetState2Flag(FIRST_BATTLE_MSG_FLAG_STAT_CHG);
                     gBattlerControllerFuncs[battler] = PrintOakText_LoweringStats;
@@ -846,7 +862,8 @@ static void OakOldManHandlePlaySE(enum BattlerId battler)
 
 static void OakOldManHandleFaintingCry(enum BattlerId battler)
 {
-    u16 species = GetMonData(&gPlayerParty[gBattlerPartyIndexes[battler]], MON_DATA_SPECIES);
+    struct Pokemon *party = GetBattlerParty(battler);
+    enum Species species = GetMonData(&party[gBattlerPartyIndexes[battler]], MON_DATA_SPECIES);
 
     PlayCry_Normal(species, 25);
     OakOldManBufferExecCompleted(battler);
@@ -856,7 +873,8 @@ static void OakOldManHandleIntroTrainerBallThrow(enum BattlerId battler)
 {
     if (gBattleTypeFlags & BATTLE_TYPE_FIRST_BATTLE)
     {
-        const u16 *trainerPal = gTrainerBacksprites[gSaveBlock2Ptr->playerGender].palette.data;
+        enum TrainerPicID trainerPicID = GetPlayerTrainerPic(gSaveBlock2Ptr->playerGender, GAME_VERSION);
+        const u16 *trainerPal = GetTrainerBackPicPalette(trainerPicID);
         BtlController_HandleIntroTrainerBallThrow(battler, 0xD6F8, trainerPal, 31, Intro_TryShinyAnimShowHealthbox);
     }
     else

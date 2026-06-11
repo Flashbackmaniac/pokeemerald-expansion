@@ -4,7 +4,6 @@ Class: Pkmn Trainer 1
 Pic: Brendan
 Gender: Male
 Music: Male
-Back Pic: Brendan
 
 === PARTNER_STEVEN ===
 Name: Steven
@@ -12,7 +11,6 @@ Class: Rival
 Pic: Steven
 Gender: Male
 Music: Male
-Back Pic: Steven
 AI: Basic Trainer
 
 Skarmory @ Chesto Berry
@@ -46,15 +44,3 @@ EVs: 252 HP / 252 Atk / 6 Spe
 - Zen Headbutt
 - Meteor Mash
 - Protect
-
-=== PARTNER_DUMMY ===
-Name:
-Class: Pkmn Trainer 1
-Pic: Brendan
-Gender: Male
-Music: Male
-Back Pic: Brendan
-Party Size: 0
-
-Wynaut
-
