@@ -13969,6 +13969,7 @@ gBattleAnimMove_Poltergeist::
 	clearmonbg 3
 	blendoff
 	unloadspritegfx ANIM_TAG_ITEM_BAG
+	unloadspritepal ANIM_TAG_ITEM_BAG
 	end
 
 gBattleAnimMove_CorrosiveGas::
