@@ -1593,9 +1593,6 @@ static u8 InitObjectEventStateFromTemplate(const struct ObjectEventTemplate *tem
 
     if (!ShouldInitObjectEventStateFromTemplate(template, isClone, x3, y3))
         return OBJECT_EVENTS_COUNT;
-
-    if (!ShouldInitObjectEventStateFromTemplate(template, isClone, x3, y3))
-        return OBJECT_EVENTS_COUNT;
     objectEvent = &gObjectEvents[objectEventId];
     ClearObjectEvent(objectEvent);
     if (isClone)

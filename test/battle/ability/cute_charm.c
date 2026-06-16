@@ -64,6 +64,8 @@ TO_DO_BATTLE_TEST("Cute Charm cannot infatuate if either Pokémon are Gender-unk
 
 TO_DO_BATTLE_TEST("Cute Charm cannot infatuate if either Pokémon are Gender-unknown")
 
+TO_DO_BATTLE_TEST("Cute Charm cannot infatuate if either Pokémon are Gender-unknown")
+
 SINGLE_BATTLE_TEST("Cute Charm triggers 1/3 times (Gen3) or 30% (Gen 4+) of the time")
 {
     u32 config, passes, trials;

@@ -6,7 +6,7 @@ static const struct MenuAction MultichoiceList_BrineyOnDewford[] =
     {gText_Exit},
 };
 
-const u8 gText_Info2[] = _("INFO");
+const u8 gText_Info2[] = _("Info");
 
 static const struct MenuAction MultichoiceList_EnterInfo[] =
 {
@@ -216,9 +216,9 @@ static const struct MenuAction MultichoiceList_Mechadoll5_Q3[] =
 
 static const struct MenuAction MultichoiceList_VendingMachine[] =
 {
-    {COMPOUND_STRING("Fresh Water{CLEAR_TO 0x48}¥200")},
-    {COMPOUND_STRING("Soda Pop{CLEAR_TO 0x48}¥300")},
-    {COMPOUND_STRING("Lemonade{CLEAR_TO 0x48}¥350")},
+    {COMPOUND_STRING("Fresh Water{CLEAR_TO 72}¥200")},
+    {COMPOUND_STRING("Soda Pop{CLEAR_TO 72}¥300")},
+    {COMPOUND_STRING("Lemonade{CLEAR_TO 72}¥350")},
     {gText_Exit},
 };
 
@@ -273,11 +273,11 @@ static const struct MenuAction MultichoiceList_GameCornerDolls[] =
 
 static const struct MenuAction MultichoiceList_GameCornerTMs[] =
 {
-    {COMPOUND_STRING("TM32{CLEAR_TO 0x48}1,500 Coins")},
-    {COMPOUND_STRING("TM29{CLEAR_TO 0x48}3,500 Coins")},
-    {COMPOUND_STRING("TM35{CLEAR_TO 0x48}4,000 Coins")},
-    {COMPOUND_STRING("TM24{CLEAR_TO 0x48}4,000 Coins")},
-    {COMPOUND_STRING("TM13{CLEAR_TO 0x48}4,000 Coins")},
+    {COMPOUND_STRING("TM32{CLEAR_TO 72}1,500 Coins")},
+    {COMPOUND_STRING("TM29{CLEAR_TO 72}3,500 Coins")},
+    {COMPOUND_STRING("TM35{CLEAR_TO 72}4,000 Coins")},
+    {COMPOUND_STRING("TM24{CLEAR_TO 72}4,000 Coins")},
+    {COMPOUND_STRING("TM13{CLEAR_TO 72}4,000 Coins")},
     {gText_Exit},
 };
 
@@ -294,7 +294,7 @@ static const struct MenuAction MultichoiceList_HowsFishing[] =
     {COMPOUND_STRING("Not so good")},
 };
 
-const u8 gText_LilycoveCity[] = _("LILYCOVE CITY");
+const u8 gText_LilycoveCity[] = _("Lilycove City");
 
 static const struct MenuAction MultichoiceList_SSTidalSlateportWithBF[] =
 {
@@ -817,7 +817,7 @@ static const struct MenuAction MultichoiceList_BerryPlot[] =
 };
 
 static const struct MenuAction sMultichoiceList_BikeShop[] = {
-    {COMPOUND_STRING("Bicycle{CLEAR_TO 0x49}{FONT_SMALL}¥1,000,000")},
+    {COMPOUND_STRING("Bicycle{CLEAR_TO 73}{FONT_SMALL}¥1,000,000")},
     {COMPOUND_STRING("No thanks")}
 };
 
@@ -909,36 +909,36 @@ const u8 sText_NoThanks[] = _("No thanks");
 
 static const struct MenuAction sMultichoiceList_GameCornerPokemonPrizes[] = {
 #if defined(FIRERED)
-    {COMPOUND_STRING("Abra{CLEAR_TO 0x55}{FONT_SMALL} 180 Coins")},
-    {COMPOUND_STRING("Clefairy{CLEAR_TO 0x55}{FONT_SMALL} 500 Coins")},
-    {COMPOUND_STRING("Dratini{CLEAR_TO 0x4B}{FONT_SMALL} 2,800 Coins")},
-    {COMPOUND_STRING("Scyther{CLEAR_TO 0x4B}{FONT_SMALL} 5,500 Coins")},
-    {COMPOUND_STRING("Porygon{CLEAR_TO 0x4B}{FONT_SMALL} 9,999 Coins")},
+    {COMPOUND_STRING("Abra{CLEAR_TO 85}{FONT_SMALL} 180 Coins")},
+    {COMPOUND_STRING("Clefairy{CLEAR_TO 85}{FONT_SMALL} 500 Coins")},
+    {COMPOUND_STRING("Dratini{CLEAR_TO 75}{FONT_SMALL} 2,800 Coins")},
+    {COMPOUND_STRING("Scyther{CLEAR_TO 75}{FONT_SMALL} 5,500 Coins")},
+    {COMPOUND_STRING("Porygon{CLEAR_TO 75}{FONT_SMALL} 9,999 Coins")},
 #else
-    {COMPOUND_STRING("Abra{CLEAR_TO 0x55}{FONT_SMALL} 120 Coins")},
-    {COMPOUND_STRING("Clefairy{CLEAR_TO 0x55}{FONT_SMALL} 750 Coins")},
-    {COMPOUND_STRING("Pinsir{CLEAR_TO 0x4B}{FONT_SMALL} 2,500 Coins")},
-    {COMPOUND_STRING("Dratini{CLEAR_TO 0x4B}{FONT_SMALL} 4,600 Coins")},
-    {COMPOUND_STRING("Porygon{CLEAR_TO 0x4B}{FONT_SMALL} 6,500 Coins")},
+    {COMPOUND_STRING("Abra{CLEAR_TO 85}{FONT_SMALL} 120 Coins")},
+    {COMPOUND_STRING("Clefairy{CLEAR_TO 85}{FONT_SMALL} 750 Coins")},
+    {COMPOUND_STRING("Pinsir{CLEAR_TO 75}{FONT_SMALL} 2,500 Coins")},
+    {COMPOUND_STRING("Dratini{CLEAR_TO 75}{FONT_SMALL} 4,600 Coins")},
+    {COMPOUND_STRING("Porygon{CLEAR_TO 75}{FONT_SMALL} 6,500 Coins")},
 #endif
     {sText_NoThanks}
 };
 
 static const struct MenuAction sMultichoiceList_GameCornerTMPrizes[] = {
-    {COMPOUND_STRING("TM13{CLEAR_TO 0x48}{FONT_SMALL}4,000 Coins")},
-    {COMPOUND_STRING("TM23{CLEAR_TO 0x48}{FONT_SMALL}3,500 Coins")},
-    {COMPOUND_STRING("TM24{CLEAR_TO 0x48}{FONT_SMALL}4,000 Coins")},
-    {COMPOUND_STRING("TM30{CLEAR_TO 0x48}{FONT_SMALL}4,500 Coins")},
-    {COMPOUND_STRING("TM35{CLEAR_TO 0x48}{FONT_SMALL}4,000 Coins")},
+    {COMPOUND_STRING("TM13{CLEAR_TO 72}{FONT_SMALL}4,000 Coins")},
+    {COMPOUND_STRING("TM23{CLEAR_TO 72}{FONT_SMALL}3,500 Coins")},
+    {COMPOUND_STRING("TM24{CLEAR_TO 72}{FONT_SMALL}4,000 Coins")},
+    {COMPOUND_STRING("TM30{CLEAR_TO 72}{FONT_SMALL}4,500 Coins")},
+    {COMPOUND_STRING("TM35{CLEAR_TO 72}{FONT_SMALL}4,000 Coins")},
     {sText_NoThanks}
 };
 
 static const struct MenuAction sMultichoiceList_GameCornerBattleItemPrizes[] = {
-    {COMPOUND_STRING("Smoke Ball{CLEAR_TO 0x5A}{FONT_SMALL}800 Coins")},
-    {COMPOUND_STRING("Miracle Seed{CLEAR_TO 0x50}{FONT_SMALL}1,000 Coins")},
-    {COMPOUND_STRING("Charcoal{CLEAR_TO 0x50}{FONT_SMALL}1,000 Coins")},
-    {COMPOUND_STRING("Mystic Water{CLEAR_TO 0x50}{FONT_SMALL}1,000 Coins")},
-    {COMPOUND_STRING("Yellow Flute{CLEAR_TO 0x50}{FONT_SMALL}1,600 Coins")},
+    {COMPOUND_STRING("Smoke Ball{CLEAR_TO 90}{FONT_SMALL}800 Coins")},
+    {COMPOUND_STRING("Miracle Seed{CLEAR_TO 80}{FONT_SMALL}1,000 Coins")},
+    {COMPOUND_STRING("Charcoal{CLEAR_TO 80}{FONT_SMALL}1,000 Coins")},
+    {COMPOUND_STRING("Mystic Water{CLEAR_TO 80}{FONT_SMALL}1,000 Coins")},
+    {COMPOUND_STRING("Yellow Flute{CLEAR_TO 80}{FONT_SMALL}1,600 Coins")},
     {sText_NoThanks}
 };
 
@@ -952,8 +952,8 @@ static const struct MenuAction sMultichoiceList_DeptStoreElevator[] = {
 };
 
 static const struct MenuAction sMultichoiceList_GameCornerCoinPurchaseCounter[] = {
-    {COMPOUND_STRING("{FONT_SMALL} 50 Coins{CLEAR_TO 0x45}¥1,000")},
-    {COMPOUND_STRING("{FONT_SMALL}500 Coins{CLEAR_TO 0x40}¥10,000")},
+    {COMPOUND_STRING("{FONT_SMALL} 50 Coins{CLEAR_TO 69}¥1,000")},
+    {COMPOUND_STRING("{FONT_SMALL}500 Coins{CLEAR_TO 64}¥10,000")},
     {gText_Exit}
 };
 
@@ -965,9 +965,9 @@ static const struct MenuAction sMultichoiceList_LinkedDirectUnion[] = {
 };
 
 static const struct MenuAction sMultichoiceList_CeladonVendingMachine[] = {
-    {COMPOUND_STRING("Fresh Water{CLEAR_TO 0x57}{FONT_SMALL}¥200")},
-    {COMPOUND_STRING("Soda Pop{CLEAR_TO 0x57}{FONT_SMALL}¥300")},
-    {COMPOUND_STRING("Lemonade{CLEAR_TO 0x57}{FONT_SMALL}¥350")},
+    {COMPOUND_STRING("Fresh Water{CLEAR_TO 87}{FONT_SMALL}¥200")},
+    {COMPOUND_STRING("Soda Pop{CLEAR_TO 87}{FONT_SMALL}¥300")},
+    {COMPOUND_STRING("Lemonade{CLEAR_TO 87}{FONT_SMALL}¥350")},
     {gText_Exit}
 };
 
@@ -1304,23 +1304,23 @@ const u8 *const gStdStrings[] =
     [STDSTRING_SMART] = gText_Smart,
     [STDSTRING_TOUGH] = gText_Tough,
     [STDSTRING_NORMAL] = gText_Normal,
-    [STDSTRING_SUPER] = COMPOUND_STRING("SUPER"),
-    [STDSTRING_HYPER] = COMPOUND_STRING("HYPER"),
-    [STDSTRING_MASTER] = COMPOUND_STRING("MASTER"),
-    [STDSTRING_COOL2] = COMPOUND_STRING("COOL"),
-    [STDSTRING_BEAUTY2] = COMPOUND_STRING("BEAUTY"),
-    [STDSTRING_CUTE2] = COMPOUND_STRING("CUTE"),
-    [STDSTRING_SMART2] = COMPOUND_STRING("SMART"),
-    [STDSTRING_TOUGH2] = COMPOUND_STRING("TOUGH"),
-    [STDSTRING_ITEMS] = COMPOUND_STRING("ITEMS"),
-    [STDSTRING_KEYITEMS] = COMPOUND_STRING("KEY ITEMS"),
-    [STDSTRING_POKEBALLS] = COMPOUND_STRING("POKé BALLS"),
+    [STDSTRING_SUPER] = COMPOUND_STRING("Super"),
+    [STDSTRING_HYPER] = COMPOUND_STRING("Hyper"),
+    [STDSTRING_MASTER] = COMPOUND_STRING("Master"),
+    [STDSTRING_COOL2] = COMPOUND_STRING("Cool"),
+    [STDSTRING_BEAUTY2] = COMPOUND_STRING("Beauty"),
+    [STDSTRING_CUTE2] = COMPOUND_STRING("Cute"),
+    [STDSTRING_SMART2] = COMPOUND_STRING("Smart"),
+    [STDSTRING_TOUGH2] = COMPOUND_STRING("Tough"),
+    [STDSTRING_ITEMS] = COMPOUND_STRING("Items"),
+    [STDSTRING_KEYITEMS] = COMPOUND_STRING("Key Items"),
+    [STDSTRING_POKEBALLS] = COMPOUND_STRING("Poké Balls"),
     [STDSTRING_TMHMS] = COMPOUND_STRING("TMs & HMs"),
-    [STDSTRING_BERRIES] = COMPOUND_STRING("BERRIES"),
-    [STDSTRING_SINGLE] = COMPOUND_STRING("SINGLE"),
-    [STDSTRING_DOUBLE] = COMPOUND_STRING("DOUBLE"),
-    [STDSTRING_MULTI] = COMPOUND_STRING("MULTI"),
-    [STDSTRING_MULTI_LINK] = COMPOUND_STRING("MULTI-LINK"),
+    [STDSTRING_BERRIES] = COMPOUND_STRING("Berries"),
+    [STDSTRING_SINGLE] = COMPOUND_STRING("Single"),
+    [STDSTRING_DOUBLE] = COMPOUND_STRING("Double"),
+    [STDSTRING_MULTI] = COMPOUND_STRING("Multi"),
+    [STDSTRING_MULTI_LINK] = COMPOUND_STRING("Multi-Link"),
     [STDSTRING_BATTLE_TOWER] = gText_BattleTower2,
     [STDSTRING_BATTLE_DOME] = gText_BattleDome,
     [STDSTRING_BATTLE_FACTORY] = gText_BattleFactory,

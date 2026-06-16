@@ -86,10 +86,6 @@ enum ItemEffect
 #define CRITICAL_HIT_BLOCKED -1
 #define CRITICAL_HIT_ALWAYS  -2
 
-// Crit chance exceptions
-#define CRITICAL_HIT_BLOCKED -1
-#define CRITICAL_HIT_ALWAYS  -2
-
 enum ImmunityHealStatusOutcome
 {
     IMMUNITY_NO_EFFECT,
