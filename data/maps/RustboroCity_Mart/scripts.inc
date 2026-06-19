@@ -11,7 +11,7 @@ RustboroCity_Mart_EventScript_Clerk::
 	end
 
 RustboroCity_Mart_EventScript_PokemartBasic::
-	pokemart 0
+	pokemart
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
@@ -31,7 +31,7 @@ RustboroCity_Mart_Pokemart_Basic:
 	pokemartlistend
 
 RustboroCity_Mart_EventScript_PokemartExpanded::
-	pokemart 0
+	pokemart
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end

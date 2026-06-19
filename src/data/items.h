@@ -222,6 +222,7 @@ const struct ItemInfo gItemsInfo[] =
         .secondaryId = BALL_GREAT,
         .iconPic = gItemIcon_GreatBall,
         .iconPalette = gItemIconPalette_GreatBall,
+        .shopCriteriaFunc = ShopCriteriaByOneBadge,
     },
 
     [ITEM_ULTRA_BALL] =
@@ -238,6 +239,7 @@ const struct ItemInfo gItemsInfo[] =
         .secondaryId = BALL_ULTRA,
         .iconPic = gItemIcon_UltraBall,
         .iconPalette = gItemIconPalette_UltraBall,
+        .shopCriteriaFunc = ShopCriteriaByFiveBadges,
     },
 
     [ITEM_MASTER_BALL] =
@@ -671,6 +673,7 @@ const struct ItemInfo gItemsInfo[] =
         .flingPower = 30,
         .iconPic = gItemIcon_Potion,
         .iconPalette = gItemIconPalette_SuperPotion,
+        .shopCriteriaFunc = ShopCriteriaByOneBadge,
     },
 
     [ITEM_HYPER_POTION] =
@@ -695,6 +698,7 @@ const struct ItemInfo gItemsInfo[] =
         .flingPower = 30,
         .iconPic = gItemIcon_Potion,
         .iconPalette = gItemIconPalette_HyperPotion,
+        .shopCriteriaFunc = ShopCriteriaByFourBadges,
     },
 
     [ITEM_MAX_POTION] =
@@ -714,6 +718,7 @@ const struct ItemInfo gItemsInfo[] =
         .flingPower = 30,
         .iconPic = gItemIcon_LargePotion,
         .iconPalette = gItemIconPalette_MaxPotion,
+        .shopCriteriaFunc = ShopCriteriaBySevenBadges,
     },
 
     [ITEM_FULL_RESTORE] =
@@ -734,6 +739,7 @@ const struct ItemInfo gItemsInfo[] =
         .flingPower = 30,
         .iconPic = gItemIcon_LargePotion,
         .iconPalette = gItemIconPalette_FullRestore,
+        .shopCriteriaFunc = ShopCriteriaByEightBadges,
     },
 
     [ITEM_REVIVE] =
@@ -1069,6 +1075,7 @@ const struct ItemInfo gItemsInfo[] =
         .flingPower = 30,
         .iconPic = gItemIcon_FullHeal,
         .iconPalette = gItemIconPalette_FullHeal,
+        .shopCriteriaFunc = ShopCriteriaBySixBadges,
     },
 
     [ITEM_ETHER] =
@@ -2287,6 +2294,7 @@ const struct ItemInfo gItemsInfo[] =
         .flingPower = 30,
         .iconPic = gItemIcon_Repel,
         .iconPalette = gItemIconPalette_Repel,
+        .shopCriteriaFunc = ShopCriteriaByThreeBadges,
     },
 
     [ITEM_SUPER_REPEL] =
@@ -2305,6 +2313,7 @@ const struct ItemInfo gItemsInfo[] =
         .flingPower = 30,
         .iconPic = gItemIcon_Repel,
         .iconPalette = gItemIconPalette_SuperRepel,
+        .shopCriteriaFunc = ShopCriteriaByFiveBadges,
     },
 
     [ITEM_MAX_REPEL] =
@@ -2323,6 +2332,7 @@ const struct ItemInfo gItemsInfo[] =
         .flingPower = 30,
         .iconPic = gItemIcon_Repel,
         .iconPalette = gItemIconPalette_MaxRepel,
+        .shopCriteriaFunc = ShopCriteriaBySevenBadges,
     },
 
     [ITEM_LURE] =
@@ -2637,6 +2647,7 @@ const struct ItemInfo gItemsInfo[] =
         .flingPower = 30,
         .iconPic = gItemIcon_FluffyTail,
         .iconPalette = gItemIconPalette_FluffyTail,
+        .shopCriteriaFunc = ShopCriteriaByTwoBadges,
     },
 
     [ITEM_POKE_TOY] =

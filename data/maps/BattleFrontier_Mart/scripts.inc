@@ -6,7 +6,7 @@ BattleFrontier_Mart_EventScript_Clerk::
 	faceplayer
 	message gText_HowMayIServeYou
 	waitmessage
-	pokemart BattleFrontier_Mart_Pokemart
+	pokemart
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end

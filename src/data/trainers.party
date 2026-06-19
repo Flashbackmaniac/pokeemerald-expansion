@@ -11245,6 +11245,7 @@ AI: Basic Trainer
 
 Geodude
 Level: 14
+Ability: Rock Head
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Tackle
 - Defense Curl
@@ -11253,6 +11254,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Rhyhorn
 Level: 14
+Ability: Rock Head
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Tackle
 - Tail Whip
@@ -11261,6 +11263,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Onix
 Level: 14
+Ability: Rock Head
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Tackle
 - Smack Down
@@ -11269,6 +11272,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Nosepass @ Oran Berry
 Level: 16
+Ability: Sturdy
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Tackle
 - Harden
@@ -13587,6 +13591,7 @@ IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
 
 Geodude-Alola
 Level: 12
+Ability: Magnet Pull
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 - Tackle
 - Defense Curl
@@ -23392,7 +23397,7 @@ AI: Check Bad Move
 
 Geodude-Alola
 Level: 12
-Ability: Rock Head
+Ability: Magnet Pull
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 - Tackle
 - Defense Curl
@@ -23401,6 +23406,7 @@ IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 Geodude
 Level: 12
+Ability: Rock Head
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Tackle
 - Defense Curl
@@ -25136,7 +25142,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Surskit
 Level: 6
-Ability: Compound Eyes
+Ability: Swift Swim
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Scratch
 - Harden

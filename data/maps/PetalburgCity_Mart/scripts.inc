@@ -7,7 +7,7 @@ PetalburgCity_Mart_EventScript_Clerk::
 	message gText_HowMayIServeYou
 	waitmessage
 	goto_if_set FLAG_PETALBURG_MART_EXPANDED_ITEMS, PetalburgCity_Mart_EventScript_ExpandedItems
-	pokemart 0
+	pokemart
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
